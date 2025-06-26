@@ -1,0 +1,757 @@
+{
+	"behaviors": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"Box": {
+			"194aae695cba4b60a35c287f3e37fbcf": true
+		},
+		"Cone": {
+			"f6371bf08200415f82989d46101107a8": true
+		},
+		"ConeGeometry": {
+			"f3937ace1ef5478c9221e2cfc2453503": true
+		},
+		"Content Group": {
+			"bf59aa4eac3f4628bcd8579ee35fae3c": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"Group": {
+			"root": true
+		},
+		"Left Controller": {
+			"384ac3d6f4b04210ab8832a8752a2d73": true
+		},
+		"Mesh Group (Delete Me)": {
+			"6ef7d30d3e044b6f806dac36e63a857d": true
+		},
+		"MeshStandardMaterial": {
+			"547097f646a54d39aa1706d0ba7c7ef8": true
+		},
+		"MeshStandardMaterial  3": {
+			"8602fb46317c411d85f2649e8162aff6": true
+		},
+		"MeshStandardMaterial 2": {
+			"aca73192c64842aba2138a6c01994452": true
+		},
+		"Right Controller": {
+			"3ba8407ca04746f3afc82e1bced92a8c": true
+		},
+		"ShadowPlane": {
+			"bf1d127bf7234511b3cdc3d5a98af7b0": true
+		},
+		"Sky Environment": {
+			"e299a9d47588449182eaedccae25ff84": true
+		},
+		"Sphere": {
+			"77a68218309245289c411d5da417fab9": true
+		},
+		"Teleport Manager": {
+			"54a3fe42df61491d805d50af10399810": true
+		},
+		"Turn Manager": {
+			"6f74cedb96234cb38132c5f1744e1c04": true
+		},
+		"XR Camera": {
+			"775632eabbc64239a43055022b7eec57": true
+		},
+		"XR Default Loader": {
+			"7146d520c87b4d88850143aea2e8e22d": true
+		},
+		"XR Manager": {
+			"258fc0c2787d4893a7ac1159175551c7": true
+		},
+		"XRRigVR": {
+			"3dcbe0a17bd54d4280800b3c0bd6d592": true
+		}
+	},
+	"entitiesByScriptName": {
+		"Box": {
+			"194aae695cba4b60a35c287f3e37fbcf": true
+		},
+		"Cone": {
+			"f6371bf08200415f82989d46101107a8": true
+		},
+		"ConeGeometry": {
+			"f3937ace1ef5478c9221e2cfc2453503": true
+		},
+		"Content_Group": {
+			"bf59aa4eac3f4628bcd8579ee35fae3c": true
+		},
+		"DefaultCookieConsent": {
+			"0ba8e27369df45ca897731dcb1e39bcf": true
+		},
+		"DefaultLoader": {
+			"52148d8eafe3426085e700e049662c07": true
+		},
+		"Defaults": {
+			"7b6fb4d895774174b5d151eec86b704c": true
+		},
+		"DirectionalLight": {
+			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"Left_Controller": {
+			"384ac3d6f4b04210ab8832a8752a2d73": true
+		},
+		"MeshStandardMaterial": {
+			"547097f646a54d39aa1706d0ba7c7ef8": true
+		},
+		"MeshStandardMaterial0": {
+			"aca73192c64842aba2138a6c01994452": true
+		},
+		"MeshStandardMaterial_2": {
+			"8602fb46317c411d85f2649e8162aff6": true
+		},
+		"Mesh_GroupDeleteMe0": {
+			"6ef7d30d3e044b6f806dac36e63a857d": true
+		},
+		"Right_Controller": {
+			"3ba8407ca04746f3afc82e1bced92a8c": true
+		},
+		"ShadowPlane": {
+			"bf1d127bf7234511b3cdc3d5a98af7b0": true
+		},
+		"Sky_Environment": {
+			"e299a9d47588449182eaedccae25ff84": true
+		},
+		"Sphere": {
+			"77a68218309245289c411d5da417fab9": true
+		},
+		"Teleport_Manager": {
+			"54a3fe42df61491d805d50af10399810": true
+		},
+		"Turn_Manager": {
+			"6f74cedb96234cb38132c5f1744e1c04": true
+		},
+		"XRRigVR": {
+			"3dcbe0a17bd54d4280800b3c0bd6d592": true
+		},
+		"XR_Camera": {
+			"775632eabbc64239a43055022b7eec57": true
+		},
+		"XR_DefaultLoader": {
+			"7146d520c87b4d88850143aea2e8e22d": true
+		},
+		"XR_Manager": {
+			"258fc0c2787d4893a7ac1159175551c7": true
+		}
+	},
+	"entityConstructorProps": {
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"194aae695cba4b60a35c287f3e37fbcf": {
+		},
+		"258fc0c2787d4893a7ac1159175551c7": {
+			"startOnLaunch": "immersive-vr"
+		},
+		"384ac3d6f4b04210ab8832a8752a2d73": {
+			"allowRightHandControllers": false,
+			"allowUnspecifiedHandControllers": false
+		},
+		"3ba8407ca04746f3afc82e1bced92a8c": {
+			"allowLeftHandControllers": false
+		},
+		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"547097f646a54d39aa1706d0ba7c7ef8": {
+		},
+		"54a3fe42df61491d805d50af10399810": {
+		},
+		"6ef7d30d3e044b6f806dac36e63a857d": {
+		},
+		"6f74cedb96234cb38132c5f1744e1c04": {
+		},
+		"7146d520c87b4d88850143aea2e8e22d": {
+		},
+		"775632eabbc64239a43055022b7eec57": {
+		},
+		"77a68218309245289c411d5da417fab9": {
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+		},
+		"8602fb46317c411d85f2649e8162aff6": {
+		},
+		"aca73192c64842aba2138a6c01994452": {
+		},
+		"bf1d127bf7234511b3cdc3d5a98af7b0": {
+		},
+		"bf59aa4eac3f4628bcd8579ee35fae3c": {
+		},
+		"e299a9d47588449182eaedccae25ff84": {
+			"showAtRunTime": true
+		},
+		"f3937ace1ef5478c9221e2cfc2453503": {
+			"height": 3,
+			"radialSegments": 112
+		},
+		"f6371bf08200415f82989d46101107a8": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"194aae695cba4b60a35c287f3e37fbcf": {
+			"position": [
+				-0.1055513644738793,
+				0.15168311653813327,
+				-0.9610130066790821
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"258fc0c2787d4893a7ac1159175551c7": {
+		},
+		"384ac3d6f4b04210ab8832a8752a2d73": {
+			"position": [
+				-0.3,
+				1.3,
+				0
+			]
+		},
+		"3ba8407ca04746f3afc82e1bced92a8c": {
+			"position": [
+				0.3,
+				1.3,
+				0
+			]
+		},
+		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+		},
+		"52148d8eafe3426085e700e049662c07": {
+		},
+		"547097f646a54d39aa1706d0ba7c7ef8": {
+			"color": [
+				1,
+				0.011764705882352941,
+				0.011764705882352941
+			],
+			"metalness": 0.364955357142857,
+			"roughness": 0.492606026785714
+		},
+		"54a3fe42df61491d805d50af10399810": {
+		},
+		"6ef7d30d3e044b6f806dac36e63a857d": {
+		},
+		"6f74cedb96234cb38132c5f1744e1c04": {
+		},
+		"7146d520c87b4d88850143aea2e8e22d": {
+		},
+		"775632eabbc64239a43055022b7eec57": {
+		},
+		"77a68218309245289c411d5da417fab9": {
+			"position": [
+				0.2071166689187388,
+				0.19534313787252522,
+				-1.2802878999174174
+			],
+			"scale": [
+				0.2,
+				0.2,
+				0.2
+			]
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"castShadow": true,
+			"position": [
+				0,
+				3.822578351542651,
+				0
+			]
+		},
+		"8602fb46317c411d85f2649e8162aff6": {
+			"color": [
+				0.7215686274509804,
+				0.054901960784313725,
+				0.8823529411764706
+			],
+			"metalness": 0.364955357142857,
+			"roughness": 0.492606026785714
+		},
+		"aca73192c64842aba2138a6c01994452": {
+			"color": [
+				0.1568627450980392,
+				0.07058823529411765,
+				1
+			],
+			"metalness": 0.364955357142857,
+			"roughness": 0.492606026785714
+		},
+		"bf1d127bf7234511b3cdc3d5a98af7b0": {
+		},
+		"bf59aa4eac3f4628bcd8579ee35fae3c": {
+		},
+		"e299a9d47588449182eaedccae25ff84": {
+			"azimuth": 0.478515625,
+			"elevation": 0.0513392857142857
+		},
+		"f3937ace1ef5478c9221e2cfc2453503": {
+		},
+		"f6371bf08200415f82989d46101107a8": {
+			"position": [
+				-0.2368504152207141,
+				0.29912672540503465,
+				-1.435554880235228
+			],
+			"scale": [
+				0.2,
+				0.2,
+				0.2
+			]
+		}
+	},
+	"id": "5d4513e843574c04847bf1474912090f",
+	"nodes": {
+		"0ba8e27369df45ca897731dcb1e39bcf": {
+			"id": "0ba8e27369df45ca897731dcb1e39bcf",
+			"label": "DefaultCookieConsent",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a4"
+			},
+			"scriptName": "DefaultCookieConsent",
+			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
+		},
+		"194aae695cba4b60a35c287f3e37fbcf": {
+			"id": "194aae695cba4b60a35c287f3e37fbcf",
+			"label": "Box",
+			"parent": {
+				"id": "6ef7d30d3e044b6f806dac36e63a857d",
+				"order": "a0"
+			},
+			"scriptName": "Box",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
+		"258fc0c2787d4893a7ac1159175551c7": {
+			"id": "258fc0c2787d4893a7ac1159175551c7",
+			"label": "XR Manager",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a6"
+			},
+			"scriptName": "XR_Manager",
+			"type": "@zcomponent/three-webxr/lib/components/XRManager#XRManager"
+		},
+		"384ac3d6f4b04210ab8832a8752a2d73": {
+			"id": "384ac3d6f4b04210ab8832a8752a2d73",
+			"label": "Left Controller",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a0"
+			},
+			"scriptName": "Left_Controller",
+			"type": "@zcomponent/three-webxr/lib/components/XRController#XRController"
+		},
+		"3ba8407ca04746f3afc82e1bced92a8c": {
+			"id": "3ba8407ca04746f3afc82e1bced92a8c",
+			"label": "Right Controller",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a1"
+			},
+			"scriptName": "Right_Controller",
+			"type": "@zcomponent/three-webxr/lib/components/XRController#XRController"
+		},
+		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+			"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+			"label": "XRRigVR",
+			"parent": {
+				"id": "root",
+				"order": "Zy"
+			},
+			"scriptName": "XRRigVR",
+			"type": "@zcomponent/three-webxr/lib/components/XRRigVR#XRRigVR"
+		},
+		"52148d8eafe3426085e700e049662c07": {
+			"id": "52148d8eafe3426085e700e049662c07",
+			"label": "DefaultLoader",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a3"
+			},
+			"scriptName": "DefaultLoader",
+			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
+		},
+		"547097f646a54d39aa1706d0ba7c7ef8": {
+			"id": "547097f646a54d39aa1706d0ba7c7ef8",
+			"label": "MeshStandardMaterial",
+			"parent": {
+				"id": "194aae695cba4b60a35c287f3e37fbcf",
+				"order": "a0"
+			},
+			"scriptName": "MeshStandardMaterial",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"54a3fe42df61491d805d50af10399810": {
+			"id": "54a3fe42df61491d805d50af10399810",
+			"label": "Teleport Manager",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a4"
+			},
+			"scriptName": "Teleport_Manager",
+			"type": "@zcomponent/three-webxr/lib/components/TeleportManager#TeleportManager"
+		},
+		"6ef7d30d3e044b6f806dac36e63a857d": {
+			"id": "6ef7d30d3e044b6f806dac36e63a857d",
+			"label": "Mesh Group (Delete Me)",
+			"parent": {
+				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
+				"order": "Zz"
+			},
+			"scriptName": "Mesh_GroupDeleteMe0",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"6f74cedb96234cb38132c5f1744e1c04": {
+			"id": "6f74cedb96234cb38132c5f1744e1c04",
+			"label": "Turn Manager",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a5"
+			},
+			"scriptName": "Turn_Manager",
+			"type": "@zcomponent/three-webxr/lib/components/TurnManager#TurnManager"
+		},
+		"7146d520c87b4d88850143aea2e8e22d": {
+			"id": "7146d520c87b4d88850143aea2e8e22d",
+			"label": "XR Default Loader",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a7"
+			},
+			"scriptName": "XR_DefaultLoader",
+			"type": "@zcomponent/three-webxr/lib/components/XRDefaultLoader#XRDefaultLoader"
+		},
+		"775632eabbc64239a43055022b7eec57": {
+			"id": "775632eabbc64239a43055022b7eec57",
+			"label": "XR Camera",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a2"
+			},
+			"scriptName": "XR_Camera",
+			"type": "@zcomponent/three-webxr/lib/components/XRCamera#XRCamera"
+		},
+		"77a68218309245289c411d5da417fab9": {
+			"id": "77a68218309245289c411d5da417fab9",
+			"label": "Sphere",
+			"parent": {
+				"id": "6ef7d30d3e044b6f806dac36e63a857d",
+				"order": "a1"
+			},
+			"scriptName": "Sphere",
+			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
+		},
+		"7b6fb4d895774174b5d151eec86b704c": {
+			"id": "7b6fb4d895774174b5d151eec86b704c",
+			"label": "Defaults",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "Defaults",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"857f9901b65b42c89a3ff04470d70738": {
+			"id": "857f9901b65b42c89a3ff04470d70738",
+			"label": "DirectionalLight",
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a2"
+			},
+			"scriptName": "DirectionalLight",
+			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+		},
+		"8602fb46317c411d85f2649e8162aff6": {
+			"id": "8602fb46317c411d85f2649e8162aff6",
+			"label": "MeshStandardMaterial  3",
+			"parent": {
+				"id": "f6371bf08200415f82989d46101107a8",
+				"order": "a1"
+			},
+			"scriptName": "MeshStandardMaterial_2",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"aca73192c64842aba2138a6c01994452": {
+			"id": "aca73192c64842aba2138a6c01994452",
+			"label": "MeshStandardMaterial 2",
+			"parent": {
+				"id": "77a68218309245289c411d5da417fab9",
+				"order": "a0"
+			},
+			"scriptName": "MeshStandardMaterial0",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"bf1d127bf7234511b3cdc3d5a98af7b0": {
+			"id": "bf1d127bf7234511b3cdc3d5a98af7b0",
+			"label": "ShadowPlane",
+			"locked": true,
+			"parent": {
+				"id": "7b6fb4d895774174b5d151eec86b704c",
+				"order": "a0"
+			},
+			"scriptName": "ShadowPlane",
+			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
+		},
+		"bf59aa4eac3f4628bcd8579ee35fae3c": {
+			"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
+			"label": "Content Group",
+			"parent": {
+				"id": "root",
+				"order": "Zx"
+			},
+			"scriptName": "Content_Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"e299a9d47588449182eaedccae25ff84": {
+			"id": "e299a9d47588449182eaedccae25ff84",
+			"label": "Sky Environment",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a3"
+			},
+			"scriptName": "Sky_Environment",
+			"type": "@zcomponent/three/lib/components/environments/SkyEnvironment#SkyEnvironment"
+		},
+		"f3937ace1ef5478c9221e2cfc2453503": {
+			"id": "f3937ace1ef5478c9221e2cfc2453503",
+			"label": "ConeGeometry",
+			"parent": {
+				"id": "f6371bf08200415f82989d46101107a8",
+				"order": "a0"
+			},
+			"scriptName": "ConeGeometry",
+			"type": "@zcomponent/three/lib/components/geometries/ConeGeometry#ConeGeometry"
+		},
+		"f6371bf08200415f82989d46101107a8": {
+			"id": "f6371bf08200415f82989d46101107a8",
+			"label": "Cone",
+			"parent": {
+				"id": "6ef7d30d3e044b6f806dac36e63a857d",
+				"order": "a2"
+			},
+			"scriptName": "Cone",
+			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
+		},
+		"root": {
+			"id": "root",
+			"label": "Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"propEntityOverrides": {
+		"position": {
+			"root": {
+				"position": true
+			}
+		}
+	},
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
