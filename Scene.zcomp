@@ -161,7 +161,9 @@
 			"allowUnspecifiedHandControllers": false
 		},
 		"3ba8407ca04746f3afc82e1bced92a8c": {
-			"allowLeftHandControllers": false
+			"allowLeftHandControllers": false,
+			"allowRightHandControllers": true,
+			"allowUnspecifiedHandControllers": true
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
