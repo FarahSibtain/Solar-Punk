@@ -75,6 +75,9 @@
 		},
 		"XRRigVR": {
 			"3dcbe0a17bd54d4280800b3c0bd6d592": true
+		},
+		"zapsplat_nature_underwater_ambience_deep_007_30532.mp3": {
+			"76e0f42ffa3d43ba9905f735ce827e26": true
 		}
 	},
 	"entitiesByScriptName": {
@@ -146,6 +149,9 @@
 		},
 		"XR_Manager": {
 			"258fc0c2787d4893a7ac1159175551c7": true
+		},
+		"zapsplat_nature_underwater_ambience_deep_007_30532_mp3": {
+			"76e0f42ffa3d43ba9905f735ce827e26": true
 		}
 	},
 	"entityConstructorProps": {
@@ -178,6 +184,10 @@
 		"6f74cedb96234cb38132c5f1744e1c04": {
 		},
 		"7146d520c87b4d88850143aea2e8e22d": {
+		},
+		"76e0f42ffa3d43ba9905f735ce827e26": {
+			"autoplay": true,
+			"source": "file://./zapsplat_nature_underwater_ambience_deep_007_30532.mp3"
 		},
 		"775632eabbc64239a43055022b7eec57": {
 		},
@@ -302,6 +312,9 @@
 		"6f74cedb96234cb38132c5f1744e1c04": {
 		},
 		"7146d520c87b4d88850143aea2e8e22d": {
+		},
+		"76e0f42ffa3d43ba9905f735ce827e26": {
+			"loop": true
 		},
 		"775632eabbc64239a43055022b7eec57": {
 		},
@@ -489,6 +502,16 @@
 			},
 			"scriptName": "XR_DefaultLoader",
 			"type": "@zcomponent/three-webxr/lib/components/XRDefaultLoader#XRDefaultLoader"
+		},
+		"76e0f42ffa3d43ba9905f735ce827e26": {
+			"id": "76e0f42ffa3d43ba9905f735ce827e26",
+			"label": "zapsplat_nature_underwater_ambience_deep_007_30532.mp3",
+			"parent": {
+				"id": "root",
+				"order": "Zw"
+			},
+			"scriptName": "zapsplat_nature_underwater_ambience_deep_007_30532_mp3",
+			"type": "@zcomponent/core/lib/components/Audio#Audio"
 		},
 		"775632eabbc64239a43055022b7eec57": {
 			"id": "775632eabbc64239a43055022b7eec57",

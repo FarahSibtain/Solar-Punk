@@ -18,6 +18,7 @@ import { XRRigVR as XRRigVR_14 } from "@zcomponent/three-webxr/lib/components/XR
 import { XRCamera as XRCamera_15 } from "@zcomponent/three-webxr/lib/components/XRCamera";
 import { XRDefaultLoader as XRDefaultLoader_16 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
 import { XRManager as XRManager_17 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { Audio as Audio_18 } from "@zcomponent/core/lib/components/Audio";
 
 interface ConstructorProps {
 
@@ -143,6 +144,11 @@ declare class Comp extends ZComponent {
 			}
 		},
 		XR_Manager: XRManager_17 & {
+			behaviors: {
+
+			}
+		},
+		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_18 & {
 			behaviors: {
 
 			}
