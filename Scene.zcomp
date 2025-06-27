@@ -64,6 +64,12 @@
 		"Turn Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
 		},
+		"WaterEnvironment": {
+			"2771fa643a794d1690bad971532b7a91": true
+		},
+		"WaterGeom": {
+			"43ba17776d004a6b8cefe9e8a65b68d7": true
+		},
 		"XR Camera": {
 			"775632eabbc64239a43055022b7eec57": true
 		},
@@ -138,6 +144,12 @@
 		"Turn_Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
 		},
+		"WaterEnvironment": {
+			"2771fa643a794d1690bad971532b7a91": true
+		},
+		"WaterGeom": {
+			"43ba17776d004a6b8cefe9e8a65b68d7": true
+		},
 		"XRRigVR": {
 			"3dcbe0a17bd54d4280800b3c0bd6d592": true
 		},
@@ -162,6 +174,8 @@
 		"258fc0c2787d4893a7ac1159175551c7": {
 			"startOnLaunch": "immersive-vr"
 		},
+		"2771fa643a794d1690bad971532b7a91": {
+		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"allowRightHandControllers": false,
 			"allowUnspecifiedHandControllers": false
@@ -172,6 +186,8 @@
 			"allowUnspecifiedHandControllers": true
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+		},
+		"43ba17776d004a6b8cefe9e8a65b68d7": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -279,6 +295,8 @@
 		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 		},
+		"2771fa643a794d1690bad971532b7a91": {
+		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"position": [
 				-0.3,
@@ -294,6 +312,19 @@
 			]
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+		},
+		"43ba17776d004a6b8cefe9e8a65b68d7": {
+			"position": [
+				0,
+				10,
+				0
+			],
+			"rotation": [
+				3.141592653589793,
+				0,
+				0
+			],
+			"size": 5
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -416,6 +447,16 @@
 			"scriptName": "XR_Manager",
 			"type": "@zcomponent/three-webxr/lib/components/XRManager#XRManager"
 		},
+		"2771fa643a794d1690bad971532b7a91": {
+			"id": "2771fa643a794d1690bad971532b7a91",
+			"label": "WaterEnvironment",
+			"parent": {
+				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
+				"order": "a0"
+			},
+			"scriptName": "WaterEnvironment",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"id": "384ac3d6f4b04210ab8832a8752a2d73",
 			"label": "Left Controller",
@@ -445,6 +486,16 @@
 			},
 			"scriptName": "XRRigVR",
 			"type": "@zcomponent/three-webxr/lib/components/XRRigVR#XRRigVR"
+		},
+		"43ba17776d004a6b8cefe9e8a65b68d7": {
+			"id": "43ba17776d004a6b8cefe9e8a65b68d7",
+			"label": "WaterGeom",
+			"parent": {
+				"id": "2771fa643a794d1690bad971532b7a91",
+				"order": "a1"
+			},
+			"scriptName": "WaterGeom",
+			"type": "./Materials/WaterGeom#WaterGeom"
 		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",

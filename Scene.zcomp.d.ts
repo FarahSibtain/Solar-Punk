@@ -7,18 +7,19 @@ import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
 import { DefaultCookieConsent as DefaultCookieConsent_4 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
 import { DefaultLoader as DefaultLoader_5 } from "@zcomponent/core/lib/components/DefaultLoader";
 import { DirectionalLight as DirectionalLight_6 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { XRController as XRController_7 } from "@zcomponent/three-webxr/lib/components/XRController";
-import { MeshStandardMaterial as MeshStandardMaterial_8 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
-import { ShadowPlane as ShadowPlane_9 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { Sphere as Sphere_10 } from "@zcomponent/three/lib/components/meshes/Sphere";
-import { TeleportManager as TeleportManager_11 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
-import { TurnManager as TurnManager_12 } from "@zcomponent/three-webxr/lib/components/TurnManager";
-import { XRRigVR as XRRigVR_13 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { XRCamera as XRCamera_14 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_15 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_16 } from "@zcomponent/three-webxr/lib/components/XRManager";
-import { Audio as Audio_17 } from "@zcomponent/core/lib/components/Audio";
-import { Image360 as Image360_18 } from "@zcomponent/three/lib/components/Image360";
+import { Image360 as Image360_7 } from "@zcomponent/three/lib/components/Image360";
+import { XRController as XRController_8 } from "@zcomponent/three-webxr/lib/components/XRController";
+import { MeshStandardMaterial as MeshStandardMaterial_9 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { ShadowPlane as ShadowPlane_10 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { Sphere as Sphere_11 } from "@zcomponent/three/lib/components/meshes/Sphere";
+import { TeleportManager as TeleportManager_12 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
+import { TurnManager as TurnManager_13 } from "@zcomponent/three-webxr/lib/components/TurnManager";
+import { XRRigVR as XRRigVR_14 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
+import { XRCamera as XRCamera_15 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_16 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_17 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { Audio as Audio_18 } from "@zcomponent/core/lib/components/Audio";
+import { WaterGeom as WaterGeom_19 } from "./Materials/WaterGeom";
 
 interface ConstructorProps {
 
@@ -73,22 +74,27 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Left_Controller: XRController_7 & {
+		Environment: Image360_7 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial: MeshStandardMaterial_8 & {
+		Left_Controller: XRController_8 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial0: MeshStandardMaterial_8 & {
+		MeshStandardMaterial: MeshStandardMaterial_9 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial_2: MeshStandardMaterial_8 & {
+		MeshStandardMaterial0: MeshStandardMaterial_9 & {
+			behaviors: {
+
+			}
+		},
+		MeshStandardMaterial_2: MeshStandardMaterial_9 & {
 			behaviors: {
 
 			}
@@ -98,57 +104,62 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Right_Controller: XRController_7 & {
+		Right_Controller: XRController_8 & {
 			behaviors: {
 
 			}
 		},
-		ShadowPlane: ShadowPlane_9 & {
+		ShadowPlane: ShadowPlane_10 & {
 			behaviors: {
 
 			}
 		},
-		Sphere: Sphere_10 & {
+		Sphere: Sphere_11 & {
 			behaviors: {
 
 			}
 		},
-		Teleport_Manager: TeleportManager_11 & {
+		Teleport_Manager: TeleportManager_12 & {
 			behaviors: {
 
 			}
 		},
-		Turn_Manager: TurnManager_12 & {
+		Turn_Manager: TurnManager_13 & {
 			behaviors: {
 
 			}
 		},
-		XRRigVR: XRRigVR_13 & {
+		WaterEnvironment: Group_3 & {
 			behaviors: {
 
 			}
 		},
-		XR_Camera: XRCamera_14 & {
+		XRRigVR: XRRigVR_14 & {
 			behaviors: {
 
 			}
 		},
-		XR_DefaultLoader: XRDefaultLoader_15 & {
+		XR_Camera: XRCamera_15 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_16 & {
+		XR_DefaultLoader: XRDefaultLoader_16 & {
 			behaviors: {
 
 			}
 		},
-		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_17 & {
+		XR_Manager: XRManager_17 & {
 			behaviors: {
 
 			}
 		},
-		Environment: Image360_18 & {
+		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_18 & {
+			behaviors: {
+
+			}
+		},
+		WaterGeom: WaterGeom_19 & {
 			behaviors: {
 
 			}
