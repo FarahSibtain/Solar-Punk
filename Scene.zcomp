@@ -1,5 +1,15 @@
 {
 	"behaviors": {
+		"12a559393d30480d80151621b00f2340": {
+			"id": "12a559393d30480d80151621b00f2340",
+			"label": "PlayerMovement",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a0",
+				"scriptName": "PlayerMovement"
+			},
+			"type": "./PlayerMovement#PlayerMovement"
+		}
 	},
 	"constructorProps": {
 	},
@@ -34,6 +44,9 @@
 		"Left Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
+		"LeftHandPosition": {
+			"a34b1f78844a4f45845a6b1b9cbe8fda": true
+		},
 		"Mesh Group (Delete Me)": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
 		},
@@ -48,6 +61,9 @@
 		},
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
+		},
+		"RightHandPosition": {
+			"fb4bad292f654c6daac3dd11a800e159": true
 		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
@@ -102,6 +118,9 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"LeftHandPosition": {
+			"a34b1f78844a4f45845a6b1b9cbe8fda": true
+		},
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -116,6 +135,9 @@
 		},
 		"Mesh_GroupDeleteMe0": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
+		},
+		"RightHandPosition": {
+			"fb4bad292f654c6daac3dd11a800e159": true
 		},
 		"Right_Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
@@ -150,6 +172,8 @@
 	},
 	"entityConstructorProps": {
 		"0ba8e27369df45ca897731dcb1e39bcf": {
+		},
+		"12a559393d30480d80151621b00f2340": {
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 		},
@@ -189,6 +213,8 @@
 		},
 		"8602fb46317c411d85f2649e8162aff6": {
 		},
+		"a34b1f78844a4f45845a6b1b9cbe8fda": {
+		},
 		"aca73192c64842aba2138a6c01994452": {
 		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
@@ -203,6 +229,8 @@
 			"radialSegments": 112
 		},
 		"f6371bf08200415f82989d46101107a8": {
+		},
+		"fb4bad292f654c6daac3dd11a800e159": {
 		}
 	},
 	"entityPropOverrides": {
@@ -254,11 +282,13 @@
 	"entityProps": {
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
+		"12a559393d30480d80151621b00f2340": {
+		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 			"position": [
-				-0.1055513644738793,
-				0.15168311653813327,
-				-0.9610130066790821
+				0,
+				0.151683116538133,
+				-1
 			],
 			"scale": [
 				0.3,
@@ -307,9 +337,9 @@
 		},
 		"77a68218309245289c411d5da417fab9": {
 			"position": [
-				0.2071166689187388,
-				0.19534313787252522,
-				-1.2802878999174174
+				0,
+				0.5831720579045345,
+				-2
 			],
 			"scale": [
 				0.2,
@@ -336,6 +366,8 @@
 			"metalness": 0.364955357142857,
 			"roughness": 0.492606026785714
 		},
+		"a34b1f78844a4f45845a6b1b9cbe8fda": {
+		},
 		"aca73192c64842aba2138a6c01994452": {
 			"color": [
 				0.1568627450980392,
@@ -357,15 +389,17 @@
 		},
 		"f6371bf08200415f82989d46101107a8": {
 			"position": [
-				-0.2368504152207141,
-				0.29912672540503465,
-				-1.435554880235228
+				0,
+				0.299126725405035,
+				-3
 			],
 			"scale": [
 				0.2,
 				0.2,
 				0.2
 			]
+		},
+		"fb4bad292f654c6daac3dd11a800e159": {
 		}
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
@@ -425,7 +459,7 @@
 			"label": "XRRigVR",
 			"parent": {
 				"id": "root",
-				"order": "Zy"
+				"order": "Zz"
 			},
 			"scriptName": "XRRigVR",
 			"type": "@zcomponent/three-webxr/lib/components/XRRigVR#XRRigVR"
@@ -540,6 +574,16 @@
 			"scriptName": "MeshStandardMaterial_2",
 			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
 		},
+		"a34b1f78844a4f45845a6b1b9cbe8fda": {
+			"id": "a34b1f78844a4f45845a6b1b9cbe8fda",
+			"label": "LeftHandPosition",
+			"parent": {
+				"id": "384ac3d6f4b04210ab8832a8752a2d73",
+				"order": "a0"
+			},
+			"scriptName": "LeftHandPosition",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
 		"aca73192c64842aba2138a6c01994452": {
 			"id": "aca73192c64842aba2138a6c01994452",
 			"label": "MeshStandardMaterial 2",
@@ -600,6 +644,16 @@
 			},
 			"scriptName": "Cone",
 			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
+		},
+		"fb4bad292f654c6daac3dd11a800e159": {
+			"id": "fb4bad292f654c6daac3dd11a800e159",
+			"label": "RightHandPosition",
+			"parent": {
+				"id": "3ba8407ca04746f3afc82e1bced92a8c",
+				"order": "a0"
+			},
+			"scriptName": "RightHandPosition",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"root": {
 			"id": "root",

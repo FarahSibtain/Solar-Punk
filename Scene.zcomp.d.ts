@@ -15,9 +15,10 @@ import { Sphere as Sphere_11 } from "@zcomponent/three/lib/components/meshes/Sph
 import { TeleportManager as TeleportManager_12 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
 import { TurnManager as TurnManager_13 } from "@zcomponent/three-webxr/lib/components/TurnManager";
 import { XRRigVR as XRRigVR_14 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { XRCamera as XRCamera_15 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_16 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_17 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { PlayerMovement as PlayerMovement_15 } from "./PlayerMovement";
+import { XRCamera as XRCamera_16 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_17 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_18 } from "@zcomponent/three-webxr/lib/components/XRManager";
 
 interface ConstructorProps {
 
@@ -72,6 +73,11 @@ declare class Comp extends ZComponent {
 
 			}
 		},
+		LeftHandPosition: Group_3 & {
+			behaviors: {
+
+			}
+		},
 		Left_Controller: XRController_7 & {
 			behaviors: {
 
@@ -93,6 +99,11 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Mesh_GroupDeleteMe0: Group_3 & {
+			behaviors: {
+
+			}
+		},
+		RightHandPosition: Group_3 & {
 			behaviors: {
 
 			}
@@ -129,20 +140,21 @@ declare class Comp extends ZComponent {
 		},
 		XRRigVR: XRRigVR_14 & {
 			behaviors: {
-
+				0: PlayerMovement_15,
+				PlayerMovement: PlayerMovement_15,
 			}
 		},
-		XR_Camera: XRCamera_15 & {
+		XR_Camera: XRCamera_16 & {
 			behaviors: {
 
 			}
 		},
-		XR_DefaultLoader: XRDefaultLoader_16 & {
+		XR_DefaultLoader: XRDefaultLoader_17 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_17 & {
+		XR_Manager: XRManager_18 & {
 			behaviors: {
 
 			}
