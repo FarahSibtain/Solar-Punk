@@ -19,6 +19,9 @@ import { XRCamera as XRCamera_15 } from "@zcomponent/three-webxr/lib/components/
 import { XRDefaultLoader as XRDefaultLoader_16 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
 import { XRManager as XRManager_17 } from "@zcomponent/three-webxr/lib/components/XRManager";
 import { Audio as Audio_18 } from "@zcomponent/core/lib/components/Audio";
+import { CubeTrigger as CubeTrigger_19 } from "@zcomponent/three/lib/components/physics/triggers/CubeTrigger";
+import { TriggerHandler as TriggerHandler_20 } from "./TriggerHandler";
+import { Text as Text_21 } from "@zcomponent/three/lib/components/text/Text";
 
 interface ConstructorProps {
 
@@ -149,6 +152,37 @@ declare class Comp extends ZComponent {
 			}
 		},
 		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_18 & {
+			behaviors: {
+
+			}
+		},
+		Group_2: Group_3 & {
+			behaviors: {
+
+			}
+		},
+		Box0: Box_0 & {
+			behaviors: {
+
+			}
+		},
+		MeshStandardMaterial1: MeshStandardMaterial_8 & {
+			behaviors: {
+
+			}
+		},
+		CubeTrigger: CubeTrigger_19 & {
+			behaviors: {
+				0: TriggerHandler_20,
+				TriggerHandler: TriggerHandler_20,
+			}
+		},
+		CubeTrigger_2: CubeTrigger_19 & {
+			behaviors: {
+
+			}
+		},
+		Text: Text_21 & {
 			behaviors: {
 
 			}

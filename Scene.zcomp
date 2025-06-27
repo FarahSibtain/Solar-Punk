@@ -1,11 +1,24 @@
 {
 	"behaviors": {
+		"00e6b07c7a5c4916b2a0e24693537a85": {
+			"id": "00e6b07c7a5c4916b2a0e24693537a85",
+			"label": "TriggerHandler",
+			"parent": {
+				"id": "341034fe353444e2a310de7550f5228c",
+				"order": "a1",
+				"scriptName": "TriggerHandler"
+			},
+			"type": "./TriggerHandler.ts#TriggerHandler"
+		}
 	},
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
+		},
+		"Box 2": {
+			"42129fb1824f4647a24b985cd65ea080": true
 		},
 		"Cone": {
 			"f6371bf08200415f82989d46101107a8": true
@@ -15,6 +28,12 @@
 		},
 		"Content Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
+		},
+		"CubeTrigger": {
+			"341034fe353444e2a310de7550f5228c": true
+		},
+		"CubeTrigger 2": {
+			"d8bce86f6b954cea8ae3a764c7cfd203": true
 		},
 		"DefaultCookieConsent": {
 			"0ba8e27369df45ca897731dcb1e39bcf": true
@@ -31,6 +50,9 @@
 		"Group": {
 			"root": true
 		},
+		"Group 2": {
+			"20db72cda0794444bfb95f0467c5332a": true
+		},
 		"Left Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -46,6 +68,9 @@
 		"MeshStandardMaterial 2": {
 			"aca73192c64842aba2138a6c01994452": true
 		},
+		"MeshStandardMaterial 3": {
+			"35cf9635f3224e61a1cda40cde74f6f6": true
+		},
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
 		},
@@ -60,6 +85,9 @@
 		},
 		"Teleport Manager": {
 			"54a3fe42df61491d805d50af10399810": true
+		},
+		"Text": {
+			"5fcfe45bf7294e2692cae0dd40fffb7f": true
 		},
 		"Turn Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
@@ -84,6 +112,9 @@
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
 		},
+		"Box0": {
+			"42129fb1824f4647a24b985cd65ea080": true
+		},
 		"Cone": {
 			"f6371bf08200415f82989d46101107a8": true
 		},
@@ -92,6 +123,12 @@
 		},
 		"Content_Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
+		},
+		"CubeTrigger": {
+			"341034fe353444e2a310de7550f5228c": true
+		},
+		"CubeTrigger_2": {
+			"d8bce86f6b954cea8ae3a764c7cfd203": true
 		},
 		"DefaultCookieConsent": {
 			"0ba8e27369df45ca897731dcb1e39bcf": true
@@ -105,6 +142,9 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Group_2": {
+			"20db72cda0794444bfb95f0467c5332a": true
+		},
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -113,6 +153,9 @@
 		},
 		"MeshStandardMaterial0": {
 			"aca73192c64842aba2138a6c01994452": true
+		},
+		"MeshStandardMaterial1": {
+			"35cf9635f3224e61a1cda40cde74f6f6": true
 		},
 		"MeshStandardMaterial_2": {
 			"8602fb46317c411d85f2649e8162aff6": true
@@ -135,6 +178,9 @@
 		"Teleport_Manager": {
 			"54a3fe42df61491d805d50af10399810": true
 		},
+		"Text": {
+			"5fcfe45bf7294e2692cae0dd40fffb7f": true
+		},
 		"Turn_Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
 		},
@@ -155,14 +201,23 @@
 		}
 	},
 	"entityConstructorProps": {
+		"00e6b07c7a5c4916b2a0e24693537a85": {
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 		},
+		"20db72cda0794444bfb95f0467c5332a": {
+		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 			"startOnLaunch": "immersive-vr"
 		},
+		"341034fe353444e2a310de7550f5228c": {
+		},
+		"35cf9635f3224e61a1cda40cde74f6f6": {
+		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
+			"allowLeftHandControllers": true,
 			"allowRightHandControllers": false,
 			"allowUnspecifiedHandControllers": false
 		},
@@ -173,11 +228,16 @@
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
+		"42129fb1824f4647a24b985cd65ea080": {
+		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
 		"547097f646a54d39aa1706d0ba7c7ef8": {
 		},
 		"54a3fe42df61491d805d50af10399810": {
+		},
+		"5fcfe45bf7294e2692cae0dd40fffb7f": {
+			"font": "Arial"
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
@@ -186,7 +246,7 @@
 		"7146d520c87b4d88850143aea2e8e22d": {
 		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
-			"autoplay": true,
+			"autoplay": false,
 			"source": "file://./zapsplat_nature_underwater_ambience_deep_007_30532.mp3"
 		},
 		"775632eabbc64239a43055022b7eec57": {
@@ -204,6 +264,8 @@
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
+		},
+		"d8bce86f6b954cea8ae3a764c7cfd203": {
 		},
 		"e299a9d47588449182eaedccae25ff84": {
 			"showAtRunTime": true
@@ -262,21 +324,50 @@
 		}
 	},
 	"entityProps": {
+		"00e6b07c7a5c4916b2a0e24693537a85": {
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 			"position": [
 				-0.1055513644738793,
-				0.15168311653813327,
+				0.5668943875890626,
 				-0.9610130066790821
 			],
 			"scale": [
-				0.3,
-				0.3,
-				0.3
+				0.5068637514014023,
+				0.5068637514014023,
+				0.5068637514014023
 			]
 		},
+		"20db72cda0794444bfb95f0467c5332a": {
+		},
 		"258fc0c2787d4893a7ac1159175551c7": {
+		},
+		"341034fe353444e2a310de7550f5228c": {
+			"isTrigger": true,
+			"position": [
+				0,
+				0.54399040621163,
+				-7.972928961739509
+			],
+			"scale": [
+				1.2892161645430151,
+				1.2892161645430151,
+				1.2892161645430151
+			],
+			"tags": [
+				"Player"
+			]
+		},
+		"35cf9635f3224e61a1cda40cde74f6f6": {
+			"color": [
+				1,
+				0.011764705882352941,
+				0.011764705882352941
+			],
+			"metalness": 0.364955357142857,
+			"roughness": 0.492606026785714
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"position": [
@@ -293,6 +384,23 @@
 			]
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+			"position": [
+				0,
+				0,
+				0
+			]
+		},
+		"42129fb1824f4647a24b985cd65ea080": {
+			"position": [
+				-0.1055513644738793,
+				0.5125670935955833,
+				-9.017966167119841
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -307,6 +415,16 @@
 		},
 		"54a3fe42df61491d805d50af10399810": {
 		},
+		"5fcfe45bf7294e2692cae0dd40fffb7f": {
+			"fontSize": 5,
+			"position": [
+				0,
+				1.5,
+				-3
+			],
+			"text": "hello",
+			"visible": false
+		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
@@ -314,7 +432,9 @@
 		"7146d520c87b4d88850143aea2e8e22d": {
 		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
-			"loop": true
+			"loop": true,
+			"muted": false,
+			"volume": 1
 		},
 		"775632eabbc64239a43055022b7eec57": {
 		},
@@ -362,6 +482,22 @@
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 		},
+		"d8bce86f6b954cea8ae3a764c7cfd203": {
+			"isTrigger": false,
+			"position": [
+				0,
+				0.8994716729366208,
+				0
+			],
+			"scale": [
+				0.2,
+				1.5664134533506295,
+				0.2
+			],
+			"tags": [
+				"Player"
+			]
+		},
 		"e299a9d47588449182eaedccae25ff84": {
 			"azimuth": 0.478515625,
 			"elevation": 0.0513392857142857
@@ -403,6 +539,16 @@
 			"scriptName": "Box",
 			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
 		},
+		"20db72cda0794444bfb95f0467c5332a": {
+			"id": "20db72cda0794444bfb95f0467c5332a",
+			"label": "Group 2",
+			"parent": {
+				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
+				"order": "a0"
+			},
+			"scriptName": "Group_2",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 			"id": "258fc0c2787d4893a7ac1159175551c7",
 			"label": "XR Manager",
@@ -412,6 +558,26 @@
 			},
 			"scriptName": "XR_Manager",
 			"type": "@zcomponent/three-webxr/lib/components/XRManager#XRManager"
+		},
+		"341034fe353444e2a310de7550f5228c": {
+			"id": "341034fe353444e2a310de7550f5228c",
+			"label": "CubeTrigger",
+			"parent": {
+				"id": "20db72cda0794444bfb95f0467c5332a",
+				"order": "a1"
+			},
+			"scriptName": "CubeTrigger",
+			"type": "@zcomponent/three/lib/components/physics/triggers/CubeTrigger#CubeTrigger"
+		},
+		"35cf9635f3224e61a1cda40cde74f6f6": {
+			"id": "35cf9635f3224e61a1cda40cde74f6f6",
+			"label": "MeshStandardMaterial 3",
+			"parent": {
+				"id": "42129fb1824f4647a24b985cd65ea080",
+				"order": "a0"
+			},
+			"scriptName": "MeshStandardMaterial1",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"id": "384ac3d6f4b04210ab8832a8752a2d73",
@@ -443,6 +609,16 @@
 			"scriptName": "XRRigVR",
 			"type": "@zcomponent/three-webxr/lib/components/XRRigVR#XRRigVR"
 		},
+		"42129fb1824f4647a24b985cd65ea080": {
+			"id": "42129fb1824f4647a24b985cd65ea080",
+			"label": "Box 2",
+			"parent": {
+				"id": "20db72cda0794444bfb95f0467c5332a",
+				"order": "a0"
+			},
+			"scriptName": "Box0",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",
 			"label": "DefaultLoader",
@@ -472,6 +648,16 @@
 			},
 			"scriptName": "Teleport_Manager",
 			"type": "@zcomponent/three-webxr/lib/components/TeleportManager#TeleportManager"
+		},
+		"5fcfe45bf7294e2692cae0dd40fffb7f": {
+			"id": "5fcfe45bf7294e2692cae0dd40fffb7f",
+			"label": "Text",
+			"parent": {
+				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
+				"order": "a1"
+			},
+			"scriptName": "Text",
+			"type": "@zcomponent/three/lib/components/text/Text#Text"
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 			"id": "6ef7d30d3e044b6f806dac36e63a857d",
@@ -579,7 +765,7 @@
 			"locked": true,
 			"parent": {
 				"id": "7b6fb4d895774174b5d151eec86b704c",
-				"order": "a0"
+				"order": "a1"
 			},
 			"scriptName": "ShadowPlane",
 			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
@@ -593,6 +779,16 @@
 			},
 			"scriptName": "Content_Group",
 			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"d8bce86f6b954cea8ae3a764c7cfd203": {
+			"id": "d8bce86f6b954cea8ae3a764c7cfd203",
+			"label": "CubeTrigger 2",
+			"parent": {
+				"id": "775632eabbc64239a43055022b7eec57",
+				"order": "a0"
+			},
+			"scriptName": "CubeTrigger_2",
+			"type": "@zcomponent/three/lib/components/physics/triggers/CubeTrigger#CubeTrigger"
 		},
 		"e299a9d47588449182eaedccae25ff84": {
 			"id": "e299a9d47588449182eaedccae25ff84",
