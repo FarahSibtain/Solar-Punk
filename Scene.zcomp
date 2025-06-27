@@ -31,6 +31,9 @@
 		"Group": {
 			"root": true
 		},
+		"Hello Text": {
+			"b3b8b1eaba504578a54e472a84c5fdbe1": true
+		},
 		"Left Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -46,6 +49,9 @@
 		"MeshStandardMaterial 2": {
 			"aca73192c64842aba2138a6c01994452": true
 		},
+		"Red Background Material": {
+			"447cc0729afa4e058705e71aa9939d771": true
+		},
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
 		},
@@ -60,6 +66,9 @@
 		},
 		"Teleport Manager": {
 			"54a3fe42df61491d805d50af10399810": true
+		},
+		"Text Background": {
+			"1e21fbd0bd844b4e8ace3882fd77f7081": true
 		},
 		"Turn Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
@@ -105,6 +114,9 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Hello_Text": {
+			"b3b8b1eaba504578a54e472a84c5fdbe1": true
+		},
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -120,6 +132,9 @@
 		"Mesh_GroupDeleteMe0": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
 		},
+		"Red_BackgroundMaterial": {
+			"447cc0729afa4e058705e71aa9939d771": true
+		},
 		"Right_Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
 		},
@@ -134,6 +149,9 @@
 		},
 		"Teleport_Manager": {
 			"54a3fe42df61491d805d50af10399810": true
+		},
+		"Text_Background": {
+			"1e21fbd0bd844b4e8ace3882fd77f7081": true
 		},
 		"Turn_Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
@@ -159,6 +177,8 @@
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 		},
+		"1e21fbd0bd844b4e8ace3882fd77f7081": {
+		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 			"startOnLaunch": "immersive-vr"
 		},
@@ -172,6 +192,8 @@
 			"allowUnspecifiedHandControllers": true
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+		},
+		"447cc0729afa4e058705e71aa9939d771": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -200,6 +222,8 @@
 		"8602fb46317c411d85f2649e8162aff6": {
 		},
 		"aca73192c64842aba2138a6c01994452": {
+		},
+		"b3b8b1eaba504578a54e472a84c5fdbe1": {
 		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 		},
@@ -267,13 +291,25 @@
 		"194aae695cba4b60a35c287f3e37fbcf": {
 			"position": [
 				-0.1055513644738793,
-				0.15168311653813327,
+				0.5440186145084411,
 				-0.9610130066790821
 			],
 			"scale": [
 				0.3,
 				0.3,
 				0.3
+			]
+		},
+		"1e21fbd0bd844b4e8ace3882fd77f7081": {
+			"position": [
+				0,
+				1.6,
+				-2.01
+			],
+			"scale": [
+				2,
+				0.5,
+				1
 			]
 		},
 		"258fc0c2787d4893a7ac1159175551c7": {
@@ -293,6 +329,17 @@
 			]
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+		},
+		"447cc0729afa4e058705e71aa9939d771": {
+			"color": [
+				0,
+				0,
+				0
+			],
+			"depthFunc": "AlwaysDepth",
+			"opacity": 0.469509816668834,
+			"transparent": true,
+			"visible": true
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -358,6 +405,26 @@
 			"metalness": 0.364955357142857,
 			"roughness": 0.492606026785714
 		},
+		"b3b8b1eaba504578a54e472a84c5fdbe1": {
+			"anchorX": "center",
+			"anchorY": "middle",
+			"color": [
+				0.8631572134510892,
+				0.8307698767709715,
+				0.8307698767709715
+			],
+			"direction": "auto",
+			"fillOpacity": 0.7,
+			"fontSize": 0.2,
+			"outlineOpacity": 1,
+			"position": [
+				0,
+				1.6,
+				-2
+			],
+			"strokeOpacity": 1,
+			"text": "hello player"
+		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
@@ -403,6 +470,16 @@
 			"scriptName": "Box",
 			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
 		},
+		"1e21fbd0bd844b4e8ace3882fd77f7081": {
+			"id": "1e21fbd0bd844b4e8ace3882fd77f7081",
+			"label": "Text Background",
+			"parent": {
+				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
+				"order": "ZyV"
+			},
+			"scriptName": "Text_Background",
+			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
+		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 			"id": "258fc0c2787d4893a7ac1159175551c7",
 			"label": "XR Manager",
@@ -442,6 +519,16 @@
 			},
 			"scriptName": "XRRigVR",
 			"type": "@zcomponent/three-webxr/lib/components/XRRigVR#XRRigVR"
+		},
+		"447cc0729afa4e058705e71aa9939d771": {
+			"id": "447cc0729afa4e058705e71aa9939d771",
+			"label": "Red Background Material",
+			"parent": {
+				"id": "1e21fbd0bd844b4e8ace3882fd77f7081",
+				"order": "a0"
+			},
+			"scriptName": "Red_BackgroundMaterial",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
 		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",
@@ -572,6 +659,16 @@
 			},
 			"scriptName": "MeshStandardMaterial0",
 			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"b3b8b1eaba504578a54e472a84c5fdbe1": {
+			"id": "b3b8b1eaba504578a54e472a84c5fdbe1",
+			"label": "Hello Text",
+			"parent": {
+				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
+				"order": "Zy"
+			},
+			"scriptName": "Hello_Text",
+			"type": "@zcomponent/three/lib/components/text/Text#Text"
 		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 			"id": "bf1d127bf7234511b3cdc3d5a98af7b0",
