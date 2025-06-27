@@ -7,18 +7,24 @@ import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
 import { DefaultCookieConsent as DefaultCookieConsent_4 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
 import { DefaultLoader as DefaultLoader_5 } from "@zcomponent/core/lib/components/DefaultLoader";
 import { DirectionalLight as DirectionalLight_6 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { XRController as XRController_7 } from "@zcomponent/three-webxr/lib/components/XRController";
-import { MeshStandardMaterial as MeshStandardMaterial_8 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
-import { ShadowPlane as ShadowPlane_9 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { SkyEnvironment as SkyEnvironment_10 } from "@zcomponent/three/lib/components/environments/SkyEnvironment";
-import { Sphere as Sphere_11 } from "@zcomponent/three/lib/components/meshes/Sphere";
-import { TeleportManager as TeleportManager_12 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
-import { TurnManager as TurnManager_13 } from "@zcomponent/three-webxr/lib/components/TurnManager";
-import { XRRigVR as XRRigVR_14 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { XRCamera as XRCamera_15 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_16 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_17 } from "@zcomponent/three-webxr/lib/components/XRManager";
-import { Audio as Audio_18 } from "@zcomponent/core/lib/components/Audio";
+import { Image360 as Image360_7 } from "@zcomponent/three/lib/components/Image360";
+import { Fog as Fog_8 } from "./Materials/Fog";
+import { XRController as XRController_9 } from "@zcomponent/three-webxr/lib/components/XRController";
+import { MeshStandardMaterial as MeshStandardMaterial_10 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { Plane as Plane_11 } from "@zcomponent/three/lib/components/meshes/Plane";
+import { ShadowPlane as ShadowPlane_12 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { Sphere as Sphere_13 } from "@zcomponent/three/lib/components/meshes/Sphere";
+import { TeleportManager as TeleportManager_14 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
+import { TurnManager as TurnManager_15 } from "@zcomponent/three-webxr/lib/components/TurnManager";
+import { WaterGeom as WaterGeom_16 } from "./Materials/WaterGeom";
+import { XRRigVR as XRRigVR_17 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
+import { XRCamera as XRCamera_18 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_19 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_20 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { Audio as Audio_21 } from "@zcomponent/core/lib/components/Audio";
+import { ParticleEmitter as ParticleEmitter_22 } from "@zcomponent/particles/lib/components/ParticleEmitter";
+import { EmitterTexture as EmitterTexture_23 } from "@zcomponent/particles/lib/components/EmitterTexture";
+import { Sparkle as Sparkle_24 } from "@zcomponent/particles/lib/components/prefabs/Sparkle";
 
 interface ConstructorProps {
 
@@ -73,22 +79,32 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Left_Controller: XRController_7 & {
+		Environment: Image360_7 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial: MeshStandardMaterial_8 & {
+		Fog: Fog_8 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial0: MeshStandardMaterial_8 & {
+		Left_Controller: XRController_9 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial_2: MeshStandardMaterial_8 & {
+		MeshStandardMaterial: MeshStandardMaterial_10 & {
+			behaviors: {
+
+			}
+		},
+		MeshStandardMaterial0: MeshStandardMaterial_10 & {
+			behaviors: {
+
+			}
+		},
+		MeshStandardMaterial_2: MeshStandardMaterial_10 & {
 			behaviors: {
 
 			}
@@ -98,57 +114,82 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Right_Controller: XRController_7 & {
+		Plane: Plane_11 & {
 			behaviors: {
 
 			}
 		},
-		ShadowPlane: ShadowPlane_9 & {
+		Right_Controller: XRController_9 & {
 			behaviors: {
 
 			}
 		},
-		Sky_Environment: SkyEnvironment_10 & {
+		ShadowPlane: ShadowPlane_12 & {
 			behaviors: {
 
 			}
 		},
-		Sphere: Sphere_11 & {
+		Sphere: Sphere_13 & {
 			behaviors: {
 
 			}
 		},
-		Teleport_Manager: TeleportManager_12 & {
+		Teleport_Manager: TeleportManager_14 & {
 			behaviors: {
 
 			}
 		},
-		Turn_Manager: TurnManager_13 & {
+		Turn_Manager: TurnManager_15 & {
 			behaviors: {
 
 			}
 		},
-		XRRigVR: XRRigVR_14 & {
+		WaterEnvironment: Group_3 & {
 			behaviors: {
 
 			}
 		},
-		XR_Camera: XRCamera_15 & {
+		WaterGeom: WaterGeom_16 & {
 			behaviors: {
 
 			}
 		},
-		XR_DefaultLoader: XRDefaultLoader_16 & {
+		XRRigVR: XRRigVR_17 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_17 & {
+		XR_Camera: XRCamera_18 & {
 			behaviors: {
 
 			}
 		},
-		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_18 & {
+		XR_DefaultLoader: XRDefaultLoader_19 & {
+			behaviors: {
+
+			}
+		},
+		XR_Manager: XRManager_20 & {
+			behaviors: {
+
+			}
+		},
+		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_21 & {
+			behaviors: {
+
+			}
+		},
+		Particle_Emitter: ParticleEmitter_22 & {
+			behaviors: {
+
+			}
+		},
+		Emitter_Texture: EmitterTexture_23 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids: Sparkle_24 & {
 			behaviors: {
 
 			}

@@ -28,6 +28,15 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Emitter Texture": {
+			"3bed991cf9894067809aba2b9af97e23": true
+		},
+		"Environment": {
+			"c01f2d6b83f840328924940130995ae9": true
+		},
+		"Fog": {
+			"7cfa6e6f029b41ddabb4b77606fa4b19": true
+		},
 		"Group": {
 			"root": true
 		},
@@ -46,23 +55,35 @@
 		"MeshStandardMaterial 2": {
 			"aca73192c64842aba2138a6c01994452": true
 		},
+		"Particle Emitter": {
+			"08f53b8663c1471fb9c2d982c63b62aa": true
+		},
+		"Plane": {
+			"e2d77bbed5ca445292509e55934a55e8": true
+		},
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
 		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
 		},
-		"Sky Environment": {
-			"e299a9d47588449182eaedccae25ff84": true
-		},
 		"Sphere": {
 			"77a68218309245289c411d5da417fab9": true
+		},
+		"SuspendedSolids": {
+			"56044315920a4746af46d34228759e28": true
 		},
 		"Teleport Manager": {
 			"54a3fe42df61491d805d50af10399810": true
 		},
 		"Turn Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
+		},
+		"WaterEnvironment": {
+			"2771fa643a794d1690bad971532b7a91": true
+		},
+		"WaterGeom": {
+			"43ba17776d004a6b8cefe9e8a65b68d7": true
 		},
 		"XR Camera": {
 			"775632eabbc64239a43055022b7eec57": true
@@ -105,6 +126,15 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Emitter_Texture": {
+			"3bed991cf9894067809aba2b9af97e23": true
+		},
+		"Environment": {
+			"c01f2d6b83f840328924940130995ae9": true
+		},
+		"Fog": {
+			"7cfa6e6f029b41ddabb4b77606fa4b19": true
+		},
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -120,23 +150,35 @@
 		"Mesh_GroupDeleteMe0": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
 		},
+		"Particle_Emitter": {
+			"08f53b8663c1471fb9c2d982c63b62aa": true
+		},
+		"Plane": {
+			"e2d77bbed5ca445292509e55934a55e8": true
+		},
 		"Right_Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
 		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
 		},
-		"Sky_Environment": {
-			"e299a9d47588449182eaedccae25ff84": true
-		},
 		"Sphere": {
 			"77a68218309245289c411d5da417fab9": true
+		},
+		"SuspendedSolids": {
+			"56044315920a4746af46d34228759e28": true
 		},
 		"Teleport_Manager": {
 			"54a3fe42df61491d805d50af10399810": true
 		},
 		"Turn_Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
+		},
+		"WaterEnvironment": {
+			"2771fa643a794d1690bad971532b7a91": true
+		},
+		"WaterGeom": {
+			"43ba17776d004a6b8cefe9e8a65b68d7": true
 		},
 		"XRRigVR": {
 			"3dcbe0a17bd54d4280800b3c0bd6d592": true
@@ -155,12 +197,17 @@
 		}
 	},
 	"entityConstructorProps": {
+		"08f53b8663c1471fb9c2d982c63b62aa": {
+			"maxAgeValue": 2
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 			"startOnLaunch": "immersive-vr"
+		},
+		"2771fa643a794d1690bad971532b7a91": {
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"allowRightHandControllers": false,
@@ -171,13 +218,20 @@
 			"allowRightHandControllers": true,
 			"allowUnspecifiedHandControllers": true
 		},
+		"3bed991cf9894067809aba2b9af97e23": {
+			"source": "file://./Images/dust.png"
+		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+		},
+		"43ba17776d004a6b8cefe9e8a65b68d7": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
 		"547097f646a54d39aa1706d0ba7c7ef8": {
 		},
 		"54a3fe42df61491d805d50af10399810": {
+		},
+		"56044315920a4746af46d34228759e28": {
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
@@ -195,6 +249,9 @@
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
+		"7cfa6e6f029b41ddabb4b77606fa4b19": {
+			"excludeImage360": true
+		},
 		"857f9901b65b42c89a3ff04470d70738": {
 		},
 		"8602fb46317c411d85f2649e8162aff6": {
@@ -205,8 +262,11 @@
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 		},
-		"e299a9d47588449182eaedccae25ff84": {
-			"showAtRunTime": true
+		"c01f2d6b83f840328924940130995ae9": {
+			"radius": 500,
+			"source": "file://./Images/underwater_hdri.jpg"
+		},
+		"e2d77bbed5ca445292509e55934a55e8": {
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 			"height": 3,
@@ -262,13 +322,76 @@
 		}
 	},
 	"entityProps": {
+		"08f53b8663c1471fb9c2d982c63b62aa": {
+			"accelerationSpread": [
+				0.05,
+				0,
+				0.05
+			],
+			"accelerationValue": [
+				0,
+				-0.02,
+				0
+			],
+			"colorEnd": [
+				0.12743768042608497,
+				0.12743768042608497,
+				0.12743768042608497
+			],
+			"colorMidEnd": [
+				0.22322795730611386,
+				0.22322795730611386,
+				0.22322795730611386
+			],
+			"colorMidStart": [
+				0.3515325994898463,
+				0.3515325994898463,
+				0.3515325994898463
+			],
+			"colorStart": [
+				0.5775804404214573,
+				0.5775804404214573,
+				0.5775804404214573
+			],
+			"positionSpread": [
+				2,
+				2,
+				2
+			],
+			"positionValue": [
+				0,
+				1,
+				0
+			],
+			"rotationAngle": 0,
+			"sizeSpread": [
+				0.005,
+				0.005,
+				0.005
+			],
+			"sizeValue": [
+				0.006,
+				0.006,
+				0.006
+			],
+			"velocitySpread": [
+				0,
+				0,
+				0
+			],
+			"velocityValue": [
+				0,
+				0,
+				0
+			]
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 			"position": [
-				-0.1055513644738793,
+				0.2907922476287057,
 				0.15168311653813327,
-				-0.9610130066790821
+				-0.2990347563592395
 			],
 			"scale": [
 				0.3,
@@ -277,6 +400,8 @@
 			]
 		},
 		"258fc0c2787d4893a7ac1159175551c7": {
+		},
+		"2771fa643a794d1690bad971532b7a91": {
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"position": [
@@ -292,7 +417,24 @@
 				0
 			]
 		},
+		"3bed991cf9894067809aba2b9af97e23": {
+		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+		},
+		"43ba17776d004a6b8cefe9e8a65b68d7": {
+			"castShadow": false,
+			"position": [
+				0,
+				10,
+				0
+			],
+			"receiveShadow": false,
+			"rotation": [
+				3.141592653589793,
+				0,
+				0
+			],
+			"size": 5
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -306,6 +448,22 @@
 			"roughness": 0.492606026785714
 		},
 		"54a3fe42df61491d805d50af10399810": {
+			"visible": true
+		},
+		"56044315920a4746af46d34228759e28": {
+			"castShadow": false,
+			"position": [
+				0,
+				0,
+				0
+			],
+			"receiveShadow": false,
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"visible": true
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
@@ -320,9 +478,9 @@
 		},
 		"77a68218309245289c411d5da417fab9": {
 			"position": [
-				0.2071166689187388,
+				0.7352863943136483,
 				0.19534313787252522,
-				-1.2802878999174174
+				-0.7134287946774254
 			],
 			"scale": [
 				0.2,
@@ -331,6 +489,9 @@
 			]
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"7cfa6e6f029b41ddabb4b77606fa4b19": {
+			"visible": true
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"castShadow": true,
@@ -362,9 +523,27 @@
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 		},
-		"e299a9d47588449182eaedccae25ff84": {
-			"azimuth": 0.478515625,
-			"elevation": 0.0513392857142857
+		"c01f2d6b83f840328924940130995ae9": {
+			"castShadow": false,
+			"receiveShadow": false,
+			"visible": true
+		},
+		"e2d77bbed5ca445292509e55934a55e8": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				-1.5707963267948966,
+				0,
+				0
+			],
+			"scale": [
+				50,
+				50,
+				1
+			]
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 		},
@@ -383,6 +562,16 @@
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
 	"nodes": {
+		"08f53b8663c1471fb9c2d982c63b62aa": {
+			"id": "08f53b8663c1471fb9c2d982c63b62aa",
+			"label": "Particle Emitter",
+			"parent": {
+				"id": "56044315920a4746af46d34228759e28",
+				"order": "a0"
+			},
+			"scriptName": "Particle_Emitter",
+			"type": "@zcomponent/particles/lib/components/ParticleEmitter#ParticleEmitter"
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 			"id": "0ba8e27369df45ca897731dcb1e39bcf",
 			"label": "DefaultCookieConsent",
@@ -413,6 +602,16 @@
 			"scriptName": "XR_Manager",
 			"type": "@zcomponent/three-webxr/lib/components/XRManager#XRManager"
 		},
+		"2771fa643a794d1690bad971532b7a91": {
+			"id": "2771fa643a794d1690bad971532b7a91",
+			"label": "WaterEnvironment",
+			"parent": {
+				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
+				"order": "a0"
+			},
+			"scriptName": "WaterEnvironment",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"id": "384ac3d6f4b04210ab8832a8752a2d73",
 			"label": "Left Controller",
@@ -433,6 +632,16 @@
 			"scriptName": "Right_Controller",
 			"type": "@zcomponent/three-webxr/lib/components/XRController#XRController"
 		},
+		"3bed991cf9894067809aba2b9af97e23": {
+			"id": "3bed991cf9894067809aba2b9af97e23",
+			"label": "Emitter Texture",
+			"parent": {
+				"id": "56044315920a4746af46d34228759e28",
+				"order": "a1"
+			},
+			"scriptName": "Emitter_Texture",
+			"type": "@zcomponent/particles/lib/components/EmitterTexture#EmitterTexture"
+		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 			"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
 			"label": "XRRigVR",
@@ -442,6 +651,16 @@
 			},
 			"scriptName": "XRRigVR",
 			"type": "@zcomponent/three-webxr/lib/components/XRRigVR#XRRigVR"
+		},
+		"43ba17776d004a6b8cefe9e8a65b68d7": {
+			"id": "43ba17776d004a6b8cefe9e8a65b68d7",
+			"label": "WaterGeom",
+			"parent": {
+				"id": "2771fa643a794d1690bad971532b7a91",
+				"order": "a1"
+			},
+			"scriptName": "WaterGeom",
+			"type": "./Materials/WaterGeom#WaterGeom"
 		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",
@@ -472,6 +691,16 @@
 			},
 			"scriptName": "Teleport_Manager",
 			"type": "@zcomponent/three-webxr/lib/components/TeleportManager#TeleportManager"
+		},
+		"56044315920a4746af46d34228759e28": {
+			"id": "56044315920a4746af46d34228759e28",
+			"label": "SuspendedSolids",
+			"parent": {
+				"id": "2771fa643a794d1690bad971532b7a91",
+				"order": "a3"
+			},
+			"scriptName": "SuspendedSolids",
+			"type": "@zcomponent/particles/lib/components/prefabs/Sparkle#Sparkle"
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 			"id": "6ef7d30d3e044b6f806dac36e63a857d",
@@ -543,6 +772,16 @@
 			"scriptName": "Defaults",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
+		"7cfa6e6f029b41ddabb4b77606fa4b19": {
+			"id": "7cfa6e6f029b41ddabb4b77606fa4b19",
+			"label": "Fog",
+			"parent": {
+				"id": "2771fa643a794d1690bad971532b7a91",
+				"order": "a2"
+			},
+			"scriptName": "Fog",
+			"type": "./Materials/Fog#Fog"
+		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"id": "857f9901b65b42c89a3ff04470d70738",
 			"label": "DirectionalLight",
@@ -594,15 +833,25 @@
 			"scriptName": "Content_Group",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
-		"e299a9d47588449182eaedccae25ff84": {
-			"id": "e299a9d47588449182eaedccae25ff84",
-			"label": "Sky Environment",
+		"c01f2d6b83f840328924940130995ae9": {
+			"id": "c01f2d6b83f840328924940130995ae9",
+			"label": "Environment",
 			"parent": {
 				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a8"
+			},
+			"scriptName": "Environment",
+			"type": "@zcomponent/three/lib/components/Image360#Image360"
+		},
+		"e2d77bbed5ca445292509e55934a55e8": {
+			"id": "e2d77bbed5ca445292509e55934a55e8",
+			"label": "Plane",
+			"parent": {
+				"id": "6ef7d30d3e044b6f806dac36e63a857d",
 				"order": "a3"
 			},
-			"scriptName": "Sky_Environment",
-			"type": "@zcomponent/three/lib/components/environments/SkyEnvironment#SkyEnvironment"
+			"scriptName": "Plane",
+			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 			"id": "f3937ace1ef5478c9221e2cfc2453503",
