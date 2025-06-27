@@ -3,7 +3,12 @@ import { default as Button_zcomp } from "./Button/Button.zcomp";
 import { default as Scene} from "./Scene.zcomp";
 
 interface ConstructionProps {
-	// Add any constructor props you'd like for your behavior here
+    /** 
+     * @zui
+     * @zdefault "./AudioFiles/Placeholder_Audio.mp3"
+     * @zvalues files *.+(mp3|wav|ogg)
+     */
+    audioFileUrl: string;
 }
 
 /**
@@ -14,7 +19,6 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 	//protected zcomponent = this.getZComponentInstance(Scene);
 	private audioBuffer: AudioBuffer | null = null;
 	private audioContext: AudioContext;
-		
 
 	constructor(contextManager: ContextManager, instance: Button_zcomp, protected constructorProps: ConstructionProps) {
 		super(contextManager, instance);
@@ -23,7 +27,7 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 		this.audioContext = useAudioContext(contextManager);
 		
 		// Load the audio file
-		this.loadAudioFile();
+		//this.loadAudioFile();
 	
 		/*
 		// You can register handlers for events on the node that this behavior
@@ -50,9 +54,11 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 			
 			// Check if button name is "student" and play audio
 			if (buttonName.toLowerCase() === "student") {
-				this.playAudio();
+				//this.playAudio();
 				console.log('Button clicked2:', buttonName);
-				//this.loadAudioFile('./AudioFiles/Placeholder_Audio.mp3');
+				//'./AudioFiles/Placeholder_Audio.mp3'
+				//this.loadAudioFile(new URL(audioFileUrl, import.meta.url));
+				this.loadAudioFile(constructorProps.audioFileUrl);
 			}
 			
 			// Toggle between two messages
@@ -63,13 +69,13 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 		});
 	}
 
-	private async loadAudioFile() {
+	private async loadAudioFile(urlAudio : string) {
 		try {
-			const audioUrl = new URL('./AudioFiles/Placeholder_Audio.mp3', import.meta.url);
+			const audioUrl = urlAudio;
 			const response = await fetch(audioUrl);
 			const arrayBuffer = await response.arrayBuffer();
 			this.audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
-			//this.playAudio();
+			this.playAudio();
 		} catch (error) {
 			console.error('Error loading audio file:', error);
 		}
