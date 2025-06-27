@@ -231,6 +231,7 @@
 				0,
 				0
 			],
+			"fontSize": 0.08,
 			"position": [
 				0,
 				0,
@@ -240,6 +241,11 @@
 			"textAlign": "center"
 		},
 		"3b02e120b24a408b93f9c9f99e13b3e2": {
+			"scale": [
+				1.5,
+				1.5,
+				1
+			]
 		},
 		"6034150b23f14767a518f4dbbd6eddf4": {
 			"state": "0d74ce59a83c44c3aad2e99c047a9882"
