@@ -1,11 +1,34 @@
 {
 	"behaviors": {
+		"2f33489ac94b400eab5237d7a5310e63": {
+			"id": "2f33489ac94b400eab5237d7a5310e63",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "d8435c2a57614fb8a9aa6a327915232c",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"d6ba3ee58d2940b0a1217efc82e43ff4": {
+			"id": "d6ba3ee58d2940b0a1217efc82e43ff4",
+			"label": "UIHandler",
+			"parent": {
+				"id": "798a360ad851446d9660f1af4df93ed6",
+				"order": "a0",
+				"scriptName": "UIHandler"
+			},
+			"type": "./UIHandler#UIHandler"
+		}
 	},
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
+		},
+		"Button": {
+			"d8435c2a57614fb8a9aa6a327915232c": true
 		},
 		"Cone": {
 			"f6371bf08200415f82989d46101107a8": true
@@ -73,6 +96,12 @@
 		"Turn Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
 		},
+		"UI": {
+			"798a360ad851446d9660f1af4df93ed6": true
+		},
+		"UIDest": {
+			"dc9161d125ad43e1973f3758372ea425": true
+		},
 		"XR Camera": {
 			"775632eabbc64239a43055022b7eec57": true
 		},
@@ -92,6 +121,9 @@
 	"entitiesByScriptName": {
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
+		},
+		"Button": {
+			"d8435c2a57614fb8a9aa6a327915232c": true
 		},
 		"Cone": {
 			"f6371bf08200415f82989d46101107a8": true
@@ -156,6 +188,12 @@
 		"Turn_Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
 		},
+		"UI": {
+			"798a360ad851446d9660f1af4df93ed6": true
+		},
+		"UIDest": {
+			"dc9161d125ad43e1973f3758372ea425": true
+		},
 		"XRRigVR": {
 			"3dcbe0a17bd54d4280800b3c0bd6d592": true
 		},
@@ -181,6 +219,8 @@
 		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 			"startOnLaunch": "immersive-vr"
+		},
+		"2f33489ac94b400eab5237d7a5310e63": {
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"allowRightHandControllers": false,
@@ -215,6 +255,8 @@
 		},
 		"77a68218309245289c411d5da417fab9": {
 		},
+		"798a360ad851446d9660f1af4df93ed6": {
+		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
@@ -228,6 +270,12 @@
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
+		},
+		"d6ba3ee58d2940b0a1217efc82e43ff4": {
+		},
+		"d8435c2a57614fb8a9aa6a327915232c": {
+		},
+		"dc9161d125ad43e1973f3758372ea425": {
 		},
 		"e299a9d47588449182eaedccae25ff84": {
 			"showAtRunTime": true
@@ -291,7 +339,7 @@
 		"194aae695cba4b60a35c287f3e37fbcf": {
 			"position": [
 				-0.1055513644738793,
-				0.5440186145084411,
+				-0.11663048197507586,
 				-0.9610130066790821
 			],
 			"scale": [
@@ -303,16 +351,19 @@
 		"1e21fbd0bd844b4e8ace3882fd77f7081": {
 			"position": [
 				0,
-				1.6,
-				-2.01
+				0,
+				-0.01
 			],
 			"scale": [
-				2,
+				2.8,
 				0.5,
 				1
-			]
+			],
+			"visible": true
 		},
 		"258fc0c2787d4893a7ac1159175551c7": {
+		},
+		"2f33489ac94b400eab5237d7a5310e63": {
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"position": [
@@ -329,6 +380,11 @@
 			]
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
+			"position": [
+				0,
+				0,
+				0
+			]
 		},
 		"447cc0729afa4e058705e71aa9939d771": {
 			"color": [
@@ -377,6 +433,13 @@
 				0.2
 			]
 		},
+		"798a360ad851446d9660f1af4df93ed6": {
+			"position": [
+				0,
+				1.32424603561034,
+				-2
+			]
+		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
@@ -418,9 +481,9 @@
 			"fontSize": 0.2,
 			"outlineOpacity": 1,
 			"position": [
+				-0.38466350102934016,
 				0,
-				1.6,
-				-2
+				0
 			],
 			"strokeOpacity": 1,
 			"text": "hello player"
@@ -428,6 +491,22 @@
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
+		},
+		"d6ba3ee58d2940b0a1217efc82e43ff4": {
+		},
+		"d8435c2a57614fb8a9aa6a327915232c": {
+			"position": [
+				0.8001332387211675,
+				0,
+				0
+			]
+		},
+		"dc9161d125ad43e1973f3758372ea425": {
+			"position": [
+				0,
+				0,
+				-2
+			]
 		},
 		"e299a9d47588449182eaedccae25ff84": {
 			"azimuth": 0.478515625,
@@ -474,8 +553,8 @@
 			"id": "1e21fbd0bd844b4e8ace3882fd77f7081",
 			"label": "Text Background",
 			"parent": {
-				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
-				"order": "ZyV"
+				"id": "798a360ad851446d9660f1af4df93ed6",
+				"order": "Zz"
 			},
 			"scriptName": "Text_Background",
 			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
@@ -620,6 +699,16 @@
 			"scriptName": "Sphere",
 			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
 		},
+		"798a360ad851446d9660f1af4df93ed6": {
+			"id": "798a360ad851446d9660f1af4df93ed6",
+			"label": "UI",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "UI",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 			"id": "7b6fb4d895774174b5d151eec86b704c",
 			"label": "Defaults",
@@ -664,8 +753,8 @@
 			"id": "b3b8b1eaba504578a54e472a84c5fdbe1",
 			"label": "Hello Text",
 			"parent": {
-				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
-				"order": "Zy"
+				"id": "798a360ad851446d9660f1af4df93ed6",
+				"order": "a0"
 			},
 			"scriptName": "Hello_Text",
 			"type": "@zcomponent/three/lib/components/text/Text#Text"
@@ -689,6 +778,26 @@
 				"order": "Zx"
 			},
 			"scriptName": "Content_Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"d8435c2a57614fb8a9aa6a327915232c": {
+			"id": "d8435c2a57614fb8a9aa6a327915232c",
+			"label": "Button",
+			"parent": {
+				"id": "798a360ad851446d9660f1af4df93ed6",
+				"order": "a1"
+			},
+			"scriptName": "Button",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"dc9161d125ad43e1973f3758372ea425": {
+			"id": "dc9161d125ad43e1973f3758372ea425",
+			"label": "UIDest",
+			"parent": {
+				"id": "775632eabbc64239a43055022b7eec57",
+				"order": "a0"
+			},
+			"scriptName": "UIDest",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"e299a9d47588449182eaedccae25ff84": {
