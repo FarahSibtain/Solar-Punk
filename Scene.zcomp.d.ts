@@ -22,6 +22,9 @@ import { XRCamera as XRCamera_18 } from "@zcomponent/three-webxr/lib/components/
 import { XRDefaultLoader as XRDefaultLoader_19 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
 import { XRManager as XRManager_20 } from "@zcomponent/three-webxr/lib/components/XRManager";
 import { Audio as Audio_21 } from "@zcomponent/core/lib/components/Audio";
+import { ParticleEmitter as ParticleEmitter_22 } from "@zcomponent/particles/lib/components/ParticleEmitter";
+import { EmitterTexture as EmitterTexture_23 } from "@zcomponent/particles/lib/components/EmitterTexture";
+import { Sparkle as Sparkle_24 } from "@zcomponent/particles/lib/components/prefabs/Sparkle";
 
 interface ConstructorProps {
 
@@ -172,6 +175,21 @@ declare class Comp extends ZComponent {
 			}
 		},
 		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_21 & {
+			behaviors: {
+
+			}
+		},
+		Particle_Emitter: ParticleEmitter_22 & {
+			behaviors: {
+
+			}
+		},
+		Emitter_Texture: EmitterTexture_23 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids: Sparkle_24 & {
 			behaviors: {
 
 			}

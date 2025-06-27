@@ -28,6 +28,9 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Emitter Texture": {
+			"3bed991cf9894067809aba2b9af97e23": true
+		},
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
@@ -52,6 +55,9 @@
 		"MeshStandardMaterial 2": {
 			"aca73192c64842aba2138a6c01994452": true
 		},
+		"Particle Emitter": {
+			"08f53b8663c1471fb9c2d982c63b62aa": true
+		},
 		"Plane": {
 			"e2d77bbed5ca445292509e55934a55e8": true
 		},
@@ -63,6 +69,9 @@
 		},
 		"Sphere": {
 			"77a68218309245289c411d5da417fab9": true
+		},
+		"SuspendedSolids": {
+			"56044315920a4746af46d34228759e28": true
 		},
 		"Teleport Manager": {
 			"54a3fe42df61491d805d50af10399810": true
@@ -117,6 +126,9 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Emitter_Texture": {
+			"3bed991cf9894067809aba2b9af97e23": true
+		},
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
@@ -138,6 +150,9 @@
 		"Mesh_GroupDeleteMe0": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
 		},
+		"Particle_Emitter": {
+			"08f53b8663c1471fb9c2d982c63b62aa": true
+		},
 		"Plane": {
 			"e2d77bbed5ca445292509e55934a55e8": true
 		},
@@ -149,6 +164,9 @@
 		},
 		"Sphere": {
 			"77a68218309245289c411d5da417fab9": true
+		},
+		"SuspendedSolids": {
+			"56044315920a4746af46d34228759e28": true
 		},
 		"Teleport_Manager": {
 			"54a3fe42df61491d805d50af10399810": true
@@ -179,6 +197,9 @@
 		}
 	},
 	"entityConstructorProps": {
+		"08f53b8663c1471fb9c2d982c63b62aa": {
+			"maxAgeValue": 2
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
@@ -197,6 +218,9 @@
 			"allowRightHandControllers": true,
 			"allowUnspecifiedHandControllers": true
 		},
+		"3bed991cf9894067809aba2b9af97e23": {
+			"source": "file://./Images/dust.png"
+		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
@@ -206,6 +230,8 @@
 		"547097f646a54d39aa1706d0ba7c7ef8": {
 		},
 		"54a3fe42df61491d805d50af10399810": {
+		},
+		"56044315920a4746af46d34228759e28": {
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
@@ -296,6 +322,69 @@
 		}
 	},
 	"entityProps": {
+		"08f53b8663c1471fb9c2d982c63b62aa": {
+			"accelerationSpread": [
+				0.05,
+				0,
+				0.05
+			],
+			"accelerationValue": [
+				0,
+				-0.02,
+				0
+			],
+			"colorEnd": [
+				0.12743768042608497,
+				0.12743768042608497,
+				0.12743768042608497
+			],
+			"colorMidEnd": [
+				0.22322795730611386,
+				0.22322795730611386,
+				0.22322795730611386
+			],
+			"colorMidStart": [
+				0.3515325994898463,
+				0.3515325994898463,
+				0.3515325994898463
+			],
+			"colorStart": [
+				0.5775804404214573,
+				0.5775804404214573,
+				0.5775804404214573
+			],
+			"positionSpread": [
+				2,
+				2,
+				2
+			],
+			"positionValue": [
+				0,
+				1,
+				0
+			],
+			"rotationAngle": 0,
+			"sizeSpread": [
+				0.005,
+				0.005,
+				0.005
+			],
+			"sizeValue": [
+				0.006,
+				0.006,
+				0.006
+			],
+			"velocitySpread": [
+				0,
+				0,
+				0
+			],
+			"velocityValue": [
+				0,
+				0,
+				0
+			]
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
@@ -328,6 +417,8 @@
 				0
 			]
 		},
+		"3bed991cf9894067809aba2b9af97e23": {
+		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
@@ -357,6 +448,21 @@
 			"roughness": 0.492606026785714
 		},
 		"54a3fe42df61491d805d50af10399810": {
+			"visible": true
+		},
+		"56044315920a4746af46d34228759e28": {
+			"castShadow": false,
+			"position": [
+				0,
+				0,
+				0
+			],
+			"receiveShadow": false,
+			"scale": [
+				1,
+				1,
+				1
+			],
 			"visible": true
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
@@ -456,6 +562,16 @@
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
 	"nodes": {
+		"08f53b8663c1471fb9c2d982c63b62aa": {
+			"id": "08f53b8663c1471fb9c2d982c63b62aa",
+			"label": "Particle Emitter",
+			"parent": {
+				"id": "56044315920a4746af46d34228759e28",
+				"order": "a0"
+			},
+			"scriptName": "Particle_Emitter",
+			"type": "@zcomponent/particles/lib/components/ParticleEmitter#ParticleEmitter"
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 			"id": "0ba8e27369df45ca897731dcb1e39bcf",
 			"label": "DefaultCookieConsent",
@@ -516,6 +632,16 @@
 			"scriptName": "Right_Controller",
 			"type": "@zcomponent/three-webxr/lib/components/XRController#XRController"
 		},
+		"3bed991cf9894067809aba2b9af97e23": {
+			"id": "3bed991cf9894067809aba2b9af97e23",
+			"label": "Emitter Texture",
+			"parent": {
+				"id": "56044315920a4746af46d34228759e28",
+				"order": "a1"
+			},
+			"scriptName": "Emitter_Texture",
+			"type": "@zcomponent/particles/lib/components/EmitterTexture#EmitterTexture"
+		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 			"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
 			"label": "XRRigVR",
@@ -565,6 +691,16 @@
 			},
 			"scriptName": "Teleport_Manager",
 			"type": "@zcomponent/three-webxr/lib/components/TeleportManager#TeleportManager"
+		},
+		"56044315920a4746af46d34228759e28": {
+			"id": "56044315920a4746af46d34228759e28",
+			"label": "SuspendedSolids",
+			"parent": {
+				"id": "2771fa643a794d1690bad971532b7a91",
+				"order": "a3"
+			},
+			"scriptName": "SuspendedSolids",
+			"type": "@zcomponent/particles/lib/components/prefabs/Sparkle#Sparkle"
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 			"id": "6ef7d30d3e044b6f806dac36e63a857d",
