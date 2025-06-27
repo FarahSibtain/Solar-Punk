@@ -100,6 +100,7 @@ export class WaterGeom extends Group {
       waterNormals: waterNormals,
       waterColor: 0x0b5394,
       distortionScale: 0.7,
+      fog: false,
     });
 
     this.water.rotation.x = -Math.PI / 2;

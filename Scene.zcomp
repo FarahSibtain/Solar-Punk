@@ -31,6 +31,9 @@
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
+		"Fog": {
+			"7cfa6e6f029b41ddabb4b77606fa4b19": true
+		},
 		"Group": {
 			"root": true
 		},
@@ -48,6 +51,9 @@
 		},
 		"MeshStandardMaterial 2": {
 			"aca73192c64842aba2138a6c01994452": true
+		},
+		"Plane": {
+			"e2d77bbed5ca445292509e55934a55e8": true
 		},
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
@@ -114,6 +120,9 @@
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
+		"Fog": {
+			"7cfa6e6f029b41ddabb4b77606fa4b19": true
+		},
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -128,6 +137,9 @@
 		},
 		"Mesh_GroupDeleteMe0": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
+		},
+		"Plane": {
+			"e2d77bbed5ca445292509e55934a55e8": true
 		},
 		"Right_Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
@@ -211,6 +223,9 @@
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
+		"7cfa6e6f029b41ddabb4b77606fa4b19": {
+			"excludeImage360": true
+		},
 		"857f9901b65b42c89a3ff04470d70738": {
 		},
 		"8602fb46317c411d85f2649e8162aff6": {
@@ -224,6 +239,8 @@
 		"c01f2d6b83f840328924940130995ae9": {
 			"radius": 500,
 			"source": "file://./Images/underwater_hdri.jpg"
+		},
+		"e2d77bbed5ca445292509e55934a55e8": {
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 			"height": 3,
@@ -283,9 +300,9 @@
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 			"position": [
-				-0.1055513644738793,
+				0.2907922476287057,
 				0.15168311653813327,
-				-0.9610130066790821
+				-0.2990347563592395
 			],
 			"scale": [
 				0.3,
@@ -314,11 +331,13 @@
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
+			"castShadow": false,
 			"position": [
 				0,
 				10,
 				0
 			],
+			"receiveShadow": false,
 			"rotation": [
 				3.141592653589793,
 				0,
@@ -353,9 +372,9 @@
 		},
 		"77a68218309245289c411d5da417fab9": {
 			"position": [
-				0.2071166689187388,
+				0.7352863943136483,
 				0.19534313787252522,
-				-1.2802878999174174
+				-0.7134287946774254
 			],
 			"scale": [
 				0.2,
@@ -364,6 +383,9 @@
 			]
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
+		},
+		"7cfa6e6f029b41ddabb4b77606fa4b19": {
+			"visible": true
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"castShadow": true,
@@ -399,6 +421,23 @@
 			"castShadow": false,
 			"receiveShadow": false,
 			"visible": true
+		},
+		"e2d77bbed5ca445292509e55934a55e8": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				-1.5707963267948966,
+				0,
+				0
+			],
+			"scale": [
+				50,
+				50,
+				1
+			]
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 		},
@@ -597,6 +636,16 @@
 			"scriptName": "Defaults",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
+		"7cfa6e6f029b41ddabb4b77606fa4b19": {
+			"id": "7cfa6e6f029b41ddabb4b77606fa4b19",
+			"label": "Fog",
+			"parent": {
+				"id": "2771fa643a794d1690bad971532b7a91",
+				"order": "a2"
+			},
+			"scriptName": "Fog",
+			"type": "./Materials/Fog#Fog"
+		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"id": "857f9901b65b42c89a3ff04470d70738",
 			"label": "DirectionalLight",
@@ -657,6 +706,16 @@
 			},
 			"scriptName": "Environment",
 			"type": "@zcomponent/three/lib/components/Image360#Image360"
+		},
+		"e2d77bbed5ca445292509e55934a55e8": {
+			"id": "e2d77bbed5ca445292509e55934a55e8",
+			"label": "Plane",
+			"parent": {
+				"id": "6ef7d30d3e044b6f806dac36e63a857d",
+				"order": "a3"
+			},
+			"scriptName": "Plane",
+			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 			"id": "f3937ace1ef5478c9221e2cfc2453503",
