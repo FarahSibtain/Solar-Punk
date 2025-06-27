@@ -16,6 +16,9 @@
 		"Content Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
 		},
+		"DeathZoneAudio": {
+			"fb24afb3dfa546b79edb9d2e0553996c": true
+		},
 		"DefaultCookieConsent": {
 			"0ba8e27369df45ca897731dcb1e39bcf": true
 		},
@@ -113,6 +116,9 @@
 		},
 		"Content_Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
+		},
+		"DeathZoneAudio": {
+			"fb24afb3dfa546b79edb9d2e0553996c": true
 		},
 		"DefaultCookieConsent": {
 			"0ba8e27369df45ca897731dcb1e39bcf": true
@@ -273,6 +279,11 @@
 			"radialSegments": 112
 		},
 		"f6371bf08200415f82989d46101107a8": {
+		},
+		"fb24afb3dfa546b79edb9d2e0553996c": {
+			"audioLayer": "",
+			"autoplay": true,
+			"source": "file://./Audio/death-zone.mp3"
 		}
 	},
 	"entityPropOverrides": {
@@ -558,6 +569,8 @@
 				0.2,
 				0.2
 			]
+		},
+		"fb24afb3dfa546b79edb9d2e0553996c": {
 		}
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
@@ -872,6 +885,16 @@
 			},
 			"scriptName": "Cone",
 			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
+		},
+		"fb24afb3dfa546b79edb9d2e0553996c": {
+			"id": "fb24afb3dfa546b79edb9d2e0553996c",
+			"label": "DeathZoneAudio",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a9"
+			},
+			"scriptName": "DeathZoneAudio",
+			"type": "@zcomponent/core/lib/components/Audio#Audio"
 		},
 		"root": {
 			"id": "root",

@@ -7,24 +7,24 @@ import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
 import { DefaultCookieConsent as DefaultCookieConsent_4 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
 import { DefaultLoader as DefaultLoader_5 } from "@zcomponent/core/lib/components/DefaultLoader";
 import { DirectionalLight as DirectionalLight_6 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { Image360 as Image360_7 } from "@zcomponent/three/lib/components/Image360";
-import { Fog as Fog_8 } from "./Materials/Fog";
-import { XRController as XRController_9 } from "@zcomponent/three-webxr/lib/components/XRController";
-import { MeshStandardMaterial as MeshStandardMaterial_10 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
-import { Plane as Plane_11 } from "@zcomponent/three/lib/components/meshes/Plane";
-import { ShadowPlane as ShadowPlane_12 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { Sphere as Sphere_13 } from "@zcomponent/three/lib/components/meshes/Sphere";
-import { TeleportManager as TeleportManager_14 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
-import { TurnManager as TurnManager_15 } from "@zcomponent/three-webxr/lib/components/TurnManager";
-import { WaterGeom as WaterGeom_16 } from "./Materials/WaterGeom";
-import { XRRigVR as XRRigVR_17 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { XRCamera as XRCamera_18 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_19 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_20 } from "@zcomponent/three-webxr/lib/components/XRManager";
-import { Audio as Audio_21 } from "@zcomponent/core/lib/components/Audio";
-import { ParticleEmitter as ParticleEmitter_22 } from "@zcomponent/particles/lib/components/ParticleEmitter";
-import { EmitterTexture as EmitterTexture_23 } from "@zcomponent/particles/lib/components/EmitterTexture";
-import { Sparkle as Sparkle_24 } from "@zcomponent/particles/lib/components/prefabs/Sparkle";
+import { EmitterTexture as EmitterTexture_7 } from "@zcomponent/particles/lib/components/EmitterTexture";
+import { Image360 as Image360_8 } from "@zcomponent/three/lib/components/Image360";
+import { Fog as Fog_9 } from "./Materials/Fog";
+import { XRController as XRController_10 } from "@zcomponent/three-webxr/lib/components/XRController";
+import { MeshStandardMaterial as MeshStandardMaterial_11 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { ParticleEmitter as ParticleEmitter_12 } from "@zcomponent/particles/lib/components/ParticleEmitter";
+import { Plane as Plane_13 } from "@zcomponent/three/lib/components/meshes/Plane";
+import { ShadowPlane as ShadowPlane_14 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { Sphere as Sphere_15 } from "@zcomponent/three/lib/components/meshes/Sphere";
+import { Sparkle as Sparkle_16 } from "@zcomponent/particles/lib/components/prefabs/Sparkle";
+import { TeleportManager as TeleportManager_17 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
+import { TurnManager as TurnManager_18 } from "@zcomponent/three-webxr/lib/components/TurnManager";
+import { WaterGeom as WaterGeom_19 } from "./Materials/WaterGeom";
+import { XRRigVR as XRRigVR_20 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
+import { XRCamera as XRCamera_21 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_22 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_23 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { Audio as Audio_24 } from "@zcomponent/core/lib/components/Audio";
 
 interface ConstructorProps {
 
@@ -79,32 +79,37 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Environment: Image360_7 & {
+		Emitter_Texture: EmitterTexture_7 & {
 			behaviors: {
 
 			}
 		},
-		Fog: Fog_8 & {
+		Environment: Image360_8 & {
 			behaviors: {
 
 			}
 		},
-		Left_Controller: XRController_9 & {
+		Fog: Fog_9 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial: MeshStandardMaterial_10 & {
+		Left_Controller: XRController_10 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial0: MeshStandardMaterial_10 & {
+		MeshStandardMaterial: MeshStandardMaterial_11 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial_2: MeshStandardMaterial_10 & {
+		MeshStandardMaterial0: MeshStandardMaterial_11 & {
+			behaviors: {
+
+			}
+		},
+		MeshStandardMaterial_2: MeshStandardMaterial_11 & {
 			behaviors: {
 
 			}
@@ -114,32 +119,42 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Plane: Plane_11 & {
+		Particle_Emitter: ParticleEmitter_12 & {
 			behaviors: {
 
 			}
 		},
-		Right_Controller: XRController_9 & {
+		Plane: Plane_13 & {
 			behaviors: {
 
 			}
 		},
-		ShadowPlane: ShadowPlane_12 & {
+		Right_Controller: XRController_10 & {
 			behaviors: {
 
 			}
 		},
-		Sphere: Sphere_13 & {
+		ShadowPlane: ShadowPlane_14 & {
 			behaviors: {
 
 			}
 		},
-		Teleport_Manager: TeleportManager_14 & {
+		Sphere: Sphere_15 & {
 			behaviors: {
 
 			}
 		},
-		Turn_Manager: TurnManager_15 & {
+		SuspendedSolids: Sparkle_16 & {
+			behaviors: {
+
+			}
+		},
+		Teleport_Manager: TeleportManager_17 & {
+			behaviors: {
+
+			}
+		},
+		Turn_Manager: TurnManager_18 & {
 			behaviors: {
 
 			}
@@ -149,47 +164,37 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		WaterGeom: WaterGeom_16 & {
+		WaterGeom: WaterGeom_19 & {
 			behaviors: {
 
 			}
 		},
-		XRRigVR: XRRigVR_17 & {
+		XRRigVR: XRRigVR_20 & {
 			behaviors: {
 
 			}
 		},
-		XR_Camera: XRCamera_18 & {
+		XR_Camera: XRCamera_21 & {
 			behaviors: {
 
 			}
 		},
-		XR_DefaultLoader: XRDefaultLoader_19 & {
+		XR_DefaultLoader: XRDefaultLoader_22 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_20 & {
+		XR_Manager: XRManager_23 & {
 			behaviors: {
 
 			}
 		},
-		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_21 & {
+		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_24 & {
 			behaviors: {
 
 			}
 		},
-		Particle_Emitter: ParticleEmitter_22 & {
-			behaviors: {
-
-			}
-		},
-		Emitter_Texture: EmitterTexture_23 & {
-			behaviors: {
-
-			}
-		},
-		SuspendedSolids: Sparkle_24 & {
+		DeathZoneAudio: Audio_24 & {
 			behaviors: {
 
 			}
