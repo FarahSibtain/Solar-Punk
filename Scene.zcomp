@@ -28,6 +28,9 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Environment": {
+			"c01f2d6b83f840328924940130995ae9": true
+		},
 		"Group": {
 			"root": true
 		},
@@ -51,9 +54,6 @@
 		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
-		},
-		"Sky Environment": {
-			"e299a9d47588449182eaedccae25ff84": true
 		},
 		"Sphere": {
 			"77a68218309245289c411d5da417fab9": true
@@ -105,6 +105,9 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Environment": {
+			"c01f2d6b83f840328924940130995ae9": true
+		},
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -125,9 +128,6 @@
 		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
-		},
-		"Sky_Environment": {
-			"e299a9d47588449182eaedccae25ff84": true
 		},
 		"Sphere": {
 			"77a68218309245289c411d5da417fab9": true
@@ -205,8 +205,9 @@
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 		},
-		"e299a9d47588449182eaedccae25ff84": {
-			"showAtRunTime": true
+		"c01f2d6b83f840328924940130995ae9": {
+			"radius": 500,
+			"source": "file://./Images/underwater_hdri.jpg"
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 			"height": 3,
@@ -306,6 +307,7 @@
 			"roughness": 0.492606026785714
 		},
 		"54a3fe42df61491d805d50af10399810": {
+			"visible": true
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
@@ -362,9 +364,10 @@
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 		},
-		"e299a9d47588449182eaedccae25ff84": {
-			"azimuth": 0.478515625,
-			"elevation": 0.0513392857142857
+		"c01f2d6b83f840328924940130995ae9": {
+			"castShadow": false,
+			"receiveShadow": false,
+			"visible": true
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 		},
@@ -594,15 +597,15 @@
 			"scriptName": "Content_Group",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
-		"e299a9d47588449182eaedccae25ff84": {
-			"id": "e299a9d47588449182eaedccae25ff84",
-			"label": "Sky Environment",
+		"c01f2d6b83f840328924940130995ae9": {
+			"id": "c01f2d6b83f840328924940130995ae9",
+			"label": "Environment",
 			"parent": {
 				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a3"
+				"order": "a8"
 			},
-			"scriptName": "Sky_Environment",
-			"type": "@zcomponent/three/lib/components/environments/SkyEnvironment#SkyEnvironment"
+			"scriptName": "Environment",
+			"type": "@zcomponent/three/lib/components/Image360#Image360"
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 			"id": "f3937ace1ef5478c9221e2cfc2453503",

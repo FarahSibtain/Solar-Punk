@@ -10,15 +10,15 @@ import { DirectionalLight as DirectionalLight_6 } from "@zcomponent/three/lib/co
 import { XRController as XRController_7 } from "@zcomponent/three-webxr/lib/components/XRController";
 import { MeshStandardMaterial as MeshStandardMaterial_8 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
 import { ShadowPlane as ShadowPlane_9 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { SkyEnvironment as SkyEnvironment_10 } from "@zcomponent/three/lib/components/environments/SkyEnvironment";
-import { Sphere as Sphere_11 } from "@zcomponent/three/lib/components/meshes/Sphere";
-import { TeleportManager as TeleportManager_12 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
-import { TurnManager as TurnManager_13 } from "@zcomponent/three-webxr/lib/components/TurnManager";
-import { XRRigVR as XRRigVR_14 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { XRCamera as XRCamera_15 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_16 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_17 } from "@zcomponent/three-webxr/lib/components/XRManager";
-import { Audio as Audio_18 } from "@zcomponent/core/lib/components/Audio";
+import { Sphere as Sphere_10 } from "@zcomponent/three/lib/components/meshes/Sphere";
+import { TeleportManager as TeleportManager_11 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
+import { TurnManager as TurnManager_12 } from "@zcomponent/three-webxr/lib/components/TurnManager";
+import { XRRigVR as XRRigVR_13 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
+import { XRCamera as XRCamera_14 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_15 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_16 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { Audio as Audio_17 } from "@zcomponent/core/lib/components/Audio";
+import { Image360 as Image360_18 } from "@zcomponent/three/lib/components/Image360";
 
 interface ConstructorProps {
 
@@ -108,47 +108,47 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Sky_Environment: SkyEnvironment_10 & {
+		Sphere: Sphere_10 & {
 			behaviors: {
 
 			}
 		},
-		Sphere: Sphere_11 & {
+		Teleport_Manager: TeleportManager_11 & {
 			behaviors: {
 
 			}
 		},
-		Teleport_Manager: TeleportManager_12 & {
+		Turn_Manager: TurnManager_12 & {
 			behaviors: {
 
 			}
 		},
-		Turn_Manager: TurnManager_13 & {
+		XRRigVR: XRRigVR_13 & {
 			behaviors: {
 
 			}
 		},
-		XRRigVR: XRRigVR_14 & {
+		XR_Camera: XRCamera_14 & {
 			behaviors: {
 
 			}
 		},
-		XR_Camera: XRCamera_15 & {
+		XR_DefaultLoader: XRDefaultLoader_15 & {
 			behaviors: {
 
 			}
 		},
-		XR_DefaultLoader: XRDefaultLoader_16 & {
+		XR_Manager: XRManager_16 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_17 & {
+		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_17 & {
 			behaviors: {
 
 			}
 		},
-		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_18 & {
+		Environment: Image360_18 & {
 			behaviors: {
 
 			}
