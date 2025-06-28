@@ -29,7 +29,7 @@ export class TeleportDistanceRestrictor extends Behavior<TeleportManager> {
 	private xrContext: XRContext;
 	private startPosition = new Vector3();
 	private currentPosition = new Vector3();
-	private isInitialized = false;
+	private isTeleporting = false;
 
 	constructor(contextManager: ContextManager, instance: TeleportManager, protected constructorProps: ConstructionProps) {
 		super(contextManager, instance);
@@ -40,24 +40,24 @@ export class TeleportDistanceRestrictor extends Behavior<TeleportManager> {
 		// Get reference to XR Context
 		this.xrContext = contextManager.get(XRContext);
 
-		// Initialize starting position once we have the XR rig
-		if (this.xrContext && this.xrContext.offsetPosition) {
-			const pos = this.xrContext.offsetPosition.value;
-			this.startPosition.set(pos[0], pos[1], pos[2]);
-			this.isInitialized = true;
-		}
-
 		// Monitor position changes every frame
 		this.register(useOnBeforeRender(this.contextManager), () => {
-			if (!this.isInitialized && this.xrContext && this.xrContext.offsetPosition) {
-				// Initialize starting position if not done yet
+			if (this.xrContext && this.xrContext.offsetPosition && this.isTeleporting) {
+				// Initialize starting position
 				const pos = this.xrContext.offsetPosition.value;
 				this.startPosition.set(pos[0], pos[1], pos[2]);
-				this.isInitialized = true;
-				return;
 			}
+		});
 
-			if (this.isInitialized && this.xrContext && this.xrContext.offsetPosition) {
+		// Track teleport start/end to know when preview is active
+		this.register(this.instance.onTeleportStart, () => {
+			this.isTeleporting = true;
+		});
+
+		this.register(this.instance.onTeleportEnd, () => {
+			this.isTeleporting = false;
+
+			if (this.xrContext && this.xrContext.offsetPosition) {
 				const pos = this.xrContext.offsetPosition.value;
 				this.currentPosition.set(pos[0], pos[1], pos[2]);
 
@@ -85,13 +85,6 @@ export class TeleportDistanceRestrictor extends Behavior<TeleportManager> {
 					];
 				}
 			}
-		});
-
-		// Add debug logging to see if events are firing
-		this.register(this.instance.onTeleportStart, () => {
-		});
-
-		this.register(this.instance.onTeleportEnd, () => {
 		});
 	}
 

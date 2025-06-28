@@ -608,6 +608,7 @@
 				0.8,
 				1
 			],
+			"fog": false,
 			"opacity": 0.7,
 			"transparent": true
 		},
@@ -631,6 +632,7 @@
 				1,
 				0.2
 			],
+			"fog": false,
 			"opacity": 0.8,
 			"transparent": true
 		},
