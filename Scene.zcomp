@@ -1,5 +1,15 @@
 {
 	"behaviors": {
+		"da5157961c6845c1afae6f715af252b5": {
+			"id": "da5157961c6845c1afae6f715af252b5",
+			"label": "TeleportDistanceRestrictor",
+			"parent": {
+				"id": "54a3fe42df61491d805d50af10399810",
+				"order": "a0",
+				"scriptName": "TeleportDistanceRestrictor"
+			},
+			"type": "./TeleportDistanceRestrictor.ts#TeleportDistanceRestrictor"
+		}
 	},
 	"constructorProps": {
 	},
@@ -334,6 +344,8 @@
 			"radius": 500,
 			"source": "file://./Images/underwater_hdri.jpg"
 		},
+		"da5157961c6845c1afae6f715af252b5": {
+		},
 		"e2d77bbed5ca445292509e55934a55e8": {
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
@@ -656,6 +668,8 @@
 			"castShadow": false,
 			"receiveShadow": false,
 			"visible": true
+		},
+		"da5157961c6845c1afae6f715af252b5": {
 		},
 		"e2d77bbed5ca445292509e55934a55e8": {
 			"position": [

@@ -19,15 +19,16 @@ import { ShadowPlane as ShadowPlane_15 } from "@zcomponent/three/lib/components/
 import { Sphere as Sphere_16 } from "@zcomponent/three/lib/components/meshes/Sphere";
 import { Sparkle as Sparkle_17 } from "@zcomponent/particles/lib/components/prefabs/Sparkle";
 import { TeleportManager as TeleportManager_18 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
-import { TurnManager as TurnManager_19 } from "@zcomponent/three-webxr/lib/components/TurnManager";
-import { WaterGeom as WaterGeom_20 } from "./Materials/WaterGeom";
-import { XRRigVR as XRRigVR_21 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { XRCamera as XRCamera_22 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_23 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_24 } from "@zcomponent/three-webxr/lib/components/XRManager";
-import { WalkManager as WalkManager_25 } from "@zcomponent/three-webxr/lib/components/WalkManager";
-import { RingGeometry as RingGeometry_26 } from "@zcomponent/three/lib/components/geometries/RingGeometry";
-import { MeshBasicMaterial as MeshBasicMaterial_27 } from "@zcomponent/three/lib/components/materials/MeshBasicMaterial";
+import { TeleportDistanceRestrictor as TeleportDistanceRestrictor_19 } from "./TeleportDistanceRestrictor";
+import { TurnManager as TurnManager_20 } from "@zcomponent/three-webxr/lib/components/TurnManager";
+import { WaterGeom as WaterGeom_21 } from "./Materials/WaterGeom";
+import { XRRigVR as XRRigVR_22 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
+import { XRCamera as XRCamera_23 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_24 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_25 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { WalkManager as WalkManager_26 } from "@zcomponent/three-webxr/lib/components/WalkManager";
+import { RingGeometry as RingGeometry_27 } from "@zcomponent/three/lib/components/geometries/RingGeometry";
+import { MeshBasicMaterial as MeshBasicMaterial_28 } from "@zcomponent/three/lib/components/materials/MeshBasicMaterial";
 
 interface ConstructorProps {
 
@@ -159,10 +160,11 @@ declare class Comp extends ZComponent {
 		},
 		Teleport_Manager: TeleportManager_18 & {
 			behaviors: {
-
+				0: TeleportDistanceRestrictor_19,
+				TeleportDistanceRestrictor: TeleportDistanceRestrictor_19,
 			}
 		},
-		Turn_Manager: TurnManager_19 & {
+		Turn_Manager: TurnManager_20 & {
 			behaviors: {
 
 			}
@@ -172,27 +174,27 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		WaterGeom: WaterGeom_20 & {
+		WaterGeom: WaterGeom_21 & {
 			behaviors: {
 
 			}
 		},
-		XRRigVR: XRRigVR_21 & {
+		XRRigVR: XRRigVR_22 & {
 			behaviors: {
 
 			}
 		},
-		XR_Camera: XRCamera_22 & {
+		XR_Camera: XRCamera_23 & {
 			behaviors: {
 
 			}
 		},
-		XR_DefaultLoader: XRDefaultLoader_23 & {
+		XR_DefaultLoader: XRDefaultLoader_24 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_24 & {
+		XR_Manager: XRManager_25 & {
 			behaviors: {
 
 			}
@@ -202,7 +204,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Walk_Manager: WalkManager_25 & {
+		Walk_Manager: WalkManager_26 & {
 			behaviors: {
 
 			}
@@ -212,12 +214,12 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Ring_Geometry: RingGeometry_26 & {
+		Ring_Geometry: RingGeometry_27 & {
 			behaviors: {
 
 			}
 		},
-		Ring_Material: MeshBasicMaterial_27 & {
+		Ring_Material: MeshBasicMaterial_28 & {
 			behaviors: {
 
 			}
@@ -232,7 +234,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Arrow_Material: MeshBasicMaterial_27 & {
+		Arrow_Material: MeshBasicMaterial_28 & {
 			behaviors: {
 
 			}
