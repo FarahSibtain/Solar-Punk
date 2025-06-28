@@ -63,48 +63,49 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Box: Box_2 & {
+		ButtonBillionaire: Button_zcomp_2 & {
 			behaviors: {
-
+				0: MyButtonBehaviour_3,
+				MyButtonBehaviour: MyButtonBehaviour_3,
 			}
 		},
-		ButtonBillionaire: Button_zcomp_3 & {
+		ButtonCAP: Button_zcomp_2 & {
 			behaviors: {
-				0: MyButtonBehaviour_4,
-				MyButtonBehaviour: MyButtonBehaviour_4,
+				0: MyButtonBehaviour_3,
+				MyButtonBehaviour: MyButtonBehaviour_3,
 			}
 		},
-		ButtonCAP: Button_zcomp_3 & {
+		ButtonEP: Button_zcomp_2 & {
 			behaviors: {
-				0: MyButtonBehaviour_4,
-				MyButtonBehaviour: MyButtonBehaviour_4,
+				0: MyButtonBehaviour_3,
+				MyButtonBehaviour: MyButtonBehaviour_3,
 			}
 		},
-		ButtonEP: Button_zcomp_3 & {
+		ButtonEduP: Button_zcomp_2 & {
 			behaviors: {
-				0: MyButtonBehaviour_4,
-				MyButtonBehaviour: MyButtonBehaviour_4,
+				0: MyButtonBehaviour_3,
+				MyButtonBehaviour: MyButtonBehaviour_3,
 			}
 		},
-		ButtonEduP: Button_zcomp_3 & {
+		ButtonGP: Button_zcomp_2 & {
 			behaviors: {
-				0: MyButtonBehaviour_4,
-				MyButtonBehaviour: MyButtonBehaviour_4,
+				0: MyButtonBehaviour_3,
+				MyButtonBehaviour: MyButtonBehaviour_3,
 			}
 		},
-		ButtonGP: Button_zcomp_3 & {
+		ButtonHP: Button_zcomp_2 & {
 			behaviors: {
-				0: MyButtonBehaviour_4,
-				MyButtonBehaviour: MyButtonBehaviour_4,
+				0: MyButtonBehaviour_3,
+				MyButtonBehaviour: MyButtonBehaviour_3,
 			}
 		},
-		ButtonHP: Button_zcomp_3 & {
+		ButtonSAT: Button_zcomp_2 & {
 			behaviors: {
-				0: MyButtonBehaviour_4,
-				MyButtonBehaviour: MyButtonBehaviour_4,
+				0: MyButtonBehaviour_3,
+				MyButtonBehaviour: MyButtonBehaviour_3,
 			}
 		},
-		ButtonSAT: Button_zcomp_3 & {
+		ButtonStudent_2: Button_zcomp_2 & {
 			behaviors: {
 				0: MyButtonBehaviour_4,
 				MyButtonBehaviour: MyButtonBehaviour_4,
@@ -126,17 +127,20 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Cone: Mesh_6 & {
+		Content_Group: Group_4 & {
 			behaviors: {
 
 			}
 		},
-		ConeGeometry: ConeGeometry_0 & {
+		ControlUI: Group_4 & {
 			behaviors: {
-
+				0: UIHandler_5,
+				UIHandler: UIHandler_5,
+				1: DisableOnMove_6,
+				DisableOnMove: DisableOnMove_6,
 			}
 		},
-		Content_Group: Group_5 & {
+		Controls: Image_7 & {
 			behaviors: {
 
 			}
@@ -170,7 +174,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Defaults: Group_5 & {
+		Defaults: Group_4 & {
 			behaviors: {
 
 			}
@@ -221,7 +225,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		LeftHandPosition: Group_5 & {
+		LeftHandPosition: Group_4 & {
 			behaviors: {
 
 			}
@@ -288,7 +292,8 @@ declare class Comp extends ZComponent {
 		},
 		Sphere: Sphere_27 & {
 			behaviors: {
-
+				0: TeleportDistanceRestrictor_20,
+				TeleportDistanceRestrictor: TeleportDistanceRestrictor_20,
 			}
 		},
 		SuspendedSolids: Sparkle_28 & {
@@ -296,7 +301,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Teleport_Arrow: Mesh_6 & {
+		Turn_Manager: TurnManager_21 & {
 			behaviors: {
 
 			}
@@ -307,7 +312,7 @@ declare class Comp extends ZComponent {
 				TeleportDistanceRestrictor: TeleportDistanceRestrictor_30,
 			}
 		},
-		Teleport_Ring: Mesh_6 & {
+		UIDest: Group_4 & {
 			behaviors: {
 
 			}
@@ -333,9 +338,10 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		WaterEnvironment: Group_5 & {
+		XRRigVR: XRRigVR_24 & {
 			behaviors: {
-
+				0: HandMovementBehavior_25,
+				Hand_Movement: HandMovementBehavior_25,
 			}
 		},
 		WaterGeom: WaterGeom_33 & {

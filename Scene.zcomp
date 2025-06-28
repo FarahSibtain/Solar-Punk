@@ -500,9 +500,6 @@
 		"Arrow Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a7": true
 		},
-		"Box": {
-			"194aae695cba4b60a35c287f3e37fbcf": true
-		},
 		"ButtonBillionaire": {
 			"1ce9f2317f954efbbedda2657417a0ed": true
 		},
@@ -596,23 +593,8 @@
 		"LeftHandPosition": {
 			"504e2e3fdfce4822a6d4616afdae7b38": true
 		},
-		"Mesh Group (Delete Me)": {
-			"6ef7d30d3e044b6f806dac36e63a857d": true
-		},
-		"MeshStandardMaterial": {
-			"547097f646a54d39aa1706d0ba7c7ef8": true
-		},
-		"MeshStandardMaterial  3": {
-			"8602fb46317c411d85f2649e8162aff6": true
-		},
-		"MeshStandardMaterial 2": {
-			"aca73192c64842aba2138a6c01994452": true
-		},
-		"Particle Emitter": {
-			"08f53b8663c1471fb9c2d982c63b62aa": true
-		},
-		"Plane": {
-			"e2d77bbed5ca445292509e55934a55e8": true
+		"Objekts": {
+			"73f3d18b43cf42c9a350a412d1e41dda": true
 		},
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
@@ -625,15 +607,6 @@
 		},
 		"Ring Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a4": true
-		},
-		"ShadowPlane": {
-			"bf1d127bf7234511b3cdc3d5a98af7b0": true
-		},
-		"Sphere": {
-			"77a68218309245289c411d5da417fab9": true
-		},
-		"SuspendedSolids": {
-			"56044315920a4746af46d34228759e28": true
 		},
 		"Teleport Arrow": {
 			"80ce371f0a844b98ace6c3970f4e3b9a5": true
@@ -684,9 +657,6 @@
 		},
 		"Arrow_Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a7": true
-		},
-		"Box": {
-			"194aae695cba4b60a35c287f3e37fbcf": true
 		},
 		"ButtonBillionaire": {
 			"1ce9f2317f954efbbedda2657417a0ed": true
@@ -778,23 +748,8 @@
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
-		"MeshStandardMaterial": {
-			"547097f646a54d39aa1706d0ba7c7ef8": true
-		},
-		"MeshStandardMaterial0": {
-			"aca73192c64842aba2138a6c01994452": true
-		},
-		"MeshStandardMaterial_2": {
-			"8602fb46317c411d85f2649e8162aff6": true
-		},
-		"Mesh_GroupDeleteMe0": {
-			"6ef7d30d3e044b6f806dac36e63a857d": true
-		},
-		"Particle_Emitter": {
-			"08f53b8663c1471fb9c2d982c63b62aa": true
-		},
-		"Plane": {
-			"e2d77bbed5ca445292509e55934a55e8": true
+		"Objekts": {
+			"73f3d18b43cf42c9a350a412d1e41dda": true
 		},
 		"RightHandPosition": {
 			"fa85be6171e941109926af8d3fcf279b": true
@@ -807,15 +762,6 @@
 		},
 		"Ring_Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a4": true
-		},
-		"ShadowPlane": {
-			"bf1d127bf7234511b3cdc3d5a98af7b0": true
-		},
-		"Sphere": {
-			"77a68218309245289c411d5da417fab9": true
-		},
-		"SuspendedSolids": {
-			"56044315920a4746af46d34228759e28": true
 		},
 		"Teleport_Arrow": {
 			"80ce371f0a844b98ace6c3970f4e3b9a5": true
@@ -861,9 +807,6 @@
 		}
 	},
 	"entityConstructorProps": {
-		"08f53b8663c1471fb9c2d982c63b62aa": {
-			"maxAgeValue": 2
-		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"0e1ec8d109c342099df64a3025b81fcc": {
@@ -912,9 +855,6 @@
 			"allowRightHandControllers": true,
 			"allowUnspecifiedHandControllers": true
 		},
-		"3bed991cf9894067809aba2b9af97e23": {
-			"source": "file://./Images/dust.png"
-		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
@@ -928,29 +868,23 @@
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
-		"547097f646a54d39aa1706d0ba7c7ef8": {
-		},
 		"54a3fe42df61491d805d50af10399810": {
-		},
-		"56044315920a4746af46d34228759e28": {
 		},
 		"5b864a35a10b481989a943ed5e8c459c": {
 		},
 		"5c5c7d2d48be4bd8b23db61b1d0b0d4b": {
 		},
-		"6ef7d30d3e044b6f806dac36e63a857d": {
-		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
 		},
 		"7146d520c87b4d88850143aea2e8e22d": {
+		},
+		"73f3d18b43cf42c9a350a412d1e41dda": {
 		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
 			"autoplay": true,
 			"source": "file://./zapsplat_nature_underwater_ambience_deep_007_30532.mp3"
 		},
 		"775632eabbc64239a43055022b7eec57": {
-		},
-		"77a68218309245289c411d5da417fab9": {
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
@@ -1004,8 +938,6 @@
 		"a04eca84ced440e6b4252e6972c56008": {
 			"source": "file://./Images/Controls.png"
 		},
-		"aca73192c64842aba2138a6c01994452": {
-		},
 		"b2d76f3ec9764b17b458a85efdb48c06": {
 		},
 		"b3b8b1eaba504578a54e472a84c5fdbe1": {
@@ -1013,8 +945,6 @@
 		"bc44974d857f4ed5b31e29b9ab9cd9eb": {
 		},
 		"bc6f478fd0644aee887e033440ed00df": {
-		},
-		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 		},
@@ -1026,19 +956,11 @@
 		},
 		"da5157961c6845c1afae6f715af252b5": {
 		},
-		"e2d77bbed5ca445292509e55934a55e8": {
-		},
 		"ed715e8d0f40444baf11db0f83a59f7d": {
 			"audioFileUrl": "file://./Audio/Transition/Economy.mp3",
 			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"f27c243f88b443ca8ca969147e5997cd": {
-		},
-		"f3937ace1ef5478c9221e2cfc2453503": {
-			"height": 3,
-			"radialSegments": 112
-		},
-		"f6371bf08200415f82989d46101107a8": {
 		},
 		"f8553508ebce4d6fa5753f0ea614bea1": {
 			"audioFileUrl": "file://./Audio/Transition/Health.mp3",
@@ -1103,69 +1025,6 @@
 		}
 	},
 	"entityProps": {
-		"08f53b8663c1471fb9c2d982c63b62aa": {
-			"accelerationSpread": [
-				0.05,
-				0,
-				0.05
-			],
-			"accelerationValue": [
-				0,
-				-0.02,
-				0
-			],
-			"colorEnd": [
-				0.12743768042608497,
-				0.12743768042608497,
-				0.12743768042608497
-			],
-			"colorMidEnd": [
-				0.22322795730611386,
-				0.22322795730611386,
-				0.22322795730611386
-			],
-			"colorMidStart": [
-				0.3515325994898463,
-				0.3515325994898463,
-				0.3515325994898463
-			],
-			"colorStart": [
-				0.5775804404214573,
-				0.5775804404214573,
-				0.5775804404214573
-			],
-			"positionSpread": [
-				2,
-				2,
-				2
-			],
-			"positionValue": [
-				0,
-				1,
-				0
-			],
-			"rotationAngle": 0,
-			"sizeSpread": [
-				0.005,
-				0.005,
-				0.005
-			],
-			"sizeValue": [
-				0.006,
-				0.006,
-				0.006
-			],
-			"velocitySpread": [
-				0,
-				0,
-				0
-			],
-			"velocityValue": [
-				0,
-				0,
-				0
-			]
-		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"0e1ec8d109c342099df64a3025b81fcc": {
@@ -1255,15 +1114,13 @@
 				0
 			]
 		},
-		"3bed991cf9894067809aba2b9af97e23": {
-		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
 			"castShadow": false,
 			"position": [
 				0,
-				10,
+				15,
 				0
 			],
 			"receiveShadow": false,
@@ -1297,33 +1154,9 @@
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
-		"547097f646a54d39aa1706d0ba7c7ef8": {
-			"color": [
-				1,
-				0.011764705882352941,
-				0.011764705882352941
-			],
-			"metalness": 0.364955357142857,
-			"roughness": 0.492606026785714
-		},
 		"54a3fe42df61491d805d50af10399810": {
 			"leftHandControllers": false,
 			"rightHandControllers": true,
-			"visible": true
-		},
-		"56044315920a4746af46d34228759e28": {
-			"castShadow": false,
-			"position": [
-				0,
-				0,
-				0
-			],
-			"receiveShadow": false,
-			"scale": [
-				1,
-				1,
-				1
-			],
 			"visible": true
 		},
 		"5b864a35a10b481989a943ed5e8c459c": {
@@ -1341,30 +1174,23 @@
 				-0.6
 			]
 		},
-		"6ef7d30d3e044b6f806dac36e63a857d": {
-		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
 			"leftHandControllers": false,
 			"rightHandControllers": true
 		},
 		"7146d520c87b4d88850143aea2e8e22d": {
 		},
+		"73f3d18b43cf42c9a350a412d1e41dda": {
+			"position": [
+				0,
+				-1,
+				-9.928483147234461
+			]
+		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
 			"loop": true
 		},
 		"775632eabbc64239a43055022b7eec57": {
-		},
-		"77a68218309245289c411d5da417fab9": {
-			"position": [
-				0.7352863943136483,
-				0.19534313787252522,
-				-0.7134287946774254
-			],
-			"scale": [
-				0.2,
-				0.2,
-				0.2
-			]
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 		},
@@ -1480,15 +1306,6 @@
 				1
 			]
 		},
-		"aca73192c64842aba2138a6c01994452": {
-			"color": [
-				0.1568627450980392,
-				0.07058823529411765,
-				1
-			],
-			"metalness": 0.364955357142857,
-			"roughness": 0.492606026785714
-		},
 		"b2d76f3ec9764b17b458a85efdb48c06": {
 			"position": [
 				-0.8,
@@ -1534,8 +1351,6 @@
 			],
 			"visible": true
 		},
-		"bf1d127bf7234511b3cdc3d5a98af7b0": {
-		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 		},
 		"c01f2d6b83f840328924940130995ae9": {
@@ -1553,23 +1368,6 @@
 		},
 		"da5157961c6845c1afae6f715af252b5": {
 		},
-		"e2d77bbed5ca445292509e55934a55e8": {
-			"position": [
-				0,
-				0,
-				0
-			],
-			"rotation": [
-				-1.5707963267948966,
-				0,
-				0
-			],
-			"scale": [
-				50,
-				50,
-				1
-			]
-		},
 		"ed715e8d0f40444baf11db0f83a59f7d": {
 		},
 		"f27c243f88b443ca8ca969147e5997cd": {
@@ -1579,20 +1377,6 @@
 				0
 			],
 			"text": "Student"
-		},
-		"f3937ace1ef5478c9221e2cfc2453503": {
-		},
-		"f6371bf08200415f82989d46101107a8": {
-			"position": [
-				-0.2368504152207141,
-				0.29912672540503465,
-				-1.435554880235228
-			],
-			"scale": [
-				0.2,
-				0.2,
-				0.2
-			]
 		},
 		"f8553508ebce4d6fa5753f0ea614bea1": {
 		},
@@ -1605,16 +1389,6 @@
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
 	"nodes": {
-		"08f53b8663c1471fb9c2d982c63b62aa": {
-			"id": "08f53b8663c1471fb9c2d982c63b62aa",
-			"label": "Particle Emitter",
-			"parent": {
-				"id": "56044315920a4746af46d34228759e28",
-				"order": "a0"
-			},
-			"scriptName": "Particle_Emitter",
-			"type": "@zcomponent/particles/lib/components/ParticleEmitter#ParticleEmitter"
-		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 			"id": "0ba8e27369df45ca897731dcb1e39bcf",
 			"label": "DefaultCookieConsent",
@@ -1735,16 +1509,6 @@
 			"scriptName": "Right_Controller",
 			"type": "@zcomponent/three-webxr/lib/components/XRController#XRController"
 		},
-		"3bed991cf9894067809aba2b9af97e23": {
-			"id": "3bed991cf9894067809aba2b9af97e23",
-			"label": "Emitter Texture",
-			"parent": {
-				"id": "56044315920a4746af46d34228759e28",
-				"order": "a1"
-			},
-			"scriptName": "Emitter_Texture",
-			"type": "@zcomponent/particles/lib/components/EmitterTexture#EmitterTexture"
-		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 			"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
 			"label": "XRRigVR",
@@ -1795,16 +1559,6 @@
 			"scriptName": "DefaultLoader",
 			"type": "@zcomponent/core/lib/components/DefaultLoader#DefaultLoader"
 		},
-		"547097f646a54d39aa1706d0ba7c7ef8": {
-			"id": "547097f646a54d39aa1706d0ba7c7ef8",
-			"label": "MeshStandardMaterial",
-			"parent": {
-				"id": "194aae695cba4b60a35c287f3e37fbcf",
-				"order": "a0"
-			},
-			"scriptName": "MeshStandardMaterial",
-			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
-		},
 		"54a3fe42df61491d805d50af10399810": {
 			"id": "54a3fe42df61491d805d50af10399810",
 			"label": "Teleport Manager",
@@ -1814,16 +1568,6 @@
 			},
 			"scriptName": "Teleport_Manager",
 			"type": "@zcomponent/three-webxr/lib/components/TeleportManager#TeleportManager"
-		},
-		"56044315920a4746af46d34228759e28": {
-			"id": "56044315920a4746af46d34228759e28",
-			"label": "SuspendedSolids",
-			"parent": {
-				"id": "2771fa643a794d1690bad971532b7a91",
-				"order": "a3"
-			},
-			"scriptName": "SuspendedSolids",
-			"type": "@zcomponent/particles/lib/components/prefabs/Sparkle#Sparkle"
 		},
 		"5b864a35a10b481989a943ed5e8c459c": {
 			"id": "5b864a35a10b481989a943ed5e8c459c",
@@ -1843,16 +1587,6 @@
 				"order": "a0"
 			},
 			"scriptName": "UIDest",
-			"type": "@zcomponent/three/lib/components/Group#Group"
-		},
-		"6ef7d30d3e044b6f806dac36e63a857d": {
-			"id": "6ef7d30d3e044b6f806dac36e63a857d",
-			"label": "Mesh Group (Delete Me)",
-			"parent": {
-				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
-				"order": "Zz"
-			},
-			"scriptName": "Mesh_GroupDeleteMe0",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
@@ -1875,6 +1609,16 @@
 			"scriptName": "XR_DefaultLoader",
 			"type": "@zcomponent/three-webxr/lib/components/XRDefaultLoader#XRDefaultLoader"
 		},
+		"73f3d18b43cf42c9a350a412d1e41dda": {
+			"id": "73f3d18b43cf42c9a350a412d1e41dda",
+			"label": "Objekts",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "Objekts",
+			"type": "./Objekts.zcomp#default"
+		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
 			"id": "76e0f42ffa3d43ba9905f735ce827e26",
 			"label": "zapsplat_nature_underwater_ambience_deep_007_30532.mp3",
@@ -1894,16 +1638,6 @@
 			},
 			"scriptName": "XR_Camera",
 			"type": "@zcomponent/three-webxr/lib/components/XRCamera#XRCamera"
-		},
-		"77a68218309245289c411d5da417fab9": {
-			"id": "77a68218309245289c411d5da417fab9",
-			"label": "Sphere",
-			"parent": {
-				"id": "6ef7d30d3e044b6f806dac36e63a857d",
-				"order": "a1"
-			},
-			"scriptName": "Sphere",
-			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
 		},
 		"7b6fb4d895774174b5d151eec86b704c": {
 			"id": "7b6fb4d895774174b5d151eec86b704c",
@@ -2055,16 +1789,6 @@
 			"scriptName": "Controls",
 			"type": "@zcomponent/three/lib/components/Image#Image"
 		},
-		"aca73192c64842aba2138a6c01994452": {
-			"id": "aca73192c64842aba2138a6c01994452",
-			"label": "MeshStandardMaterial 2",
-			"parent": {
-				"id": "77a68218309245289c411d5da417fab9",
-				"order": "a0"
-			},
-			"scriptName": "MeshStandardMaterial0",
-			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
-		},
 		"b2d76f3ec9764b17b458a85efdb48c06": {
 			"id": "b2d76f3ec9764b17b458a85efdb48c06",
 			"label": "ButtonHP",
@@ -2105,17 +1829,6 @@
 			"scriptName": "UI",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
-		"bf1d127bf7234511b3cdc3d5a98af7b0": {
-			"id": "bf1d127bf7234511b3cdc3d5a98af7b0",
-			"label": "ShadowPlane",
-			"locked": true,
-			"parent": {
-				"id": "7b6fb4d895774174b5d151eec86b704c",
-				"order": "a0"
-			},
-			"scriptName": "ShadowPlane",
-			"type": "@zcomponent/three/lib/components/meshes/ShadowPlane#ShadowPlane"
-		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 			"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
 			"label": "Content Group",
@@ -2146,16 +1859,6 @@
 			"scriptName": "ButtonGP",
 			"type": "./Button/Button.zcomp#default"
 		},
-		"e2d77bbed5ca445292509e55934a55e8": {
-			"id": "e2d77bbed5ca445292509e55934a55e8",
-			"label": "Plane",
-			"parent": {
-				"id": "6ef7d30d3e044b6f806dac36e63a857d",
-				"order": "a3"
-			},
-			"scriptName": "Plane",
-			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
-		},
 		"f27c243f88b443ca8ca969147e5997cd": {
 			"id": "f27c243f88b443ca8ca969147e5997cd",
 			"label": "ButtonStudent 2",
@@ -2165,26 +1868,6 @@
 			},
 			"scriptName": "ButtonStudent_2",
 			"type": "./Button/Button.zcomp#default"
-		},
-		"f3937ace1ef5478c9221e2cfc2453503": {
-			"id": "f3937ace1ef5478c9221e2cfc2453503",
-			"label": "ConeGeometry",
-			"parent": {
-				"id": "f6371bf08200415f82989d46101107a8",
-				"order": "a0"
-			},
-			"scriptName": "ConeGeometry",
-			"type": "@zcomponent/three/lib/components/geometries/ConeGeometry#ConeGeometry"
-		},
-		"f6371bf08200415f82989d46101107a8": {
-			"id": "f6371bf08200415f82989d46101107a8",
-			"label": "Cone",
-			"parent": {
-				"id": "6ef7d30d3e044b6f806dac36e63a857d",
-				"order": "a2"
-			},
-			"scriptName": "Cone",
-			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
 		},
 		"fa85be6171e941109926af8d3fcf279b": {
 			"id": "fa85be6171e941109926af8d3fcf279b",

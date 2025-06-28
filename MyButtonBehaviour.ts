@@ -177,8 +177,7 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 	}
 
 	dispose() {
-		// Clean up any resources
-		// ...
+		
 		return super.dispose();
 	}
 }

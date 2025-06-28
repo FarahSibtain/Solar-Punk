@@ -45,7 +45,8 @@ export class UIHandler extends Behavior<Group> {
 			
 			const position = new THREE.Vector3();
 			this.uiDest.element.getWorldPosition(position);
-			this.instance.element.position.lerp(position, 0.003 * deltaTime);
+			// Fix lerp calculation - deltaTime is in milliseconds, normalize to seconds
+			this.instance.element.position.lerp(position, 0.003 * (deltaTime));
 			this.cam.getWorldPosition(position);
 			this.instance.element.lookAt(position);
 		}
