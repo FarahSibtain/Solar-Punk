@@ -91,41 +91,15 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
 		this.register(useOnBeforeRender(this.contextManager), (deltaTime) => {
 			if (!this.enabled.value) return;
 			
-			this.updateHandTracking2();
+			this.updateHandTracking();
 			if (this.bothHands)
 				this.processMovement(deltaTime / 1000);
 			this.applyMovement(deltaTime / 1000);
 		});
 	}
 
+
 	private updateHandTracking() {
-		// Get XR session and hand tracking data via the XR context
-		
-		const session = this.xrContext.currentSession?.value;
-		if (!session) return;
-		
-		const inputSources = session.inputSources;
-		for (const inputSource of inputSources) {
-		    if (inputSource.hand) {
-		        // Process hand tracking data
-		        const hand = inputSource.hand;
-		        if (hand) {
-
-		            if (this.leftHandObject) {
-		                this.leftHandPosition = this.leftHandObject.element.position;
-		            }
-
-		            if (this.rightHandObject) {
-		                this.rightHandPosition = this.rightHandObject.element.position;
-		            }
-
-		        }
-		    }
-		}
-		
-	}
-
-	private updateHandTracking2() {
 		     
         const camPosition = new THREE.Vector3();
         this.camera.getWorldPosition(camPosition);
@@ -218,10 +192,20 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
 	 * Helper method to get movement direction based on head orientation
 	 */
 	private getMovementDirection(): Vector3 {
+		
 		if (this.camera) {
-		    const direction = new Vector3(0, 0, -1);
-		    direction.applyQuaternion(this.camera.quaternion);
-		    direction.y = 0; // Remove vertical component for ground-based movement
+		    const cameraPosition = new Vector3();
+			this.camera.getWorldPosition(cameraPosition);
+			const leftHandWorldPosition = new Vector3();
+			this.leftHandObject.element.getWorldPosition(leftHandWorldPosition);
+			const rightHandWorldPosition = new Vector3();
+			this.rightHandObject.element.getWorldPosition(rightHandWorldPosition);
+
+			const handsCenter = new Vector3();
+			handsCenter.addVectors(leftHandWorldPosition, rightHandWorldPosition).multiplyScalar(0.5);
+			const direction = new Vector3();
+			direction.subVectors(handsCenter, cameraPosition);
+			direction.setY(0);
 		    direction.normalize();
 		    return direction;
 		}
