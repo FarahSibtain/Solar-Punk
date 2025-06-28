@@ -2,6 +2,7 @@ import { ContextManager, Observable, registerLoadable, useOnBeforeRender } from 
 import { useScene } from "@zcomponent/three";
 import { Group } from "@zcomponent/three/lib/components/Group";
 import * as THREE from "three";
+import { lerp } from "three/src/math/MathUtils";
 
 interface ConstructorProps {
     /**
@@ -49,9 +50,12 @@ export class Fog extends Group {
 
         const scene = useScene(this.contextManager);
 		//scene.fog = new THREE.FogExp2(0x009B68, 1, 0.001);
-        scene.fog = new THREE.Fog(0x009B68, 0,10 )
+        scene.fog = new THREE.Fog(0x005136, 0, 3);
+
+        setTimeout(() => {this.clear();}, 4000);
 
         // Exclude Image360 components from fog if requested
+        /*
         if (this.constructorProps.excludeImage360 ?? true) {
             this.register(useOnBeforeRender(this.contextManager), () => {
                 scene.traverse((object) => {
@@ -65,8 +69,21 @@ export class Fog extends Group {
                     }
                 });
             });
-        }
+        }*/
 
+    }
+
+    public clear() {
+        // Clear fog settings
+        const scene = useScene(this.contextManager);
+        this.progressCleaning(scene);
+    }
+
+    private progressCleaning(scene: THREE.Scene, progress: number = 0) {
+        scene.fog = new THREE.Fog(0x005136, 0, lerp(3, 30, progress));
+
+        if (progress < 1)
+            setTimeout(this.progressCleaning.bind(this, scene, progress + 0.05), 250);
     }
 
     public dispose() {
