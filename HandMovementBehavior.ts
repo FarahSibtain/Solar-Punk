@@ -74,6 +74,9 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
     private rightController: XRController;
 	private camera: THREE.Camera;
 	private bothHands: boolean;
+	private isInitialized = false;
+	private initializationFrames = 0;
+	private readonly INITIALIZATION_FRAMES_REQUIRED = 30; // Wait 30 frames before starting movement
 
 	constructor(contextManager: ContextManager, instance: XRRigVR, protected constructorProps: ConstructionProps) {
 		super(contextManager, instance);
@@ -87,14 +90,43 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
         this.leftController = sceneInstance.nodes.Left_Controller;
         this.rightController = sceneInstance.nodes.Right_Controller;
 
+        // Initialize movement vector to zero
+        this.movementVector.set(0, 0, 0);
+
 		// Set up frame-by-frame updates
 		this.register(useOnBeforeRender(this.contextManager), (deltaTime) => {
 			if (!this.enabled.value) return;
 			
 			this.updateHandTracking();
-			if (this.bothHands)
+			
+			// Handle initialization period
+			if (!this.isInitialized) {
+				if (this.bothHands) {
+					this.initializationFrames++;
+					if (this.initializationFrames >= this.INITIALIZATION_FRAMES_REQUIRED) {
+						this.isInitialized = true;
+						console.log("Hand tracking initialized - movement enabled");
+					}
+				} else {
+					// Reset initialization if hands are lost
+					this.initializationFrames = 0;
+				}
+				// Ensure no movement during initialization
+				this.movementVector.set(0, 0, 0);
+				return;
+			}
+			
+			if (this.bothHands) {
 				this.processMovement(deltaTime / 1000);
-			this.applyMovement(deltaTime / 1000);
+				this.applyMovement(deltaTime / 1000);
+			} else {
+				// No hands detected - stop movement
+				this.movementVector.multiplyScalar(0.8); // Quick dampening when hands lost
+				if (this.movementVector.lengthSq() < 0.001) {
+					this.movementVector.set(0, 0, 0);
+				}
+				this.applyMovement(deltaTime / 1000);
+			}
 		});
 	}
 
@@ -134,7 +166,10 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
             console.warn("Right controller not found!");
         }
 
-		this.bothHands = this.leftHandObject?.element && this.leftController.isTracking && this.rightHandObject?.element && this.rightController.isTracking && this.leftHandPosition.lengthSq() != 0 && this.rightHandPosition.lengthSq() != 0;
+		// Only consider hands tracked if they have valid positions (not at origin) and are actually tracking
+		const leftHandValid = this.leftHandObject?.element && this.leftController.isTracking && this.leftHandPosition.lengthSq() > 0.01; // Minimum distance from origin
+		const rightHandValid = this.rightHandObject?.element && this.rightController.isTracking && this.rightHandPosition.lengthSq() > 0.01;
+		this.bothHands = leftHandValid && rightHandValid;
         
 	}
 
@@ -158,15 +193,20 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
 	}
 
 	private processSwimmingMovement(speed: number, threshold: number, deltaTime: number) {
-
         const handDistance = this.leftHandPosition.distanceToSquared(this.rightHandPosition);
+		
 		if (handDistance < threshold) {
-			const influence = (threshold - handDistance) / (threshold);
+			const influence = (threshold - handDistance) / threshold;
 			const direction = this.getMovementDirection();
 			
 			this.movementVector.copy(direction).multiplyScalar(speed * influence);
+		} else {
+			// Hands not close enough - gradually reduce movement
+			this.movementVector.multiplyScalar(0.95);
+			if (this.movementVector.lengthSq() < 0.001) {
+				this.movementVector.set(0, 0, 0);
+			}
 		}
-
 	}
 
 	private applyMovement(deltaTime: number) {
