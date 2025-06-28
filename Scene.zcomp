@@ -1,11 +1,128 @@
 {
 	"behaviors": {
+		"2f33489ac94b400eab5237d7a5310e63": {
+			"id": "2f33489ac94b400eab5237d7a5310e63",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "d8435c2a57614fb8a9aa6a327915232c",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"303ea92df16e4c4ab188e304f2a2fbed": {
+			"id": "303ea92df16e4c4ab188e304f2a2fbed",
+			"label": "UIHandler",
+			"parent": {
+				"id": "bc6f478fd0644aee887e033440ed00df",
+				"order": "a0",
+				"scriptName": "UIHandler"
+			},
+			"type": "./UIHandler#UIHandler"
+		},
+		"31d881a6d9164929957f7f53a50658d5": {
+			"id": "31d881a6d9164929957f7f53a50658d5",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "8def9d4124354855963d578672c6975b",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"8e190d6b8b504b6284929f4b033ffb56": {
+			"id": "8e190d6b8b504b6284929f4b033ffb56",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "1ce9f2317f954efbbedda2657417a0ed",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"8f428d8389ce4c0896becec72ee720f9": {
+			"id": "8f428d8389ce4c0896becec72ee720f9",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "f27c243f88b443ca8ca969147e5997cd",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"a03f046d4cd34887b8ad1d486a98a4f6": {
+			"id": "a03f046d4cd34887b8ad1d486a98a4f6",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "5b864a35a10b481989a943ed5e8c459c",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"ed715e8d0f40444baf11db0f83a59f7d": {
+			"id": "ed715e8d0f40444baf11db0f83a59f7d",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "1dbcac7d6d72460bb2693e084410b153",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"f8553508ebce4d6fa5753f0ea614bea1": {
+			"id": "f8553508ebce4d6fa5753f0ea614bea1",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "b2d76f3ec9764b17b458a85efdb48c06",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"fc9e3933f635402aba9e2999dfa56aca": {
+			"id": "fc9e3933f635402aba9e2999dfa56aca",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "3a896444bec242c89169a70dc72c36f0",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		}
 	},
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
+		},
+		"ButtonBillionaire": {
+			"1ce9f2317f954efbbedda2657417a0ed": true
+		},
+		"ButtonCAP": {
+			"8def9d4124354855963d578672c6975b": true
+		},
+		"ButtonEP": {
+			"1dbcac7d6d72460bb2693e084410b153": true
+		},
+		"ButtonEduP": {
+			"5b864a35a10b481989a943ed5e8c459c": true
+		},
+		"ButtonGP": {
+			"d8435c2a57614fb8a9aa6a327915232c": true
+		},
+		"ButtonHP": {
+			"b2d76f3ec9764b17b458a85efdb48c06": true
+		},
+		"ButtonSAT": {
+			"3a896444bec242c89169a70dc72c36f0": true
+		},
+		"ButtonStudent 2": {
+			"f27c243f88b443ca8ca969147e5997cd": true
+		},
+		"Buttons": {
+			"bc44974d857f4ed5b31e29b9ab9cd9eb": true
 		},
 		"Cone": {
 			"f6371bf08200415f82989d46101107a8": true
@@ -42,6 +159,12 @@
 		},
 		"Group": {
 			"root": true
+		},
+		"Group 2": {
+			"80d86489b7044abc8810d3e166705d87": true
+		},
+		"Hello Text": {
+			"b3b8b1eaba504578a54e472a84c5fdbe1": true
 		},
 		"Left Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
@@ -82,6 +205,12 @@
 		"Turn Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
 		},
+		"UI": {
+			"bc6f478fd0644aee887e033440ed00df": true
+		},
+		"UIDest": {
+			"8e49d5a469f4485995b58d1c50c2cd1c": true
+		},
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
 		},
@@ -107,6 +236,33 @@
 	"entitiesByScriptName": {
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
+		},
+		"ButtonBillionaire": {
+			"1ce9f2317f954efbbedda2657417a0ed": true
+		},
+		"ButtonCAP": {
+			"8def9d4124354855963d578672c6975b": true
+		},
+		"ButtonEP": {
+			"1dbcac7d6d72460bb2693e084410b153": true
+		},
+		"ButtonEduP": {
+			"5b864a35a10b481989a943ed5e8c459c": true
+		},
+		"ButtonGP": {
+			"d8435c2a57614fb8a9aa6a327915232c": true
+		},
+		"ButtonHP": {
+			"b2d76f3ec9764b17b458a85efdb48c06": true
+		},
+		"ButtonSAT": {
+			"3a896444bec242c89169a70dc72c36f0": true
+		},
+		"ButtonStudent_2": {
+			"f27c243f88b443ca8ca969147e5997cd": true
+		},
+		"Buttons": {
+			"bc44974d857f4ed5b31e29b9ab9cd9eb": true
 		},
 		"Cone": {
 			"f6371bf08200415f82989d46101107a8": true
@@ -140,6 +296,12 @@
 		},
 		"Fog": {
 			"7cfa6e6f029b41ddabb4b77606fa4b19": true
+		},
+		"Group_2": {
+			"80d86489b7044abc8810d3e166705d87": true
+		},
+		"Hello_Text": {
+			"b3b8b1eaba504578a54e472a84c5fdbe1": true
 		},
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
@@ -180,6 +342,12 @@
 		"Turn_Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
 		},
+		"UI": {
+			"bc6f478fd0644aee887e033440ed00df": true
+		},
+		"UIDest": {
+			"8e49d5a469f4485995b58d1c50c2cd1c": true
+		},
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
 		},
@@ -210,14 +378,26 @@
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 		},
+		"1ce9f2317f954efbbedda2657417a0ed": {
+		},
+		"1dbcac7d6d72460bb2693e084410b153": {
+		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 			"startOnLaunch": "immersive-vr"
 		},
 		"2771fa643a794d1690bad971532b7a91": {
 		},
+		"2f33489ac94b400eab5237d7a5310e63": {
+		},
+		"303ea92df16e4c4ab188e304f2a2fbed": {
+		},
+		"31d881a6d9164929957f7f53a50658d5": {
+		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"allowRightHandControllers": false,
 			"allowUnspecifiedHandControllers": false
+		},
+		"3a896444bec242c89169a70dc72c36f0": {
 		},
 		"3ba8407ca04746f3afc82e1bced92a8c": {
 			"allowLeftHandControllers": false,
@@ -239,6 +419,8 @@
 		},
 		"56044315920a4746af46d34228759e28": {
 		},
+		"5b864a35a10b481989a943ed5e8c459c": {
+		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
@@ -258,11 +440,33 @@
 		"7cfa6e6f029b41ddabb4b77606fa4b19": {
 			"excludeImage360": true
 		},
+		"80d86489b7044abc8810d3e166705d87": {
+		},
 		"857f9901b65b42c89a3ff04470d70738": {
 		},
 		"8602fb46317c411d85f2649e8162aff6": {
 		},
+		"8def9d4124354855963d578672c6975b": {
+		},
+		"8e190d6b8b504b6284929f4b033ffb56": {
+			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
+		},
+		"8e49d5a469f4485995b58d1c50c2cd1c": {
+		},
+		"8f428d8389ce4c0896becec72ee720f9": {
+			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
+		},
+		"a03f046d4cd34887b8ad1d486a98a4f6": {
+		},
 		"aca73192c64842aba2138a6c01994452": {
+		},
+		"b2d76f3ec9764b17b458a85efdb48c06": {
+		},
+		"b3b8b1eaba504578a54e472a84c5fdbe1": {
+		},
+		"bc44974d857f4ed5b31e29b9ab9cd9eb": {
+		},
+		"bc6f478fd0644aee887e033440ed00df": {
 		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 		},
@@ -272,7 +476,13 @@
 			"radius": 500,
 			"source": "file://./Images/underwater_hdri.jpg"
 		},
+		"d8435c2a57614fb8a9aa6a327915232c": {
+		},
 		"e2d77bbed5ca445292509e55934a55e8": {
+		},
+		"ed715e8d0f40444baf11db0f83a59f7d": {
+		},
+		"f27c243f88b443ca8ca969147e5997cd": {
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 			"height": 3,
@@ -280,10 +490,14 @@
 		},
 		"f6371bf08200415f82989d46101107a8": {
 		},
+		"f8553508ebce4d6fa5753f0ea614bea1": {
+		},
 		"fb24afb3dfa546b79edb9d2e0553996c": {
 			"audioLayer": "",
 			"autoplay": true,
 			"source": "file://./Audio/death-zone.mp3"
+		},
+		"fc9e3933f635402aba9e2999dfa56aca": {
 		}
 	},
 	"entityPropOverrides": {
@@ -410,9 +624,31 @@
 				0.3
 			]
 		},
+		"1ce9f2317f954efbbedda2657417a0ed": {
+			"position": [
+				-1.4521106479895773,
+				-0.5826799203639501,
+				0
+			],
+			"text": "Billionaire"
+		},
+		"1dbcac7d6d72460bb2693e084410b153": {
+			"position": [
+				0.9923124561217627,
+				1.2973064644823953,
+				0
+			],
+			"text": "Economy Person"
+		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 		},
 		"2771fa643a794d1690bad971532b7a91": {
+		},
+		"2f33489ac94b400eab5237d7a5310e63": {
+		},
+		"303ea92df16e4c4ab188e304f2a2fbed": {
+		},
+		"31d881a6d9164929957f7f53a50658d5": {
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"position": [
@@ -420,6 +656,14 @@
 				1.3,
 				0
 			]
+		},
+		"3a896444bec242c89169a70dc72c36f0": {
+			"position": [
+				1.0214247437565964,
+				0.039148832308049,
+				0
+			],
+			"text": " Science & Tech Person"
 		},
 		"3ba8407ca04746f3afc82e1bced92a8c": {
 			"position": [
@@ -476,6 +720,14 @@
 			],
 			"visible": true
 		},
+		"5b864a35a10b481989a943ed5e8c459c": {
+			"position": [
+				0.9923124561217627,
+				0.6564290359360233,
+				0
+			],
+			"text": "Education Person"
+		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
@@ -504,6 +756,13 @@
 		"7cfa6e6f029b41ddabb4b77606fa4b19": {
 			"visible": true
 		},
+		"80d86489b7044abc8810d3e166705d87": {
+			"position": [
+				0,
+				-0.3,
+				0
+			]
+		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"castShadow": true,
 			"position": [
@@ -521,6 +780,27 @@
 			"metalness": 0.364955357142857,
 			"roughness": 0.492606026785714
 		},
+		"8def9d4124354855963d578672c6975b": {
+			"position": [
+				-1.456445025202862,
+				0.04280548450371757,
+				0
+			],
+			"text": " Culture & Arts Person"
+		},
+		"8e190d6b8b504b6284929f4b033ffb56": {
+		},
+		"8e49d5a469f4485995b58d1c50c2cd1c": {
+			"position": [
+				0,
+				0,
+				-0.6
+			]
+		},
+		"8f428d8389ce4c0896becec72ee720f9": {
+		},
+		"a03f046d4cd34887b8ad1d486a98a4f6": {
+		},
 		"aca73192c64842aba2138a6c01994452": {
 			"color": [
 				0.1568627450980392,
@@ -530,6 +810,50 @@
 			"metalness": 0.364955357142857,
 			"roughness": 0.492606026785714
 		},
+		"b2d76f3ec9764b17b458a85efdb48c06": {
+			"position": [
+				-1.456445025202862,
+				0.6564290359360233,
+				0
+			],
+			"text": "Health Person"
+		},
+		"b3b8b1eaba504578a54e472a84c5fdbe1": {
+			"anchorX": "center",
+			"anchorY": "top",
+			"color": [
+				0.8631572134510892,
+				0.8307698767709715,
+				0.8307698767709715
+			],
+			"direction": "auto",
+			"fillOpacity": 0.7,
+			"fontSize": 0.2,
+			"outlineOpacity": 1,
+			"position": [
+				0,
+				1.9046011085907497,
+				0
+			],
+			"strokeOpacity": 1,
+			"text": "Are you a...",
+			"visible": true
+		},
+		"bc44974d857f4ed5b31e29b9ab9cd9eb": {
+			"visible": true
+		},
+		"bc6f478fd0644aee887e033440ed00df": {
+			"position": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				0.2,
+				0.2,
+				0.2
+			]
+		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
@@ -538,6 +862,14 @@
 			"castShadow": false,
 			"receiveShadow": false,
 			"visible": true
+		},
+		"d8435c2a57614fb8a9aa6a327915232c": {
+			"position": [
+				-1.4054474874093201,
+				1.2973064644823953,
+				0
+			],
+			"text": "Governance Person "
 		},
 		"e2d77bbed5ca445292509e55934a55e8": {
 			"position": [
@@ -556,6 +888,16 @@
 				1
 			]
 		},
+		"ed715e8d0f40444baf11db0f83a59f7d": {
+		},
+		"f27c243f88b443ca8ca969147e5997cd": {
+			"position": [
+				1.0214247437565964,
+				-0.5826799203639501,
+				0
+			],
+			"text": "Student"
+		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 		},
 		"f6371bf08200415f82989d46101107a8": {
@@ -570,7 +912,11 @@
 				0.2
 			]
 		},
+		"f8553508ebce4d6fa5753f0ea614bea1": {
+		},
 		"fb24afb3dfa546b79edb9d2e0553996c": {
+		},
+		"fc9e3933f635402aba9e2999dfa56aca": {
 		}
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
@@ -605,6 +951,26 @@
 			"scriptName": "Box",
 			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
 		},
+		"1ce9f2317f954efbbedda2657417a0ed": {
+			"id": "1ce9f2317f954efbbedda2657417a0ed",
+			"label": "ButtonBillionaire",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "ZygV"
+			},
+			"scriptName": "ButtonBillionaire",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"1dbcac7d6d72460bb2693e084410b153": {
+			"id": "1dbcac7d6d72460bb2693e084410b153",
+			"label": "ButtonEP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zz"
+			},
+			"scriptName": "ButtonEP",
+			"type": "./Button/Button.zcomp#default"
+		},
 		"258fc0c2787d4893a7ac1159175551c7": {
 			"id": "258fc0c2787d4893a7ac1159175551c7",
 			"label": "XR Manager",
@@ -634,6 +1000,16 @@
 			},
 			"scriptName": "Left_Controller",
 			"type": "@zcomponent/three-webxr/lib/components/XRController#XRController"
+		},
+		"3a896444bec242c89169a70dc72c36f0": {
+			"id": "3a896444bec242c89169a70dc72c36f0",
+			"label": "ButtonSAT",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zyd"
+			},
+			"scriptName": "ButtonSAT",
+			"type": "./Button/Button.zcomp#default"
 		},
 		"3ba8407ca04746f3afc82e1bced92a8c": {
 			"id": "3ba8407ca04746f3afc82e1bced92a8c",
@@ -715,6 +1091,16 @@
 			"scriptName": "SuspendedSolids",
 			"type": "@zcomponent/particles/lib/components/prefabs/Sparkle#Sparkle"
 		},
+		"5b864a35a10b481989a943ed5e8c459c": {
+			"id": "5b864a35a10b481989a943ed5e8c459c",
+			"label": "ButtonEduP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zy"
+			},
+			"scriptName": "ButtonEduP",
+			"type": "./Button/Button.zcomp#default"
+		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 			"id": "6ef7d30d3e044b6f806dac36e63a857d",
 			"label": "Mesh Group (Delete Me)",
@@ -795,6 +1181,16 @@
 			"scriptName": "Fog",
 			"type": "./Materials/Fog#Fog"
 		},
+		"80d86489b7044abc8810d3e166705d87": {
+			"id": "80d86489b7044abc8810d3e166705d87",
+			"label": "Group 2",
+			"parent": {
+				"id": "bc6f478fd0644aee887e033440ed00df",
+				"order": "a1"
+			},
+			"scriptName": "Group_2",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"id": "857f9901b65b42c89a3ff04470d70738",
 			"label": "DirectionalLight",
@@ -815,6 +1211,26 @@
 			"scriptName": "MeshStandardMaterial_2",
 			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
 		},
+		"8def9d4124354855963d578672c6975b": {
+			"id": "8def9d4124354855963d578672c6975b",
+			"label": "ButtonCAP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zyj"
+			},
+			"scriptName": "ButtonCAP",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"8e49d5a469f4485995b58d1c50c2cd1c": {
+			"id": "8e49d5a469f4485995b58d1c50c2cd1c",
+			"label": "UIDest",
+			"parent": {
+				"id": "775632eabbc64239a43055022b7eec57",
+				"order": "a0"
+			},
+			"scriptName": "UIDest",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
 		"aca73192c64842aba2138a6c01994452": {
 			"id": "aca73192c64842aba2138a6c01994452",
 			"label": "MeshStandardMaterial 2",
@@ -824,6 +1240,46 @@
 			},
 			"scriptName": "MeshStandardMaterial0",
 			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"b2d76f3ec9764b17b458a85efdb48c06": {
+			"id": "b2d76f3ec9764b17b458a85efdb48c06",
+			"label": "ButtonHP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "ZyG"
+			},
+			"scriptName": "ButtonHP",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"b3b8b1eaba504578a54e472a84c5fdbe1": {
+			"id": "b3b8b1eaba504578a54e472a84c5fdbe1",
+			"label": "Hello Text",
+			"parent": {
+				"id": "80d86489b7044abc8810d3e166705d87",
+				"order": "Zz"
+			},
+			"scriptName": "Hello_Text",
+			"type": "@zcomponent/three/lib/components/text/Text#Text"
+		},
+		"bc44974d857f4ed5b31e29b9ab9cd9eb": {
+			"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+			"label": "Buttons",
+			"parent": {
+				"id": "80d86489b7044abc8810d3e166705d87",
+				"order": "a0"
+			},
+			"scriptName": "Buttons",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"bc6f478fd0644aee887e033440ed00df": {
+			"id": "bc6f478fd0644aee887e033440ed00df",
+			"label": "UI",
+			"parent": {
+				"id": "root",
+				"order": "a2"
+			},
+			"scriptName": "UI",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 			"id": "bf1d127bf7234511b3cdc3d5a98af7b0",
@@ -856,6 +1312,16 @@
 			"scriptName": "Environment",
 			"type": "@zcomponent/three/lib/components/Image360#Image360"
 		},
+		"d8435c2a57614fb8a9aa6a327915232c": {
+			"id": "d8435c2a57614fb8a9aa6a327915232c",
+			"label": "ButtonGP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "a0"
+			},
+			"scriptName": "ButtonGP",
+			"type": "./Button/Button.zcomp#default"
+		},
 		"e2d77bbed5ca445292509e55934a55e8": {
 			"id": "e2d77bbed5ca445292509e55934a55e8",
 			"label": "Plane",
@@ -865,6 +1331,16 @@
 			},
 			"scriptName": "Plane",
 			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
+		},
+		"f27c243f88b443ca8ca969147e5997cd": {
+			"id": "f27c243f88b443ca8ca969147e5997cd",
+			"label": "ButtonStudent 2",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zyh"
+			},
+			"scriptName": "ButtonStudent_2",
+			"type": "./Button/Button.zcomp#default"
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
 			"id": "f3937ace1ef5478c9221e2cfc2453503",

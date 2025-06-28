@@ -1,0 +1,709 @@
+{
+	"behaviors": {
+		"2f33489ac94b400eab5237d7a5310e63": {
+			"id": "2f33489ac94b400eab5237d7a5310e63",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "d8435c2a57614fb8a9aa6a327915232c",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"31d881a6d9164929957f7f53a50658d5": {
+			"id": "31d881a6d9164929957f7f53a50658d5",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "8def9d4124354855963d578672c6975b",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"8e190d6b8b504b6284929f4b033ffb56": {
+			"id": "8e190d6b8b504b6284929f4b033ffb56",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "1ce9f2317f954efbbedda2657417a0ed",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"8f428d8389ce4c0896becec72ee720f9": {
+			"id": "8f428d8389ce4c0896becec72ee720f9",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "f27c243f88b443ca8ca969147e5997cd",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"a03f046d4cd34887b8ad1d486a98a4f6": {
+			"id": "a03f046d4cd34887b8ad1d486a98a4f6",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "5b864a35a10b481989a943ed5e8c459c",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"d4969c7321314beabb5ff64d3ef6f290": {
+			"id": "d4969c7321314beabb5ff64d3ef6f290",
+			"label": "UIHandler",
+			"parent": {
+				"id": "root",
+				"order": "a0",
+				"scriptName": "UIHandler"
+			},
+			"type": "./UIHandler#UIHandler"
+		},
+		"ed715e8d0f40444baf11db0f83a59f7d": {
+			"id": "ed715e8d0f40444baf11db0f83a59f7d",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "1dbcac7d6d72460bb2693e084410b153",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"f8553508ebce4d6fa5753f0ea614bea1": {
+			"id": "f8553508ebce4d6fa5753f0ea614bea1",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "b2d76f3ec9764b17b458a85efdb48c06",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"fc9e3933f635402aba9e2999dfa56aca": {
+			"id": "fc9e3933f635402aba9e2999dfa56aca",
+			"label": "MyButtonBehaviour",
+			"parent": {
+				"id": "3a896444bec242c89169a70dc72c36f0",
+				"order": "a0",
+				"scriptName": "MyButtonBehaviour"
+			},
+			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		}
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"ButtonBillionaire": {
+			"1ce9f2317f954efbbedda2657417a0ed": true
+		},
+		"ButtonCAP": {
+			"8def9d4124354855963d578672c6975b": true
+		},
+		"ButtonEP": {
+			"1dbcac7d6d72460bb2693e084410b153": true
+		},
+		"ButtonEduP": {
+			"5b864a35a10b481989a943ed5e8c459c": true
+		},
+		"ButtonGP": {
+			"d8435c2a57614fb8a9aa6a327915232c": true
+		},
+		"ButtonHP": {
+			"b2d76f3ec9764b17b458a85efdb48c06": true
+		},
+		"ButtonSAT": {
+			"3a896444bec242c89169a70dc72c36f0": true
+		},
+		"ButtonStudent 2": {
+			"f27c243f88b443ca8ca969147e5997cd": true
+		},
+		"Buttons": {
+			"bc44974d857f4ed5b31e29b9ab9cd9eb": true
+		},
+		"Group": {
+			"root": true
+		},
+		"Hello Text": {
+			"b3b8b1eaba504578a54e472a84c5fdbe1": true
+		},
+		"Red Background Material": {
+			"447cc0729afa4e058705e71aa9939d771": true
+		},
+		"Text Background": {
+			"1e21fbd0bd844b4e8ace3882fd77f7081": true
+		},
+		"UI": {
+			"798a360ad851446d9660f1af4df93ed6": true
+		}
+	},
+	"entitiesByScriptName": {
+		"ButtonBillionaire": {
+			"1ce9f2317f954efbbedda2657417a0ed": true
+		},
+		"ButtonCAP": {
+			"8def9d4124354855963d578672c6975b": true
+		},
+		"ButtonEP": {
+			"1dbcac7d6d72460bb2693e084410b153": true
+		},
+		"ButtonEduP": {
+			"5b864a35a10b481989a943ed5e8c459c": true
+		},
+		"ButtonGP": {
+			"d8435c2a57614fb8a9aa6a327915232c": true
+		},
+		"ButtonHP": {
+			"b2d76f3ec9764b17b458a85efdb48c06": true
+		},
+		"ButtonSAT": {
+			"3a896444bec242c89169a70dc72c36f0": true
+		},
+		"ButtonStudent0": {
+			"f27c243f88b443ca8ca969147e5997cd": true
+		},
+		"Buttons": {
+			"bc44974d857f4ed5b31e29b9ab9cd9eb": true
+		},
+		"Hello_Text": {
+			"b3b8b1eaba504578a54e472a84c5fdbe1": true
+		},
+		"Red_BackgroundMaterial": {
+			"447cc0729afa4e058705e71aa9939d771": true
+		},
+		"Text_Background": {
+			"1e21fbd0bd844b4e8ace3882fd77f7081": true
+		},
+		"UI": {
+			"798a360ad851446d9660f1af4df93ed6": true
+		}
+	},
+	"entityConstructorProps": {
+		"1ce9f2317f954efbbedda2657417a0ed": {
+		},
+		"1dbcac7d6d72460bb2693e084410b153": {
+		},
+		"1e21fbd0bd844b4e8ace3882fd77f7081": {
+			"height": 6,
+			"width": 2
+		},
+		"2f33489ac94b400eab5237d7a5310e63": {
+		},
+		"31d881a6d9164929957f7f53a50658d5": {
+		},
+		"3a896444bec242c89169a70dc72c36f0": {
+		},
+		"447cc0729afa4e058705e71aa9939d771": {
+		},
+		"5b864a35a10b481989a943ed5e8c459c": {
+		},
+		"798a360ad851446d9660f1af4df93ed6": {
+		},
+		"8def9d4124354855963d578672c6975b": {
+		},
+		"8e190d6b8b504b6284929f4b033ffb56": {
+			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
+		},
+		"8f428d8389ce4c0896becec72ee720f9": {
+			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
+		},
+		"a03f046d4cd34887b8ad1d486a98a4f6": {
+		},
+		"b2d76f3ec9764b17b458a85efdb48c06": {
+		},
+		"b3b8b1eaba504578a54e472a84c5fdbe1": {
+		},
+		"bc44974d857f4ed5b31e29b9ab9cd9eb": {
+		},
+		"d4969c7321314beabb5ff64d3ef6f290": {
+		},
+		"d8435c2a57614fb8a9aa6a327915232c": {
+		},
+		"ed715e8d0f40444baf11db0f83a59f7d": {
+		},
+		"f27c243f88b443ca8ca969147e5997cd": {
+		},
+		"f8553508ebce4d6fa5753f0ea614bea1": {
+		},
+		"fc9e3933f635402aba9e2999dfa56aca": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"1ce9f2317f954efbbedda2657417a0ed": {
+			"position": [
+				-1.4521106479895773,
+				-0.5826799203639501,
+				0
+			],
+			"text": "Billionaire"
+		},
+		"1dbcac7d6d72460bb2693e084410b153": {
+			"position": [
+				0.9923124561217627,
+				1.2973064644823953,
+				0
+			],
+			"text": "Economy Person"
+		},
+		"1e21fbd0bd844b4e8ace3882fd77f7081": {
+			"enabled": true,
+			"position": [
+				0,
+				0.4897292352406294,
+				-0.01
+			],
+			"scale": [
+				2.8,
+				0.5,
+				1
+			],
+			"visible": true
+		},
+		"2f33489ac94b400eab5237d7a5310e63": {
+		},
+		"31d881a6d9164929957f7f53a50658d5": {
+		},
+		"3a896444bec242c89169a70dc72c36f0": {
+			"position": [
+				1.0214247437565964,
+				0.039148832308049,
+				0
+			],
+			"text": " Science & Tech Person"
+		},
+		"447cc0729afa4e058705e71aa9939d771": {
+			"color": [
+				0,
+				0,
+				0
+			],
+			"depthFunc": "AlwaysDepth",
+			"opacity": 0.469509816668834,
+			"transparent": true,
+			"visible": true
+		},
+		"5b864a35a10b481989a943ed5e8c459c": {
+			"position": [
+				0.9923124561217627,
+				0.6564290359360233,
+				0
+			],
+			"text": "Education Person"
+		},
+		"798a360ad851446d9660f1af4df93ed6": {
+			"position": [
+				0,
+				1.32424603561034,
+				-2
+			],
+			"scale": [
+				0.5,
+				0.5,
+				1
+			]
+		},
+		"8def9d4124354855963d578672c6975b": {
+			"position": [
+				-1.456445025202862,
+				0.04280548450371757,
+				0
+			],
+			"text": " Culture & Arts Person"
+		},
+		"8e190d6b8b504b6284929f4b033ffb56": {
+		},
+		"8f428d8389ce4c0896becec72ee720f9": {
+		},
+		"a03f046d4cd34887b8ad1d486a98a4f6": {
+		},
+		"b2d76f3ec9764b17b458a85efdb48c06": {
+			"position": [
+				-1.456445025202862,
+				0.6564290359360233,
+				0
+			],
+			"text": "Health Person"
+		},
+		"b3b8b1eaba504578a54e472a84c5fdbe1": {
+			"anchorX": "center",
+			"anchorY": "top",
+			"color": [
+				0.8631572134510892,
+				0.8307698767709715,
+				0.8307698767709715
+			],
+			"direction": "auto",
+			"fillOpacity": 0.7,
+			"fontSize": 0.2,
+			"outlineOpacity": 1,
+			"position": [
+				0,
+				1.9046011085907497,
+				0
+			],
+			"strokeOpacity": 1,
+			"text": "Are you a...",
+			"visible": true
+		},
+		"bc44974d857f4ed5b31e29b9ab9cd9eb": {
+			"visible": true
+		},
+		"d4969c7321314beabb5ff64d3ef6f290": {
+		},
+		"d8435c2a57614fb8a9aa6a327915232c": {
+			"position": [
+				-1.4054474874093201,
+				1.2973064644823953,
+				0
+			],
+			"text": "Governance Person "
+		},
+		"ed715e8d0f40444baf11db0f83a59f7d": {
+		},
+		"f27c243f88b443ca8ca969147e5997cd": {
+			"position": [
+				1.0214247437565964,
+				-0.5826799203639501,
+				0
+			],
+			"text": "Student"
+		},
+		"f8553508ebce4d6fa5753f0ea614bea1": {
+		},
+		"fc9e3933f635402aba9e2999dfa56aca": {
+		}
+	},
+	"id": "5d4513e843574c04847bf1474912090f",
+	"nodes": {
+		"1ce9f2317f954efbbedda2657417a0ed": {
+			"id": "1ce9f2317f954efbbedda2657417a0ed",
+			"label": "ButtonBillionaire",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "ZygV"
+			},
+			"scriptName": "ButtonBillionaire",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"1dbcac7d6d72460bb2693e084410b153": {
+			"id": "1dbcac7d6d72460bb2693e084410b153",
+			"label": "ButtonEP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zz"
+			},
+			"scriptName": "ButtonEP",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"1e21fbd0bd844b4e8ace3882fd77f7081": {
+			"id": "1e21fbd0bd844b4e8ace3882fd77f7081",
+			"label": "Text Background",
+			"parent": {
+				"id": "798a360ad851446d9660f1af4df93ed6",
+				"order": "Zz"
+			},
+			"scriptName": "Text_Background",
+			"type": "@zcomponent/three/lib/components/meshes/Plane#Plane"
+		},
+		"3a896444bec242c89169a70dc72c36f0": {
+			"id": "3a896444bec242c89169a70dc72c36f0",
+			"label": "ButtonSAT",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zyd"
+			},
+			"scriptName": "ButtonSAT",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"447cc0729afa4e058705e71aa9939d771": {
+			"id": "447cc0729afa4e058705e71aa9939d771",
+			"label": "Red Background Material",
+			"parent": {
+				"id": "1e21fbd0bd844b4e8ace3882fd77f7081",
+				"order": "a0"
+			},
+			"scriptName": "Red_BackgroundMaterial",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"5b864a35a10b481989a943ed5e8c459c": {
+			"id": "5b864a35a10b481989a943ed5e8c459c",
+			"label": "ButtonEduP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zy"
+			},
+			"scriptName": "ButtonEduP",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"798a360ad851446d9660f1af4df93ed6": {
+			"id": "798a360ad851446d9660f1af4df93ed6",
+			"label": "UI",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "UI",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"8def9d4124354855963d578672c6975b": {
+			"id": "8def9d4124354855963d578672c6975b",
+			"label": "ButtonCAP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zyj"
+			},
+			"scriptName": "ButtonCAP",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"b2d76f3ec9764b17b458a85efdb48c06": {
+			"id": "b2d76f3ec9764b17b458a85efdb48c06",
+			"label": "ButtonHP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "ZyG"
+			},
+			"scriptName": "ButtonHP",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"b3b8b1eaba504578a54e472a84c5fdbe1": {
+			"id": "b3b8b1eaba504578a54e472a84c5fdbe1",
+			"label": "Hello Text",
+			"parent": {
+				"id": "798a360ad851446d9660f1af4df93ed6",
+				"order": "a0"
+			},
+			"scriptName": "Hello_Text",
+			"type": "@zcomponent/three/lib/components/text/Text#Text"
+		},
+		"bc44974d857f4ed5b31e29b9ab9cd9eb": {
+			"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+			"label": "Buttons",
+			"parent": {
+				"id": "798a360ad851446d9660f1af4df93ed6",
+				"order": "a3"
+			},
+			"scriptName": "Buttons",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"d8435c2a57614fb8a9aa6a327915232c": {
+			"id": "d8435c2a57614fb8a9aa6a327915232c",
+			"label": "ButtonGP",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "a0"
+			},
+			"scriptName": "ButtonGP",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"f27c243f88b443ca8ca969147e5997cd": {
+			"id": "f27c243f88b443ca8ca969147e5997cd",
+			"label": "ButtonStudent 2",
+			"parent": {
+				"id": "bc44974d857f4ed5b31e29b9ab9cd9eb",
+				"order": "Zyh"
+			},
+			"scriptName": "ButtonStudent0",
+			"type": "./Button/Button.zcomp#default"
+		},
+		"root": {
+			"id": "root",
+			"label": "Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"propEntityOverrides": {
+		"position": {
+			"root": {
+				"position": true
+			}
+		}
+	},
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
