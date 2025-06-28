@@ -4,6 +4,12 @@
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
+		"Arrow Geometry": {
+			"80ce371f0a844b98ace6c3970f4e3b9a6": true
+		},
+		"Arrow Material": {
+			"80ce371f0a844b98ace6c3970f4e3b9a7": true
+		},
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
 		},
@@ -67,6 +73,12 @@
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
 		},
+		"Ring Geometry": {
+			"80ce371f0a844b98ace6c3970f4e3b9a3": true
+		},
+		"Ring Material": {
+			"80ce371f0a844b98ace6c3970f4e3b9a4": true
+		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
 		},
@@ -76,11 +88,20 @@
 		"SuspendedSolids": {
 			"56044315920a4746af46d34228759e28": true
 		},
+		"Teleport Arrow": {
+			"80ce371f0a844b98ace6c3970f4e3b9a5": true
+		},
 		"Teleport Manager": {
 			"54a3fe42df61491d805d50af10399810": true
 		},
+		"Teleport Ring": {
+			"80ce371f0a844b98ace6c3970f4e3b9a2": true
+		},
 		"Turn Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
+		},
+		"Walk Manager": {
+			"80ce371f0a844b98ace6c3970f4e3b9a1": true
 		},
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
@@ -105,6 +126,12 @@
 		}
 	},
 	"entitiesByScriptName": {
+		"Arrow_Geometry": {
+			"80ce371f0a844b98ace6c3970f4e3b9a6": true
+		},
+		"Arrow_Material": {
+			"80ce371f0a844b98ace6c3970f4e3b9a7": true
+		},
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
 		},
@@ -165,6 +192,12 @@
 		"Right_Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
 		},
+		"Ring_Geometry": {
+			"80ce371f0a844b98ace6c3970f4e3b9a3": true
+		},
+		"Ring_Material": {
+			"80ce371f0a844b98ace6c3970f4e3b9a4": true
+		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
 		},
@@ -174,11 +207,20 @@
 		"SuspendedSolids": {
 			"56044315920a4746af46d34228759e28": true
 		},
+		"Teleport_Arrow": {
+			"80ce371f0a844b98ace6c3970f4e3b9a5": true
+		},
 		"Teleport_Manager": {
 			"54a3fe42df61491d805d50af10399810": true
 		},
+		"Teleport_Ring": {
+			"80ce371f0a844b98ace6c3970f4e3b9a2": true
+		},
 		"Turn_Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
+		},
+		"Walk_Manager": {
+			"80ce371f0a844b98ace6c3970f4e3b9a1": true
 		},
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
@@ -257,6 +299,26 @@
 		},
 		"7cfa6e6f029b41ddabb4b77606fa4b19": {
 			"excludeImage360": true
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a1": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a2": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a3": {
+			"innerRadius": 0.8,
+			"outerRadius": 1,
+			"thetaSegments": 32
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a4": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a5": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a6": {
+			"height": 0.4,
+			"radialSegments": 8,
+			"radius": 0.15
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a7": {
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 		},
@@ -459,6 +521,8 @@
 			"roughness": 0.492606026785714
 		},
 		"54a3fe42df61491d805d50af10399810": {
+			"leftHandControllers": false,
+			"rightHandControllers": true,
 			"visible": true
 		},
 		"56044315920a4746af46d34228759e28": {
@@ -479,6 +543,8 @@
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
+			"leftHandControllers": false,
+			"rightHandControllers": true
 		},
 		"7146d520c87b4d88850143aea2e8e22d": {
 		},
@@ -503,6 +569,58 @@
 		},
 		"7cfa6e6f029b41ddabb4b77606fa4b19": {
 			"visible": true
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a1": {
+			"leftHandControllers": true,
+			"rightHandControllers": false,
+			"sideMovement": "strafe",
+			"speed": 1
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a2": {
+			"position": [
+				0,
+				0.01,
+				0
+			],
+			"rotation": [
+				-1.5707963267948966,
+				0,
+				0
+			]
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a3": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a4": {
+			"color": [
+				0.2,
+				0.8,
+				1
+			],
+			"opacity": 0.7,
+			"transparent": true
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a5": {
+			"position": [
+				0,
+				0.3,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a6": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a7": {
+			"color": [
+				1,
+				1,
+				0.2
+			],
+			"opacity": 0.8,
+			"transparent": true
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"castShadow": true,
@@ -794,6 +912,76 @@
 			},
 			"scriptName": "Fog",
 			"type": "./Materials/Fog#Fog"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a1": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a1",
+			"label": "Walk Manager",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a3"
+			},
+			"scriptName": "Walk_Manager",
+			"type": "@zcomponent/three-webxr/lib/components/WalkManager#WalkManager"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a2": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a2",
+			"label": "Teleport Ring",
+			"parent": {
+				"id": "54a3fe42df61491d805d50af10399810",
+				"order": "a0"
+			},
+			"scriptName": "Teleport_Ring",
+			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a3": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a3",
+			"label": "Ring Geometry",
+			"parent": {
+				"id": "80ce371f0a844b98ace6c3970f4e3b9a2",
+				"order": "a0"
+			},
+			"scriptName": "Ring_Geometry",
+			"type": "@zcomponent/three/lib/components/geometries/RingGeometry#RingGeometry"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a4": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a4",
+			"label": "Ring Material",
+			"parent": {
+				"id": "80ce371f0a844b98ace6c3970f4e3b9a2",
+				"order": "a1"
+			},
+			"scriptName": "Ring_Material",
+			"type": "@zcomponent/three/lib/components/materials/MeshBasicMaterial#MeshBasicMaterial"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a5": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a5",
+			"label": "Teleport Arrow",
+			"parent": {
+				"id": "54a3fe42df61491d805d50af10399810",
+				"order": "a1"
+			},
+			"scriptName": "Teleport_Arrow",
+			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a6": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a6",
+			"label": "Arrow Geometry",
+			"parent": {
+				"id": "80ce371f0a844b98ace6c3970f4e3b9a5",
+				"order": "a0"
+			},
+			"scriptName": "Arrow_Geometry",
+			"type": "@zcomponent/three/lib/components/geometries/ConeGeometry#ConeGeometry"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a7": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a7",
+			"label": "Arrow Material",
+			"parent": {
+				"id": "80ce371f0a844b98ace6c3970f4e3b9a5",
+				"order": "a1"
+			},
+			"scriptName": "Arrow_Material",
+			"type": "@zcomponent/three/lib/components/materials/MeshBasicMaterial#MeshBasicMaterial"
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"id": "857f9901b65b42c89a3ff04470d70738",
