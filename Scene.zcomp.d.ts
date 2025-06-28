@@ -30,6 +30,7 @@ import { HandMovementBehavior as HandMovementBehavior_26 } from "./HandMovementB
 import { XRCamera as XRCamera_27 } from "@zcomponent/three-webxr/lib/components/XRCamera";
 import { XRDefaultLoader as XRDefaultLoader_28 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
 import { XRManager as XRManager_29 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { Text as Text_30 } from "@zcomponent/three/lib/components/text/Text";
 
 interface ConstructorProps {
 
@@ -114,6 +115,11 @@ declare class Comp extends ZComponent {
 
 			}
 		},
+		LeftHandPosition: Group_4 & {
+			behaviors: {
+
+			}
+		},
 		Left_Controller: XRController_12 & {
 			behaviors: {
 
@@ -145,6 +151,11 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Plane: Plane_15 & {
+			behaviors: {
+
+			}
+		},
+		RightHandPosition: Group_4 & {
 			behaviors: {
 
 			}
@@ -240,12 +251,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		LeftHandPosition: Group_4 & {
-			behaviors: {
-
-			}
-		},
-		RightHandPosition: Group_4 & {
+		MovementTutorial: Text_30 & {
 			behaviors: {
 
 			}

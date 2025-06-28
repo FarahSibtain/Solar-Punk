@@ -86,6 +86,9 @@
 		"MeshStandardMaterial 2": {
 			"aca73192c64842aba2138a6c01994452": true
 		},
+		"MovementTutorial": {
+			"a942027fc7c2441c91f72d136421c8c3": true
+		},
 		"Particle Emitter": {
 			"08f53b8663c1471fb9c2d982c63b62aa": true
 		},
@@ -210,6 +213,9 @@
 		},
 		"Mesh_GroupDeleteMe0": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
+		},
+		"MovementTutorial": {
+			"a942027fc7c2441c91f72d136421c8c3": true
 		},
 		"Particle_Emitter": {
 			"08f53b8663c1471fb9c2d982c63b62aa": true
@@ -358,6 +364,10 @@
 		"857f9901b65b42c89a3ff04470d70738": {
 		},
 		"8602fb46317c411d85f2649e8162aff6": {
+		},
+		"a942027fc7c2441c91f72d136421c8c3": {
+			"characters": "",
+			"font": ""
 		},
 		"aca73192c64842aba2138a6c01994452": {
 		},
@@ -683,6 +693,20 @@
 			],
 			"metalness": 0.364955357142857,
 			"roughness": 0.492606026785714
+		},
+		"a942027fc7c2441c91f72d136421c8c3": {
+			"color": [
+				1,
+				1,
+				1
+			],
+			"fontSize": 0.05,
+			"position": [
+				-0.33984837137592244,
+				1.0805765523630764,
+				-0.6381779926821172
+			],
+			"text": "Left Controller: Move\nRight Controller: Teleport\nHands: Swim by pressing\n             your palms together"
 		},
 		"aca73192c64842aba2138a6c01994452": {
 			"color": [
@@ -1061,6 +1085,16 @@
 			},
 			"scriptName": "MeshStandardMaterial_2",
 			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"a942027fc7c2441c91f72d136421c8c3": {
+			"id": "a942027fc7c2441c91f72d136421c8c3",
+			"label": "MovementTutorial",
+			"parent": {
+				"id": "bf59aa4eac3f4628bcd8579ee35fae3c",
+				"order": "a1"
+			},
+			"scriptName": "MovementTutorial",
+			"type": "@zcomponent/three/lib/components/text/Text#Text"
 		},
 		"aca73192c64842aba2138a6c01994452": {
 			"id": "aca73192c64842aba2138a6c01994452",
