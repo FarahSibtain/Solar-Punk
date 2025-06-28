@@ -88,15 +88,6 @@
 		"Hard_world": {
 			"f4b688ed3123424d87913a610c431818": true
 		},
-		"ImageTexture": {
-			"c491725b07514f07b3a70cb064966578": true
-		},
-		"ImageTexture 2": {
-			"84571233f15f48d1a25764531107579b": true
-		},
-		"MeshStandardMaterial": {
-			"606d939225b043dc9d0d6c7d807c6b73": true
-		},
 		"Mountain _14_gesund.glb": {
 			"d11ee5b53ffd4a3fa58ab55f47d3aef4": true
 		},
@@ -144,9 +135,6 @@
 		},
 		"Sand Ohneschimmel v17.glb": {
 			"569aec496afa42d2be27eb86936496f9": true
-		},
-		"Sand Ohneschimmel v17.glb 2": {
-			"c19b409a843a4f2da28d0577c86f57ca": true
 		},
 		"Sand_mit_ohne_schmmel": {
 			"e362da04258e4d91a56d91f6d739d884": true
@@ -474,15 +462,6 @@
 		"Hard_world": {
 			"f4b688ed3123424d87913a610c431818": true
 		},
-		"ImageTexture": {
-			"c491725b07514f07b3a70cb064966578": true
-		},
-		"ImageTexture0": {
-			"84571233f15f48d1a25764531107579b": true
-		},
-		"MeshStandardMaterial": {
-			"606d939225b043dc9d0d6c7d807c6b73": true
-		},
 		"Mountain__14_gesund_glb": {
 			"d11ee5b53ffd4a3fa58ab55f47d3aef4": true
 		},
@@ -530,9 +509,6 @@
 		},
 		"Sand_Ohneschimmelv17_glb": {
 			"569aec496afa42d2be27eb86936496f9": true
-		},
-		"Sand_Ohneschimmelv17_glb0": {
-			"c19b409a843a4f2da28d0577c86f57ca": true
 		},
 		"Sand_mit_ohne_schmmel": {
 			"e362da04258e4d91a56d91f6d739d884": true
@@ -948,8 +924,6 @@
 		"5ca2c07fd0e346f5beae5b020a9d1b4b": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
-		"606d939225b043dc9d0d6c7d807c6b73": {
-		},
 		"61c6ba31df2f4ed994f86e148df210c9": {
 		},
 		"63acbb3f0dee4ab8b5214647ba3a525d": {
@@ -1021,9 +995,6 @@
 		"8239552ff5724ac0aa791af9d110c7f7": {
 			"source": "file://./Objekte/Steine Klein v2.glb"
 		},
-		"84571233f15f48d1a25764531107579b": {
-			"source": "file://./Images/Ein_weicher_sandiger_0628105617_texture.png"
-		},
 		"84b8c90f6fd142c5acbed9884466c377": {
 			"source": "file://./Objekte/Wall Side v21.glb"
 		},
@@ -1085,14 +1056,8 @@
 		"bf08fd2e81a34633957cc2b4955d7157": {
 			"source": "file://./Objekte/Rim v8.glb"
 		},
-		"c19b409a843a4f2da28d0577c86f57ca": {
-			"source": "file://./Objekte/Sand Ohneschimmel v17.glb"
-		},
 		"c2560c89525d4f29ac92bc8831630074": {
 			"source": "file://./Objekte/Floor.glb"
-		},
-		"c491725b07514f07b3a70cb064966578": {
-			"source": "file://./Images/Ein_weicher_sandiger_0628105617_texture.png"
 		},
 		"cd59950b061a4c33af4dadec78db778d": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -2023,11 +1988,6 @@
 				3
 			]
 		},
-		"606d939225b043dc9d0d6c7d807c6b73": {
-			"alphaTest": 0,
-			"attachTo": "Material_0.002",
-			"transparent": true
-		},
 		"61c6ba31df2f4ed994f86e148df210c9": {
 		},
 		"63acbb3f0dee4ab8b5214647ba3a525d": {
@@ -2376,11 +2336,6 @@
 				1
 			]
 		},
-		"84571233f15f48d1a25764531107579b": {
-			"attachTo": "alphaMap",
-			"wrapS": "ClampToEdge",
-			"wrapT": "ClampToEdge"
-		},
 		"84b8c90f6fd142c5acbed9884466c377": {
 			"position": [
 				2.0750813395834458,
@@ -2708,26 +2663,12 @@
 				0.3
 			]
 		},
-		"c19b409a843a4f2da28d0577c86f57ca": {
-			"position": [
-				-6.806180119810749,
-				1,
-				0.38314400439164364
-			],
-			"scale": [
-				1,
-				1,
-				1
-			]
-		},
 		"c2560c89525d4f29ac92bc8831630074": {
 			"position": [
 				-9,
 				0,
 				-9.168830577674267
 			]
-		},
-		"c491725b07514f07b3a70cb064966578": {
 		},
 		"cd59950b061a4c33af4dadec78db778d": {
 			"position": [
@@ -3586,16 +3527,6 @@
 			"scriptName": "Soft_Sandyv18_glb24",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"606d939225b043dc9d0d6c7d807c6b73": {
-			"id": "606d939225b043dc9d0d6c7d807c6b73",
-			"label": "MeshStandardMaterial",
-			"parent": {
-				"id": "c19b409a843a4f2da28d0577c86f57ca",
-				"order": "a0"
-			},
-			"scriptName": "MeshStandardMaterial",
-			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
-		},
 		"61c6ba31df2f4ed994f86e148df210c9": {
 			"id": "61c6ba31df2f4ed994f86e148df210c9",
 			"label": "Soft_molded_sand",
@@ -3836,16 +3767,6 @@
 			"scriptName": "Steine_Klein_glb0",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"84571233f15f48d1a25764531107579b": {
-			"id": "84571233f15f48d1a25764531107579b",
-			"label": "ImageTexture 2",
-			"parent": {
-				"id": "606d939225b043dc9d0d6c7d807c6b73",
-				"order": "Zx"
-			},
-			"scriptName": "ImageTexture0",
-			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
-		},
 		"84b8c90f6fd142c5acbed9884466c377": {
 			"id": "84b8c90f6fd142c5acbed9884466c377",
 			"label": "Wall Side v21.glb",
@@ -4056,16 +3977,6 @@
 			"scriptName": "Rim_v8_glb4",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"c19b409a843a4f2da28d0577c86f57ca": {
-			"id": "c19b409a843a4f2da28d0577c86f57ca",
-			"label": "Sand Ohneschimmel v17.glb 2",
-			"parent": {
-				"id": "e362da04258e4d91a56d91f6d739d884",
-				"order": "a0V"
-			},
-			"scriptName": "Sand_Ohneschimmelv17_glb0",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"c2560c89525d4f29ac92bc8831630074": {
 			"id": "c2560c89525d4f29ac92bc8831630074",
 			"label": "Floor.glb 7",
@@ -4075,16 +3986,6 @@
 			},
 			"scriptName": "Floor_glb_4",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"c491725b07514f07b3a70cb064966578": {
-			"id": "c491725b07514f07b3a70cb064966578",
-			"label": "ImageTexture",
-			"parent": {
-				"id": "606d939225b043dc9d0d6c7d807c6b73",
-				"order": "Zy"
-			},
-			"scriptName": "ImageTexture",
-			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
 		},
 		"cd59950b061a4c33af4dadec78db778d": {
 			"id": "cd59950b061a4c33af4dadec78db778d",

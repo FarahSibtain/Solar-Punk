@@ -2,8 +2,6 @@ import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Ev
 
 import { GLTF as GLTF_0 } from "@zcomponent/three/lib/components/models/GLTF";
 import { Group as Group_1 } from "@zcomponent/three/lib/components/Group";
-import { ImageTexture as ImageTexture_2 } from "@zcomponent/three/lib/components/textures/ImageTexture";
-import { MeshStandardMaterial as MeshStandardMaterial_3 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
 
 interface ConstructorProps {
 
@@ -153,21 +151,6 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		ImageTexture: ImageTexture_2 & {
-			behaviors: {
-
-			}
-		},
-		ImageTexture0: ImageTexture_2 & {
-			behaviors: {
-
-			}
-		},
-		MeshStandardMaterial: MeshStandardMaterial_3 & {
-			behaviors: {
-
-			}
-		},
 		Mountain__14_gesund_glb: GLTF_0 & {
 			behaviors: {
 
@@ -244,11 +227,6 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Sand_Ohneschimmelv17_glb: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Sand_Ohneschimmelv17_glb0: GLTF_0 & {
 			behaviors: {
 
 			}
