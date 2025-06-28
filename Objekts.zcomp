@@ -5,6 +5,26 @@
 	},
 	"entitiesByLabel": {
 		"Busch v1.glb": {
+			"036aa0cf2def44b780764bea734cc928-11": true,
+			"036aa0cf2def44b780764bea734cc928-12": true,
+			"036aa0cf2def44b780764bea734cc928-13": true,
+			"036aa0cf2def44b780764bea734cc928-14": true,
+			"036aa0cf2def44b780764bea734cc928-15": true,
+			"036aa0cf2def44b780764bea734cc928-16": true,
+			"036aa0cf2def44b780764bea734cc928-17": true,
+			"036aa0cf2def44b780764bea734cc928-18": true,
+			"036aa0cf2def44b780764bea734cc928-19": true,
+			"036aa0cf2def44b780764bea734cc928-20": true,
+			"a12da56a6f8d4bb58026319bde24aa49-1": true,
+			"a12da56a6f8d4bb58026319bde24aa49-10": true,
+			"a12da56a6f8d4bb58026319bde24aa49-2": true,
+			"a12da56a6f8d4bb58026319bde24aa49-3": true,
+			"a12da56a6f8d4bb58026319bde24aa49-4": true,
+			"a12da56a6f8d4bb58026319bde24aa49-5": true,
+			"a12da56a6f8d4bb58026319bde24aa49-6": true,
+			"a12da56a6f8d4bb58026319bde24aa49-7": true,
+			"a12da56a6f8d4bb58026319bde24aa49-8": true,
+			"a12da56a6f8d4bb58026319bde24aa49-9": true,
 			"bc9a7edb196b4234870572e1ef8da608": true
 		},
 		"Busch v1.glb 2": {
@@ -43,62 +63,26 @@
 		"Ein Paar v9.glb": {
 			"8fadd0d5c79b4cb0adcba51c66d76e89": true
 		},
-		"Floor": {
-			"b053f62b95a548afbe971b8bbec4c6a4": true
-		},
-		"Floor.glb": {
-			"778568bd46424610b54e611bcbf3771e": true
-		},
-		"Floor.glb 10": {
-			"6bc061bced694b65abed7379d50d4d3c": true
-		},
-		"Floor.glb 11": {
-			"1468abf1c3f148cbba350f9b9b8c921e": true
-		},
-		"Floor.glb 12": {
-			"1cafdb66bf04433aa7804d05774b3dff": true
-		},
-		"Floor.glb 2": {
-			"7a492b1d48774b93930ded2bad6cf1ae": true
-		},
-		"Floor.glb 3": {
-			"495628ccddf7406ba2d07aaec9d60dcf": true
-		},
-		"Floor.glb 4": {
-			"7fa9a21b099e4dcc82c618d58cf1d5d1": true
-		},
-		"Floor.glb 5": {
-			"d1438a55e1284f8b95a5f7994aaa668d": true
-		},
-		"Floor.glb 6": {
-			"e8233778e95d49bb95d0a799a5ac0e44": true
-		},
-		"Floor.glb 7": {
-			"c2560c89525d4f29ac92bc8831630074": true
-		},
-		"Floor.glb 8": {
-			"f8498d757baf4514a39c9289e3846d15": true
-		},
-		"Floor.glb 9": {
-			"157e28eae5ea40e386eafbde06cb3731": true
-		},
 		"Group": {
 			"root": true
 		},
 		"Hard_world": {
 			"f4b688ed3123424d87913a610c431818": true
 		},
-		"Mountain _14_gesund.glb": {
-			"d11ee5b53ffd4a3fa58ab55f47d3aef4": true
-		},
 		"Mountain v14.glb 2": {
 			"40f30fc6a84a46f7ab3ade28a0fdc2ad": true
 		},
-		"Netz Fischer v20.glb": {
-			"2d3d22edf41a48fba4247a5cd472b2a3": true
-		},
 		"Old Rusty v16.glb": {
 			"151724bd1efb4fa3a05cdb2113c05456": true
+		},
+		"Old Rusty v16.glb 2": {
+			"b351e20529d0448a9927aa17980507af": true
+		},
+		"Old Rusty v16.glb 3": {
+			"65abf4ee09e44c10ad2289418abe3562": true
+		},
+		"Old Rusty v16.glb 4": {
+			"5c9bc57050f142bb9800e8c0fe1432b2": true
 		},
 		"Old Rusty v7.glb": {
 			"3813ab99c1d94e958d7f73659b3ff79e": true
@@ -133,17 +117,11 @@
 		"Rim v8.glb 7": {
 			"f02a879ba0ce466ea650861c5b895b23": true
 		},
-		"RoundedSton v5.glb": {
-			"a09cd584d83a4069917153b79b53ea11": true
-		},
 		"Sand Ohneschimmel v17.glb": {
 			"569aec496afa42d2be27eb86936496f9": true
 		},
 		"Sand_mit_ohne_schmmel": {
 			"e362da04258e4d91a56d91f6d739d884": true
-		},
-		"Schimmerl Gitter v12.glb": {
-			"49cdab3e0e344daa808d90412d49eed0": true
 		},
 		"Soft Sandy v18.glb": {
 			"b11063f305174f35a9261cabb9abc692": true
@@ -210,9 +188,6 @@
 		},
 		"Soft Sandy v18.glb 29": {
 			"d6a8cde727a445b9a0ed4ea0e98135d0": true
-		},
-		"Soft Sandy v18.glb 3": {
-			"85e8d0a0293e45b1bcdd715b3f7a9a2f": true
 		},
 		"Soft Sandy v18.glb 30": {
 			"8724f10aa45645d6b4f82bf6feda5677": true
@@ -284,7 +259,7 @@
 			"0f3146924aeb4d7293d67c0f1efa04d2": true
 		},
 		"Soft Sandy v18.glb 51": {
-			"a914f49d3d5e45ba97b4251acbb4919d": true
+			"32c0a433fd5342f09f1fc44c4efbdf2c": true
 		},
 		"Soft Sandy v18.glb 52": {
 			"1d9d38158d144d6d87e8f5cc8a9315dd": true
@@ -292,23 +267,35 @@
 		"Soft Sandy v18.glb 53": {
 			"b7df27136d2e4ebea12a06d3272f42db": true
 		},
-		"Soft Sandy v18.glb 54": {
-			"48a2730e5e314a5384284710a491a773": true
-		},
 		"Soft Sandy v18.glb 55": {
 			"5265d8d159364e10a79495ba41383ea9": true
 		},
 		"Soft Sandy v18.glb 56": {
 			"3476598137a94f6dbc45cccafe4f46a0": true
 		},
+		"Soft Sandy v18.glb 57": {
+			"55f1c2847200449b86aff8643620aa2f": true
+		},
+		"Soft Sandy v18.glb 58": {
+			"89c30067596646f584a5b0ca0b4019e7": true
+		},
+		"Soft Sandy v18.glb 59": {
+			"79c15535967646b6b39474df778ba9e4": true
+		},
 		"Soft Sandy v18.glb 6": {
 			"140797a345ed4b3685929cf8805c5227": true
 		},
+		"Soft Sandy v18.glb 60": {
+			"4c8be44ada0c49f3ba6f18607ad0cfd1": true
+		},
+		"Soft Sandy v18.glb 61": {
+			"73f6fed034494e06b423d567d3786228": true
+		},
+		"Soft Sandy v18.glb 62": {
+			"0c894e4e915b478d81eeed0b0a1e485c": true
+		},
 		"Soft Sandy v18.glb 7": {
 			"67f6a062c6e140739fc96f17b26a4866": true
-		},
-		"Soft Sandy v18.glb 8": {
-			"63acbb3f0dee4ab8b5214647ba3a525d": true
 		},
 		"Soft Sandy v18.glb 9": {
 			"3e38eb9d17754c25affa3468906277f4": true
@@ -370,9 +357,6 @@
 		"Wall Side v21.glb 11": {
 			"762a5092ffb949ad97a7028de085cae2": true
 		},
-		"Wall Side v21.glb 12": {
-			"822d93a9d16d42e4afd33ada55b2e963": true
-		},
 		"Wall Side v21.glb 13": {
 			"190775946dd14c6ca9b9aff2c0127102": true
 		},
@@ -420,11 +404,71 @@
 		"Busch_v1_glb1": {
 			"167647dea478413f925221ef02bee18c": true
 		},
+		"Busch_v1_glb10": {
+			"a12da56a6f8d4bb58026319bde24aa49-8": true
+		},
+		"Busch_v1_glb11": {
+			"a12da56a6f8d4bb58026319bde24aa49-9": true
+		},
+		"Busch_v1_glb12": {
+			"a12da56a6f8d4bb58026319bde24aa49-10": true
+		},
+		"Busch_v1_glb13": {
+			"036aa0cf2def44b780764bea734cc928-11": true
+		},
+		"Busch_v1_glb14": {
+			"036aa0cf2def44b780764bea734cc928-12": true
+		},
+		"Busch_v1_glb15": {
+			"036aa0cf2def44b780764bea734cc928-13": true
+		},
+		"Busch_v1_glb16": {
+			"036aa0cf2def44b780764bea734cc928-14": true
+		},
+		"Busch_v1_glb17": {
+			"036aa0cf2def44b780764bea734cc928-15": true
+		},
+		"Busch_v1_glb18": {
+			"036aa0cf2def44b780764bea734cc928-16": true
+		},
+		"Busch_v1_glb19": {
+			"036aa0cf2def44b780764bea734cc928-17": true
+		},
 		"Busch_v1_glb2": {
 			"10b217625fba43c0a43b9d8f012f37c3": true
 		},
 		"Busch_v1_glb20": {
 			"227c338405b840acad64b10bb72437b6": true
+		},
+		"Busch_v1_glb21": {
+			"036aa0cf2def44b780764bea734cc928-18": true
+		},
+		"Busch_v1_glb22": {
+			"036aa0cf2def44b780764bea734cc928-19": true
+		},
+		"Busch_v1_glb23": {
+			"036aa0cf2def44b780764bea734cc928-20": true
+		},
+		"Busch_v1_glb3": {
+			"a12da56a6f8d4bb58026319bde24aa49-1": true
+		},
+		"Busch_v1_glb4": {
+			"a12da56a6f8d4bb58026319bde24aa49-2": true
+		},
+		"Busch_v1_glb5": {
+			"a12da56a6f8d4bb58026319bde24aa49-3": true
+		},
+		"Busch_v1_glb6": {
+			"a12da56a6f8d4bb58026319bde24aa49-4": true
+		},
+		"Busch_v1_glb7": {
+			"a12da56a6f8d4bb58026319bde24aa49-5": true
+		},
+		"Busch_v1_glb8": {
+			"a12da56a6f8d4bb58026319bde24aa49-6": true
+		},
+		"Busch_v1_glb9": {
+			"a12da56a6f8d4bb58026319bde24aa49-7": true
 		},
 		"Chaotic_Pilev22_glb": {
 			"e96d2b3afa6e4e7191e7889c0228c681": true
@@ -450,59 +494,23 @@
 		"Ein_Paarv9_glb": {
 			"8fadd0d5c79b4cb0adcba51c66d76e89": true
 		},
-		"Floor": {
-			"b053f62b95a548afbe971b8bbec4c6a4": true
-		},
-		"Floor_glb": {
-			"778568bd46424610b54e611bcbf3771e": true
-		},
-		"Floor_glb0": {
-			"7a492b1d48774b93930ded2bad6cf1ae": true
-		},
-		"Floor_glb1": {
-			"495628ccddf7406ba2d07aaec9d60dcf": true
-		},
-		"Floor_glb2": {
-			"1cafdb66bf04433aa7804d05774b3dff": true
-		},
-		"Floor_glb_2": {
-			"7fa9a21b099e4dcc82c618d58cf1d5d1": true
-		},
-		"Floor_glb_20": {
-			"d1438a55e1284f8b95a5f7994aaa668d": true
-		},
-		"Floor_glb_21": {
-			"6bc061bced694b65abed7379d50d4d3c": true
-		},
-		"Floor_glb_3": {
-			"1468abf1c3f148cbba350f9b9b8c921e": true
-		},
-		"Floor_glb_4": {
-			"c2560c89525d4f29ac92bc8831630074": true
-		},
-		"Floor_glb_5": {
-			"e8233778e95d49bb95d0a799a5ac0e44": true
-		},
-		"Floor_glb_50": {
-			"157e28eae5ea40e386eafbde06cb3731": true
-		},
-		"Floor_glb_6": {
-			"f8498d757baf4514a39c9289e3846d15": true
-		},
 		"Hard_world": {
 			"f4b688ed3123424d87913a610c431818": true
-		},
-		"Mountain__14_gesund_glb": {
-			"d11ee5b53ffd4a3fa58ab55f47d3aef4": true
 		},
 		"Mountain_v14_glb0": {
 			"40f30fc6a84a46f7ab3ade28a0fdc2ad": true
 		},
-		"Netz_Fischerv20_glb": {
-			"2d3d22edf41a48fba4247a5cd472b2a3": true
-		},
 		"Old_Rustyv16_glb": {
 			"151724bd1efb4fa3a05cdb2113c05456": true
+		},
+		"Old_Rustyv16_glb2": {
+			"b351e20529d0448a9927aa17980507af": true
+		},
+		"Old_Rustyv16_glb20": {
+			"65abf4ee09e44c10ad2289418abe3562": true
+		},
+		"Old_Rustyv16_glb21": {
+			"5c9bc57050f142bb9800e8c0fe1432b2": true
 		},
 		"Old_Rustyv7_glb": {
 			"3813ab99c1d94e958d7f73659b3ff79e": true
@@ -537,26 +545,17 @@
 		"Rim_v8_glb40": {
 			"f02a879ba0ce466ea650861c5b895b23": true
 		},
-		"RoundedSton_v5_glb": {
-			"a09cd584d83a4069917153b79b53ea11": true
-		},
 		"Sand_Ohneschimmelv17_glb": {
 			"569aec496afa42d2be27eb86936496f9": true
 		},
 		"Sand_mit_ohne_schmmel": {
 			"e362da04258e4d91a56d91f6d739d884": true
 		},
-		"Schimmerl_Gitterv12_glb": {
-			"49cdab3e0e344daa808d90412d49eed0": true
-		},
 		"Soft_Sandyv18_glb": {
 			"b11063f305174f35a9261cabb9abc692": true
 		},
 		"Soft_Sandyv18_glb0": {
 			"4729dafbf73d41248dbda8e586adf9d2": true
-		},
-		"Soft_Sandyv18_glb1": {
-			"85e8d0a0293e45b1bcdd715b3f7a9a2f": true
 		},
 		"Soft_Sandyv18_glb10": {
 			"78025199d3004549ac059cb040f11c26": true
@@ -630,14 +629,29 @@
 		"Soft_Sandyv18_glb250": {
 			"0f3146924aeb4d7293d67c0f1efa04d2": true
 		},
+		"Soft_Sandyv18_glb251": {
+			"73f6fed034494e06b423d567d3786228": true
+		},
+		"Soft_Sandyv18_glb252": {
+			"0c894e4e915b478d81eeed0b0a1e485c": true
+		},
 		"Soft_Sandyv18_glb26": {
 			"b7f6501ef5f84f8f89a31a541eab66eb": true
 		},
-		"Soft_Sandyv18_glb260": {
-			"a914f49d3d5e45ba97b4251acbb4919d": true
-		},
 		"Soft_Sandyv18_glb27": {
 			"1d9d38158d144d6d87e8f5cc8a9315dd": true
+		},
+		"Soft_Sandyv18_glb270": {
+			"55f1c2847200449b86aff8643620aa2f": true
+		},
+		"Soft_Sandyv18_glb271": {
+			"89c30067596646f584a5b0ca0b4019e7": true
+		},
+		"Soft_Sandyv18_glb272": {
+			"79c15535967646b6b39474df778ba9e4": true
+		},
+		"Soft_Sandyv18_glb273": {
+			"4c8be44ada0c49f3ba6f18607ad0cfd1": true
 		},
 		"Soft_Sandyv18_glb28": {
 			"b7df27136d2e4ebea12a06d3272f42db": true
@@ -687,11 +701,11 @@
 		"Soft_Sandyv18_glb45": {
 			"4d482e1a58f44efea834c4b45c5ea9b5": true
 		},
-		"Soft_Sandyv18_glb5": {
-			"63acbb3f0dee4ab8b5214647ba3a525d": true
-		},
 		"Soft_Sandyv18_glb50": {
 			"2f8824d954d2417ba4641f852a4f4d74": true
+		},
+		"Soft_Sandyv18_glb500": {
+			"32c0a433fd5342f09f1fc44c4efbdf2c": true
 		},
 		"Soft_Sandyv18_glb6": {
 			"cd59950b061a4c33af4dadec78db778d": true
@@ -707,9 +721,6 @@
 		},
 		"Soft_Sandyv18_glb8": {
 			"f741e185ac1a4d7ebe24e84e87400638": true
-		},
-		"Soft_Sandyv18_glb80": {
-			"48a2730e5e314a5384284710a491a773": true
 		},
 		"Soft_Sandyv18_glb9": {
 			"5727d1e3fa094a3089ac7c6c457c5abe": true
@@ -780,9 +791,6 @@
 		"Wall_Sidev21_glb20": {
 			"ce122dae41ee4f5da359416a34a6589f": true
 		},
-		"Wall_Sidev21_glb21": {
-			"822d93a9d16d42e4afd33ada55b2e963": true
-		},
 		"Wall_Sidev21_glb22": {
 			"190775946dd14c6ca9b9aff2c0127102": true
 		},
@@ -823,7 +831,30 @@
 		"02240a4b63a64727bb84663ddf66cd62": {
 			"source": "file://./Objekte/Rim v8.glb"
 		},
+		"036aa0cf2def44b780764bea734cc928-11": {
+		},
+		"036aa0cf2def44b780764bea734cc928-12": {
+		},
+		"036aa0cf2def44b780764bea734cc928-13": {
+		},
+		"036aa0cf2def44b780764bea734cc928-14": {
+		},
+		"036aa0cf2def44b780764bea734cc928-15": {
+		},
+		"036aa0cf2def44b780764bea734cc928-16": {
+		},
+		"036aa0cf2def44b780764bea734cc928-17": {
+		},
+		"036aa0cf2def44b780764bea734cc928-18": {
+		},
+		"036aa0cf2def44b780764bea734cc928-19": {
+		},
+		"036aa0cf2def44b780764bea734cc928-20": {
+		},
 		"05c3c51b791a45e5bd2120907a0cbb5e": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"0c894e4e915b478d81eeed0b0a1e485c": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"0cc8ee23fca64a989e51166cbebe7d53": {
@@ -847,14 +878,8 @@
 		"140797a345ed4b3685929cf8805c5227": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
-		"1468abf1c3f148cbba350f9b9b8c921e": {
-			"source": "file://./Objekte/Floor.glb"
-		},
 		"151724bd1efb4fa3a05cdb2113c05456": {
 			"source": "file://./Objekte/Old Rusty v16.glb"
-		},
-		"157e28eae5ea40e386eafbde06cb3731": {
-			"source": "file://./Objekte/Floor.glb"
 		},
 		"160c5182b2474f91ad1e9341db620162": {
 		},
@@ -869,9 +894,6 @@
 		},
 		"190775946dd14c6ca9b9aff2c0127102": {
 			"source": "file://./Objekte/Wall Side v21.glb"
-		},
-		"1cafdb66bf04433aa7804d05774b3dff": {
-			"source": "file://./Objekte/Floor.glb"
 		},
 		"1d68bc3573a04db380db8d982365c621": {
 		},
@@ -898,13 +920,13 @@
 		"2919ebf18c1c4853ab6bfd7820f50da0": {
 			"source": "file://./Objekte/Wall Side v21.glb"
 		},
-		"2d3d22edf41a48fba4247a5cd472b2a3": {
-			"source": "file://./Objekte/Netz Fischer v20.glb"
-		},
 		"2f8824d954d2417ba4641f852a4f4d74": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"2fab06d08b854d72816511ef9a0db817": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"32c0a433fd5342f09f1fc44c4efbdf2c": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"33ef51033bd648ab80d8b8796b0d79c6": {
@@ -937,19 +959,13 @@
 		"4868f6800189470c84ece95b2d37df42": {
 			"source": "file://./Objekte/Rim v8.glb"
 		},
-		"48a2730e5e314a5384284710a491a773": {
-			"source": "file://./Objekte/Soft Sandy v18.glb"
-		},
 		"4903e4137c8f41b4a6e538588e64d015": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
-		"495628ccddf7406ba2d07aaec9d60dcf": {
-			"source": "file://./Objekte/Floor.glb"
-		},
-		"49cdab3e0e344daa808d90412d49eed0": {
-			"source": "file://./Objekte/Schimmerl Gitter v12.glb"
-		},
 		"4b5ff986843741af940081cc914dd5f2": {
+		},
+		"4c8be44ada0c49f3ba6f18607ad0cfd1": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"4d482e1a58f44efea834c4b45c5ea9b5": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -974,6 +990,9 @@
 		"54e267f1cd1b46e4a545aaf4b1b3f02e": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
+		"55f1c2847200449b86aff8643620aa2f": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
 		"569aec496afa42d2be27eb86936496f9": {
 			"source": "file://./Objekte/Sand Ohneschimmel v17.glb"
 		},
@@ -989,21 +1008,21 @@
 		"5c2f48d023ba4bfabe88466762eb947f": {
 			"source": "file://./Objekte/Dirty Old v6.glb"
 		},
+		"5c9bc57050f142bb9800e8c0fe1432b2": {
+			"source": "file://./Objekte/Old Rusty v16.glb"
+		},
 		"5ca2c07fd0e346f5beae5b020a9d1b4b": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"61c6ba31df2f4ed994f86e148df210c9": {
 		},
-		"63acbb3f0dee4ab8b5214647ba3a525d": {
-			"source": "file://./Objekte/Soft Sandy v18.glb"
+		"65abf4ee09e44c10ad2289418abe3562": {
+			"source": "file://./Objekte/Old Rusty v16.glb"
 		},
 		"67f6a062c6e140739fc96f17b26a4866": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"68e5fe67e5234137a52a3d94393df1b3": {
-		},
-		"6bc061bced694b65abed7379d50d4d3c": {
-			"source": "file://./Objekte/Floor.glb"
 		},
 		"6f6d179b3b044cb5b93f64f631aeda68": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -1023,6 +1042,9 @@
 		"73316edbe42f45e2930dd745231666ef": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
+		"73f6fed034494e06b423d567d3786228": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
 		"747aafa0521b42ad89f0c9ca9a801e42": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
@@ -1031,9 +1053,6 @@
 		},
 		"771d60b1a90e4074810580d4c5c3c46f": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
-		},
-		"778568bd46424610b54e611bcbf3771e": {
-			"source": "file://./Objekte/Floor.glb"
 		},
 		"77ce33cf71f1426197160522ae0c86cd": {
 			"source": "file://./Objekte/Ein Flop v10.glb"
@@ -1044,14 +1063,11 @@
 		"78a647ce087641bd86f9845f16e82789": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
-		"7a492b1d48774b93930ded2bad6cf1ae": {
-			"source": "file://./Objekte/Floor.glb"
+		"79c15535967646b6b39474df778ba9e4": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"7a808619c5ec460dae5c445f3c086dd0": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
-		},
-		"7fa9a21b099e4dcc82c618d58cf1d5d1": {
-			"source": "file://./Objekte/Floor.glb"
 		},
 		"7fcc01a789204d7eb5f88bf1b91c18c4": {
 			"source": "file://./Objekte/Steine Klein v2.glb"
@@ -1059,23 +1075,20 @@
 		"80a67eb035e248848191bc8570b9b4ae": {
 			"source": "file://./Objekte/Ein Flop v10.glb"
 		},
-		"822d93a9d16d42e4afd33ada55b2e963": {
-			"source": "file://./Objekte/Wall Side v21.glb"
-		},
 		"8239552ff5724ac0aa791af9d110c7f7": {
 			"source": "file://./Objekte/Steine Klein v2.glb"
 		},
 		"84b8c90f6fd142c5acbed9884466c377": {
 			"source": "file://./Objekte/Wall Side v21.glb"
 		},
-		"85e8d0a0293e45b1bcdd715b3f7a9a2f": {
-			"source": "file://./Objekte/Soft Sandy v18.glb"
-		},
 		"861af9de4fe54a76b4b8dae40e356bb1": {
 		},
 		"86ca99919cf545a9b83f5c34f7a22d60": {
 		},
 		"8724f10aa45645d6b4f82bf6feda5677": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"89c30067596646f584a5b0ca0b4019e7": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"8fadd0d5c79b4cb0adcba51c66d76e89": {
@@ -1092,23 +1105,38 @@
 		"98c73d563edf4da6a8ad2fab1cc42bdf": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
-		"a09cd584d83a4069917153b79b53ea11": {
-			"source": "file://./Objekte/RoundedSton v5.glb"
+		"a12da56a6f8d4bb58026319bde24aa49-1": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-10": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-2": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-3": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-4": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-5": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-6": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-7": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-8": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-9": {
 		},
 		"a5c47c4bcfc046939588d158985c7495": {
 			"source": "file://./Objekte/Busch v1.glb"
 		},
-		"a914f49d3d5e45ba97b4251acbb4919d": {
-			"source": "file://./Objekte/Soft Sandy v18.glb"
-		},
 		"aea75990e6174426b18dc62e4893f296": {
-		},
-		"b053f62b95a548afbe971b8bbec4c6a4": {
 		},
 		"b11063f305174f35a9261cabb9abc692": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"b2e093211b934edbbdfd751246d5bb56": {
+		},
+		"b351e20529d0448a9927aa17980507af": {
+			"source": "file://./Objekte/Old Rusty v16.glb"
 		},
 		"b42a7d8c4aa544f2bd80a187b4d5bfc0": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -1134,20 +1162,11 @@
 		"bf08fd2e81a34633957cc2b4955d7157": {
 			"source": "file://./Objekte/Rim v8.glb"
 		},
-		"c2560c89525d4f29ac92bc8831630074": {
-			"source": "file://./Objekte/Floor.glb"
-		},
 		"cd59950b061a4c33af4dadec78db778d": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"ce122dae41ee4f5da359416a34a6589f": {
 			"source": "file://./Objekte/Wall Side v21.glb"
-		},
-		"d11ee5b53ffd4a3fa58ab55f47d3aef4": {
-			"source": "file://./Objekte/Mountain Black Healthy v1.glb"
-		},
-		"d1438a55e1284f8b95a5f7994aaa668d": {
-			"source": "file://./Objekte/Floor.glb"
 		},
 		"d15411146ea14ba6a6570bf13a998e2c": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -1174,9 +1193,6 @@
 		"e7e95f36fb4049f9a2f3991d849a90ce": {
 			"source": "file://./Objekte/Steine Klein v2.glb"
 		},
-		"e8233778e95d49bb95d0a799a5ac0e44": {
-			"source": "file://./Objekte/Floor.glb"
-		},
 		"e96d2b3afa6e4e7191e7889c0228c681": {
 			"source": "file://./Objekte/Chaotic Pile v22.glb"
 		},
@@ -1193,9 +1209,6 @@
 		},
 		"f741e185ac1a4d7ebe24e84e87400638": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
-		},
-		"f8498d757baf4514a39c9289e3846d15": {
-			"source": "file://./Objekte/Floor.glb"
 		},
 		"ffd066b800334037be0506731325582a": {
 			"source": "file://./Objekte/Steine Klein v2.glb"
@@ -1294,6 +1307,26 @@
 				0.3
 			]
 		},
+		"036aa0cf2def44b780764bea734cc928-11": {
+		},
+		"036aa0cf2def44b780764bea734cc928-12": {
+		},
+		"036aa0cf2def44b780764bea734cc928-13": {
+		},
+		"036aa0cf2def44b780764bea734cc928-14": {
+		},
+		"036aa0cf2def44b780764bea734cc928-15": {
+		},
+		"036aa0cf2def44b780764bea734cc928-16": {
+		},
+		"036aa0cf2def44b780764bea734cc928-17": {
+		},
+		"036aa0cf2def44b780764bea734cc928-18": {
+		},
+		"036aa0cf2def44b780764bea734cc928-19": {
+		},
+		"036aa0cf2def44b780764bea734cc928-20": {
+		},
 		"05c3c51b791a45e5bd2120907a0cbb5e": {
 			"position": [
 				1.9083616768257887,
@@ -1307,6 +1340,23 @@
 			],
 			"scale": [
 				3,
+				3,
+				3
+			]
+		},
+		"0c894e4e915b478d81eeed0b0a1e485c": {
+			"position": [
+				3.456653202767466,
+				0.17755147626322376,
+				17.248789380945304
+			],
+			"rotation": [
+				0,
+				-1.450007698444161,
+				0
+			],
+			"scale": [
+				3.985020678635709,
 				3,
 				3
 			]
@@ -1354,9 +1404,9 @@
 		},
 		"0f3146924aeb4d7293d67c0f1efa04d2": {
 			"position": [
-				-8.511587262712931,
+				-12.03939459611162,
 				0.17755147626322376,
-				4.544548874119072
+				3.8681009083997937
 			],
 			"rotation": [
 				0,
@@ -1383,9 +1433,9 @@
 		},
 		"1370ef09d717479f809628ebfeb15b51": {
 			"position": [
-				-13.192321411360782,
+				-18.09812175265554,
 				3.7222197414061533,
-				3.635832273748189
+				4.135339712687021
 			],
 			"scale": [
 				5,
@@ -1410,13 +1460,6 @@
 				3
 			]
 		},
-		"1468abf1c3f148cbba350f9b9b8c921e": {
-			"position": [
-				0.47948501185955905,
-				0,
-				-9
-			]
-		},
 		"151724bd1efb4fa3a05cdb2113c05456": {
 			"position": [
 				-4.055611682834361,
@@ -1432,13 +1475,6 @@
 				0.6,
 				0.6,
 				0.6
-			]
-		},
-		"157e28eae5ea40e386eafbde06cb3731": {
-			"position": [
-				-19.076449647574442,
-				0,
-				-9
 			]
 		},
 		"160c5182b2474f91ad1e9341db620162": {
@@ -1491,9 +1527,9 @@
 		},
 		"190775946dd14c6ca9b9aff2c0127102": {
 			"position": [
-				-11.321616414033675,
+				-14.113290966725307,
 				3.968405572891448,
-				14.131024183056947
+				18.212786524814735
 			],
 			"rotation": [
 				0,
@@ -1504,13 +1540,6 @@
 				5,
 				5,
 				6.1828954077665585
-			]
-		},
-		"1cafdb66bf04433aa7804d05774b3dff": {
-			"position": [
-				-9.430154186812576,
-				0,
-				-17.95271681840012
 			]
 		},
 		"1d68bc3573a04db380db8d982365c621": {
@@ -1527,8 +1556,8 @@
 		},
 		"1d9d38158d144d6d87e8f5cc8a9315dd": {
 			"position": [
-				-8.501937300308033,
-				-0.1507212238353871,
+				-11.076300269205323,
+				0.4242355402813821,
 				8.681495542752192
 			],
 			"rotation": [
@@ -1562,13 +1591,13 @@
 		"1f8a86ea1b55428a9aeb1bd16b49d909": {
 			"position": [
 				11.576312850539317,
-				5.003378728858322,
-				11.160405412911901
+				3.5223986277062727,
+				13.952975019015785
 			],
 			"rotation": [
-				3.1408706104130912,
-				0.6572784066210844,
-				2.8833638488675937
+				3.1409512477965413,
+				0.47084563723215256,
+				2.8832136734362046
 			],
 			"scale": [
 				5,
@@ -1607,14 +1636,14 @@
 		},
 		"222a772706c04be2bdfa2717211371a4": {
 			"position": [
-				5.745726270817075,
+				7.957325163847282,
 				3.968405572891448,
-				15.98569744616232
+				19.93290333561253
 			],
 			"rotation": [
-				0,
-				2.08150903396992,
-				0
+				3.10336321425995,
+				1.0596738904790637,
+				-3.098924574752252
 			],
 			"scale": [
 				5.843104033841084,
@@ -1636,9 +1665,9 @@
 		},
 		"2919ebf18c1c4853ab6bfd7820f50da0": {
 			"position": [
-				-2.553168256273531,
+				-5.712071809505254,
 				3.968405572891448,
-				17.02901086167027
+				21.608874700640108
 			],
 			"rotation": [
 				0,
@@ -1646,21 +1675,9 @@
 				0
 			],
 			"scale": [
-				5,
-				5,
-				6.586576325692251
-			]
-		},
-		"2d3d22edf41a48fba4247a5cd472b2a3": {
-			"position": [
-				-9.730101408297571,
-				2.186704242409713,
-				5.513503909998206
-			],
-			"rotation": [
-				-1.7353646167058558,
-				0,
-				0
+				5.045176556566229,
+				5.045176556566229,
+				6.646088093283335
 			]
 		},
 		"2f8824d954d2417ba4641f852a4f4d74": {
@@ -1697,11 +1714,28 @@
 				3
 			]
 		},
+		"32c0a433fd5342f09f1fc44c4efbdf2c": {
+			"position": [
+				-8.511587262712931,
+				0.17755147626322376,
+				4.544548874119072
+			],
+			"rotation": [
+				0,
+				1.381348383008909,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
 		"33ef51033bd648ab80d8b8796b0d79c6": {
 			"position": [
-				6.952478842215239,
-				0.6949215582585264,
-				3.7397186786383947
+				3.438475482180185,
+				-0.8068586420340966,
+				5.067351896298165
 			],
 			"scale": [
 				0.5,
@@ -1713,7 +1747,7 @@
 			"position": [
 				-0.05989485827914254,
 				0.17755147626322376,
-				10.74975259770649
+				16.780457517724987
 			],
 			"rotation": [
 				0,
@@ -1729,7 +1763,7 @@
 		"3813ab99c1d94e958d7f73659b3ff79e": {
 			"position": [
 				4.9251268543938505,
-				0,
+				0.022122617982318182,
 				8.827216701713818
 			]
 		},
@@ -1753,7 +1787,7 @@
 		"40f30fc6a84a46f7ab3ade28a0fdc2ad": {
 			"position": [
 				-0.0620618734729077,
-				3.131013670877902,
+				3.4359733754566886,
 				0.02980101772983934
 			],
 			"scale": [
@@ -1848,23 +1882,6 @@
 				0.3
 			]
 		},
-		"48a2730e5e314a5384284710a491a773": {
-			"position": [
-				-2.1622812205097732,
-				0.17755147626322376,
-				5.851420444872043
-			],
-			"rotation": [
-				0,
-				0.08058975336722954,
-				0
-			],
-			"scale": [
-				3,
-				1.7839333966695583,
-				3
-			]
-		},
 		"4903e4137c8f41b4a6e538588e64d015": {
 			"position": [
 				1.9083616768257887,
@@ -1882,16 +1899,24 @@
 				3
 			]
 		},
-		"495628ccddf7406ba2d07aaec9d60dcf": {
-			"position": [
-				-9,
-				0,
-				-26.380137174450326
-			]
-		},
-		"49cdab3e0e344daa808d90412d49eed0": {
-		},
 		"4b5ff986843741af940081cc914dd5f2": {
+		},
+		"4c8be44ada0c49f3ba6f18607ad0cfd1": {
+			"position": [
+				-10.50564479892826,
+				0.1791279976017293,
+				16.163005460697264
+			],
+			"rotation": [
+				-3.014635562465025,
+				1.3137513692414116,
+				3.0483364299729576
+			],
+			"scale": [
+				3,
+				1.5,
+				3
+			]
 		},
 		"4d482e1a58f44efea834c4b45c5ea9b5": {
 			"position": [
@@ -1958,9 +1983,9 @@
 		},
 		"5265d8d159364e10a79495ba41383ea9": {
 			"position": [
-				9.098617089230842,
+				8.149638941551023,
 				0.17755147626322376,
-				9.9150397743357
+				8.644489093377828
 			],
 			"rotation": [
 				0,
@@ -2008,6 +2033,23 @@
 			]
 		},
 		"54e267f1cd1b46e4a545aaf4b1b3f02e": {
+			"position": [
+				-11.977618257614417,
+				0.15862828674719076,
+				12.636297438859556
+			],
+			"rotation": [
+				-3.014635562465025,
+				1.3137513692414116,
+				3.0483364299729576
+			],
+			"scale": [
+				3,
+				1.5,
+				3
+			]
+		},
+		"55f1c2847200449b86aff8643620aa2f": {
 			"position": [
 				-6.3710235700034,
 				0.1791279976017293,
@@ -2099,6 +2141,23 @@
 				0.2
 			]
 		},
+		"5c9bc57050f142bb9800e8c0fe1432b2": {
+			"position": [
+				3.640369729284693,
+				0.5689964309400879,
+				13.887725460835235
+			],
+			"rotation": [
+				-0.12456250941802505,
+				0,
+				0
+			],
+			"scale": [
+				0.7448740278411311,
+				0.7448740278411311,
+				0.7448740278411311
+			]
+		},
 		"5ca2c07fd0e346f5beae5b020a9d1b4b": {
 			"position": [
 				1.9083616768257887,
@@ -2118,21 +2177,21 @@
 		},
 		"61c6ba31df2f4ed994f86e148df210c9": {
 		},
-		"63acbb3f0dee4ab8b5214647ba3a525d": {
+		"65abf4ee09e44c10ad2289418abe3562": {
 			"position": [
-				1.6198274893307256,
-				0.17755147626322376,
-				4.268181646533893
+				-10.44007473535246,
+				0.5689964309400879,
+				13.887725460835235
 			],
 			"rotation": [
+				-0.5508681904213422,
 				0,
-				0.08058975336722954,
 				0
 			],
 			"scale": [
-				3,
-				1.5992627646226905,
-				3
+				0.7448740278411311,
+				0.7448740278411311,
+				0.7448740278411311
 			]
 		},
 		"67f6a062c6e140739fc96f17b26a4866": {
@@ -2154,13 +2213,6 @@
 		},
 		"68e5fe67e5234137a52a3d94393df1b3": {
 		},
-		"6bc061bced694b65abed7379d50d4d3c": {
-			"position": [
-				0.8659674569469793,
-				0,
-				-0.5380267684335358
-			]
-		},
 		"6f6d179b3b044cb5b93f64f631aeda68": {
 			"position": [
 				1.9083616768257887,
@@ -2180,9 +2232,9 @@
 		},
 		"7034ab65e1d043128021c3019912adc8": {
 			"position": [
-				3.456653202767466,
+				6.719488370283194,
 				0.17755147626322376,
-				11.798336214238063
+				15.585214020754172
 			],
 			"rotation": [
 				0,
@@ -2197,53 +2249,53 @@
 		},
 		"71bc2501659542189c2af9ec26d53dcd": {
 			"position": [
-				-9.81778200175879,
-				1.0984096582614278,
+				-13.693050803767438,
+				2.3117486072677456,
 				6.192277762065046
 			],
 			"rotation": [
-				-0.09314109323962283,
-				1.3928888870894645,
-				0.23817622306341743
+				-0.23303542513803646,
+				1.3928888870894625,
+				0.2381762230634176
 			],
 			"scale": [
-				5,
-				5,
-				5
+				8.834041473923715,
+				8.834041473923715,
+				8.834041473923715
 			]
 		},
 		"723b1f86daa7407cbecec2846ab749c4": {
 			"position": [
-				-11.627502899708034,
-				3.968405572891448,
-				-1.7982616696182074
+				-15.023379922751474,
+				3.0212693860523614,
+				-1.6704992194117603
 			],
 			"rotation": [
-				0,
-				-0.5759357186254034,
-				0
+				1.0182091002187902e-17,
+				-0.8210129431546819,
+				0.05628707003065925
 			],
 			"scale": [
-				5,
-				5,
-				5
+				6.592511184610755,
+				6.592511184610755,
+				6.592511184610755
 			]
 		},
 		"72abe06fb26244b5874ba03b7c656043": {
 			"position": [
-				-3.4664949834902443,
-				0.49834550264376765,
-				10.124748344282382
+				-6.724221139190095,
+				1.661366786658727,
+				18.42700473652663
 			],
 			"rotation": [
-				-0.11549261662287036,
-				0.5811254590397458,
-				-0.0580682709688282
+				-0.32331750694411715,
+				1.3073497160641805,
+				-0.02236261288247617
 			],
 			"scale": [
-				2,
-				2,
-				2
+				4.686435217011414,
+				4.686435217011414,
+				4.686435217011414
 			]
 		},
 		"73316edbe42f45e2930dd745231666ef": {
@@ -2260,6 +2312,23 @@
 			"scale": [
 				3,
 				1.7532935807389607,
+				3
+			]
+		},
+		"73f6fed034494e06b423d567d3786228": {
+			"position": [
+				3.456653202767466,
+				0.17755147626322376,
+				12.050161354119645
+			],
+			"rotation": [
+				0,
+				-1.450007698444161,
+				0
+			],
+			"scale": [
+				3.985020678635709,
+				3,
 				3
 			]
 		},
@@ -2314,13 +2383,6 @@
 				3
 			]
 		},
-		"778568bd46424610b54e611bcbf3771e": {
-			"position": [
-				-9,
-				0,
-				-0.5271518098146877
-			]
-		},
 		"77ce33cf71f1426197160522ae0c86cd": {
 			"position": [
 				-5.176261918667107,
@@ -2372,11 +2434,21 @@
 				3
 			]
 		},
-		"7a492b1d48774b93930ded2bad6cf1ae": {
+		"79c15535967646b6b39474df778ba9e4": {
 			"position": [
-				0.575109782843759,
-				0,
-				-17.700547870544163
+				-3.431844053659333,
+				0.1791279976017293,
+				16.163005460697264
+			],
+			"rotation": [
+				-3.141592653589793,
+				1.3158663401674162,
+				-3.1036275132693776
+			],
+			"scale": [
+				3,
+				1.5,
+				3
 			]
 		},
 		"7a808619c5ec460dae5c445f3c086dd0": {
@@ -2396,22 +2468,15 @@
 				3
 			]
 		},
-		"7fa9a21b099e4dcc82c618d58cf1d5d1": {
-			"position": [
-				-19.333047295782997,
-				0,
-				-0.4386573802417022
-			]
-		},
 		"7fcc01a789204d7eb5f88bf1b91c18c4": {
 			"position": [
-				1.6302619228823394,
+				-14.319940633864773,
 				1.9970821498443296,
-				-11.485626666350246
+				12.445605442107672
 			],
 			"rotation": [
 				0,
-				0.43895297260153676,
+				0.37261919025542856,
 				0
 			],
 			"scale": [
@@ -2432,21 +2497,9 @@
 				-3.0147643796920294
 			],
 			"scale": [
-				0.3,
-				0.3,
-				0.4953362167634085
-			]
-		},
-		"822d93a9d16d42e4afd33ada55b2e963": {
-			"position": [
-				-13.192321411360782,
-				3.968405572891448,
-				10.586543245487139
-			],
-			"scale": [
-				5,
-				5,
-				5
+				0.19768079799200913,
+				0.19768079799200913,
+				0.32639486201377804
 			]
 		},
 		"8239552ff5724ac0aa791af9d110c7f7": {
@@ -2468,9 +2521,9 @@
 		},
 		"84b8c90f6fd142c5acbed9884466c377": {
 			"position": [
-				2.0750813395834458,
-				3.968405572891448,
-				-6.397346792872895
+				1.4194641936510974,
+				4.181175738117786,
+				-6.351988136244199
 			],
 			"rotation": [
 				0,
@@ -2478,26 +2531,9 @@
 				0
 			],
 			"scale": [
-				5.843104033841084,
-				5,
-				5
-			]
-		},
-		"85e8d0a0293e45b1bcdd715b3f7a9a2f": {
-			"position": [
-				-5.738712630004892,
-				0.1271115599269681,
-				5.022415593413405
-			],
-			"rotation": [
-				0,
-				0.08058975336722954,
-				0
-			],
-			"scale": [
-				3,
-				1.2301291434174206,
-				3
+				6.027118029869311,
+				5.1574625361473005,
+				5.1574625361473005
 			]
 		},
 		"861af9de4fe54a76b4b8dae40e356bb1": {
@@ -2536,6 +2572,23 @@
 				3
 			]
 		},
+		"89c30067596646f584a5b0ca0b4019e7": {
+			"position": [
+				-6.3710235700034,
+				0.1791279976017293,
+				16.163005460697264
+			],
+			"rotation": [
+				-3.141592653589793,
+				1.3158663401674162,
+				-3.1036275132693776
+			],
+			"scale": [
+				3,
+				1.5,
+				3
+			]
+		},
 		"8fadd0d5c79b4cb0adcba51c66d76e89": {
 			"position": [
 				6.717731920586658,
@@ -2567,19 +2620,19 @@
 		},
 		"947a0b22084e4c348dddcac2ae34c34a": {
 			"position": [
-				-7.028929040105219,
+				-7.337984766422098,
 				3.968405572891448,
-				-4.482188293073494
+				-5.721888995206665
 			],
 			"rotation": [
 				0,
-				-1.3634552737102936,
+				-1.4923593647788704,
 				0
 			],
 			"scale": [
-				5.843104033841084,
-				5,
-				5
+				6.84090847294712,
+				5.853830800655888,
+				5.853830800655888
 			]
 		},
 		"9520c204389348c9b5cb8f92ad76ab44": {
@@ -2616,17 +2669,25 @@
 				3
 			]
 		},
-		"a09cd584d83a4069917153b79b53ea11": {
-			"position": [
-				8.421740787008535,
-				-0.23272755149539348,
-				2.1991435668497177
-			],
-			"rotation": [
-				3.067877754540487e-16,
-				-0.6193701765101517,
-				0.774513335163275
-			]
+		"a12da56a6f8d4bb58026319bde24aa49-1": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-10": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-2": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-3": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-4": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-5": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-6": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-7": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-8": {
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-9": {
 		},
 		"a5c47c4bcfc046939588d158985c7495": {
 			"position": [
@@ -2645,23 +2706,6 @@
 				0.2
 			]
 		},
-		"a914f49d3d5e45ba97b4251acbb4919d": {
-			"position": [
-				5.463913193204927,
-				-0.11969117643543514,
-				0.8322951207424352
-			],
-			"rotation": [
-				0.03780346747260438,
-				0.08052666017461213,
-				-0.0031917673189811495
-			],
-			"scale": [
-				3,
-				3,
-				3
-			]
-		},
 		"aea75990e6174426b18dc62e4893f296": {
 			"position": [
 				9.041246283425272,
@@ -2673,8 +2717,6 @@
 				1.4687934077892812,
 				0
 			]
-		},
-		"b053f62b95a548afbe971b8bbec4c6a4": {
 		},
 		"b11063f305174f35a9261cabb9abc692": {
 			"position": [
@@ -2688,9 +2730,9 @@
 				0
 			],
 			"scale": [
-				3,
-				3,
-				3
+				3.0036408669860295,
+				3.0036408669860295,
+				3.0036408669860295
 			]
 		},
 		"b2e093211b934edbbdfd751246d5bb56": {
@@ -2703,6 +2745,23 @@
 				0,
 				1.4687934077892812,
 				0
+			]
+		},
+		"b351e20529d0448a9927aa17980507af": {
+			"position": [
+				-4.230969645690937,
+				0.29594426881716496,
+				13.760267279560521
+			],
+			"rotation": [
+				-0.19509051792441676,
+				1.1363250333457975,
+				0.07699702806679322
+			],
+			"scale": [
+				0.7448740278411311,
+				0.7448740278411311,
+				0.7448740278411311
 			]
 		},
 		"b42a7d8c4aa544f2bd80a187b4d5bfc0": {
@@ -2775,9 +2834,9 @@
 		},
 		"b95a0967d59a4474856c86d9f6736c18": {
 			"position": [
-				8.407321411096774,
-				0.5624384957182105,
-				6.563971509196804
+				8.323771935314582,
+				0.7436910132332167,
+				8.651348347463536
 			],
 			"rotation": [
 				3.054977232148528,
@@ -2785,9 +2844,9 @@
 				-3.031529564107357
 			],
 			"scale": [
-				2,
-				2,
-				2
+				3.306712461199481,
+				3.306712461199481,
+				3.306712461199481
 			]
 		},
 		"b9676b9c5624457784e71401faa5586b": {
@@ -2841,13 +2900,6 @@
 				0.3
 			]
 		},
-		"c2560c89525d4f29ac92bc8831630074": {
-			"position": [
-				-9,
-				0,
-				-9.168830577674267
-			]
-		},
 		"cd59950b061a4c33af4dadec78db778d": {
 			"position": [
 				5.91459704561667,
@@ -2867,34 +2919,14 @@
 		},
 		"ce122dae41ee4f5da359416a34a6589f": {
 			"position": [
-				-13.192321411360782,
+				-17.830144421961677,
 				3.968405572891448,
-				10.586543245487139
+				13.22990825367441
 			],
 			"scale": [
 				5,
 				5,
 				5
-			]
-		},
-		"d11ee5b53ffd4a3fa58ab55f47d3aef4": {
-			"position": [
-				-4.993453351899099,
-				1.1920022412831957,
-				-4.948687430993271
-			],
-			"scale": [
-				10,
-				10,
-				10
-			],
-			"visible": true
-		},
-		"d1438a55e1284f8b95a5f7994aaa668d": {
-			"position": [
-				0.7701097895169262,
-				0,
-				-25.693472301216865
 			]
 		},
 		"d15411146ea14ba6a6570bf13a998e2c": {
@@ -2933,14 +2965,14 @@
 		},
 		"d75bc5cdb27a4e9e9c342ad935f77ca0": {
 			"position": [
-				10.580243139750259,
-				0.17755147626322376,
-				2.0826094503492802
+				10.569195839704122,
+				0.17759410239954548,
+				2.0835016819669447
 			],
 			"rotation": [
-				0,
-				0.08058975336722954,
-				0
+				-2.7193312846810026e-20,
+				0.08058975336722957,
+				-0.003845969548939899
 			],
 			"scale": [
 				3,
@@ -3016,26 +3048,19 @@
 		},
 		"e7e95f36fb4049f9a2f3991d849a90ce": {
 			"position": [
-				6.682800068515322,
-				1.88624274441531,
-				8.390058640301286
+				6.821239977465441,
+				2.4930803395423067,
+				11.205108294389017
 			],
 			"rotation": [
-				0,
-				1.6199352340443136,
-				0
+				-1.7786838695712957,
+				1.3305482371855875,
+				1.778723165901054
 			],
 			"scale": [
 				1,
 				1,
 				1
-			]
-		},
-		"e8233778e95d49bb95d0a799a5ac0e44": {
-			"position": [
-				-19.82986502488469,
-				0,
-				-17.159768812112134
 			]
 		},
 		"e96d2b3afa6e4e7191e7889c0228c681": {
@@ -3048,18 +3073,23 @@
 				0,
 				-0.956109382760753,
 				0
+			],
+			"scale": [
+				1.3559612241781154,
+				1.3559612241781154,
+				1.3559612241781154
 			]
 		},
 		"ed61b4ac80a244f4bec781cc5600b83b": {
 			"position": [
-				-7.028929040105219,
-				3.968405572891448,
-				-4.482188293073494
+				2.869290890470774,
+				3.389340015999487,
+				21.670903941085218
 			],
 			"rotation": [
-				0,
-				-1.3634552737102936,
-				0
+				-1.2390357723999816e-15,
+				1.4557377709256234,
+				0.031758875758454826
 			],
 			"scale": [
 				5.843104033841084,
@@ -3120,18 +3150,11 @@
 				3
 			]
 		},
-		"f8498d757baf4514a39c9289e3846d15": {
-			"position": [
-				-19.48190198114471,
-				0,
-				-25.703880189914468
-			]
-		},
 		"ffd066b800334037be0506731325582a": {
 			"position": [
 				-1.875985544410172,
-				1.88624274441531,
-				-9.839436214114519
+				2.1908423978421654,
+				16.672365495025517
 			],
 			"rotation": [
 				0,
@@ -3177,6 +3200,106 @@
 			"scriptName": "Rim_v8_glb22",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
+		"036aa0cf2def44b780764bea734cc928-11": {
+			"id": "036aa0cf2def44b780764bea734cc928-11",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "2170880983c9450b89d9cc0bde6c3b35",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb13",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"036aa0cf2def44b780764bea734cc928-12": {
+			"id": "036aa0cf2def44b780764bea734cc928-12",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "2f8824d954d2417ba4641f852a4f4d74",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb14",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"036aa0cf2def44b780764bea734cc928-13": {
+			"id": "036aa0cf2def44b780764bea734cc928-13",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "2fab06d08b854d72816511ef9a0db817",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb15",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"036aa0cf2def44b780764bea734cc928-14": {
+			"id": "036aa0cf2def44b780764bea734cc928-14",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "3476598137a94f6dbc45cccafe4f46a0",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb16",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"036aa0cf2def44b780764bea734cc928-15": {
+			"id": "036aa0cf2def44b780764bea734cc928-15",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "3e38eb9d17754c25affa3468906277f4",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb17",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"036aa0cf2def44b780764bea734cc928-16": {
+			"id": "036aa0cf2def44b780764bea734cc928-16",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "42f47d5c02c34f15ad36f9a5d5083ca2",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb18",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"036aa0cf2def44b780764bea734cc928-17": {
+			"id": "036aa0cf2def44b780764bea734cc928-17",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "4729dafbf73d41248dbda8e586adf9d2",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb19",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"036aa0cf2def44b780764bea734cc928-18": {
+			"id": "036aa0cf2def44b780764bea734cc928-18",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "4760d709ef1a4c4aa9a0061c0005536f",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb21",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"036aa0cf2def44b780764bea734cc928-19": {
+			"id": "036aa0cf2def44b780764bea734cc928-19",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "4903e4137c8f41b4a6e538588e64d015",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb22",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"036aa0cf2def44b780764bea734cc928-20": {
+			"id": "036aa0cf2def44b780764bea734cc928-20",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "4d482e1a58f44efea834c4b45c5ea9b5",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb23",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
 		"05c3c51b791a45e5bd2120907a0cbb5e": {
 			"id": "05c3c51b791a45e5bd2120907a0cbb5e",
 			"label": "Soft Sandy v18.glb 37",
@@ -3185,6 +3308,16 @@
 				"order": "a1S"
 			},
 			"scriptName": "Soft_Sandyv18_glb18",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"0c894e4e915b478d81eeed0b0a1e485c": {
+			"id": "0c894e4e915b478d81eeed0b0a1e485c",
+			"label": "Soft Sandy v18.glb 62",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a058"
+			},
+			"scriptName": "Soft_Sandyv18_glb252",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"0cc8ee23fca64a989e51166cbebe7d53": {
@@ -3257,16 +3390,6 @@
 			"scriptName": "Soft_Sandyv18_glb20",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"1468abf1c3f148cbba350f9b9b8c921e": {
-			"id": "1468abf1c3f148cbba350f9b9b8c921e",
-			"label": "Floor.glb 11",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0O"
-			},
-			"scriptName": "Floor_glb_3",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"151724bd1efb4fa3a05cdb2113c05456": {
 			"id": "151724bd1efb4fa3a05cdb2113c05456",
 			"label": "Old Rusty v16.glb",
@@ -3275,16 +3398,6 @@
 				"order": "Zv"
 			},
 			"scriptName": "Old_Rustyv16_glb",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"157e28eae5ea40e386eafbde06cb3731": {
-			"id": "157e28eae5ea40e386eafbde06cb3731",
-			"label": "Floor.glb 9",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0b"
-			},
-			"scriptName": "Floor_glb_50",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"160c5182b2474f91ad1e9341db620162": {
@@ -3335,16 +3448,6 @@
 				"order": "ZzW"
 			},
 			"scriptName": "Wall_Sidev21_glb22",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"1cafdb66bf04433aa7804d05774b3dff": {
-			"id": "1cafdb66bf04433aa7804d05774b3dff",
-			"label": "Floor.glb 12",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a08"
-			},
-			"scriptName": "Floor_glb2",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"1d68bc3573a04db380db8d982365c621": {
@@ -3437,16 +3540,6 @@
 			"scriptName": "Wall_Sidev21_glb0",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"2d3d22edf41a48fba4247a5cd472b2a3": {
-			"id": "2d3d22edf41a48fba4247a5cd472b2a3",
-			"label": "Netz Fischer v20.glb",
-			"parent": {
-				"id": "160c5182b2474f91ad1e9341db620162",
-				"order": "Zs"
-			},
-			"scriptName": "Netz_Fischerv20_glb",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"2f8824d954d2417ba4641f852a4f4d74": {
 			"id": "2f8824d954d2417ba4641f852a4f4d74",
 			"label": "Soft Sandy v18.glb 33",
@@ -3465,6 +3558,16 @@
 				"order": "a1P"
 			},
 			"scriptName": "Soft_Sandyv18_glb19",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"32c0a433fd5342f09f1fc44c4efbdf2c": {
+			"id": "32c0a433fd5342f09f1fc44c4efbdf2c",
+			"label": "Soft Sandy v18.glb 51",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a04d"
+			},
+			"scriptName": "Soft_Sandyv18_glb500",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"33ef51033bd648ab80d8b8796b0d79c6": {
@@ -3567,16 +3670,6 @@
 			"scriptName": "Rim_v8_glb",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"48a2730e5e314a5384284710a491a773": {
-			"id": "48a2730e5e314a5384284710a491a773",
-			"label": "Soft Sandy v18.glb 54",
-			"parent": {
-				"id": "61c6ba31df2f4ed994f86e148df210c9",
-				"order": "a0O"
-			},
-			"scriptName": "Soft_Sandyv18_glb80",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"4903e4137c8f41b4a6e538588e64d015": {
 			"id": "4903e4137c8f41b4a6e538588e64d015",
 			"label": "Soft Sandy v18.glb 10",
@@ -3585,26 +3678,6 @@
 				"order": "a14"
 			},
 			"scriptName": "Soft_Sandyv18_glb21",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"495628ccddf7406ba2d07aaec9d60dcf": {
-			"id": "495628ccddf7406ba2d07aaec9d60dcf",
-			"label": "Floor.glb 3",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0G"
-			},
-			"scriptName": "Floor_glb1",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"49cdab3e0e344daa808d90412d49eed0": {
-			"id": "49cdab3e0e344daa808d90412d49eed0",
-			"label": "Schimmerl Gitter v12.glb",
-			"parent": {
-				"id": "160c5182b2474f91ad1e9341db620162",
-				"order": "Zw"
-			},
-			"scriptName": "Schimmerl_Gitterv12_glb",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"4b5ff986843741af940081cc914dd5f2": {
@@ -3616,6 +3689,16 @@
 			},
 			"scriptName": "World",
 			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"4c8be44ada0c49f3ba6f18607ad0cfd1": {
+			"id": "4c8be44ada0c49f3ba6f18607ad0cfd1",
+			"label": "Soft Sandy v18.glb 60",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a080V"
+			},
+			"scriptName": "Soft_Sandyv18_glb273",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"4d482e1a58f44efea834c4b45c5ea9b5": {
 			"id": "4d482e1a58f44efea834c4b45c5ea9b5",
@@ -3697,6 +3780,16 @@
 			"scriptName": "Soft_Sandyv18_glb34",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
+		"55f1c2847200449b86aff8643620aa2f": {
+			"id": "55f1c2847200449b86aff8643620aa2f",
+			"label": "Soft Sandy v18.glb 57",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a08G"
+			},
+			"scriptName": "Soft_Sandyv18_glb270",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
 		"569aec496afa42d2be27eb86936496f9": {
 			"id": "569aec496afa42d2be27eb86936496f9",
 			"label": "Sand Ohneschimmel v17.glb",
@@ -3747,6 +3840,16 @@
 			"scriptName": "Dirty_Oldv6_glb",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
+		"5c9bc57050f142bb9800e8c0fe1432b2": {
+			"id": "5c9bc57050f142bb9800e8c0fe1432b2",
+			"label": "Old Rusty v16.glb 4",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zo"
+			},
+			"scriptName": "Old_Rustyv16_glb21",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
 		"5ca2c07fd0e346f5beae5b020a9d1b4b": {
 			"id": "5ca2c07fd0e346f5beae5b020a9d1b4b",
 			"label": "Soft Sandy v18.glb 22",
@@ -3767,14 +3870,14 @@
 			"scriptName": "Soft_molded_sand",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
-		"63acbb3f0dee4ab8b5214647ba3a525d": {
-			"id": "63acbb3f0dee4ab8b5214647ba3a525d",
-			"label": "Soft Sandy v18.glb 8",
+		"65abf4ee09e44c10ad2289418abe3562": {
+			"id": "65abf4ee09e44c10ad2289418abe3562",
+			"label": "Old Rusty v16.glb 3",
 			"parent": {
-				"id": "61c6ba31df2f4ed994f86e148df210c9",
-				"order": "a0G"
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zn"
 			},
-			"scriptName": "Soft_Sandyv18_glb5",
+			"scriptName": "Old_Rustyv16_glb20",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"67f6a062c6e140739fc96f17b26a4866": {
@@ -3792,20 +3895,10 @@
 			"label": "Particles",
 			"parent": {
 				"id": "160c5182b2474f91ad1e9341db620162",
-				"order": "Zq"
+				"order": "Zm"
 			},
 			"scriptName": "Particles",
 			"type": "@zcomponent/three/lib/components/Group#Group"
-		},
-		"6bc061bced694b65abed7379d50d4d3c": {
-			"id": "6bc061bced694b65abed7379d50d4d3c",
-			"label": "Floor.glb 10",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0X"
-			},
-			"scriptName": "Floor_glb_21",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"6f6d179b3b044cb5b93f64f631aeda68": {
 			"id": "6f6d179b3b044cb5b93f64f631aeda68",
@@ -3867,6 +3960,16 @@
 			"scriptName": "Soft_Sandyv18_glb30",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
+		"73f6fed034494e06b423d567d3786228": {
+			"id": "73f6fed034494e06b423d567d3786228",
+			"label": "Soft Sandy v18.glb 61",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a05G"
+			},
+			"scriptName": "Soft_Sandyv18_glb251",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
 		"747aafa0521b42ad89f0c9ca9a801e42": {
 			"id": "747aafa0521b42ad89f0c9ca9a801e42",
 			"label": "Soft Sandy v18.glb 21",
@@ -3897,16 +4000,6 @@
 			"scriptName": "Soft_Sandyv18_glb15",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"778568bd46424610b54e611bcbf3771e": {
-			"id": "778568bd46424610b54e611bcbf3771e",
-			"label": "Floor.glb",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0"
-			},
-			"scriptName": "Floor_glb",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"77ce33cf71f1426197160522ae0c86cd": {
 			"id": "77ce33cf71f1426197160522ae0c86cd",
 			"label": "Ein Flop v10.glb 3",
@@ -3922,7 +4015,7 @@
 			"label": "Soft Sandy v18.glb 28",
 			"parent": {
 				"id": "61c6ba31df2f4ed994f86e148df210c9",
-				"order": "a09V"
+				"order": "a09l"
 			},
 			"scriptName": "Soft_Sandyv18_glb10",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
@@ -3937,14 +4030,14 @@
 			"scriptName": "Soft_Sandyv18_glb60",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"7a492b1d48774b93930ded2bad6cf1ae": {
-			"id": "7a492b1d48774b93930ded2bad6cf1ae",
-			"label": "Floor.glb 2",
+		"79c15535967646b6b39474df778ba9e4": {
+			"id": "79c15535967646b6b39474df778ba9e4",
+			"label": "Soft Sandy v18.glb 59",
 			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0V"
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a081"
 			},
-			"scriptName": "Floor_glb0",
+			"scriptName": "Soft_Sandyv18_glb272",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"7a808619c5ec460dae5c445f3c086dd0": {
@@ -3955,16 +4048,6 @@
 				"order": "a10G"
 			},
 			"scriptName": "Soft_Sandyv18_glb33",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"7fa9a21b099e4dcc82c618d58cf1d5d1": {
-			"id": "7fa9a21b099e4dcc82c618d58cf1d5d1",
-			"label": "Floor.glb 4",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0l"
-			},
-			"scriptName": "Floor_glb_2",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"7fcc01a789204d7eb5f88bf1b91c18c4": {
@@ -3987,16 +4070,6 @@
 			"scriptName": "Ein_Flopv10_glb0",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"822d93a9d16d42e4afd33ada55b2e963": {
-			"id": "822d93a9d16d42e4afd33ada55b2e963",
-			"label": "Wall Side v21.glb 12",
-			"parent": {
-				"id": "f4b688ed3123424d87913a610c431818",
-				"order": "ZzX"
-			},
-			"scriptName": "Wall_Sidev21_glb21",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"8239552ff5724ac0aa791af9d110c7f7": {
 			"id": "8239552ff5724ac0aa791af9d110c7f7",
 			"label": "Steine_Klein.glb 2",
@@ -4015,16 +4088,6 @@
 				"order": "Zz"
 			},
 			"scriptName": "Wall_Sidev21_glb",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"85e8d0a0293e45b1bcdd715b3f7a9a2f": {
-			"id": "85e8d0a0293e45b1bcdd715b3f7a9a2f",
-			"label": "Soft Sandy v18.glb 3",
-			"parent": {
-				"id": "61c6ba31df2f4ed994f86e148df210c9",
-				"order": "a0V"
-			},
-			"scriptName": "Soft_Sandyv18_glb1",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"861af9de4fe54a76b4b8dae40e356bb1": {
@@ -4055,6 +4118,16 @@
 				"order": "a8"
 			},
 			"scriptName": "Soft_Sandyv18_glb14",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"89c30067596646f584a5b0ca0b4019e7": {
+			"id": "89c30067596646f584a5b0ca0b4019e7",
+			"label": "Soft Sandy v18.glb 58",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a084"
+			},
+			"scriptName": "Soft_Sandyv18_glb271",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"8fadd0d5c79b4cb0adcba51c66d76e89": {
@@ -4107,14 +4180,104 @@
 			"scriptName": "Soft_Sandyv18_glb220",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"a09cd584d83a4069917153b79b53ea11": {
-			"id": "a09cd584d83a4069917153b79b53ea11",
-			"label": "RoundedSton v5.glb",
+		"a12da56a6f8d4bb58026319bde24aa49-1": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-1",
+			"label": "Busch v1.glb",
 			"parent": {
-				"id": "f4b688ed3123424d87913a610c431818",
-				"order": "a4V"
+				"id": "020c905e4c9d47a3a1a4619ad3dcfa55",
+				"order": "a0"
 			},
-			"scriptName": "RoundedSton_v5_glb",
+			"scriptName": "Busch_v1_glb3",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-10": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-10",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "1dc5b95c1cf94a67ab90577690c84fb0",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb12",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-2": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-2",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "05c3c51b791a45e5bd2120907a0cbb5e",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb4",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-3": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-3",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "0cc8ee23fca64a989e51166cbebe7d53",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb5",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-4": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-4",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "0d7d83f8427f4e91abcb7511682bda20",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb6",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-5": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-5",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "0f3146924aeb4d7293d67c0f1efa04d2",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb7",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-6": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-6",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "140797a345ed4b3685929cf8805c5227",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb8",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-7": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-7",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "1746182ce1e94b3c8c63da4bd72fe701",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb9",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-8": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-8",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "17fd92cbc1ab4491a864d5090f4c0e5e",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb10",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a12da56a6f8d4bb58026319bde24aa49-9": {
+			"id": "a12da56a6f8d4bb58026319bde24aa49-9",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "1d9d38158d144d6d87e8f5cc8a9315dd",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb11",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"a5c47c4bcfc046939588d158985c7495": {
@@ -4127,16 +4290,6 @@
 			"scriptName": "Busch_v1_glb0",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"a914f49d3d5e45ba97b4251acbb4919d": {
-			"id": "a914f49d3d5e45ba97b4251acbb4919d",
-			"label": "Soft Sandy v18.glb 51",
-			"parent": {
-				"id": "61c6ba31df2f4ed994f86e148df210c9",
-				"order": "a06"
-			},
-			"scriptName": "Soft_Sandyv18_glb260",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"aea75990e6174426b18dc62e4893f296": {
 			"id": "aea75990e6174426b18dc62e4893f296",
 			"label": "SuspendedSolids 3",
@@ -4146,16 +4299,6 @@
 			},
 			"scriptName": "SuspendedSolids_2",
 			"type": "./Materials/SuspendedSolids.zcomp#default"
-		},
-		"b053f62b95a548afbe971b8bbec4c6a4": {
-			"id": "b053f62b95a548afbe971b8bbec4c6a4",
-			"label": "Floor",
-			"parent": {
-				"id": "f4b688ed3123424d87913a610c431818",
-				"order": "a8"
-			},
-			"scriptName": "Floor",
-			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"b11063f305174f35a9261cabb9abc692": {
 			"id": "b11063f305174f35a9261cabb9abc692",
@@ -4176,6 +4319,16 @@
 			},
 			"scriptName": "SuspendedSolids_5",
 			"type": "./Materials/SuspendedSolids.zcomp#default"
+		},
+		"b351e20529d0448a9927aa17980507af": {
+			"id": "b351e20529d0448a9927aa17980507af",
+			"label": "Old Rusty v16.glb 2",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zp"
+			},
+			"scriptName": "Old_Rustyv16_glb2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"b42a7d8c4aa544f2bd80a187b4d5bfc0": {
 			"id": "b42a7d8c4aa544f2bd80a187b4d5bfc0",
@@ -4257,16 +4410,6 @@
 			"scriptName": "Rim_v8_glb4",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"c2560c89525d4f29ac92bc8831630074": {
-			"id": "c2560c89525d4f29ac92bc8831630074",
-			"label": "Floor.glb 7",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0t"
-			},
-			"scriptName": "Floor_glb_4",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"cd59950b061a4c33af4dadec78db778d": {
 			"id": "cd59950b061a4c33af4dadec78db778d",
 			"label": "Soft Sandy v18.glb 12",
@@ -4285,27 +4428,6 @@
 				"order": "Zzd"
 			},
 			"scriptName": "Wall_Sidev21_glb20",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"d11ee5b53ffd4a3fa58ab55f47d3aef4": {
-			"id": "d11ee5b53ffd4a3fa58ab55f47d3aef4",
-			"label": "Mountain _14_gesund.glb",
-			"locked": true,
-			"parent": {
-				"id": "86ca99919cf545a9b83f5c34f7a22d60",
-				"order": "Zy"
-			},
-			"scriptName": "Mountain__14_gesund_glb",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"d1438a55e1284f8b95a5f7994aaa668d": {
-			"id": "d1438a55e1284f8b95a5f7994aaa668d",
-			"label": "Floor.glb 5",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0Z"
-			},
-			"scriptName": "Floor_glb_20",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"d15411146ea14ba6a6570bf13a998e2c": {
@@ -4399,16 +4521,6 @@
 			"scriptName": "Steine_Klein_glb3",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"e8233778e95d49bb95d0a799a5ac0e44": {
-			"id": "e8233778e95d49bb95d0a799a5ac0e44",
-			"label": "Floor.glb 6",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0c"
-			},
-			"scriptName": "Floor_glb_5",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"e96d2b3afa6e4e7191e7889c0228c681": {
 			"id": "e96d2b3afa6e4e7191e7889c0228c681",
 			"label": "Chaotic Pile v22.glb",
@@ -4467,16 +4579,6 @@
 				"order": "a1L"
 			},
 			"scriptName": "Soft_Sandyv18_glb8",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"f8498d757baf4514a39c9289e3846d15": {
-			"id": "f8498d757baf4514a39c9289e3846d15",
-			"label": "Floor.glb 8",
-			"parent": {
-				"id": "b053f62b95a548afbe971b8bbec4c6a4",
-				"order": "a0f"
-			},
-			"scriptName": "Floor_glb_6",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"ffd066b800334037be0506731325582a": {

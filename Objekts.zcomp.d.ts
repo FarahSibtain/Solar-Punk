@@ -82,87 +82,12 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Floor: Group_1 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb0: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb1: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb2: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb_2: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb_20: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb_21: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb_3: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb_4: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb_5: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb_50: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Floor_glb_6: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
 		Hard_world: Group_1 & {
 			behaviors: {
 
 			}
 		},
-		Mountain__14_gesund_glb: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
 		Mountain_v14_glb0: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Netz_Fischerv20_glb: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -173,6 +98,11 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Old_Rustyv7_glb: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Particles: Group_1 & {
 			behaviors: {
 
 			}
@@ -222,11 +152,6 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		RoundedSton_v5_glb: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
 		Sand_Ohneschimmelv17_glb: GLTF_0 & {
 			behaviors: {
 
@@ -237,22 +162,12 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Schimmerl_Gitterv12_glb: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
 		Soft_Sandyv18_glb: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
 		Soft_Sandyv18_glb0: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Soft_Sandyv18_glb1: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -382,11 +297,6 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Soft_Sandyv18_glb260: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
 		Soft_Sandyv18_glb27: GLTF_0 & {
 			behaviors: {
 
@@ -472,11 +382,6 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Soft_Sandyv18_glb5: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
 		Soft_Sandyv18_glb50: GLTF_0 & {
 			behaviors: {
 
@@ -503,11 +408,6 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Soft_Sandyv18_glb8: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Soft_Sandyv18_glb80: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -557,6 +457,51 @@ declare class Comp extends ZComponent {
 
 			}
 		},
+		SuspendedSolids: SuspendedSolids_zcomp_2 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids0: SuspendedSolids_zcomp_2 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids_2: SuspendedSolids_zcomp_2 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids_3: SuspendedSolids_zcomp_2 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids_4: SuspendedSolids_zcomp_2 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids_5: SuspendedSolids_zcomp_2 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids_50: SuspendedSolids_zcomp_2 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids_7: SuspendedSolids_zcomp_2 & {
+			behaviors: {
+
+			}
+		},
+		SuspendedSolids_70: SuspendedSolids_zcomp_2 & {
+			behaviors: {
+
+			}
+		},
 		Wall_Sidev21_glb: GLTF_0 & {
 			behaviors: {
 
@@ -578,11 +523,6 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Wall_Sidev21_glb20: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Wall_Sidev21_glb21: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -637,52 +577,152 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Particles: Group_1 & {
+		Soft_Sandyv18_glb270: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids: SuspendedSolids_zcomp_2 & {
+		Soft_Sandyv18_glb271: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids0: SuspendedSolids_zcomp_2 & {
+		Soft_Sandyv18_glb272: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_2: SuspendedSolids_zcomp_2 & {
+		Soft_Sandyv18_glb273: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_3: SuspendedSolids_zcomp_2 & {
+		Soft_Sandyv18_glb251: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_4: SuspendedSolids_zcomp_2 & {
+		Soft_Sandyv18_glb252: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_5: SuspendedSolids_zcomp_2 & {
+		Old_Rustyv16_glb2: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_50: SuspendedSolids_zcomp_2 & {
+		Old_Rustyv16_glb20: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_7: SuspendedSolids_zcomp_2 & {
+		Old_Rustyv16_glb21: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_70: SuspendedSolids_zcomp_2 & {
+		Soft_Sandyv18_glb500: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb3: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb4: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb5: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb6: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb7: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb8: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb9: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb10: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb11: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb12: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb13: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb14: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb15: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb16: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb17: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb18: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb19: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb21: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb22: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb23: GLTF_0 & {
 			behaviors: {
 
 			}
