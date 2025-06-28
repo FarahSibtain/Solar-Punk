@@ -1,4 +1,69 @@
 {
+	"animation": {
+		"clips": {
+			"252d402947b9495e8f1daf4eedc0742902": {
+				"id": "252d402947b9495e8f1daf4eedc0742902",
+				"length": 3000,
+				"lengthType": "manual",
+				"name": "UI Fade In",
+				"order": "a2",
+				"scriptName": "UI_FadeIn",
+				"tracks": {
+					"32bdf317f0164926902f912e479d4f91": {
+						"blend": "overlay",
+						"entityID": "bc6f478fd0644aee887e033440ed00df",
+						"id": "32bdf317f0164926902f912e479d4f91",
+						"keyframes": {
+							"3e4d9b193e834571960f9a3364671b3d01": {
+								"easing": "easeOut",
+								"id": "3e4d9b193e834571960f9a3364671b3d01",
+								"t": 0,
+								"v": 0
+							},
+							"3e4d9b193e834571960f9a3364671b3d02": {
+								"id": "3e4d9b193e834571960f9a3364671b3d02",
+								"t": 3000,
+								"v": 1
+							}
+						},
+						"order": "a0",
+						"property": [
+							"opacity"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "timeline"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+			"252d402947b9495e8f1daf4eedc0742901": {
+				"clips": {
+					"b91439ae93424db3bf17a00ee3eebea4": {
+						"clipId": "252d402947b9495e8f1daf4eedc0742902",
+						"id": "b91439ae93424db3bf17a00ee3eebea4",
+						"order": "a2",
+						"scriptName": "UI_FadeIn"
+					}
+				},
+				"defaultClip": null,
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "252d402947b9495e8f1daf4eedc0742901",
+				"name": "UI Animations",
+				"order": "a2",
+				"scriptName": "UI_Animations"
+			}
+		}
+	},
 	"behaviors": {
 		"2f33489ac94b400eab5237d7a5310e63": {
 			"id": "2f33489ac94b400eab5237d7a5310e63",
@@ -29,6 +94,16 @@
 				"scriptName": "MyButtonBehaviour"
 			},
 			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"482f590f40e44f96983bf11fae48a8e9": {
+			"id": "482f590f40e44f96983bf11fae48a8e9",
+			"label": "MyAudioEndBehavior",
+			"parent": {
+				"id": "fb24afb3dfa546b79edb9d2e0553996c",
+				"order": "a0",
+				"scriptName": "MyAudioEndBehavior"
+			},
+			"type": "./MyAudioEndBehavior#MyAudioEndBehavior"
 		},
 		"8e190d6b8b504b6284929f4b033ffb56": {
 			"id": "8e190d6b8b504b6284929f4b033ffb56",
@@ -411,6 +486,8 @@
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
 		},
+		"482f590f40e44f96983bf11fae48a8e9": {
+		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
 		"547097f646a54d39aa1706d0ba7c7ef8": {
@@ -691,6 +768,8 @@
 			],
 			"size": 5
 		},
+		"482f590f40e44f96983bf11fae48a8e9": {
+		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
 		"547097f646a54d39aa1706d0ba7c7ef8": {
@@ -762,7 +841,7 @@
 				-0.3,
 				0
 			],
-			"visible": false
+			"visible": true
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"castShadow": true,
@@ -828,7 +907,7 @@
 				0.8307698767709715
 			],
 			"direction": "auto",
-			"fillOpacity": 0.7,
+			"fillOpacity": 1,
 			"fontSize": 0.2,
 			"outlineOpacity": 1,
 			"position": [
@@ -853,7 +932,8 @@
 				0.2,
 				0.2,
 				0.2
-			]
+			],
+			"visible": false
 		},
 		"bf1d127bf7234511b3cdc3d5a98af7b0": {
 		},
@@ -1137,7 +1217,7 @@
 			"label": "zapsplat_nature_underwater_ambience_deep_007_30532.mp3",
 			"parent": {
 				"id": "root",
-				"order": "Zw"
+				"order": "Zv"
 			},
 			"scriptName": "zapsplat_nature_underwater_ambience_deep_007_30532_mp3",
 			"type": "@zcomponent/core/lib/components/Audio#Audio"
