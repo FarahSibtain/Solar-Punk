@@ -17,32 +17,18 @@ export class UIHandler extends Behavior<Group> {
 	protected zcomponent = this.getZComponentInstance(Scene);
 	private cam: THREE.Camera;
 	private uiDest: Group;
-		
+	private originalVisibility: boolean[] = [];
+	private isDisabled: boolean = false;
 
 	constructor(contextManager: ContextManager, instance: Group, protected constructorProps: ConstructionProps) {
 		super(contextManager, instance);
-
-		/*
-		// You can register handlers for events on the node that this behavior
-		// is attached to like this:
-
-		this.register(this.instance.onPointerDown, evt => {
-			// Code to handle event
-		});
-
-		// Or against other nodes in your zcomp file
-		this.register(this.zcomponent.nodes.MyNode.onPointerDown, evt => {
-
-		});
-		
-		*/
-
         
-        // Get reference to the ZComponent instance to access controllers
-        //const sceneInstance = this.getZComponentInstance(Scene);
         this.cam = useCamera(contextManager).value;
 
 		this.uiDest = this.zcomponent.nodeByLabel.get('UIDest') as Group;
+		
+		// Store original visibility for disable/restore functionality
+		this.storeOriginalVisibility();
 
 		// Register for frame updates to log positions
         this.register(useOnBeforeRender(contextManager), (deltaTime) => {
@@ -51,24 +37,45 @@ export class UIHandler extends Behavior<Group> {
     }
 
     private updateCanvas(deltaTime: number) {
-		// Get UIDest node with proper null checking
-		
-		// Check if uiDest exists and has element before proceeding
-		if (!this.uiDest || !this.uiDest.element) {
-			console.warn('UIDest node not found or element not available');
-			return;
+		// Only update UI position if not disabled
+		if (!this.isDisabled) {
+			// Check if uiDest exists and has element before proceeding
+			if (!this.uiDest || !this.uiDest.element) {
+				console.warn('UIDest node not found or element not available');
+				return;
+			}
+			
+			const position = new THREE.Vector3();
+			this.uiDest.element.getWorldPosition(position);
+			this.instance.element.position.lerp(position, 0.003 * deltaTime);
+			this.cam.getWorldPosition(position);
+			this.instance.element.lookAt(position);
 		}
-		
-		const position = new THREE.Vector3();
-		this.uiDest.element.getWorldPosition(position);
-		this.instance.element.position.lerp(position, 0.003 * deltaTime);
-		this.cam.getWorldPosition(position);
-		this.instance.element.lookAt(position);
+	}
+
+	private storeOriginalVisibility() {
+		this.instance.element.traverse(child => {
+			this.originalVisibility.push(child.visible);
+		});
+	}
+
+	public disableUI() {
+		if (!this.isDisabled) {
+			this.isDisabled = true;
+			this.instance.enabled.value = false;
+			this.instance.visible.value = false;
+		}
+	}
+
+	public enableUI() {
+		if (this.isDisabled) {
+			this.isDisabled = false;
+			this.instance.enabled.value = true;
+			this.instance.visible.value = true;
+		}
 	}
 
 	dispose() {
-		// Clean up any resources
-		// ...
 		return super.dispose();
 	}
 }

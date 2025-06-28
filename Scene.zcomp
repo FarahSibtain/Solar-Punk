@@ -65,6 +65,16 @@
 		}
 	},
 	"behaviors": {
+		"0e1ec8d109c342099df64a3025b81fcc": {
+			"id": "0e1ec8d109c342099df64a3025b81fcc",
+			"label": "DisableOnMove",
+			"parent": {
+				"id": "3af9d94a075d4f3aad008c084d3ca89b",
+				"order": "a1",
+				"scriptName": "DisableOnMove"
+			},
+			"type": "./DisableOnMove.ts#DisableOnMove"
+		},
 		"2f33489ac94b400eab5237d7a5310e63": {
 			"id": "2f33489ac94b400eab5237d7a5310e63",
 			"label": "MyButtonBehaviour",
@@ -134,6 +144,16 @@
 				"scriptName": "MyButtonBehaviour"
 			},
 			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"9b65bf60067c43d2adfe382ace370329": {
+			"id": "9b65bf60067c43d2adfe382ace370329",
+			"label": "UIHandler",
+			"parent": {
+				"id": "3af9d94a075d4f3aad008c084d3ca89b",
+				"order": "a0",
+				"scriptName": "UIHandler"
+			},
+			"type": "./UIHandler#UIHandler"
 		},
 		"a03f046d4cd34887b8ad1d486a98a4f6": {
 			"id": "a03f046d4cd34887b8ad1d486a98a4f6",
@@ -233,6 +253,12 @@
 		},
 		"Content Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
+		},
+		"ControlUI": {
+			"3af9d94a075d4f3aad008c084d3ca89b": true
+		},
+		"Controls": {
+			"a04eca84ced440e6b4252e6972c56008": true
 		},
 		"DeathZoneAudio": {
 			"fb24afb3dfa546b79edb9d2e0553996c": true
@@ -401,6 +427,12 @@
 		"Content_Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
 		},
+		"ControlUI": {
+			"3af9d94a075d4f3aad008c084d3ca89b": true
+		},
+		"Controls": {
+			"a04eca84ced440e6b4252e6972c56008": true
+		},
 		"DeathZoneAudio": {
 			"fb24afb3dfa546b79edb9d2e0553996c": true
 		},
@@ -525,6 +557,8 @@
 		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
+		"0e1ec8d109c342099df64a3025b81fcc": {
+		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 		},
 		"1ce9f2317f954efbbedda2657417a0ed": {
@@ -549,6 +583,8 @@
 			"allowUnspecifiedHandControllers": false
 		},
 		"3a896444bec242c89169a70dc72c36f0": {
+		},
+		"3af9d94a075d4f3aad008c084d3ca89b": {
 		},
 		"3ba8407ca04746f3afc82e1bced92a8c": {
 			"allowLeftHandControllers": false,
@@ -631,7 +667,12 @@
 		"8f428d8389ce4c0896becec72ee720f9": {
 			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
 		},
+		"9b65bf60067c43d2adfe382ace370329": {
+		},
 		"a03f046d4cd34887b8ad1d486a98a4f6": {
+		},
+		"a04eca84ced440e6b4252e6972c56008": {
+			"source": "file://./Images/Controls.png"
 		},
 		"aca73192c64842aba2138a6c01994452": {
 		},
@@ -791,6 +832,8 @@
 		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
+		"0e1ec8d109c342099df64a3025b81fcc": {
+		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 			"position": [
 				0.2907922476287057,
@@ -845,6 +888,8 @@
 				0
 			],
 			"text": " Science & Tech Person"
+		},
+		"3af9d94a075d4f3aad008c084d3ca89b": {
 		},
 		"3ba8407ca04746f3afc82e1bced92a8c": {
 			"position": [
@@ -1043,7 +1088,16 @@
 		},
 		"8f428d8389ce4c0896becec72ee720f9": {
 		},
+		"9b65bf60067c43d2adfe382ace370329": {
+		},
 		"a03f046d4cd34887b8ad1d486a98a4f6": {
+		},
+		"a04eca84ced440e6b4252e6972c56008": {
+			"scale": [
+				0.4,
+				0.4,
+				1
+			]
 		},
 		"aca73192c64842aba2138a6c01994452": {
 			"color": [
@@ -1259,6 +1313,16 @@
 			},
 			"scriptName": "ButtonSAT",
 			"type": "./Button/Button.zcomp#default"
+		},
+		"3af9d94a075d4f3aad008c084d3ca89b": {
+			"id": "3af9d94a075d4f3aad008c084d3ca89b",
+			"label": "ControlUI",
+			"parent": {
+				"id": "root",
+				"order": "ZwV"
+			},
+			"scriptName": "ControlUI",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"3ba8407ca04746f3afc82e1bced92a8c": {
 			"id": "3ba8407ca04746f3afc82e1bced92a8c",
@@ -1559,6 +1623,16 @@
 			},
 			"scriptName": "ButtonCAP",
 			"type": "./Button/Button.zcomp#default"
+		},
+		"a04eca84ced440e6b4252e6972c56008": {
+			"id": "a04eca84ced440e6b4252e6972c56008",
+			"label": "Controls",
+			"parent": {
+				"id": "3af9d94a075d4f3aad008c084d3ca89b",
+				"order": "a0"
+			},
+			"scriptName": "Controls",
+			"type": "@zcomponent/three/lib/components/Image#Image"
 		},
 		"aca73192c64842aba2138a6c01994452": {
 			"id": "aca73192c64842aba2138a6c01994452",
