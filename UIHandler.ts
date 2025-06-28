@@ -16,6 +16,7 @@ export class UIHandler extends Behavior<Group> {
 
 	protected zcomponent = this.getZComponentInstance(Scene);
 	private cam: THREE.Camera;
+	private uiDest: Group;
 		
 
 	constructor(contextManager: ContextManager, instance: Group, protected constructorProps: ConstructionProps) {
@@ -41,12 +42,7 @@ export class UIHandler extends Behavior<Group> {
         //const sceneInstance = this.getZComponentInstance(Scene);
         this.cam = useCamera(contextManager).value;
 
-		// Access the UIDest position through the XR Camera's children
-		const uiDest = this.zcomponent.nodeByLabel.get('UIDest') as Group;
-		const uiDestPosition = uiDest?.position.value;
-        
-        console.log('UIDest Position:', uiDestPosition);
-    
+		this.uiDest = this.zcomponent.nodeByLabel.get('UIDest') as Group;
 
 		// Register for frame updates to log positions
         this.register(useOnBeforeRender(contextManager), (deltaTime) => {
@@ -56,20 +52,18 @@ export class UIHandler extends Behavior<Group> {
 
     private updateCanvas(deltaTime: number) {
 		// Get UIDest node with proper null checking
-		const uiDest = this.zcomponent.nodeByLabel.get('UIDest') as Group;
 		
 		// Check if uiDest exists and has element before proceeding
-		if (!uiDest || !uiDest.element) {
+		if (!this.uiDest || !this.uiDest.element) {
 			console.warn('UIDest node not found or element not available');
 			return;
 		}
 		
 		const position = new THREE.Vector3();
-		uiDest.element.getWorldPosition(position);
+		this.uiDest.element.getWorldPosition(position);
 		this.instance.element.position.lerp(position, 0.003 * deltaTime);
 		this.cam.getWorldPosition(position);
 		this.instance.element.lookAt(position);
-		//this.instance.element.position.copy(this.instance.element.position.lerpVectors(this.instance.element.position, this.cam.position , 0.1));
 	}
 
 	dispose() {

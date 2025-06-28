@@ -75,6 +75,16 @@
 			},
 			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
 		},
+		"2f47fe0082f84802bf1b661071e51f361": {
+			"id": "2f47fe0082f84802bf1b661071e51f361",
+			"label": "Hand Movement",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a0",
+				"scriptName": "Hand_Movement"
+			},
+			"type": "../HandMovementBehavior.ts#HandMovementBehavior"
+		},
 		"303ea92df16e4c4ab188e304f2a2fbed": {
 			"id": "303ea92df16e4c4ab188e304f2a2fbed",
 			"label": "UIHandler",
@@ -95,8 +105,8 @@
 			},
 			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
 		},
-		"482f590f40e44f96983bf11fae48a8e9": {
-			"id": "482f590f40e44f96983bf11fae48a8e9",
+		"4cf508b2885d4348945c245d51a6913b": {
+			"id": "4cf508b2885d4348945c245d51a6913b",
 			"label": "MyAudioEndBehavior",
 			"parent": {
 				"id": "fb24afb3dfa546b79edb9d2e0553996c",
@@ -135,6 +145,16 @@
 			},
 			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
 		},
+		"da5157961c6845c1afae6f715af252b5": {
+			"id": "da5157961c6845c1afae6f715af252b5",
+			"label": "TeleportDistanceRestrictor",
+			"parent": {
+				"id": "54a3fe42df61491d805d50af10399810",
+				"order": "a0",
+				"scriptName": "TeleportDistanceRestrictor"
+			},
+			"type": "../TeleportDistanceRestrictor.ts#TeleportDistanceRestrictor"
+		},
 		"ed715e8d0f40444baf11db0f83a59f7d": {
 			"id": "ed715e8d0f40444baf11db0f83a59f7d",
 			"label": "MyButtonBehaviour",
@@ -169,6 +189,12 @@
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
+		"Arrow Geometry": {
+			"80ce371f0a844b98ace6c3970f4e3b9a6": true
+		},
+		"Arrow Material": {
+			"80ce371f0a844b98ace6c3970f4e3b9a7": true
+		},
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
 		},
@@ -244,6 +270,9 @@
 		"Left Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
+		"LeftHandPosition": {
+			"504e2e3fdfce4822a6d4616afdae7b38": true
+		},
 		"Mesh Group (Delete Me)": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
 		},
@@ -265,6 +294,15 @@
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
 		},
+		"RightHandPosition": {
+			"fa85be6171e941109926af8d3fcf279b": true
+		},
+		"Ring Geometry": {
+			"80ce371f0a844b98ace6c3970f4e3b9a3": true
+		},
+		"Ring Material": {
+			"80ce371f0a844b98ace6c3970f4e3b9a4": true
+		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
 		},
@@ -274,8 +312,14 @@
 		"SuspendedSolids": {
 			"56044315920a4746af46d34228759e28": true
 		},
+		"Teleport Arrow": {
+			"80ce371f0a844b98ace6c3970f4e3b9a5": true
+		},
 		"Teleport Manager": {
 			"54a3fe42df61491d805d50af10399810": true
+		},
+		"Teleport Ring": {
+			"80ce371f0a844b98ace6c3970f4e3b9a2": true
 		},
 		"Turn Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
@@ -284,7 +328,10 @@
 			"bc6f478fd0644aee887e033440ed00df": true
 		},
 		"UIDest": {
-			"8e49d5a469f4485995b58d1c50c2cd1c": true
+			"5c5c7d2d48be4bd8b23db61b1d0b0d4b": true
+		},
+		"Walk Manager": {
+			"80ce371f0a844b98ace6c3970f4e3b9a1": true
 		},
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
@@ -309,6 +356,12 @@
 		}
 	},
 	"entitiesByScriptName": {
+		"Arrow_Geometry": {
+			"80ce371f0a844b98ace6c3970f4e3b9a6": true
+		},
+		"Arrow_Material": {
+			"80ce371f0a844b98ace6c3970f4e3b9a7": true
+		},
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
 		},
@@ -378,6 +431,9 @@
 		"Hello_Text": {
 			"b3b8b1eaba504578a54e472a84c5fdbe1": true
 		},
+		"LeftHandPosition": {
+			"504e2e3fdfce4822a6d4616afdae7b38": true
+		},
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -399,8 +455,17 @@
 		"Plane": {
 			"e2d77bbed5ca445292509e55934a55e8": true
 		},
+		"RightHandPosition": {
+			"fa85be6171e941109926af8d3fcf279b": true
+		},
 		"Right_Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
+		},
+		"Ring_Geometry": {
+			"80ce371f0a844b98ace6c3970f4e3b9a3": true
+		},
+		"Ring_Material": {
+			"80ce371f0a844b98ace6c3970f4e3b9a4": true
 		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
@@ -411,8 +476,14 @@
 		"SuspendedSolids": {
 			"56044315920a4746af46d34228759e28": true
 		},
+		"Teleport_Arrow": {
+			"80ce371f0a844b98ace6c3970f4e3b9a5": true
+		},
 		"Teleport_Manager": {
 			"54a3fe42df61491d805d50af10399810": true
+		},
+		"Teleport_Ring": {
+			"80ce371f0a844b98ace6c3970f4e3b9a2": true
 		},
 		"Turn_Manager": {
 			"6f74cedb96234cb38132c5f1744e1c04": true
@@ -421,7 +492,10 @@
 			"bc6f478fd0644aee887e033440ed00df": true
 		},
 		"UIDest": {
-			"8e49d5a469f4485995b58d1c50c2cd1c": true
+			"5c5c7d2d48be4bd8b23db61b1d0b0d4b": true
+		},
+		"Walk_Manager": {
+			"80ce371f0a844b98ace6c3970f4e3b9a1": true
 		},
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
@@ -464,6 +538,8 @@
 		},
 		"2f33489ac94b400eab5237d7a5310e63": {
 		},
+		"2f47fe0082f84802bf1b661071e51f361": {
+		},
 		"303ea92df16e4c4ab188e304f2a2fbed": {
 		},
 		"31d881a6d9164929957f7f53a50658d5": {
@@ -486,7 +562,9 @@
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
 		},
-		"482f590f40e44f96983bf11fae48a8e9": {
+		"4cf508b2885d4348945c245d51a6913b": {
+		},
+		"504e2e3fdfce4822a6d4616afdae7b38": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -497,6 +575,8 @@
 		"56044315920a4746af46d34228759e28": {
 		},
 		"5b864a35a10b481989a943ed5e8c459c": {
+		},
+		"5c5c7d2d48be4bd8b23db61b1d0b0d4b": {
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
@@ -517,6 +597,26 @@
 		"7cfa6e6f029b41ddabb4b77606fa4b19": {
 			"excludeImage360": true
 		},
+		"80ce371f0a844b98ace6c3970f4e3b9a1": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a2": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a3": {
+			"innerRadius": 0.8,
+			"outerRadius": 1,
+			"thetaSegments": 32
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a4": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a5": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a6": {
+			"height": 0.4,
+			"radialSegments": 8,
+			"radius": 0.15
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a7": {
+		},
 		"80d86489b7044abc8810d3e166705d87": {
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
@@ -527,8 +627,6 @@
 		},
 		"8e190d6b8b504b6284929f4b033ffb56": {
 			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
-		},
-		"8e49d5a469f4485995b58d1c50c2cd1c": {
 		},
 		"8f428d8389ce4c0896becec72ee720f9": {
 			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
@@ -551,9 +649,11 @@
 		},
 		"c01f2d6b83f840328924940130995ae9": {
 			"radius": 500,
-			"source": "file://./Images/underwater_hdri.jpg"
+			"source": "file://../Images/underwater_hdri.jpg"
 		},
 		"d8435c2a57614fb8a9aa6a327915232c": {
+		},
+		"da5157961c6845c1afae6f715af252b5": {
 		},
 		"e2d77bbed5ca445292509e55934a55e8": {
 		},
@@ -568,6 +668,8 @@
 		"f6371bf08200415f82989d46101107a8": {
 		},
 		"f8553508ebce4d6fa5753f0ea614bea1": {
+		},
+		"fa85be6171e941109926af8d3fcf279b": {
 		},
 		"fb24afb3dfa546b79edb9d2e0553996c": {
 			"audioLayer": "",
@@ -723,6 +825,8 @@
 		},
 		"2f33489ac94b400eab5237d7a5310e63": {
 		},
+		"2f47fe0082f84802bf1b661071e51f361": {
+		},
 		"303ea92df16e4c4ab188e304f2a2fbed": {
 		},
 		"31d881a6d9164929957f7f53a50658d5": {
@@ -768,7 +872,9 @@
 			],
 			"size": 5
 		},
-		"482f590f40e44f96983bf11fae48a8e9": {
+		"4cf508b2885d4348945c245d51a6913b": {
+		},
+		"504e2e3fdfce4822a6d4616afdae7b38": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -782,6 +888,8 @@
 			"roughness": 0.492606026785714
 		},
 		"54a3fe42df61491d805d50af10399810": {
+			"leftHandControllers": false,
+			"rightHandControllers": true,
 			"visible": true
 		},
 		"56044315920a4746af46d34228759e28": {
@@ -807,9 +915,18 @@
 			],
 			"text": "Education Person"
 		},
+		"5c5c7d2d48be4bd8b23db61b1d0b0d4b": {
+			"position": [
+				0,
+				0,
+				-0.6
+			]
+		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
+			"leftHandControllers": false,
+			"rightHandControllers": true
 		},
 		"7146d520c87b4d88850143aea2e8e22d": {
 		},
@@ -834,6 +951,60 @@
 		},
 		"7cfa6e6f029b41ddabb4b77606fa4b19": {
 			"visible": true
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a1": {
+			"leftHandControllers": true,
+			"rightHandControllers": false,
+			"sideMovement": "strafe",
+			"speed": 1
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a2": {
+			"position": [
+				0,
+				0.01,
+				0
+			],
+			"rotation": [
+				-1.5707963267948966,
+				0,
+				0
+			]
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a3": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a4": {
+			"color": [
+				0.2,
+				0.8,
+				1
+			],
+			"fog": false,
+			"opacity": 0.7,
+			"transparent": true
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a5": {
+			"position": [
+				0,
+				0.3,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a6": {
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a7": {
+			"color": [
+				1,
+				1,
+				0.2
+			],
+			"fog": false,
+			"opacity": 0.8,
+			"transparent": true
 		},
 		"80d86489b7044abc8810d3e166705d87": {
 			"position": [
@@ -869,13 +1040,6 @@
 			"text": " Culture & Arts Person"
 		},
 		"8e190d6b8b504b6284929f4b033ffb56": {
-		},
-		"8e49d5a469f4485995b58d1c50c2cd1c": {
-			"position": [
-				0,
-				0,
-				-0.6
-			]
 		},
 		"8f428d8389ce4c0896becec72ee720f9": {
 		},
@@ -952,6 +1116,8 @@
 			],
 			"text": "Governance Person "
 		},
+		"da5157961c6845c1afae6f715af252b5": {
+		},
 		"e2d77bbed5ca445292509e55934a55e8": {
 			"position": [
 				0,
@@ -994,6 +1160,8 @@
 			]
 		},
 		"f8553508ebce4d6fa5753f0ea614bea1": {
+		},
+		"fa85be6171e941109926af8d3fcf279b": {
 		},
 		"fb24afb3dfa546b79edb9d2e0553996c": {
 		},
@@ -1132,6 +1300,16 @@
 			"scriptName": "WaterGeom",
 			"type": "./Materials/WaterGeom#WaterGeom"
 		},
+		"504e2e3fdfce4822a6d4616afdae7b38": {
+			"id": "504e2e3fdfce4822a6d4616afdae7b38",
+			"label": "LeftHandPosition",
+			"parent": {
+				"id": "384ac3d6f4b04210ab8832a8752a2d73",
+				"order": "a0"
+			},
+			"scriptName": "LeftHandPosition",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",
 			"label": "DefaultLoader",
@@ -1181,6 +1359,16 @@
 			},
 			"scriptName": "ButtonEduP",
 			"type": "./Button/Button.zcomp#default"
+		},
+		"5c5c7d2d48be4bd8b23db61b1d0b0d4b": {
+			"id": "5c5c7d2d48be4bd8b23db61b1d0b0d4b",
+			"label": "UIDest",
+			"parent": {
+				"id": "775632eabbc64239a43055022b7eec57",
+				"order": "a0"
+			},
+			"scriptName": "UIDest",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 			"id": "6ef7d30d3e044b6f806dac36e63a857d",
@@ -1262,6 +1450,76 @@
 			"scriptName": "Fog",
 			"type": "./Materials/Fog#Fog"
 		},
+		"80ce371f0a844b98ace6c3970f4e3b9a1": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a1",
+			"label": "Walk Manager",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a3"
+			},
+			"scriptName": "Walk_Manager",
+			"type": "@zcomponent/three-webxr/lib/components/WalkManager#WalkManager"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a2": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a2",
+			"label": "Teleport Ring",
+			"parent": {
+				"id": "54a3fe42df61491d805d50af10399810",
+				"order": "a0"
+			},
+			"scriptName": "Teleport_Ring",
+			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a3": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a3",
+			"label": "Ring Geometry",
+			"parent": {
+				"id": "80ce371f0a844b98ace6c3970f4e3b9a2",
+				"order": "a0"
+			},
+			"scriptName": "Ring_Geometry",
+			"type": "@zcomponent/three/lib/components/geometries/RingGeometry#RingGeometry"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a4": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a4",
+			"label": "Ring Material",
+			"parent": {
+				"id": "80ce371f0a844b98ace6c3970f4e3b9a2",
+				"order": "a1"
+			},
+			"scriptName": "Ring_Material",
+			"type": "@zcomponent/three/lib/components/materials/MeshBasicMaterial#MeshBasicMaterial"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a5": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a5",
+			"label": "Teleport Arrow",
+			"parent": {
+				"id": "54a3fe42df61491d805d50af10399810",
+				"order": "a1"
+			},
+			"scriptName": "Teleport_Arrow",
+			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a6": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a6",
+			"label": "Arrow Geometry",
+			"parent": {
+				"id": "80ce371f0a844b98ace6c3970f4e3b9a5",
+				"order": "a0"
+			},
+			"scriptName": "Arrow_Geometry",
+			"type": "@zcomponent/three/lib/components/geometries/ConeGeometry#ConeGeometry"
+		},
+		"80ce371f0a844b98ace6c3970f4e3b9a7": {
+			"id": "80ce371f0a844b98ace6c3970f4e3b9a7",
+			"label": "Arrow Material",
+			"parent": {
+				"id": "80ce371f0a844b98ace6c3970f4e3b9a5",
+				"order": "a1"
+			},
+			"scriptName": "Arrow_Material",
+			"type": "@zcomponent/three/lib/components/materials/MeshBasicMaterial#MeshBasicMaterial"
+		},
 		"80d86489b7044abc8810d3e166705d87": {
 			"id": "80d86489b7044abc8810d3e166705d87",
 			"label": "Group 2",
@@ -1301,16 +1559,6 @@
 			},
 			"scriptName": "ButtonCAP",
 			"type": "./Button/Button.zcomp#default"
-		},
-		"8e49d5a469f4485995b58d1c50c2cd1c": {
-			"id": "8e49d5a469f4485995b58d1c50c2cd1c",
-			"label": "UIDest",
-			"parent": {
-				"id": "775632eabbc64239a43055022b7eec57",
-				"order": "Zz"
-			},
-			"scriptName": "UIDest",
-			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"aca73192c64842aba2138a6c01994452": {
 			"id": "aca73192c64842aba2138a6c01994452",
@@ -1442,6 +1690,16 @@
 			},
 			"scriptName": "Cone",
 			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
+		},
+		"fa85be6171e941109926af8d3fcf279b": {
+			"id": "fa85be6171e941109926af8d3fcf279b",
+			"label": "RightHandPosition",
+			"parent": {
+				"id": "3ba8407ca04746f3afc82e1bced92a8c",
+				"order": "a0"
+			},
+			"scriptName": "RightHandPosition",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"fb24afb3dfa546b79edb9d2e0553996c": {
 			"id": "fb24afb3dfa546b79edb9d2e0553996c",
