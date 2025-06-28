@@ -558,6 +558,7 @@
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"0e1ec8d109c342099df64a3025b81fcc": {
+			"audioname": "DeathZoneAudio"
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 		},
@@ -714,7 +715,7 @@
 		},
 		"fb24afb3dfa546b79edb9d2e0553996c": {
 			"audioLayer": "",
-			"autoplay": true,
+			"autoplay": false,
 			"source": "file://./Audio/death-zone.mp3"
 		},
 		"fc9e3933f635402aba9e2999dfa56aca": {
