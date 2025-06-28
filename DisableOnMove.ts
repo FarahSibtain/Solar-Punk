@@ -31,7 +31,7 @@ export class DisableOnMove extends Behavior<Group> {
 
 		// Monitor position changes every frame
 		this.register(useOnBeforeRender(this.contextManager), () => {
-			if (this.xrContext && this.xrContext.offsetPosition && this.uiHandler) {
+			if (this.xrContext && this.xrContext.offsetPosition && this.uiHandler && this.uiHandler.isEnabled()) {
 				const pos = this.xrContext.offsetPosition.value;
 				const distanceMovedSq = new Vector3(pos[0], pos[1], pos[2]).lengthSq();
 				const threshold = this.constructorProps.movementThreshold ?? 0.2;

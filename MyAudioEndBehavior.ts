@@ -1,6 +1,7 @@
 import { Component, Behavior, BehaviorConstructorProps, ContextManager, registerBehaviorRunAtDesignTime } from "@zcomponent/core";
 import { Audio as Audio } from "@zcomponent/core/lib/components/Audio";
 import { default as Scene} from "./Scene.zcomp";
+import { UIHandler } from "./UIHandler";
 
 interface ConstructionProps {
 	// Add any constructor props you'd like for your behavior here
@@ -18,13 +19,13 @@ export class MyAudioEndBehavior extends Behavior<Audio> {
 	constructor(contextManager: ContextManager, instance: Audio, protected constructorProps: ConstructionProps) {
 		super(contextManager, instance);
 
+		const uiHandler = this.zcomponent.nodes.UI.getBehavior(UIHandler);
+		uiHandler?.disableUI();
+
 		 // Assuming you have a reference to an Audio component
         this.register(this.instance.onEnded, () => {
-            // Do something when audio ends
-            console.log('Audio playback finished!');
-            
             // Make UI visible and start fade-in animation
-            this.zcomponent.nodes.UI.visible.value = true;
+            uiHandler?.enableUI();
             this.zcomponent.animation.layers.UI_Animations.clips.UI_FadeIn.play();
         });
 	}

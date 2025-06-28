@@ -17,7 +17,6 @@ export class UIHandler extends Behavior<Group> {
 	protected zcomponent = this.getZComponentInstance(Scene);
 	private cam: THREE.Camera;
 	private uiDest: Group;
-	private originalVisibility: boolean[] = [];
 	private isDisabled: boolean = false;
 
 	constructor(contextManager: ContextManager, instance: Group, protected constructorProps: ConstructionProps) {
@@ -28,7 +27,6 @@ export class UIHandler extends Behavior<Group> {
 		this.uiDest = this.zcomponent.nodeByLabel.get('UIDest') as Group;
 		
 		// Store original visibility for disable/restore functionality
-		this.storeOriginalVisibility();
 
 		// Register for frame updates to log positions
         this.register(useOnBeforeRender(contextManager), (deltaTime) => {
@@ -53,12 +51,6 @@ export class UIHandler extends Behavior<Group> {
 		}
 	}
 
-	private storeOriginalVisibility() {
-		this.instance.element.traverse(child => {
-			this.originalVisibility.push(child.visible);
-		});
-	}
-
 	public disableUI() {
 		if (!this.isDisabled) {
 			this.isDisabled = true;
@@ -73,6 +65,10 @@ export class UIHandler extends Behavior<Group> {
 			this.instance.enabled.value = true;
 			this.instance.visible.value = true;
 		}
+	}
+
+	public isEnabled(): boolean {
+		return !this.isDisabled;
 	}
 
 	dispose() {
