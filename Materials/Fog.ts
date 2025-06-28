@@ -48,7 +48,8 @@ export class Fog extends Group {
         // Perform and loading or setup for the component
 
         const scene = useScene(this.contextManager);
-		scene.fog = new THREE.FogExp2(0x1cadfc, .7);
+		//scene.fog = new THREE.FogExp2(0x009B68, 1, 0.001);
+        scene.fog = new THREE.Fog(0x009B68, 0,10 )
 
         // Exclude Image360 components from fog if requested
         if (this.constructorProps.excludeImage360 ?? true) {

@@ -1,0 +1,4456 @@
+{
+	"behaviors": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"Busch v1.glb": {
+			"bc9a7edb196b4234870572e1ef8da608": true
+		},
+		"Busch v1.glb 2": {
+			"a5c47c4bcfc046939588d158985c7495": true
+		},
+		"Busch v1.glb 3": {
+			"167647dea478413f925221ef02bee18c": true
+		},
+		"Busch v1.glb 4": {
+			"10b217625fba43c0a43b9d8f012f37c3": true
+		},
+		"Busch v1.glb 5": {
+			"227c338405b840acad64b10bb72437b6": true
+		},
+		"Chaotic Pile v22.glb": {
+			"e96d2b3afa6e4e7191e7889c0228c681": true
+		},
+		"Chaotic Pile v22.glb 2": {
+			"0f107973b8a042bd95fc7033e107c975": true
+		},
+		"Dead_World": {
+			"160c5182b2474f91ad1e9341db620162": true
+		},
+		"Dirty Old v6.glb": {
+			"5c2f48d023ba4bfabe88466762eb947f": true
+		},
+		"Ein Flop v10.glb": {
+			"9520c204389348c9b5cb8f92ad76ab44": true
+		},
+		"Ein Flop v10.glb 2": {
+			"80a67eb035e248848191bc8570b9b4ae": true
+		},
+		"Ein Flop v10.glb 3": {
+			"77ce33cf71f1426197160522ae0c86cd": true
+		},
+		"Ein Paar v9.glb": {
+			"8fadd0d5c79b4cb0adcba51c66d76e89": true
+		},
+		"Floor": {
+			"b053f62b95a548afbe971b8bbec4c6a4": true
+		},
+		"Floor.glb": {
+			"778568bd46424610b54e611bcbf3771e": true
+		},
+		"Floor.glb 10": {
+			"6bc061bced694b65abed7379d50d4d3c": true
+		},
+		"Floor.glb 11": {
+			"1468abf1c3f148cbba350f9b9b8c921e": true
+		},
+		"Floor.glb 12": {
+			"1cafdb66bf04433aa7804d05774b3dff": true
+		},
+		"Floor.glb 2": {
+			"7a492b1d48774b93930ded2bad6cf1ae": true
+		},
+		"Floor.glb 3": {
+			"495628ccddf7406ba2d07aaec9d60dcf": true
+		},
+		"Floor.glb 4": {
+			"7fa9a21b099e4dcc82c618d58cf1d5d1": true
+		},
+		"Floor.glb 5": {
+			"d1438a55e1284f8b95a5f7994aaa668d": true
+		},
+		"Floor.glb 6": {
+			"e8233778e95d49bb95d0a799a5ac0e44": true
+		},
+		"Floor.glb 7": {
+			"c2560c89525d4f29ac92bc8831630074": true
+		},
+		"Floor.glb 8": {
+			"f8498d757baf4514a39c9289e3846d15": true
+		},
+		"Floor.glb 9": {
+			"157e28eae5ea40e386eafbde06cb3731": true
+		},
+		"Group": {
+			"root": true
+		},
+		"Hard_world": {
+			"f4b688ed3123424d87913a610c431818": true
+		},
+		"ImageTexture": {
+			"c491725b07514f07b3a70cb064966578": true
+		},
+		"ImageTexture 2": {
+			"84571233f15f48d1a25764531107579b": true
+		},
+		"MeshStandardMaterial": {
+			"606d939225b043dc9d0d6c7d807c6b73": true
+		},
+		"Mountain _14_gesund.glb": {
+			"d11ee5b53ffd4a3fa58ab55f47d3aef4": true
+		},
+		"Mountain v14.glb 2": {
+			"40f30fc6a84a46f7ab3ade28a0fdc2ad": true
+		},
+		"Netz Fischer v20.glb": {
+			"2d3d22edf41a48fba4247a5cd472b2a3": true
+		},
+		"Old Rusty v16.glb": {
+			"151724bd1efb4fa3a05cdb2113c05456": true
+		},
+		"Old Rusty v7.glb": {
+			"3813ab99c1d94e958d7f73659b3ff79e": true
+		},
+		"Pflanze 2 v1.glb": {
+			"33ef51033bd648ab80d8b8796b0d79c6": true
+		},
+		"Recovred": {
+			"86ca99919cf545a9b83f5c34f7a22d60": true
+		},
+		"Rim v8.glb": {
+			"4868f6800189470c84ece95b2d37df42": true
+		},
+		"Rim v8.glb 2": {
+			"db685ad3a87a4d42a2500f6ebfc6a571": true
+		},
+		"Rim v8.glb 3": {
+			"56ba15a5bd3344ce853de0eb44a1fb1c": true
+		},
+		"Rim v8.glb 4": {
+			"e23c86bb24d44e7f9ee406c0b8b4020a": true
+		},
+		"Rim v8.glb 5": {
+			"02240a4b63a64727bb84663ddf66cd62": true
+		},
+		"Rim v8.glb 6": {
+			"bf08fd2e81a34633957cc2b4955d7157": true
+		},
+		"Rim v8.glb 7": {
+			"f02a879ba0ce466ea650861c5b895b23": true
+		},
+		"RoundedSton v5.glb": {
+			"a09cd584d83a4069917153b79b53ea11": true
+		},
+		"Sand Ohneschimmel v17.glb": {
+			"569aec496afa42d2be27eb86936496f9": true
+		},
+		"Sand Ohneschimmel v17.glb 2": {
+			"c19b409a843a4f2da28d0577c86f57ca": true
+		},
+		"Sand_mit_ohne_schmmel": {
+			"e362da04258e4d91a56d91f6d739d884": true
+		},
+		"Schimmerl Gitter v12.glb": {
+			"49cdab3e0e344daa808d90412d49eed0": true
+		},
+		"Soft Sandy v18.glb": {
+			"b11063f305174f35a9261cabb9abc692": true
+		},
+		"Soft Sandy v18.glb 10": {
+			"4903e4137c8f41b4a6e538588e64d015": true
+		},
+		"Soft Sandy v18.glb 11": {
+			"73316edbe42f45e2930dd745231666ef": true
+		},
+		"Soft Sandy v18.glb 12": {
+			"cd59950b061a4c33af4dadec78db778d": true
+		},
+		"Soft Sandy v18.glb 13": {
+			"b92a7a45ae0c42f0bef905955a630a6e": true
+		},
+		"Soft Sandy v18.glb 14": {
+			"527f3e87d8ba4c14a8e594bc2429f864": true
+		},
+		"Soft Sandy v18.glb 15": {
+			"4ddf513e2bc442a4991995bf9f82a71f": true
+		},
+		"Soft Sandy v18.glb 16": {
+			"b42a7d8c4aa544f2bd80a187b4d5bfc0": true
+		},
+		"Soft Sandy v18.glb 17": {
+			"57fa2351832147f3a4d7ee72f80fc760": true
+		},
+		"Soft Sandy v18.glb 18": {
+			"6f6d179b3b044cb5b93f64f631aeda68": true
+		},
+		"Soft Sandy v18.glb 19": {
+			"17fd92cbc1ab4491a864d5090f4c0e5e": true
+		},
+		"Soft Sandy v18.glb 2": {
+			"4729dafbf73d41248dbda8e586adf9d2": true
+		},
+		"Soft Sandy v18.glb 20": {
+			"f741e185ac1a4d7ebe24e84e87400638": true
+		},
+		"Soft Sandy v18.glb 21": {
+			"747aafa0521b42ad89f0c9ca9a801e42": true
+		},
+		"Soft Sandy v18.glb 22": {
+			"5ca2c07fd0e346f5beae5b020a9d1b4b": true
+		},
+		"Soft Sandy v18.glb 23": {
+			"7a808619c5ec460dae5c445f3c086dd0": true
+		},
+		"Soft Sandy v18.glb 24": {
+			"5727d1e3fa094a3089ac7c6c457c5abe": true
+		},
+		"Soft Sandy v18.glb 25": {
+			"7034ab65e1d043128021c3019912adc8": true
+		},
+		"Soft Sandy v18.glb 26": {
+			"0d7d83f8427f4e91abcb7511682bda20": true
+		},
+		"Soft Sandy v18.glb 27": {
+			"54e267f1cd1b46e4a545aaf4b1b3f02e": true
+		},
+		"Soft Sandy v18.glb 28": {
+			"78025199d3004549ac059cb040f11c26": true
+		},
+		"Soft Sandy v18.glb 29": {
+			"d6a8cde727a445b9a0ed4ea0e98135d0": true
+		},
+		"Soft Sandy v18.glb 3": {
+			"85e8d0a0293e45b1bcdd715b3f7a9a2f": true
+		},
+		"Soft Sandy v18.glb 30": {
+			"8724f10aa45645d6b4f82bf6feda5677": true
+		},
+		"Soft Sandy v18.glb 31": {
+			"771d60b1a90e4074810580d4c5c3c46f": true
+		},
+		"Soft Sandy v18.glb 32": {
+			"020c905e4c9d47a3a1a4619ad3dcfa55": true
+		},
+		"Soft Sandy v18.glb 33": {
+			"2f8824d954d2417ba4641f852a4f4d74": true
+		},
+		"Soft Sandy v18.glb 34": {
+			"0cc8ee23fca64a989e51166cbebe7d53": true
+		},
+		"Soft Sandy v18.glb 35": {
+			"4d482e1a58f44efea834c4b45c5ea9b5": true
+		},
+		"Soft Sandy v18.glb 36": {
+			"5390607170e843e89f438765a1a71831": true
+		},
+		"Soft Sandy v18.glb 37": {
+			"05c3c51b791a45e5bd2120907a0cbb5e": true
+		},
+		"Soft Sandy v18.glb 38": {
+			"2fab06d08b854d72816511ef9a0db817": true
+		},
+		"Soft Sandy v18.glb 39": {
+			"b9676b9c5624457784e71401faa5586b": true
+		},
+		"Soft Sandy v18.glb 4": {
+			"d15411146ea14ba6a6570bf13a998e2c": true
+		},
+		"Soft Sandy v18.glb 40": {
+			"78a647ce087641bd86f9845f16e82789": true
+		},
+		"Soft Sandy v18.glb 41": {
+			"4760d709ef1a4c4aa9a0061c0005536f": true
+		},
+		"Soft Sandy v18.glb 42": {
+			"b7f6501ef5f84f8f89a31a541eab66eb": true
+		},
+		"Soft Sandy v18.glb 43": {
+			"1dc5b95c1cf94a67ab90577690c84fb0": true
+		},
+		"Soft Sandy v18.glb 44": {
+			"98c73d563edf4da6a8ad2fab1cc42bdf": true
+		},
+		"Soft Sandy v18.glb 45": {
+			"2170880983c9450b89d9cc0bde6c3b35": true
+		},
+		"Soft Sandy v18.glb 46": {
+			"42f47d5c02c34f15ad36f9a5d5083ca2": true
+		},
+		"Soft Sandy v18.glb 47": {
+			"5029d2c297f740c69993df93ce06ca3f": true
+		},
+		"Soft Sandy v18.glb 48": {
+			"d75bc5cdb27a4e9e9c342ad935f77ca0": true
+		},
+		"Soft Sandy v18.glb 49": {
+			"eebe954db4f642c1b83215d8f62ea089": true
+		},
+		"Soft Sandy v18.glb 5": {
+			"1746182ce1e94b3c8c63da4bd72fe701": true
+		},
+		"Soft Sandy v18.glb 50": {
+			"0f3146924aeb4d7293d67c0f1efa04d2": true
+		},
+		"Soft Sandy v18.glb 51": {
+			"a914f49d3d5e45ba97b4251acbb4919d": true
+		},
+		"Soft Sandy v18.glb 52": {
+			"1d9d38158d144d6d87e8f5cc8a9315dd": true
+		},
+		"Soft Sandy v18.glb 53": {
+			"b7df27136d2e4ebea12a06d3272f42db": true
+		},
+		"Soft Sandy v18.glb 54": {
+			"48a2730e5e314a5384284710a491a773": true
+		},
+		"Soft Sandy v18.glb 55": {
+			"5265d8d159364e10a79495ba41383ea9": true
+		},
+		"Soft Sandy v18.glb 56": {
+			"3476598137a94f6dbc45cccafe4f46a0": true
+		},
+		"Soft Sandy v18.glb 6": {
+			"140797a345ed4b3685929cf8805c5227": true
+		},
+		"Soft Sandy v18.glb 7": {
+			"67f6a062c6e140739fc96f17b26a4866": true
+		},
+		"Soft Sandy v18.glb 8": {
+			"63acbb3f0dee4ab8b5214647ba3a525d": true
+		},
+		"Soft Sandy v18.glb 9": {
+			"3e38eb9d17754c25affa3468906277f4": true
+		},
+		"Soft_molded_sand": {
+			"61c6ba31df2f4ed994f86e148df210c9": true
+		},
+		"Steine_Klein.glb": {
+			"dcd62063a7f74d3b81ef36f977debe82": true
+		},
+		"Steine_Klein.glb 2": {
+			"8239552ff5724ac0aa791af9d110c7f7": true
+		},
+		"Steine_Klein.glb 3": {
+			"7fcc01a789204d7eb5f88bf1b91c18c4": true
+		},
+		"Steine_Klein.glb 4": {
+			"ffd066b800334037be0506731325582a": true
+		},
+		"Steine_Klein.glb 5": {
+			"e7e95f36fb4049f9a2f3991d849a90ce": true
+		},
+		"SunkenWold v4.glb": {
+			"71bc2501659542189c2af9ec26d53dcd": true
+		},
+		"Wall Side v21.glb": {
+			"84b8c90f6fd142c5acbed9884466c377": true
+		},
+		"Wall Side v21.glb 10": {
+			"ce122dae41ee4f5da359416a34a6589f": true
+		},
+		"Wall Side v21.glb 11": {
+			"762a5092ffb949ad97a7028de085cae2": true
+		},
+		"Wall Side v21.glb 12": {
+			"822d93a9d16d42e4afd33ada55b2e963": true
+		},
+		"Wall Side v21.glb 13": {
+			"190775946dd14c6ca9b9aff2c0127102": true
+		},
+		"Wall Side v21.glb 2": {
+			"2919ebf18c1c4853ab6bfd7820f50da0": true
+		},
+		"Wall Side v21.glb 3": {
+			"43f8bb20323f45a7a44cb61831f90f4a": true
+		},
+		"Wall Side v21.glb 4": {
+			"1f8a86ea1b55428a9aeb1bd16b49d909": true
+		},
+		"Wall Side v21.glb 5": {
+			"222a772706c04be2bdfa2717211371a4": true
+		},
+		"Wall Side v21.glb 6": {
+			"ed61b4ac80a244f4bec781cc5600b83b": true
+		},
+		"Wall Side v21.glb 7": {
+			"947a0b22084e4c348dddcac2ae34c34a": true
+		},
+		"Wall Side v21.glb 8": {
+			"723b1f86daa7407cbecec2846ab749c4": true
+		},
+		"Wall Side v21.glb 9": {
+			"1370ef09d717479f809628ebfeb15b51": true
+		},
+		"World": {
+			"4b5ff986843741af940081cc914dd5f2": true
+		},
+		"World War 3 v3.glb": {
+			"b95a0967d59a4474856c86d9f6736c18": true
+		},
+		"World War Plane v2.glb": {
+			"72abe06fb26244b5874ba03b7c656043": true
+		}
+	},
+	"entitiesByScriptName": {
+		"Busch_v1_glb": {
+			"bc9a7edb196b4234870572e1ef8da608": true
+		},
+		"Busch_v1_glb0": {
+			"a5c47c4bcfc046939588d158985c7495": true
+		},
+		"Busch_v1_glb1": {
+			"167647dea478413f925221ef02bee18c": true
+		},
+		"Busch_v1_glb2": {
+			"10b217625fba43c0a43b9d8f012f37c3": true
+		},
+		"Busch_v1_glb20": {
+			"227c338405b840acad64b10bb72437b6": true
+		},
+		"Chaotic_Pilev22_glb": {
+			"e96d2b3afa6e4e7191e7889c0228c681": true
+		},
+		"Chaotic_Pilev22_glb0": {
+			"0f107973b8a042bd95fc7033e107c975": true
+		},
+		"Dead_World": {
+			"160c5182b2474f91ad1e9341db620162": true
+		},
+		"Dirty_Oldv6_glb": {
+			"5c2f48d023ba4bfabe88466762eb947f": true
+		},
+		"Ein_Flopv10_glb": {
+			"9520c204389348c9b5cb8f92ad76ab44": true
+		},
+		"Ein_Flopv10_glb0": {
+			"80a67eb035e248848191bc8570b9b4ae": true
+		},
+		"Ein_Flopv10_glb1": {
+			"77ce33cf71f1426197160522ae0c86cd": true
+		},
+		"Ein_Paarv9_glb": {
+			"8fadd0d5c79b4cb0adcba51c66d76e89": true
+		},
+		"Floor": {
+			"b053f62b95a548afbe971b8bbec4c6a4": true
+		},
+		"Floor_glb": {
+			"778568bd46424610b54e611bcbf3771e": true
+		},
+		"Floor_glb0": {
+			"7a492b1d48774b93930ded2bad6cf1ae": true
+		},
+		"Floor_glb1": {
+			"495628ccddf7406ba2d07aaec9d60dcf": true
+		},
+		"Floor_glb2": {
+			"1cafdb66bf04433aa7804d05774b3dff": true
+		},
+		"Floor_glb_2": {
+			"7fa9a21b099e4dcc82c618d58cf1d5d1": true
+		},
+		"Floor_glb_20": {
+			"d1438a55e1284f8b95a5f7994aaa668d": true
+		},
+		"Floor_glb_21": {
+			"6bc061bced694b65abed7379d50d4d3c": true
+		},
+		"Floor_glb_3": {
+			"1468abf1c3f148cbba350f9b9b8c921e": true
+		},
+		"Floor_glb_4": {
+			"c2560c89525d4f29ac92bc8831630074": true
+		},
+		"Floor_glb_5": {
+			"e8233778e95d49bb95d0a799a5ac0e44": true
+		},
+		"Floor_glb_50": {
+			"157e28eae5ea40e386eafbde06cb3731": true
+		},
+		"Floor_glb_6": {
+			"f8498d757baf4514a39c9289e3846d15": true
+		},
+		"Hard_world": {
+			"f4b688ed3123424d87913a610c431818": true
+		},
+		"ImageTexture": {
+			"c491725b07514f07b3a70cb064966578": true
+		},
+		"ImageTexture0": {
+			"84571233f15f48d1a25764531107579b": true
+		},
+		"MeshStandardMaterial": {
+			"606d939225b043dc9d0d6c7d807c6b73": true
+		},
+		"Mountain__14_gesund_glb": {
+			"d11ee5b53ffd4a3fa58ab55f47d3aef4": true
+		},
+		"Mountain_v14_glb0": {
+			"40f30fc6a84a46f7ab3ade28a0fdc2ad": true
+		},
+		"Netz_Fischerv20_glb": {
+			"2d3d22edf41a48fba4247a5cd472b2a3": true
+		},
+		"Old_Rustyv16_glb": {
+			"151724bd1efb4fa3a05cdb2113c05456": true
+		},
+		"Old_Rustyv7_glb": {
+			"3813ab99c1d94e958d7f73659b3ff79e": true
+		},
+		"Pflanze_2v1_glb": {
+			"33ef51033bd648ab80d8b8796b0d79c6": true
+		},
+		"Recovred": {
+			"86ca99919cf545a9b83f5c34f7a22d60": true
+		},
+		"Rim_v8_glb": {
+			"4868f6800189470c84ece95b2d37df42": true
+		},
+		"Rim_v8_glb2": {
+			"db685ad3a87a4d42a2500f6ebfc6a571": true
+		},
+		"Rim_v8_glb20": {
+			"56ba15a5bd3344ce853de0eb44a1fb1c": true
+		},
+		"Rim_v8_glb21": {
+			"e23c86bb24d44e7f9ee406c0b8b4020a": true
+		},
+		"Rim_v8_glb22": {
+			"02240a4b63a64727bb84663ddf66cd62": true
+		},
+		"Rim_v8_glb4": {
+			"bf08fd2e81a34633957cc2b4955d7157": true
+		},
+		"Rim_v8_glb40": {
+			"f02a879ba0ce466ea650861c5b895b23": true
+		},
+		"RoundedSton_v5_glb": {
+			"a09cd584d83a4069917153b79b53ea11": true
+		},
+		"Sand_Ohneschimmelv17_glb": {
+			"569aec496afa42d2be27eb86936496f9": true
+		},
+		"Sand_Ohneschimmelv17_glb0": {
+			"c19b409a843a4f2da28d0577c86f57ca": true
+		},
+		"Sand_mit_ohne_schmmel": {
+			"e362da04258e4d91a56d91f6d739d884": true
+		},
+		"Schimmerl_Gitterv12_glb": {
+			"49cdab3e0e344daa808d90412d49eed0": true
+		},
+		"Soft_Sandyv18_glb": {
+			"b11063f305174f35a9261cabb9abc692": true
+		},
+		"Soft_Sandyv18_glb0": {
+			"4729dafbf73d41248dbda8e586adf9d2": true
+		},
+		"Soft_Sandyv18_glb1": {
+			"85e8d0a0293e45b1bcdd715b3f7a9a2f": true
+		},
+		"Soft_Sandyv18_glb10": {
+			"78025199d3004549ac059cb040f11c26": true
+		},
+		"Soft_Sandyv18_glb100": {
+			"4760d709ef1a4c4aa9a0061c0005536f": true
+		},
+		"Soft_Sandyv18_glb11": {
+			"d75bc5cdb27a4e9e9c342ad935f77ca0": true
+		},
+		"Soft_Sandyv18_glb12": {
+			"5265d8d159364e10a79495ba41383ea9": true
+		},
+		"Soft_Sandyv18_glb13": {
+			"d6a8cde727a445b9a0ed4ea0e98135d0": true
+		},
+		"Soft_Sandyv18_glb14": {
+			"8724f10aa45645d6b4f82bf6feda5677": true
+		},
+		"Soft_Sandyv18_glb15": {
+			"771d60b1a90e4074810580d4c5c3c46f": true
+		},
+		"Soft_Sandyv18_glb16": {
+			"020c905e4c9d47a3a1a4619ad3dcfa55": true
+		},
+		"Soft_Sandyv18_glb17": {
+			"5390607170e843e89f438765a1a71831": true
+		},
+		"Soft_Sandyv18_glb18": {
+			"05c3c51b791a45e5bd2120907a0cbb5e": true
+		},
+		"Soft_Sandyv18_glb19": {
+			"2fab06d08b854d72816511ef9a0db817": true
+		},
+		"Soft_Sandyv18_glb2": {
+			"d15411146ea14ba6a6570bf13a998e2c": true
+		},
+		"Soft_Sandyv18_glb20": {
+			"140797a345ed4b3685929cf8805c5227": true
+		},
+		"Soft_Sandyv18_glb200": {
+			"b9676b9c5624457784e71401faa5586b": true
+		},
+		"Soft_Sandyv18_glb21": {
+			"4903e4137c8f41b4a6e538588e64d015": true
+		},
+		"Soft_Sandyv18_glb210": {
+			"1dc5b95c1cf94a67ab90577690c84fb0": true
+		},
+		"Soft_Sandyv18_glb22": {
+			"527f3e87d8ba4c14a8e594bc2429f864": true
+		},
+		"Soft_Sandyv18_glb220": {
+			"98c73d563edf4da6a8ad2fab1cc42bdf": true
+		},
+		"Soft_Sandyv18_glb23": {
+			"6f6d179b3b044cb5b93f64f631aeda68": true
+		},
+		"Soft_Sandyv18_glb230": {
+			"2170880983c9450b89d9cc0bde6c3b35": true
+		},
+		"Soft_Sandyv18_glb24": {
+			"5ca2c07fd0e346f5beae5b020a9d1b4b": true
+		},
+		"Soft_Sandyv18_glb240": {
+			"42f47d5c02c34f15ad36f9a5d5083ca2": true
+		},
+		"Soft_Sandyv18_glb25": {
+			"0d7d83f8427f4e91abcb7511682bda20": true
+		},
+		"Soft_Sandyv18_glb250": {
+			"0f3146924aeb4d7293d67c0f1efa04d2": true
+		},
+		"Soft_Sandyv18_glb26": {
+			"b7f6501ef5f84f8f89a31a541eab66eb": true
+		},
+		"Soft_Sandyv18_glb260": {
+			"a914f49d3d5e45ba97b4251acbb4919d": true
+		},
+		"Soft_Sandyv18_glb27": {
+			"1d9d38158d144d6d87e8f5cc8a9315dd": true
+		},
+		"Soft_Sandyv18_glb28": {
+			"b7df27136d2e4ebea12a06d3272f42db": true
+		},
+		"Soft_Sandyv18_glb29": {
+			"3476598137a94f6dbc45cccafe4f46a0": true
+		},
+		"Soft_Sandyv18_glb3": {
+			"67f6a062c6e140739fc96f17b26a4866": true
+		},
+		"Soft_Sandyv18_glb30": {
+			"73316edbe42f45e2930dd745231666ef": true
+		},
+		"Soft_Sandyv18_glb31": {
+			"4ddf513e2bc442a4991995bf9f82a71f": true
+		},
+		"Soft_Sandyv18_glb32": {
+			"17fd92cbc1ab4491a864d5090f4c0e5e": true
+		},
+		"Soft_Sandyv18_glb33": {
+			"7a808619c5ec460dae5c445f3c086dd0": true
+		},
+		"Soft_Sandyv18_glb34": {
+			"54e267f1cd1b46e4a545aaf4b1b3f02e": true
+		},
+		"Soft_Sandyv18_glb35": {
+			"eebe954db4f642c1b83215d8f62ea089": true
+		},
+		"Soft_Sandyv18_glb4": {
+			"1746182ce1e94b3c8c63da4bd72fe701": true
+		},
+		"Soft_Sandyv18_glb40": {
+			"3e38eb9d17754c25affa3468906277f4": true
+		},
+		"Soft_Sandyv18_glb41": {
+			"b92a7a45ae0c42f0bef905955a630a6e": true
+		},
+		"Soft_Sandyv18_glb42": {
+			"57fa2351832147f3a4d7ee72f80fc760": true
+		},
+		"Soft_Sandyv18_glb43": {
+			"747aafa0521b42ad89f0c9ca9a801e42": true
+		},
+		"Soft_Sandyv18_glb44": {
+			"7034ab65e1d043128021c3019912adc8": true
+		},
+		"Soft_Sandyv18_glb45": {
+			"4d482e1a58f44efea834c4b45c5ea9b5": true
+		},
+		"Soft_Sandyv18_glb5": {
+			"63acbb3f0dee4ab8b5214647ba3a525d": true
+		},
+		"Soft_Sandyv18_glb50": {
+			"2f8824d954d2417ba4641f852a4f4d74": true
+		},
+		"Soft_Sandyv18_glb6": {
+			"cd59950b061a4c33af4dadec78db778d": true
+		},
+		"Soft_Sandyv18_glb60": {
+			"78a647ce087641bd86f9845f16e82789": true
+		},
+		"Soft_Sandyv18_glb7": {
+			"b42a7d8c4aa544f2bd80a187b4d5bfc0": true
+		},
+		"Soft_Sandyv18_glb70": {
+			"5029d2c297f740c69993df93ce06ca3f": true
+		},
+		"Soft_Sandyv18_glb8": {
+			"f741e185ac1a4d7ebe24e84e87400638": true
+		},
+		"Soft_Sandyv18_glb80": {
+			"48a2730e5e314a5384284710a491a773": true
+		},
+		"Soft_Sandyv18_glb9": {
+			"5727d1e3fa094a3089ac7c6c457c5abe": true
+		},
+		"Soft_Sandyv18_glb90": {
+			"0cc8ee23fca64a989e51166cbebe7d53": true
+		},
+		"Soft_molded_sand": {
+			"61c6ba31df2f4ed994f86e148df210c9": true
+		},
+		"Steine_Klein_glb": {
+			"dcd62063a7f74d3b81ef36f977debe82": true
+		},
+		"Steine_Klein_glb0": {
+			"8239552ff5724ac0aa791af9d110c7f7": true
+		},
+		"Steine_Klein_glb1": {
+			"7fcc01a789204d7eb5f88bf1b91c18c4": true
+		},
+		"Steine_Klein_glb2": {
+			"ffd066b800334037be0506731325582a": true
+		},
+		"Steine_Klein_glb3": {
+			"e7e95f36fb4049f9a2f3991d849a90ce": true
+		},
+		"SunkenWold_v4_glb": {
+			"71bc2501659542189c2af9ec26d53dcd": true
+		},
+		"Wall_Sidev21_glb": {
+			"84b8c90f6fd142c5acbed9884466c377": true
+		},
+		"Wall_Sidev21_glb0": {
+			"2919ebf18c1c4853ab6bfd7820f50da0": true
+		},
+		"Wall_Sidev21_glb1": {
+			"43f8bb20323f45a7a44cb61831f90f4a": true
+		},
+		"Wall_Sidev21_glb2": {
+			"1f8a86ea1b55428a9aeb1bd16b49d909": true
+		},
+		"Wall_Sidev21_glb20": {
+			"ce122dae41ee4f5da359416a34a6589f": true
+		},
+		"Wall_Sidev21_glb21": {
+			"822d93a9d16d42e4afd33ada55b2e963": true
+		},
+		"Wall_Sidev21_glb22": {
+			"190775946dd14c6ca9b9aff2c0127102": true
+		},
+		"Wall_Sidev21_glb3": {
+			"222a772706c04be2bdfa2717211371a4": true
+		},
+		"Wall_Sidev21_glb30": {
+			"1370ef09d717479f809628ebfeb15b51": true
+		},
+		"Wall_Sidev21_glb31": {
+			"762a5092ffb949ad97a7028de085cae2": true
+		},
+		"Wall_Sidev21_glb4": {
+			"ed61b4ac80a244f4bec781cc5600b83b": true
+		},
+		"Wall_Sidev21_glb40": {
+			"723b1f86daa7407cbecec2846ab749c4": true
+		},
+		"Wall_Sidev21_glb5": {
+			"947a0b22084e4c348dddcac2ae34c34a": true
+		},
+		"World": {
+			"4b5ff986843741af940081cc914dd5f2": true
+		},
+		"World_War3v3_glb": {
+			"b95a0967d59a4474856c86d9f6736c18": true
+		},
+		"World_WarPlanev2_glb": {
+			"72abe06fb26244b5874ba03b7c656043": true
+		}
+	},
+	"entityConstructorProps": {
+		"020c905e4c9d47a3a1a4619ad3dcfa55": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"02240a4b63a64727bb84663ddf66cd62": {
+			"source": "file://./Objekte/Rim v8.glb"
+		},
+		"05c3c51b791a45e5bd2120907a0cbb5e": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"0cc8ee23fca64a989e51166cbebe7d53": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"0d7d83f8427f4e91abcb7511682bda20": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"0f107973b8a042bd95fc7033e107c975": {
+			"source": "file://./Objekte/Chaotic Pile v22.glb"
+		},
+		"0f3146924aeb4d7293d67c0f1efa04d2": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"10b217625fba43c0a43b9d8f012f37c3": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"1370ef09d717479f809628ebfeb15b51": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"140797a345ed4b3685929cf8805c5227": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"1468abf1c3f148cbba350f9b9b8c921e": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"151724bd1efb4fa3a05cdb2113c05456": {
+			"source": "file://./Objekte/Old Rusty v16.glb"
+		},
+		"157e28eae5ea40e386eafbde06cb3731": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"160c5182b2474f91ad1e9341db620162": {
+		},
+		"167647dea478413f925221ef02bee18c": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"1746182ce1e94b3c8c63da4bd72fe701": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"17fd92cbc1ab4491a864d5090f4c0e5e": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"190775946dd14c6ca9b9aff2c0127102": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"1cafdb66bf04433aa7804d05774b3dff": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"1d9d38158d144d6d87e8f5cc8a9315dd": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"1dc5b95c1cf94a67ab90577690c84fb0": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"1f8a86ea1b55428a9aeb1bd16b49d909": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"2170880983c9450b89d9cc0bde6c3b35": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"222a772706c04be2bdfa2717211371a4": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"227c338405b840acad64b10bb72437b6": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"2919ebf18c1c4853ab6bfd7820f50da0": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"2d3d22edf41a48fba4247a5cd472b2a3": {
+			"source": "file://./Objekte/Netz Fischer v20.glb"
+		},
+		"2f8824d954d2417ba4641f852a4f4d74": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"2fab06d08b854d72816511ef9a0db817": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"33ef51033bd648ab80d8b8796b0d79c6": {
+			"source": "file://./Objekte/Pflanze 2 v1.glb"
+		},
+		"3476598137a94f6dbc45cccafe4f46a0": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"3813ab99c1d94e958d7f73659b3ff79e": {
+			"source": "file://./Objekte/Old Rusty v7.glb"
+		},
+		"3e38eb9d17754c25affa3468906277f4": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"40f30fc6a84a46f7ab3ade28a0fdc2ad": {
+			"source": "file://./Objekte/Mountain Painted Color v24.glb"
+		},
+		"42f47d5c02c34f15ad36f9a5d5083ca2": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"43f8bb20323f45a7a44cb61831f90f4a": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"4729dafbf73d41248dbda8e586adf9d2": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"4760d709ef1a4c4aa9a0061c0005536f": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"4868f6800189470c84ece95b2d37df42": {
+			"source": "file://./Objekte/Rim v8.glb"
+		},
+		"48a2730e5e314a5384284710a491a773": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"4903e4137c8f41b4a6e538588e64d015": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"495628ccddf7406ba2d07aaec9d60dcf": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"49cdab3e0e344daa808d90412d49eed0": {
+			"source": "file://./Objekte/Schimmerl Gitter v12.glb"
+		},
+		"4b5ff986843741af940081cc914dd5f2": {
+		},
+		"4d482e1a58f44efea834c4b45c5ea9b5": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"4ddf513e2bc442a4991995bf9f82a71f": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"5029d2c297f740c69993df93ce06ca3f": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"5265d8d159364e10a79495ba41383ea9": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"527f3e87d8ba4c14a8e594bc2429f864": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"5390607170e843e89f438765a1a71831": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"54e267f1cd1b46e4a545aaf4b1b3f02e": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"569aec496afa42d2be27eb86936496f9": {
+			"source": "file://./Objekte/Sand Ohneschimmel v17.glb"
+		},
+		"56ba15a5bd3344ce853de0eb44a1fb1c": {
+			"source": "file://./Objekte/Rim v8.glb"
+		},
+		"5727d1e3fa094a3089ac7c6c457c5abe": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"57fa2351832147f3a4d7ee72f80fc760": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"5c2f48d023ba4bfabe88466762eb947f": {
+			"source": "file://./Objekte/Dirty Old v6.glb"
+		},
+		"5ca2c07fd0e346f5beae5b020a9d1b4b": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"606d939225b043dc9d0d6c7d807c6b73": {
+		},
+		"61c6ba31df2f4ed994f86e148df210c9": {
+		},
+		"63acbb3f0dee4ab8b5214647ba3a525d": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"67f6a062c6e140739fc96f17b26a4866": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"6bc061bced694b65abed7379d50d4d3c": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"6f6d179b3b044cb5b93f64f631aeda68": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"7034ab65e1d043128021c3019912adc8": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"71bc2501659542189c2af9ec26d53dcd": {
+			"source": "file://./Objekte/SunkenWold v4.glb"
+		},
+		"723b1f86daa7407cbecec2846ab749c4": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"72abe06fb26244b5874ba03b7c656043": {
+			"source": "file://./Objekte/World War Plane v2.glb"
+		},
+		"73316edbe42f45e2930dd745231666ef": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"747aafa0521b42ad89f0c9ca9a801e42": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"762a5092ffb949ad97a7028de085cae2": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"771d60b1a90e4074810580d4c5c3c46f": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"778568bd46424610b54e611bcbf3771e": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"77ce33cf71f1426197160522ae0c86cd": {
+			"source": "file://./Objekte/Ein Flop v10.glb"
+		},
+		"78025199d3004549ac059cb040f11c26": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"78a647ce087641bd86f9845f16e82789": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"7a492b1d48774b93930ded2bad6cf1ae": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"7a808619c5ec460dae5c445f3c086dd0": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"7fa9a21b099e4dcc82c618d58cf1d5d1": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"7fcc01a789204d7eb5f88bf1b91c18c4": {
+			"source": "file://./Objekte/Steine Klein v2.glb"
+		},
+		"80a67eb035e248848191bc8570b9b4ae": {
+			"source": "file://./Objekte/Ein Flop v10.glb"
+		},
+		"822d93a9d16d42e4afd33ada55b2e963": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"8239552ff5724ac0aa791af9d110c7f7": {
+			"source": "file://./Objekte/Steine Klein v2.glb"
+		},
+		"84571233f15f48d1a25764531107579b": {
+			"source": "file://./Images/Ein_weicher_sandiger_0628105617_texture.png"
+		},
+		"84b8c90f6fd142c5acbed9884466c377": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"85e8d0a0293e45b1bcdd715b3f7a9a2f": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"86ca99919cf545a9b83f5c34f7a22d60": {
+		},
+		"8724f10aa45645d6b4f82bf6feda5677": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"8fadd0d5c79b4cb0adcba51c66d76e89": {
+			"source": "file://./Objekte/Ein Paar v9.glb"
+		},
+		"947a0b22084e4c348dddcac2ae34c34a": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"9520c204389348c9b5cb8f92ad76ab44": {
+			"source": "file://./Objekte/Ein Flop v10.glb"
+		},
+		"98c73d563edf4da6a8ad2fab1cc42bdf": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"a09cd584d83a4069917153b79b53ea11": {
+			"source": "file://./Objekte/RoundedSton v5.glb"
+		},
+		"a5c47c4bcfc046939588d158985c7495": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"a914f49d3d5e45ba97b4251acbb4919d": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"b053f62b95a548afbe971b8bbec4c6a4": {
+		},
+		"b11063f305174f35a9261cabb9abc692": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"b42a7d8c4aa544f2bd80a187b4d5bfc0": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"b7df27136d2e4ebea12a06d3272f42db": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"b7f6501ef5f84f8f89a31a541eab66eb": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"b92a7a45ae0c42f0bef905955a630a6e": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"b95a0967d59a4474856c86d9f6736c18": {
+			"source": "file://./Objekte/World War 3 v3.glb"
+		},
+		"b9676b9c5624457784e71401faa5586b": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"bc9a7edb196b4234870572e1ef8da608": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"bf08fd2e81a34633957cc2b4955d7157": {
+			"source": "file://./Objekte/Rim v8.glb"
+		},
+		"c19b409a843a4f2da28d0577c86f57ca": {
+			"source": "file://./Objekte/Sand Ohneschimmel v17.glb"
+		},
+		"c2560c89525d4f29ac92bc8831630074": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"c491725b07514f07b3a70cb064966578": {
+			"source": "file://./Images/Ein_weicher_sandiger_0628105617_texture.png"
+		},
+		"cd59950b061a4c33af4dadec78db778d": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"ce122dae41ee4f5da359416a34a6589f": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"d11ee5b53ffd4a3fa58ab55f47d3aef4": {
+			"source": "file://./Objekte/Mountain Black Healthy v1.glb"
+		},
+		"d1438a55e1284f8b95a5f7994aaa668d": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"d15411146ea14ba6a6570bf13a998e2c": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"d6a8cde727a445b9a0ed4ea0e98135d0": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"d75bc5cdb27a4e9e9c342ad935f77ca0": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"db685ad3a87a4d42a2500f6ebfc6a571": {
+			"source": "file://./Objekte/Rim v8.glb"
+		},
+		"dcd62063a7f74d3b81ef36f977debe82": {
+			"source": "file://./Objekte/Steine Klein v2.glb"
+		},
+		"e23c86bb24d44e7f9ee406c0b8b4020a": {
+			"source": "file://./Objekte/Rim v8.glb"
+		},
+		"e362da04258e4d91a56d91f6d739d884": {
+		},
+		"e7e95f36fb4049f9a2f3991d849a90ce": {
+			"source": "file://./Objekte/Steine Klein v2.glb"
+		},
+		"e8233778e95d49bb95d0a799a5ac0e44": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"e96d2b3afa6e4e7191e7889c0228c681": {
+			"source": "file://./Objekte/Chaotic Pile v22.glb"
+		},
+		"ed61b4ac80a244f4bec781cc5600b83b": {
+			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"eebe954db4f642c1b83215d8f62ea089": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"f02a879ba0ce466ea650861c5b895b23": {
+			"source": "file://./Objekte/Rim v8.glb"
+		},
+		"f4b688ed3123424d87913a610c431818": {
+		},
+		"f741e185ac1a4d7ebe24e84e87400638": {
+			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"f8498d757baf4514a39c9289e3846d15": {
+			"source": "file://./Objekte/Floor.glb"
+		},
+		"ffd066b800334037be0506731325582a": {
+			"source": "file://./Objekte/Steine Klein v2.glb"
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"020c905e4c9d47a3a1a4619ad3dcfa55": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"02240a4b63a64727bb84663ddf66cd62": {
+			"position": [
+				0.2675859408891881,
+				0.4009694738292584,
+				10.12998310703748
+			],
+			"rotation": [
+				-0.9271835127343968,
+				0,
+				0
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"05c3c51b791a45e5bd2120907a0cbb5e": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"0cc8ee23fca64a989e51166cbebe7d53": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"0d7d83f8427f4e91abcb7511682bda20": {
+			"position": [
+				-5.770469221209025,
+				0.2730072705610409,
+				8.460889406172665
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				1.2090975218612567,
+				3
+			]
+		},
+		"0f107973b8a042bd95fc7033e107c975": {
+			"position": [
+				3.0595144976025006,
+				0.5891359040037264,
+				7.281082987838168
+			]
+		},
+		"0f3146924aeb4d7293d67c0f1efa04d2": {
+			"position": [
+				-8.511587262712931,
+				0.17755147626322376,
+				4.544548874119072
+			],
+			"rotation": [
+				0,
+				1.381348383008909,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"10b217625fba43c0a43b9d8f012f37c3": {
+			"position": [
+				-1.028908110143541,
+				-1.605992320998785,
+				3.8331498718365236
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"1370ef09d717479f809628ebfeb15b51": {
+			"position": [
+				-13.192321411360782,
+				3.7222197414061533,
+				3.635832273748189
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		"140797a345ed4b3685929cf8805c5227": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"1468abf1c3f148cbba350f9b9b8c921e": {
+			"position": [
+				0.47948501185955905,
+				0,
+				-9
+			]
+		},
+		"151724bd1efb4fa3a05cdb2113c05456": {
+			"position": [
+				-4.055611682834361,
+				0.6034720046901771,
+				7.754207022663054
+			],
+			"rotation": [
+				-3.171940504022877,
+				0,
+				0
+			],
+			"scale": [
+				0.6,
+				0.6,
+				0.6
+			]
+		},
+		"157e28eae5ea40e386eafbde06cb3731": {
+			"position": [
+				-19.076449647574442,
+				0,
+				-9
+			]
+		},
+		"160c5182b2474f91ad1e9341db620162": {
+		},
+		"167647dea478413f925221ef02bee18c": {
+			"position": [
+				-1.6742976664430298,
+				-1.5901642101377789,
+				4.575949956074869
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"1746182ce1e94b3c8c63da4bd72fe701": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"17fd92cbc1ab4491a864d5090f4c0e5e": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"190775946dd14c6ca9b9aff2c0127102": {
+			"position": [
+				-11.321616414033675,
+				3.968405572891448,
+				14.131024183056947
+			],
+			"rotation": [
+				0,
+				0.9279257666664682,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				6.1828954077665585
+			]
+		},
+		"1cafdb66bf04433aa7804d05774b3dff": {
+			"position": [
+				-9.430154186812576,
+				0,
+				-17.95271681840012
+			]
+		},
+		"1d9d38158d144d6d87e8f5cc8a9315dd": {
+			"position": [
+				-8.501937300308033,
+				-0.1507212238353871,
+				8.681495542752192
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"1dc5b95c1cf94a67ab90577690c84fb0": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"1f8a86ea1b55428a9aeb1bd16b49d909": {
+			"position": [
+				11.576312850539317,
+				5.003378728858322,
+				11.160405412911901
+			],
+			"rotation": [
+				3.1408706104130912,
+				0.6572784066210844,
+				2.8833638488675937
+			],
+			"scale": [
+				5,
+				5,
+				8.602451552198932
+			]
+		},
+		"2170880983c9450b89d9cc0bde6c3b35": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"222a772706c04be2bdfa2717211371a4": {
+			"position": [
+				5.745726270817075,
+				3.968405572891448,
+				15.98569744616232
+			],
+			"rotation": [
+				0,
+				2.08150903396992,
+				0
+			],
+			"scale": [
+				5.843104033841084,
+				5,
+				5
+			]
+		},
+		"227c338405b840acad64b10bb72437b6": {
+			"position": [
+				-7.266750054560754,
+				-1.5238796790217786,
+				4.906200799092693
+			],
+			"scale": [
+				0.2,
+				0.2,
+				0.2
+			]
+		},
+		"2919ebf18c1c4853ab6bfd7820f50da0": {
+			"position": [
+				-2.553168256273531,
+				3.968405572891448,
+				17.02901086167027
+			],
+			"rotation": [
+				0,
+				1.565077357506478,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				6.586576325692251
+			]
+		},
+		"2d3d22edf41a48fba4247a5cd472b2a3": {
+			"position": [
+				-9.730101408297571,
+				2.186704242409713,
+				5.513503909998206
+			],
+			"rotation": [
+				-1.7353646167058558,
+				0,
+				0
+			]
+		},
+		"2f8824d954d2417ba4641f852a4f4d74": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"2fab06d08b854d72816511ef9a0db817": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"33ef51033bd648ab80d8b8796b0d79c6": {
+			"position": [
+				6.952478842215239,
+				0.6949215582585264,
+				3.7397186786383947
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"3476598137a94f6dbc45cccafe4f46a0": {
+			"position": [
+				-0.05989485827914254,
+				0.17755147626322376,
+				10.74975259770649
+			],
+			"rotation": [
+				0,
+				-1.8523034753339598,
+				0
+			],
+			"scale": [
+				3,
+				2,
+				3
+			]
+		},
+		"3813ab99c1d94e958d7f73659b3ff79e": {
+			"position": [
+				4.9251268543938505,
+				0,
+				8.827216701713818
+			]
+		},
+		"3e38eb9d17754c25affa3468906277f4": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"40f30fc6a84a46f7ab3ade28a0fdc2ad": {
+			"position": [
+				-0.0620618734729077,
+				3.131013670877902,
+				0.02980101772983934
+			],
+			"scale": [
+				10,
+				10,
+				10
+			],
+			"visible": true
+		},
+		"42f47d5c02c34f15ad36f9a5d5083ca2": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"43f8bb20323f45a7a44cb61831f90f4a": {
+			"position": [
+				8.890752745595847,
+				3.7222197414061533,
+				-3.7307681162174604
+			],
+			"rotation": [
+				0,
+				-2.3087584636664618,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				6.529703239900172
+			]
+		},
+		"4729dafbf73d41248dbda8e586adf9d2": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"4760d709ef1a4c4aa9a0061c0005536f": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"4868f6800189470c84ece95b2d37df42": {
+			"position": [
+				0,
+				3.0028856326411253,
+				0
+			],
+			"rotation": [
+				1.5052505942604681,
+				-0.582515056805799,
+				1.4450858126099484
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"48a2730e5e314a5384284710a491a773": {
+			"position": [
+				-2.1622812205097732,
+				0.17755147626322376,
+				5.851420444872043
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				1.7839333966695583,
+				3
+			]
+		},
+		"4903e4137c8f41b4a6e538588e64d015": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"495628ccddf7406ba2d07aaec9d60dcf": {
+			"position": [
+				-9,
+				0,
+				-26.380137174450326
+			]
+		},
+		"49cdab3e0e344daa808d90412d49eed0": {
+		},
+		"4b5ff986843741af940081cc914dd5f2": {
+		},
+		"4d482e1a58f44efea834c4b45c5ea9b5": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"4ddf513e2bc442a4991995bf9f82a71f": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"5029d2c297f740c69993df93ce06ca3f": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"5265d8d159364e10a79495ba41383ea9": {
+			"position": [
+				9.098617089230842,
+				0.17755147626322376,
+				9.9150397743357
+			],
+			"rotation": [
+				0,
+				0.6415160969123548,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"527f3e87d8ba4c14a8e594bc2429f864": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"5390607170e843e89f438765a1a71831": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"54e267f1cd1b46e4a545aaf4b1b3f02e": {
+			"position": [
+				-6.3710235700034,
+				0.1791279976017293,
+				12.118085796645406
+			],
+			"rotation": [
+				-3.141592653589793,
+				1.3158663401674162,
+				-3.1036275132693776
+			],
+			"scale": [
+				3,
+				1.5,
+				3
+			]
+		},
+		"569aec496afa42d2be27eb86936496f9": {
+			"position": [
+				-6.806180119810749,
+				1,
+				0.38314400439164364
+			]
+		},
+		"56ba15a5bd3344ce853de0eb44a1fb1c": {
+			"position": [
+				0,
+				0.3814797734306639,
+				9.78489979920929
+			],
+			"rotation": [
+				-1.5623344713778284,
+				0,
+				0
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"5727d1e3fa094a3089ac7c6c457c5abe": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"57fa2351832147f3a4d7ee72f80fc760": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"5c2f48d023ba4bfabe88466762eb947f": {
+			"position": [
+				-2.1661355434002414,
+				0.15441550658940917,
+				4.493718004311656
+			],
+			"rotation": [
+				0,
+				-0.18336217453096815,
+				0
+			],
+			"scale": [
+				0.2,
+				0.2,
+				0.2
+			]
+		},
+		"5ca2c07fd0e346f5beae5b020a9d1b4b": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"606d939225b043dc9d0d6c7d807c6b73": {
+			"alphaTest": 0,
+			"attachTo": "Material_0.002",
+			"transparent": true
+		},
+		"61c6ba31df2f4ed994f86e148df210c9": {
+		},
+		"63acbb3f0dee4ab8b5214647ba3a525d": {
+			"position": [
+				1.6198274893307256,
+				0.17755147626322376,
+				4.268181646533893
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				1.5992627646226905,
+				3
+			]
+		},
+		"67f6a062c6e140739fc96f17b26a4866": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"6bc061bced694b65abed7379d50d4d3c": {
+			"position": [
+				0.8659674569469793,
+				0,
+				-0.5380267684335358
+			]
+		},
+		"6f6d179b3b044cb5b93f64f631aeda68": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"7034ab65e1d043128021c3019912adc8": {
+			"position": [
+				3.456653202767466,
+				0.17755147626322376,
+				11.798336214238063
+			],
+			"rotation": [
+				0,
+				-1.450007698444161,
+				0
+			],
+			"scale": [
+				3.985020678635709,
+				3,
+				3
+			]
+		},
+		"71bc2501659542189c2af9ec26d53dcd": {
+			"position": [
+				-9.81778200175879,
+				1.0984096582614278,
+				6.192277762065046
+			],
+			"rotation": [
+				-0.09314109323962283,
+				1.3928888870894645,
+				0.23817622306341743
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		"723b1f86daa7407cbecec2846ab749c4": {
+			"position": [
+				-11.627502899708034,
+				3.968405572891448,
+				-1.7982616696182074
+			],
+			"rotation": [
+				0,
+				-0.5759357186254034,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		"72abe06fb26244b5874ba03b7c656043": {
+			"position": [
+				-3.4664949834902443,
+				0.49834550264376765,
+				10.124748344282382
+			],
+			"rotation": [
+				-0.11549261662287036,
+				0.5811254590397458,
+				-0.0580682709688282
+			],
+			"scale": [
+				2,
+				2,
+				2
+			]
+		},
+		"73316edbe42f45e2930dd745231666ef": {
+			"position": [
+				10.118794139068767,
+				0.17755147626322376,
+				6.571669946685493
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				1.7532935807389607,
+				3
+			]
+		},
+		"747aafa0521b42ad89f0c9ca9a801e42": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"762a5092ffb949ad97a7028de085cae2": {
+			"position": [
+				14.164978704486295,
+				3.7222197414061533,
+				3.4217671784103714
+			],
+			"rotation": [
+				0,
+				-3.0919565983798143,
+				0
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		"771d60b1a90e4074810580d4c5c3c46f": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"778568bd46424610b54e611bcbf3771e": {
+			"position": [
+				-9,
+				0,
+				-0.5271518098146877
+			]
+		},
+		"77ce33cf71f1426197160522ae0c86cd": {
+			"position": [
+				-5.176261918667107,
+				0.2967685681209433,
+				4.185293412020231
+			],
+			"rotation": [
+				0,
+				0,
+				-0.5996721536486327
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"78025199d3004549ac059cb040f11c26": {
+			"position": [
+				7.41233812529773,
+				0.17755147626322376,
+				12.467264720687272
+			],
+			"rotation": [
+				0,
+				-0.6579273483065047,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"78a647ce087641bd86f9845f16e82789": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"7a492b1d48774b93930ded2bad6cf1ae": {
+			"position": [
+				0.575109782843759,
+				0,
+				-17.700547870544163
+			]
+		},
+		"7a808619c5ec460dae5c445f3c086dd0": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"7fa9a21b099e4dcc82c618d58cf1d5d1": {
+			"position": [
+				-19.333047295782997,
+				0,
+				-0.4386573802417022
+			]
+		},
+		"7fcc01a789204d7eb5f88bf1b91c18c4": {
+			"position": [
+				1.6302619228823394,
+				1.9970821498443296,
+				-11.485626666350246
+			],
+			"rotation": [
+				0,
+				0.43895297260153676,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		"80a67eb035e248848191bc8570b9b4ae": {
+			"position": [
+				-1.696789884414443,
+				0.5887670114006816,
+				8.849891047578883
+			],
+			"rotation": [
+				-3.1415926535897922,
+				-1.088918725706994,
+				-3.0147643796920294
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.4953362167634085
+			]
+		},
+		"822d93a9d16d42e4afd33ada55b2e963": {
+			"position": [
+				-13.192321411360782,
+				3.968405572891448,
+				10.586543245487139
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		"8239552ff5724ac0aa791af9d110c7f7": {
+			"position": [
+				6.854115537420813,
+				1.88624274441531,
+				-0.3592570044397194
+			],
+			"rotation": [
+				0,
+				0.43895297260153676,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		"84571233f15f48d1a25764531107579b": {
+			"attachTo": "alphaMap",
+			"wrapS": "ClampToEdge",
+			"wrapT": "ClampToEdge"
+		},
+		"84b8c90f6fd142c5acbed9884466c377": {
+			"position": [
+				2.0750813395834458,
+				3.968405572891448,
+				-6.397346792872895
+			],
+			"rotation": [
+				0,
+				-1.501721724304249,
+				0
+			],
+			"scale": [
+				5.843104033841084,
+				5,
+				5
+			]
+		},
+		"85e8d0a0293e45b1bcdd715b3f7a9a2f": {
+			"position": [
+				-5.738712630004892,
+				0.1271115599269681,
+				5.022415593413405
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				1.2301291434174206,
+				3
+			]
+		},
+		"86ca99919cf545a9b83f5c34f7a22d60": {
+			"position": [
+				4.916149755658017,
+				1.7823110601070606,
+				4.93228682268321
+			]
+		},
+		"8724f10aa45645d6b4f82bf6feda5677": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"8fadd0d5c79b4cb0adcba51c66d76e89": {
+			"position": [
+				6.717731920586658,
+				0.07345068906210678,
+				3.221204385560104
+			],
+			"rotation": [
+				-0.3103921513736272,
+				1.951563910473908e-18,
+				-0.00931858751937778
+			],
+			"scale": [
+				0.2,
+				0.2,
+				0.2
+			]
+		},
+		"947a0b22084e4c348dddcac2ae34c34a": {
+			"position": [
+				-7.028929040105219,
+				3.968405572891448,
+				-4.482188293073494
+			],
+			"rotation": [
+				0,
+				-1.3634552737102936,
+				0
+			],
+			"scale": [
+				5.843104033841084,
+				5,
+				5
+			]
+		},
+		"9520c204389348c9b5cb8f92ad76ab44": {
+			"position": [
+				2.9029266027451137,
+				0.12315588058807919,
+				3.870318683111158
+			],
+			"rotation": [
+				0,
+				0,
+				-0.5996721536486327
+			],
+			"scale": [
+				0.2,
+				0.2,
+				0.2
+			]
+		},
+		"98c73d563edf4da6a8ad2fab1cc42bdf": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"a09cd584d83a4069917153b79b53ea11": {
+			"position": [
+				8.421740787008535,
+				-0.23272755149539348,
+				2.1991435668497177
+			],
+			"rotation": [
+				3.067877754540487e-16,
+				-0.6193701765101517,
+				0.774513335163275
+			]
+		},
+		"a5c47c4bcfc046939588d158985c7495": {
+			"position": [
+				-7.673305810279513,
+				-1.2569969425919574,
+				6.5277901803572975
+			],
+			"rotation": [
+				-0.2581049832811621,
+				1.734723475976807e-18,
+				0.03534132983663292
+			],
+			"scale": [
+				0.2,
+				0.2,
+				0.2
+			]
+		},
+		"a914f49d3d5e45ba97b4251acbb4919d": {
+			"position": [
+				5.463913193204927,
+				-0.11969117643543514,
+				0.8322951207424352
+			],
+			"rotation": [
+				0.03780346747260438,
+				0.08052666017461213,
+				-0.0031917673189811495
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"b053f62b95a548afbe971b8bbec4c6a4": {
+		},
+		"b11063f305174f35a9261cabb9abc692": {
+			"position": [
+				-2.013998730922908,
+				0.035659966624058015,
+				8.157499281141305
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"b42a7d8c4aa544f2bd80a187b4d5bfc0": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"b7df27136d2e4ebea12a06d3272f42db": {
+			"position": [
+				-2.1270502556871866,
+				0.17755147626322376,
+				12.746155802598224
+			],
+			"rotation": [
+				0,
+				0.35027347673058484,
+				0
+			],
+			"scale": [
+				3.4714790278051995,
+				1,
+				3
+			]
+		},
+		"b7f6501ef5f84f8f89a31a541eab66eb": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"b92a7a45ae0c42f0bef905955a630a6e": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"b95a0967d59a4474856c86d9f6736c18": {
+			"position": [
+				8.407321411096774,
+				0.5624384957182105,
+				6.563971509196804
+			],
+			"rotation": [
+				3.054977232148528,
+				0.039854898523624165,
+				-3.031529564107357
+			],
+			"scale": [
+				2,
+				2,
+				2
+			]
+		},
+		"b9676b9c5624457784e71401faa5586b": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"bc9a7edb196b4234870572e1ef8da608": {
+			"position": [
+				0.4257041551421501,
+				-1.5757693221094313,
+				2.7689413129079856
+			],
+			"rotation": [
+				0,
+				0.6350681526095607,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"bf08fd2e81a34633957cc2b4955d7157": {
+			"position": [
+				0.617603979077906,
+				0.2673713546425762,
+				9.78489979920929
+			],
+			"rotation": [
+				-1.5623344713778284,
+				0,
+				0
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"c19b409a843a4f2da28d0577c86f57ca": {
+			"position": [
+				-6.806180119810749,
+				1,
+				0.38314400439164364
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		"c2560c89525d4f29ac92bc8831630074": {
+			"position": [
+				-9,
+				0,
+				-9.168830577674267
+			]
+		},
+		"c491725b07514f07b3a70cb064966578": {
+		},
+		"cd59950b061a4c33af4dadec78db778d": {
+			"position": [
+				5.91459704561667,
+				0.17755147626322376,
+				4.584049009618598
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"ce122dae41ee4f5da359416a34a6589f": {
+			"position": [
+				-13.192321411360782,
+				3.968405572891448,
+				10.586543245487139
+			],
+			"scale": [
+				5,
+				5,
+				5
+			]
+		},
+		"d11ee5b53ffd4a3fa58ab55f47d3aef4": {
+			"position": [
+				-4.993453351899099,
+				1.1920022412831957,
+				-4.948687430993271
+			],
+			"scale": [
+				10,
+				10,
+				10
+			],
+			"visible": true
+		},
+		"d1438a55e1284f8b95a5f7994aaa668d": {
+			"position": [
+				0.7701097895169262,
+				0,
+				-25.693472301216865
+			]
+		},
+		"d15411146ea14ba6a6570bf13a998e2c": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"d6a8cde727a445b9a0ed4ea0e98135d0": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"d75bc5cdb27a4e9e9c342ad935f77ca0": {
+			"position": [
+				10.580243139750259,
+				0.17755147626322376,
+				2.0826094503492802
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				0.8075481521020244,
+				3
+			]
+		},
+		"db685ad3a87a4d42a2500f6ebfc6a571": {
+			"position": [
+				0.2675859408891881,
+				0.18036117687330755,
+				10.12998310703748
+			],
+			"rotation": [
+				-0.9271835127343968,
+				0,
+				0
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"dcd62063a7f74d3b81ef36f977debe82": {
+			"position": [
+				-3.64634558569351,
+				1.88624274441531,
+				8.898030491463746
+			],
+			"rotation": [
+				0,
+				1.6199352340443136,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		"e23c86bb24d44e7f9ee406c0b8b4020a": {
+			"position": [
+				-0.1762113578338299,
+				0.49476810393730897,
+				9.390608746260273
+			],
+			"rotation": [
+				-1.865397850749036,
+				-0.22006101227236277,
+				0.6367001964622291
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"e362da04258e4d91a56d91f6d739d884": {
+			"visible": false
+		},
+		"e7e95f36fb4049f9a2f3991d849a90ce": {
+			"position": [
+				6.682800068515322,
+				1.88624274441531,
+				8.390058640301286
+			],
+			"rotation": [
+				0,
+				1.6199352340443136,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		},
+		"e8233778e95d49bb95d0a799a5ac0e44": {
+			"position": [
+				-19.82986502488469,
+				0,
+				-17.159768812112134
+			]
+		},
+		"e96d2b3afa6e4e7191e7889c0228c681": {
+			"position": [
+				-1.391660174769779,
+				0.6070920964519411,
+				12.110181841631643
+			],
+			"rotation": [
+				0,
+				-0.956109382760753,
+				0
+			]
+		},
+		"ed61b4ac80a244f4bec781cc5600b83b": {
+			"position": [
+				-7.028929040105219,
+				3.968405572891448,
+				-4.482188293073494
+			],
+			"rotation": [
+				0,
+				-1.3634552737102936,
+				0
+			],
+			"scale": [
+				5.843104033841084,
+				5,
+				5
+			]
+		},
+		"eebe954db4f642c1b83215d8f62ea089": {
+			"position": [
+				-8.730136006578235,
+				0.229874802941153,
+				0.3982433985243012
+			],
+			"rotation": [
+				0.029996542210110826,
+				0.09319018645287774,
+				-0.0023538884240225343
+			],
+			"scale": [
+				3,
+				0.8467300548069603,
+				3
+			]
+		},
+		"f02a879ba0ce466ea650861c5b895b23": {
+			"position": [
+				0.617603979077906,
+				0.4527695771264846,
+				9.661847908066829
+			],
+			"rotation": [
+				-1.5623344713778284,
+				0,
+				0
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"f4b688ed3123424d87913a610c431818": {
+		},
+		"f741e185ac1a4d7ebe24e84e87400638": {
+			"position": [
+				1.9083616768257887,
+				0.17755147626322376,
+				7.84071111054282
+			],
+			"rotation": [
+				0,
+				0.08058975336722954,
+				0
+			],
+			"scale": [
+				3,
+				3,
+				3
+			]
+		},
+		"f8498d757baf4514a39c9289e3846d15": {
+			"position": [
+				-19.48190198114471,
+				0,
+				-25.703880189914468
+			]
+		},
+		"ffd066b800334037be0506731325582a": {
+			"position": [
+				-1.875985544410172,
+				1.88624274441531,
+				-9.839436214114519
+			],
+			"rotation": [
+				0,
+				0.43895297260153676,
+				0
+			],
+			"scale": [
+				1,
+				1,
+				1
+			]
+		}
+	},
+	"id": "5d4513e843574c04847bf1474912090f",
+	"nodes": {
+		"020c905e4c9d47a3a1a4619ad3dcfa55": {
+			"id": "020c905e4c9d47a3a1a4619ad3dcfa55",
+			"label": "Soft Sandy v18.glb 32",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a4"
+			},
+			"scriptName": "Soft_Sandyv18_glb16",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"02240a4b63a64727bb84663ddf66cd62": {
+			"id": "02240a4b63a64727bb84663ddf66cd62",
+			"label": "Rim v8.glb 5",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "ZyW"
+			},
+			"scriptName": "Rim_v8_glb22",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"05c3c51b791a45e5bd2120907a0cbb5e": {
+			"id": "05c3c51b791a45e5bd2120907a0cbb5e",
+			"label": "Soft Sandy v18.glb 37",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1S"
+			},
+			"scriptName": "Soft_Sandyv18_glb18",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"0cc8ee23fca64a989e51166cbebe7d53": {
+			"id": "0cc8ee23fca64a989e51166cbebe7d53",
+			"label": "Soft Sandy v18.glb 34",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1t"
+			},
+			"scriptName": "Soft_Sandyv18_glb90",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"0d7d83f8427f4e91abcb7511682bda20": {
+			"id": "0d7d83f8427f4e91abcb7511682bda20",
+			"label": "Soft Sandy v18.glb 26",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a06V"
+			},
+			"scriptName": "Soft_Sandyv18_glb25",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"0f107973b8a042bd95fc7033e107c975": {
+			"id": "0f107973b8a042bd95fc7033e107c975",
+			"label": "Chaotic Pile v22.glb 2",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "ZrV"
+			},
+			"scriptName": "Chaotic_Pilev22_glb0",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"0f3146924aeb4d7293d67c0f1efa04d2": {
+			"id": "0f3146924aeb4d7293d67c0f1efa04d2",
+			"label": "Soft Sandy v18.glb 50",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a04V"
+			},
+			"scriptName": "Soft_Sandyv18_glb250",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"10b217625fba43c0a43b9d8f012f37c3": {
+			"id": "10b217625fba43c0a43b9d8f012f37c3",
+			"label": "Busch v1.glb 4",
+			"parent": {
+				"id": "86ca99919cf545a9b83f5c34f7a22d60",
+				"order": "a0G"
+			},
+			"scriptName": "Busch_v1_glb2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"1370ef09d717479f809628ebfeb15b51": {
+			"id": "1370ef09d717479f809628ebfeb15b51",
+			"label": "Wall Side v21.glb 9",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "ZzO"
+			},
+			"scriptName": "Wall_Sidev21_glb30",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"140797a345ed4b3685929cf8805c5227": {
+			"id": "140797a345ed4b3685929cf8805c5227",
+			"label": "Soft Sandy v18.glb 6",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1G"
+			},
+			"scriptName": "Soft_Sandyv18_glb20",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"1468abf1c3f148cbba350f9b9b8c921e": {
+			"id": "1468abf1c3f148cbba350f9b9b8c921e",
+			"label": "Floor.glb 11",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0O"
+			},
+			"scriptName": "Floor_glb_3",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"151724bd1efb4fa3a05cdb2113c05456": {
+			"id": "151724bd1efb4fa3a05cdb2113c05456",
+			"label": "Old Rusty v16.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zv"
+			},
+			"scriptName": "Old_Rustyv16_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"157e28eae5ea40e386eafbde06cb3731": {
+			"id": "157e28eae5ea40e386eafbde06cb3731",
+			"label": "Floor.glb 9",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0b"
+			},
+			"scriptName": "Floor_glb_50",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"160c5182b2474f91ad1e9341db620162": {
+			"id": "160c5182b2474f91ad1e9341db620162",
+			"label": "Dead_World",
+			"parent": {
+				"id": "4b5ff986843741af940081cc914dd5f2",
+				"order": "a5"
+			},
+			"scriptName": "Dead_World",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"167647dea478413f925221ef02bee18c": {
+			"id": "167647dea478413f925221ef02bee18c",
+			"label": "Busch v1.glb 3",
+			"parent": {
+				"id": "86ca99919cf545a9b83f5c34f7a22d60",
+				"order": "a0V"
+			},
+			"scriptName": "Busch_v1_glb1",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"1746182ce1e94b3c8c63da4bd72fe701": {
+			"id": "1746182ce1e94b3c8c63da4bd72fe701",
+			"label": "Soft Sandy v18.glb 5",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a2"
+			},
+			"scriptName": "Soft_Sandyv18_glb4",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"17fd92cbc1ab4491a864d5090f4c0e5e": {
+			"id": "17fd92cbc1ab4491a864d5090f4c0e5e",
+			"label": "Soft Sandy v18.glb 19",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1N"
+			},
+			"scriptName": "Soft_Sandyv18_glb32",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"190775946dd14c6ca9b9aff2c0127102": {
+			"id": "190775946dd14c6ca9b9aff2c0127102",
+			"label": "Wall Side v21.glb 13",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "ZzW"
+			},
+			"scriptName": "Wall_Sidev21_glb22",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"1cafdb66bf04433aa7804d05774b3dff": {
+			"id": "1cafdb66bf04433aa7804d05774b3dff",
+			"label": "Floor.glb 12",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a08"
+			},
+			"scriptName": "Floor_glb2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"1d9d38158d144d6d87e8f5cc8a9315dd": {
+			"id": "1d9d38158d144d6d87e8f5cc8a9315dd",
+			"label": "Soft Sandy v18.glb 52",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a07"
+			},
+			"scriptName": "Soft_Sandyv18_glb27",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"1dc5b95c1cf94a67ab90577690c84fb0": {
+			"id": "1dc5b95c1cf94a67ab90577690c84fb0",
+			"label": "Soft Sandy v18.glb 43",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a10t"
+			},
+			"scriptName": "Soft_Sandyv18_glb210",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"1f8a86ea1b55428a9aeb1bd16b49d909": {
+			"id": "1f8a86ea1b55428a9aeb1bd16b49d909",
+			"label": "Wall Side v21.glb 4",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "Zz8"
+			},
+			"scriptName": "Wall_Sidev21_glb2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"2170880983c9450b89d9cc0bde6c3b35": {
+			"id": "2170880983c9450b89d9cc0bde6c3b35",
+			"label": "Soft Sandy v18.glb 45",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a10O"
+			},
+			"scriptName": "Soft_Sandyv18_glb230",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"222a772706c04be2bdfa2717211371a4": {
+			"id": "222a772706c04be2bdfa2717211371a4",
+			"label": "Wall Side v21.glb 5",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "Zz4"
+			},
+			"scriptName": "Wall_Sidev21_glb3",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"227c338405b840acad64b10bb72437b6": {
+			"id": "227c338405b840acad64b10bb72437b6",
+			"label": "Busch v1.glb 5",
+			"parent": {
+				"id": "86ca99919cf545a9b83f5c34f7a22d60",
+				"order": "a2"
+			},
+			"scriptName": "Busch_v1_glb20",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"2919ebf18c1c4853ab6bfd7820f50da0": {
+			"id": "2919ebf18c1c4853ab6bfd7820f50da0",
+			"label": "Wall Side v21.glb 2",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "ZzV"
+			},
+			"scriptName": "Wall_Sidev21_glb0",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"2d3d22edf41a48fba4247a5cd472b2a3": {
+			"id": "2d3d22edf41a48fba4247a5cd472b2a3",
+			"label": "Netz Fischer v20.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zs"
+			},
+			"scriptName": "Netz_Fischerv20_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"2f8824d954d2417ba4641f852a4f4d74": {
+			"id": "2f8824d954d2417ba4641f852a4f4d74",
+			"label": "Soft Sandy v18.glb 33",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a2V"
+			},
+			"scriptName": "Soft_Sandyv18_glb50",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"2fab06d08b854d72816511ef9a0db817": {
+			"id": "2fab06d08b854d72816511ef9a0db817",
+			"label": "Soft Sandy v18.glb 38",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1P"
+			},
+			"scriptName": "Soft_Sandyv18_glb19",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"33ef51033bd648ab80d8b8796b0d79c6": {
+			"id": "33ef51033bd648ab80d8b8796b0d79c6",
+			"label": "Pflanze 2 v1.glb",
+			"parent": {
+				"id": "86ca99919cf545a9b83f5c34f7a22d60",
+				"order": "Zz"
+			},
+			"scriptName": "Pflanze_2v1_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"3476598137a94f6dbc45cccafe4f46a0": {
+			"id": "3476598137a94f6dbc45cccafe4f46a0",
+			"label": "Soft Sandy v18.glb 56",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a02"
+			},
+			"scriptName": "Soft_Sandyv18_glb29",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"3813ab99c1d94e958d7f73659b3ff79e": {
+			"id": "3813ab99c1d94e958d7f73659b3ff79e",
+			"label": "Old Rusty v7.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zyt"
+			},
+			"scriptName": "Old_Rustyv7_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"3e38eb9d17754c25affa3468906277f4": {
+			"id": "3e38eb9d17754c25affa3468906277f4",
+			"label": "Soft Sandy v18.glb 9",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1l"
+			},
+			"scriptName": "Soft_Sandyv18_glb40",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"40f30fc6a84a46f7ab3ade28a0fdc2ad": {
+			"id": "40f30fc6a84a46f7ab3ade28a0fdc2ad",
+			"label": "Mountain v14.glb 2",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "a6"
+			},
+			"scriptName": "Mountain_v14_glb0",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"42f47d5c02c34f15ad36f9a5d5083ca2": {
+			"id": "42f47d5c02c34f15ad36f9a5d5083ca2",
+			"label": "Soft Sandy v18.glb 46",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a108"
+			},
+			"scriptName": "Soft_Sandyv18_glb240",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"43f8bb20323f45a7a44cb61831f90f4a": {
+			"id": "43f8bb20323f45a7a44cb61831f90f4a",
+			"label": "Wall Side v21.glb 3",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "ZzG"
+			},
+			"scriptName": "Wall_Sidev21_glb1",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"4729dafbf73d41248dbda8e586adf9d2": {
+			"id": "4729dafbf73d41248dbda8e586adf9d2",
+			"label": "Soft Sandy v18.glb 2",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1"
+			},
+			"scriptName": "Soft_Sandyv18_glb0",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"4760d709ef1a4c4aa9a0061c0005536f": {
+			"id": "4760d709ef1a4c4aa9a0061c0005536f",
+			"label": "Soft Sandy v18.glb 41",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1A"
+			},
+			"scriptName": "Soft_Sandyv18_glb100",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"4868f6800189470c84ece95b2d37df42": {
+			"id": "4868f6800189470c84ece95b2d37df42",
+			"label": "Rim v8.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zy"
+			},
+			"scriptName": "Rim_v8_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"48a2730e5e314a5384284710a491a773": {
+			"id": "48a2730e5e314a5384284710a491a773",
+			"label": "Soft Sandy v18.glb 54",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0O"
+			},
+			"scriptName": "Soft_Sandyv18_glb80",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"4903e4137c8f41b4a6e538588e64d015": {
+			"id": "4903e4137c8f41b4a6e538588e64d015",
+			"label": "Soft Sandy v18.glb 10",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a14"
+			},
+			"scriptName": "Soft_Sandyv18_glb21",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"495628ccddf7406ba2d07aaec9d60dcf": {
+			"id": "495628ccddf7406ba2d07aaec9d60dcf",
+			"label": "Floor.glb 3",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0G"
+			},
+			"scriptName": "Floor_glb1",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"49cdab3e0e344daa808d90412d49eed0": {
+			"id": "49cdab3e0e344daa808d90412d49eed0",
+			"label": "Schimmerl Gitter v12.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zw"
+			},
+			"scriptName": "Schimmerl_Gitterv12_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"4b5ff986843741af940081cc914dd5f2": {
+			"id": "4b5ff986843741af940081cc914dd5f2",
+			"label": "World",
+			"parent": {
+				"id": "root",
+				"order": "Zv"
+			},
+			"scriptName": "World",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"4d482e1a58f44efea834c4b45c5ea9b5": {
+			"id": "4d482e1a58f44efea834c4b45c5ea9b5",
+			"label": "Soft Sandy v18.glb 35",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1d"
+			},
+			"scriptName": "Soft_Sandyv18_glb45",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"4ddf513e2bc442a4991995bf9f82a71f": {
+			"id": "4ddf513e2bc442a4991995bf9f82a71f",
+			"label": "Soft Sandy v18.glb 15",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a5"
+			},
+			"scriptName": "Soft_Sandyv18_glb31",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"5029d2c297f740c69993df93ce06ca3f": {
+			"id": "5029d2c297f740c69993df93ce06ca3f",
+			"label": "Soft Sandy v18.glb 47",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0t"
+			},
+			"scriptName": "Soft_Sandyv18_glb70",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"5265d8d159364e10a79495ba41383ea9": {
+			"id": "5265d8d159364e10a79495ba41383ea9",
+			"label": "Soft Sandy v18.glb 55",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0A"
+			},
+			"scriptName": "Soft_Sandyv18_glb12",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"527f3e87d8ba4c14a8e594bc2429f864": {
+			"id": "527f3e87d8ba4c14a8e594bc2429f864",
+			"label": "Soft Sandy v18.glb 14",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a7"
+			},
+			"scriptName": "Soft_Sandyv18_glb22",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"5390607170e843e89f438765a1a71831": {
+			"id": "5390607170e843e89f438765a1a71831",
+			"label": "Soft Sandy v18.glb 36",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1U"
+			},
+			"scriptName": "Soft_Sandyv18_glb17",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"54e267f1cd1b46e4a545aaf4b1b3f02e": {
+			"id": "54e267f1cd1b46e4a545aaf4b1b3f02e",
+			"label": "Soft Sandy v18.glb 27",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a08"
+			},
+			"scriptName": "Soft_Sandyv18_glb34",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"569aec496afa42d2be27eb86936496f9": {
+			"id": "569aec496afa42d2be27eb86936496f9",
+			"label": "Sand Ohneschimmel v17.glb",
+			"parent": {
+				"id": "e362da04258e4d91a56d91f6d739d884",
+				"order": "a0"
+			},
+			"scriptName": "Sand_Ohneschimmelv17_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"56ba15a5bd3344ce853de0eb44a1fb1c": {
+			"id": "56ba15a5bd3344ce853de0eb44a1fb1c",
+			"label": "Rim v8.glb 3",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zyd"
+			},
+			"scriptName": "Rim_v8_glb20",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"5727d1e3fa094a3089ac7c6c457c5abe": {
+			"id": "5727d1e3fa094a3089ac7c6c457c5abe",
+			"label": "Soft Sandy v18.glb 24",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a104"
+			},
+			"scriptName": "Soft_Sandyv18_glb9",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"57fa2351832147f3a4d7ee72f80fc760": {
+			"id": "57fa2351832147f3a4d7ee72f80fc760",
+			"label": "Soft Sandy v18.glb 17",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1T"
+			},
+			"scriptName": "Soft_Sandyv18_glb42",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"5c2f48d023ba4bfabe88466762eb947f": {
+			"id": "5c2f48d023ba4bfabe88466762eb947f",
+			"label": "Dirty Old v6.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zyl"
+			},
+			"scriptName": "Dirty_Oldv6_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"5ca2c07fd0e346f5beae5b020a9d1b4b": {
+			"id": "5ca2c07fd0e346f5beae5b020a9d1b4b",
+			"label": "Soft Sandy v18.glb 22",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a10V"
+			},
+			"scriptName": "Soft_Sandyv18_glb24",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"606d939225b043dc9d0d6c7d807c6b73": {
+			"id": "606d939225b043dc9d0d6c7d807c6b73",
+			"label": "MeshStandardMaterial",
+			"parent": {
+				"id": "c19b409a843a4f2da28d0577c86f57ca",
+				"order": "a0"
+			},
+			"scriptName": "MeshStandardMaterial",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"61c6ba31df2f4ed994f86e148df210c9": {
+			"id": "61c6ba31df2f4ed994f86e148df210c9",
+			"label": "Soft_molded_sand",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zt"
+			},
+			"scriptName": "Soft_molded_sand",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"63acbb3f0dee4ab8b5214647ba3a525d": {
+			"id": "63acbb3f0dee4ab8b5214647ba3a525d",
+			"label": "Soft Sandy v18.glb 8",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0G"
+			},
+			"scriptName": "Soft_Sandyv18_glb5",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"67f6a062c6e140739fc96f17b26a4866": {
+			"id": "67f6a062c6e140739fc96f17b26a4866",
+			"label": "Soft Sandy v18.glb 7",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0l"
+			},
+			"scriptName": "Soft_Sandyv18_glb3",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"6bc061bced694b65abed7379d50d4d3c": {
+			"id": "6bc061bced694b65abed7379d50d4d3c",
+			"label": "Floor.glb 10",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0X"
+			},
+			"scriptName": "Floor_glb_21",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"6f6d179b3b044cb5b93f64f631aeda68": {
+			"id": "6f6d179b3b044cb5b93f64f631aeda68",
+			"label": "Soft Sandy v18.glb 18",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1Q"
+			},
+			"scriptName": "Soft_Sandyv18_glb23",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"7034ab65e1d043128021c3019912adc8": {
+			"id": "7034ab65e1d043128021c3019912adc8",
+			"label": "Soft Sandy v18.glb 25",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a05"
+			},
+			"scriptName": "Soft_Sandyv18_glb44",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"71bc2501659542189c2af9ec26d53dcd": {
+			"id": "71bc2501659542189c2af9ec26d53dcd",
+			"label": "SunkenWold v4.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "ZzV"
+			},
+			"scriptName": "SunkenWold_v4_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"723b1f86daa7407cbecec2846ab749c4": {
+			"id": "723b1f86daa7407cbecec2846ab749c4",
+			"label": "Wall Side v21.glb 8",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "ZzA"
+			},
+			"scriptName": "Wall_Sidev21_glb40",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"72abe06fb26244b5874ba03b7c656043": {
+			"id": "72abe06fb26244b5874ba03b7c656043",
+			"label": "World War Plane v2.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "a0"
+			},
+			"scriptName": "World_WarPlanev2_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"73316edbe42f45e2930dd745231666ef": {
+			"id": "73316edbe42f45e2930dd745231666ef",
+			"label": "Soft Sandy v18.glb 11",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0d"
+			},
+			"scriptName": "Soft_Sandyv18_glb30",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"747aafa0521b42ad89f0c9ca9a801e42": {
+			"id": "747aafa0521b42ad89f0c9ca9a801e42",
+			"label": "Soft Sandy v18.glb 21",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a10l"
+			},
+			"scriptName": "Soft_Sandyv18_glb43",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"762a5092ffb949ad97a7028de085cae2": {
+			"id": "762a5092ffb949ad97a7028de085cae2",
+			"label": "Wall Side v21.glb 11",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "ZzI"
+			},
+			"scriptName": "Wall_Sidev21_glb31",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"771d60b1a90e4074810580d4c5c3c46f": {
+			"id": "771d60b1a90e4074810580d4c5c3c46f",
+			"label": "Soft Sandy v18.glb 31",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a6"
+			},
+			"scriptName": "Soft_Sandyv18_glb15",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"778568bd46424610b54e611bcbf3771e": {
+			"id": "778568bd46424610b54e611bcbf3771e",
+			"label": "Floor.glb",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0"
+			},
+			"scriptName": "Floor_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"77ce33cf71f1426197160522ae0c86cd": {
+			"id": "77ce33cf71f1426197160522ae0c86cd",
+			"label": "Ein Flop v10.glb 3",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "ZxG"
+			},
+			"scriptName": "Ein_Flopv10_glb1",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"78025199d3004549ac059cb040f11c26": {
+			"id": "78025199d3004549ac059cb040f11c26",
+			"label": "Soft Sandy v18.glb 28",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a09V"
+			},
+			"scriptName": "Soft_Sandyv18_glb10",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"78a647ce087641bd86f9845f16e82789": {
+			"id": "78a647ce087641bd86f9845f16e82789",
+			"label": "Soft Sandy v18.glb 40",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1K"
+			},
+			"scriptName": "Soft_Sandyv18_glb60",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"7a492b1d48774b93930ded2bad6cf1ae": {
+			"id": "7a492b1d48774b93930ded2bad6cf1ae",
+			"label": "Floor.glb 2",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0V"
+			},
+			"scriptName": "Floor_glb0",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"7a808619c5ec460dae5c445f3c086dd0": {
+			"id": "7a808619c5ec460dae5c445f3c086dd0",
+			"label": "Soft Sandy v18.glb 23",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a10G"
+			},
+			"scriptName": "Soft_Sandyv18_glb33",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"7fa9a21b099e4dcc82c618d58cf1d5d1": {
+			"id": "7fa9a21b099e4dcc82c618d58cf1d5d1",
+			"label": "Floor.glb 4",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0l"
+			},
+			"scriptName": "Floor_glb_2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"7fcc01a789204d7eb5f88bf1b91c18c4": {
+			"id": "7fcc01a789204d7eb5f88bf1b91c18c4",
+			"label": "Steine_Klein.glb 3",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "a1"
+			},
+			"scriptName": "Steine_Klein_glb1",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"80a67eb035e248848191bc8570b9b4ae": {
+			"id": "80a67eb035e248848191bc8570b9b4ae",
+			"label": "Ein Flop v10.glb 2",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "ZxV"
+			},
+			"scriptName": "Ein_Flopv10_glb0",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"822d93a9d16d42e4afd33ada55b2e963": {
+			"id": "822d93a9d16d42e4afd33ada55b2e963",
+			"label": "Wall Side v21.glb 12",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "ZzX"
+			},
+			"scriptName": "Wall_Sidev21_glb21",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"8239552ff5724ac0aa791af9d110c7f7": {
+			"id": "8239552ff5724ac0aa791af9d110c7f7",
+			"label": "Steine_Klein.glb 2",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "a0"
+			},
+			"scriptName": "Steine_Klein_glb0",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"84571233f15f48d1a25764531107579b": {
+			"id": "84571233f15f48d1a25764531107579b",
+			"label": "ImageTexture 2",
+			"parent": {
+				"id": "606d939225b043dc9d0d6c7d807c6b73",
+				"order": "Zx"
+			},
+			"scriptName": "ImageTexture0",
+			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
+		},
+		"84b8c90f6fd142c5acbed9884466c377": {
+			"id": "84b8c90f6fd142c5acbed9884466c377",
+			"label": "Wall Side v21.glb",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "Zz"
+			},
+			"scriptName": "Wall_Sidev21_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"85e8d0a0293e45b1bcdd715b3f7a9a2f": {
+			"id": "85e8d0a0293e45b1bcdd715b3f7a9a2f",
+			"label": "Soft Sandy v18.glb 3",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0V"
+			},
+			"scriptName": "Soft_Sandyv18_glb1",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"86ca99919cf545a9b83f5c34f7a22d60": {
+			"id": "86ca99919cf545a9b83f5c34f7a22d60",
+			"label": "Recovred",
+			"parent": {
+				"id": "4b5ff986843741af940081cc914dd5f2",
+				"order": "a6"
+			},
+			"scriptName": "Recovred",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"8724f10aa45645d6b4f82bf6feda5677": {
+			"id": "8724f10aa45645d6b4f82bf6feda5677",
+			"label": "Soft Sandy v18.glb 30",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a8"
+			},
+			"scriptName": "Soft_Sandyv18_glb14",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"8fadd0d5c79b4cb0adcba51c66d76e89": {
+			"id": "8fadd0d5c79b4cb0adcba51c66d76e89",
+			"label": "Ein Paar v9.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zz"
+			},
+			"scriptName": "Ein_Paarv9_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"947a0b22084e4c348dddcac2ae34c34a": {
+			"id": "947a0b22084e4c348dddcac2ae34c34a",
+			"label": "Wall Side v21.glb 7",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "Zz5"
+			},
+			"scriptName": "Wall_Sidev21_glb5",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"9520c204389348c9b5cb8f92ad76ab44": {
+			"id": "9520c204389348c9b5cb8f92ad76ab44",
+			"label": "Ein Flop v10.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zx"
+			},
+			"scriptName": "Ein_Flopv10_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"98c73d563edf4da6a8ad2fab1cc42bdf": {
+			"id": "98c73d563edf4da6a8ad2fab1cc42bdf",
+			"label": "Soft Sandy v18.glb 44",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a10d"
+			},
+			"scriptName": "Soft_Sandyv18_glb220",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a09cd584d83a4069917153b79b53ea11": {
+			"id": "a09cd584d83a4069917153b79b53ea11",
+			"label": "RoundedSton v5.glb",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "a4V"
+			},
+			"scriptName": "RoundedSton_v5_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a5c47c4bcfc046939588d158985c7495": {
+			"id": "a5c47c4bcfc046939588d158985c7495",
+			"label": "Busch v1.glb 2",
+			"parent": {
+				"id": "86ca99919cf545a9b83f5c34f7a22d60",
+				"order": "a1"
+			},
+			"scriptName": "Busch_v1_glb0",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a914f49d3d5e45ba97b4251acbb4919d": {
+			"id": "a914f49d3d5e45ba97b4251acbb4919d",
+			"label": "Soft Sandy v18.glb 51",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a06"
+			},
+			"scriptName": "Soft_Sandyv18_glb260",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b053f62b95a548afbe971b8bbec4c6a4": {
+			"id": "b053f62b95a548afbe971b8bbec4c6a4",
+			"label": "Floor",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "a8"
+			},
+			"scriptName": "Floor",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"b11063f305174f35a9261cabb9abc692": {
+			"id": "b11063f305174f35a9261cabb9abc692",
+			"label": "Soft Sandy v18.glb",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0"
+			},
+			"scriptName": "Soft_Sandyv18_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b42a7d8c4aa544f2bd80a187b4d5bfc0": {
+			"id": "b42a7d8c4aa544f2bd80a187b4d5bfc0",
+			"label": "Soft Sandy v18.glb 16",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a3"
+			},
+			"scriptName": "Soft_Sandyv18_glb7",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b7df27136d2e4ebea12a06d3272f42db": {
+			"id": "b7df27136d2e4ebea12a06d3272f42db",
+			"label": "Soft Sandy v18.glb 53",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a09"
+			},
+			"scriptName": "Soft_Sandyv18_glb28",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b7f6501ef5f84f8f89a31a541eab66eb": {
+			"id": "b7f6501ef5f84f8f89a31a541eab66eb",
+			"label": "Soft Sandy v18.glb 42",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a11"
+			},
+			"scriptName": "Soft_Sandyv18_glb26",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b92a7a45ae0c42f0bef905955a630a6e": {
+			"id": "b92a7a45ae0c42f0bef905955a630a6e",
+			"label": "Soft Sandy v18.glb 13",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a9"
+			},
+			"scriptName": "Soft_Sandyv18_glb41",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b95a0967d59a4474856c86d9f6736c18": {
+			"id": "b95a0967d59a4474856c86d9f6736c18",
+			"label": "World War 3 v3.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "a1"
+			},
+			"scriptName": "World_War3v3_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b9676b9c5624457784e71401faa5586b": {
+			"id": "b9676b9c5624457784e71401faa5586b",
+			"label": "Soft Sandy v18.glb 39",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1M"
+			},
+			"scriptName": "Soft_Sandyv18_glb200",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"bc9a7edb196b4234870572e1ef8da608": {
+			"id": "bc9a7edb196b4234870572e1ef8da608",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "86ca99919cf545a9b83f5c34f7a22d60",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"bf08fd2e81a34633957cc2b4955d7157": {
+			"id": "bf08fd2e81a34633957cc2b4955d7157",
+			"label": "Rim v8.glb 6",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zya"
+			},
+			"scriptName": "Rim_v8_glb4",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"c19b409a843a4f2da28d0577c86f57ca": {
+			"id": "c19b409a843a4f2da28d0577c86f57ca",
+			"label": "Sand Ohneschimmel v17.glb 2",
+			"parent": {
+				"id": "e362da04258e4d91a56d91f6d739d884",
+				"order": "a0V"
+			},
+			"scriptName": "Sand_Ohneschimmelv17_glb0",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"c2560c89525d4f29ac92bc8831630074": {
+			"id": "c2560c89525d4f29ac92bc8831630074",
+			"label": "Floor.glb 7",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0t"
+			},
+			"scriptName": "Floor_glb_4",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"c491725b07514f07b3a70cb064966578": {
+			"id": "c491725b07514f07b3a70cb064966578",
+			"label": "ImageTexture",
+			"parent": {
+				"id": "606d939225b043dc9d0d6c7d807c6b73",
+				"order": "Zy"
+			},
+			"scriptName": "ImageTexture",
+			"type": "@zcomponent/three/lib/components/textures/ImageTexture#ImageTexture"
+		},
+		"cd59950b061a4c33af4dadec78db778d": {
+			"id": "cd59950b061a4c33af4dadec78db778d",
+			"label": "Soft Sandy v18.glb 12",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a04"
+			},
+			"scriptName": "Soft_Sandyv18_glb6",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"ce122dae41ee4f5da359416a34a6589f": {
+			"id": "ce122dae41ee4f5da359416a34a6589f",
+			"label": "Wall Side v21.glb 10",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "Zzd"
+			},
+			"scriptName": "Wall_Sidev21_glb20",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"d11ee5b53ffd4a3fa58ab55f47d3aef4": {
+			"id": "d11ee5b53ffd4a3fa58ab55f47d3aef4",
+			"label": "Mountain _14_gesund.glb",
+			"locked": true,
+			"parent": {
+				"id": "86ca99919cf545a9b83f5c34f7a22d60",
+				"order": "Zy"
+			},
+			"scriptName": "Mountain__14_gesund_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"d1438a55e1284f8b95a5f7994aaa668d": {
+			"id": "d1438a55e1284f8b95a5f7994aaa668d",
+			"label": "Floor.glb 5",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0Z"
+			},
+			"scriptName": "Floor_glb_20",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"d15411146ea14ba6a6570bf13a998e2c": {
+			"id": "d15411146ea14ba6a6570bf13a998e2c",
+			"label": "Soft Sandy v18.glb 4",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1V"
+			},
+			"scriptName": "Soft_Sandyv18_glb2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"d6a8cde727a445b9a0ed4ea0e98135d0": {
+			"id": "d6a8cde727a445b9a0ed4ea0e98135d0",
+			"label": "Soft Sandy v18.glb 29",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "aA"
+			},
+			"scriptName": "Soft_Sandyv18_glb13",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"d75bc5cdb27a4e9e9c342ad935f77ca0": {
+			"id": "d75bc5cdb27a4e9e9c342ad935f77ca0",
+			"label": "Soft Sandy v18.glb 48",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0f"
+			},
+			"scriptName": "Soft_Sandyv18_glb11",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"db685ad3a87a4d42a2500f6ebfc6a571": {
+			"id": "db685ad3a87a4d42a2500f6ebfc6a571",
+			"label": "Rim v8.glb 2",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "ZyV"
+			},
+			"scriptName": "Rim_v8_glb2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"dcd62063a7f74d3b81ef36f977debe82": {
+			"id": "dcd62063a7f74d3b81ef36f977debe82",
+			"label": "Steine_Klein.glb",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "a4"
+			},
+			"scriptName": "Steine_Klein_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"e23c86bb24d44e7f9ee406c0b8b4020a": {
+			"id": "e23c86bb24d44e7f9ee406c0b8b4020a",
+			"label": "Rim v8.glb 4",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "ZyX"
+			},
+			"scriptName": "Rim_v8_glb21",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"e362da04258e4d91a56d91f6d739d884": {
+			"id": "e362da04258e4d91a56d91f6d739d884",
+			"label": "Sand_mit_ohne_schmmel",
+			"locked": true,
+			"parent": {
+				"id": "4b5ff986843741af940081cc914dd5f2",
+				"order": "a4"
+			},
+			"scriptName": "Sand_mit_ohne_schmmel",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"e7e95f36fb4049f9a2f3991d849a90ce": {
+			"id": "e7e95f36fb4049f9a2f3991d849a90ce",
+			"label": "Steine_Klein.glb 5",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "a3"
+			},
+			"scriptName": "Steine_Klein_glb3",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"e8233778e95d49bb95d0a799a5ac0e44": {
+			"id": "e8233778e95d49bb95d0a799a5ac0e44",
+			"label": "Floor.glb 6",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0c"
+			},
+			"scriptName": "Floor_glb_5",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"e96d2b3afa6e4e7191e7889c0228c681": {
+			"id": "e96d2b3afa6e4e7191e7889c0228c681",
+			"label": "Chaotic Pile v22.glb",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zr"
+			},
+			"scriptName": "Chaotic_Pilev22_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"ed61b4ac80a244f4bec781cc5600b83b": {
+			"id": "ed61b4ac80a244f4bec781cc5600b83b",
+			"label": "Wall Side v21.glb 6",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "Zz1"
+			},
+			"scriptName": "Wall_Sidev21_glb4",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"eebe954db4f642c1b83215d8f62ea089": {
+			"id": "eebe954db4f642c1b83215d8f62ea089",
+			"label": "Soft Sandy v18.glb 49",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a0X"
+			},
+			"scriptName": "Soft_Sandyv18_glb35",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"f02a879ba0ce466ea650861c5b895b23": {
+			"id": "f02a879ba0ce466ea650861c5b895b23",
+			"label": "Rim v8.glb 7",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "ZyY"
+			},
+			"scriptName": "Rim_v8_glb40",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"f4b688ed3123424d87913a610c431818": {
+			"id": "f4b688ed3123424d87913a610c431818",
+			"label": "Hard_world",
+			"parent": {
+				"id": "4b5ff986843741af940081cc914dd5f2",
+				"order": "a4V"
+			},
+			"scriptName": "Hard_world",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"f741e185ac1a4d7ebe24e84e87400638": {
+			"id": "f741e185ac1a4d7ebe24e84e87400638",
+			"label": "Soft Sandy v18.glb 20",
+			"parent": {
+				"id": "61c6ba31df2f4ed994f86e148df210c9",
+				"order": "a1L"
+			},
+			"scriptName": "Soft_Sandyv18_glb8",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"f8498d757baf4514a39c9289e3846d15": {
+			"id": "f8498d757baf4514a39c9289e3846d15",
+			"label": "Floor.glb 8",
+			"parent": {
+				"id": "b053f62b95a548afbe971b8bbec4c6a4",
+				"order": "a0f"
+			},
+			"scriptName": "Floor_glb_6",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"ffd066b800334037be0506731325582a": {
+			"id": "ffd066b800334037be0506731325582a",
+			"label": "Steine_Klein.glb 4",
+			"parent": {
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "a2"
+			},
+			"scriptName": "Steine_Klein_glb2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"root": {
+			"id": "root",
+			"label": "Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"propEntityOverrides": {
+		"position": {
+			"root": {
+				"position": true
+			}
+		}
+	},
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
