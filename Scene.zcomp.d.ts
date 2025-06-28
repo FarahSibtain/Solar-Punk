@@ -1,30 +1,42 @@
 import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Event } from "@zcomponent/core";
 
-import { Box as Box_0 } from "@zcomponent/three/lib/components/meshes/Box";
-import { Mesh as Mesh_1 } from "@zcomponent/three/lib/components/meshes/Mesh";
-import { ConeGeometry as ConeGeometry_2 } from "@zcomponent/three/lib/components/geometries/ConeGeometry";
-import { Group as Group_3 } from "@zcomponent/three/lib/components/Group";
-import { DefaultCookieConsent as DefaultCookieConsent_4 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
-import { DefaultLoader as DefaultLoader_5 } from "@zcomponent/core/lib/components/DefaultLoader";
-import { DirectionalLight as DirectionalLight_6 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { Image360 as Image360_7 } from "@zcomponent/three/lib/components/Image360";
-import { Fog as Fog_8 } from "./Materials/Fog";
-import { XRController as XRController_9 } from "@zcomponent/three-webxr/lib/components/XRController";
-import { MeshStandardMaterial as MeshStandardMaterial_10 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
-import { Plane as Plane_11 } from "@zcomponent/three/lib/components/meshes/Plane";
-import { ShadowPlane as ShadowPlane_12 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
-import { Sphere as Sphere_13 } from "@zcomponent/three/lib/components/meshes/Sphere";
-import { TeleportManager as TeleportManager_14 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
-import { TurnManager as TurnManager_15 } from "@zcomponent/three-webxr/lib/components/TurnManager";
-import { WaterGeom as WaterGeom_16 } from "./Materials/WaterGeom";
-import { XRRigVR as XRRigVR_17 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { XRCamera as XRCamera_18 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_19 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_20 } from "@zcomponent/three-webxr/lib/components/XRManager";
-import { Audio as Audio_21 } from "@zcomponent/core/lib/components/Audio";
-import { ParticleEmitter as ParticleEmitter_22 } from "@zcomponent/particles/lib/components/ParticleEmitter";
-import { EmitterTexture as EmitterTexture_23 } from "@zcomponent/particles/lib/components/EmitterTexture";
-import { Sparkle as Sparkle_24 } from "@zcomponent/particles/lib/components/prefabs/Sparkle";
+import { ConeGeometry as ConeGeometry_0 } from "@zcomponent/three/lib/components/geometries/ConeGeometry";
+import { MeshBasicMaterial as MeshBasicMaterial_1 } from "@zcomponent/three/lib/components/materials/MeshBasicMaterial";
+import { Box as Box_2 } from "@zcomponent/three/lib/components/meshes/Box";
+import { default as Button_zcomp_3 } from "./Button/Button.zcomp";
+import { MyButtonBehaviour as MyButtonBehaviour_4 } from "./MyButtonBehaviour";
+import { Group as Group_5 } from "@zcomponent/three/lib/components/Group";
+import { Mesh as Mesh_6 } from "@zcomponent/three/lib/components/meshes/Mesh";
+import { Audio as Audio_7 } from "@zcomponent/core/lib/components/Audio";
+import { MyAudioEndBehavior as MyAudioEndBehavior_8 } from "./MyAudioEndBehavior";
+import { DefaultCookieConsent as DefaultCookieConsent_9 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
+import { DefaultLoader as DefaultLoader_10 } from "@zcomponent/core/lib/components/DefaultLoader";
+import { DirectionalLight as DirectionalLight_11 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
+import { EmitterTexture as EmitterTexture_12 } from "@zcomponent/particles/lib/components/EmitterTexture";
+import { Image360 as Image360_13 } from "@zcomponent/three/lib/components/Image360";
+import { Fog as Fog_14 } from "./Materials/Fog";
+import { Text as Text_15 } from "@zcomponent/three/lib/components/text/Text";
+import { XRController as XRController_16 } from "@zcomponent/three-webxr/lib/components/XRController";
+import { MeshStandardMaterial as MeshStandardMaterial_17 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { ParticleEmitter as ParticleEmitter_18 } from "@zcomponent/particles/lib/components/ParticleEmitter";
+import { Plane as Plane_19 } from "@zcomponent/three/lib/components/meshes/Plane";
+import { RingGeometry as RingGeometry_20 } from "@zcomponent/three/lib/components/geometries/RingGeometry";
+import { ShadowPlane as ShadowPlane_21 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { Sphere as Sphere_22 } from "@zcomponent/three/lib/components/meshes/Sphere";
+import { Sparkle as Sparkle_23 } from "@zcomponent/particles/lib/components/prefabs/Sparkle";
+import { TeleportManager as TeleportManager_24 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
+import { TeleportDistanceRestrictor as TeleportDistanceRestrictor_25 } from "../TeleportDistanceRestrictor";
+import { TurnManager as TurnManager_26 } from "@zcomponent/three-webxr/lib/components/TurnManager";
+import { UIHandler as UIHandler_27 } from "./UIHandler";
+import { WalkManager as WalkManager_28 } from "@zcomponent/three-webxr/lib/components/WalkManager";
+import { WaterGeom as WaterGeom_29 } from "./Materials/WaterGeom";
+import { XRRigVR as XRRigVR_30 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
+import { HandMovementBehavior as HandMovementBehavior_31 } from "../HandMovementBehavior";
+import { XRCamera as XRCamera_32 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_33 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_34 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { Image as Image_35 } from "@zcomponent/three/lib/components/Image";
+import { DisableOnMove as DisableOnMove_36 } from "./DisableOnMove";
 
 interface ConstructorProps {
 
@@ -39,165 +51,307 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		Box: Box_0 & {
+		Arrow_Geometry: ConeGeometry_0 & {
 			behaviors: {
 
 			}
 		},
-		Cone: Mesh_1 & {
+		Arrow_Material: MeshBasicMaterial_1 & {
 			behaviors: {
 
 			}
 		},
-		ConeGeometry: ConeGeometry_2 & {
+		Box: Box_2 & {
 			behaviors: {
 
 			}
 		},
-		Content_Group: Group_3 & {
+		ButtonBillionaire: Button_zcomp_3 & {
+			behaviors: {
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
+			}
+		},
+		ButtonCAP: Button_zcomp_3 & {
+			behaviors: {
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
+			}
+		},
+		ButtonEP: Button_zcomp_3 & {
+			behaviors: {
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
+			}
+		},
+		ButtonEduP: Button_zcomp_3 & {
+			behaviors: {
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
+			}
+		},
+		ButtonGP: Button_zcomp_3 & {
+			behaviors: {
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
+			}
+		},
+		ButtonHP: Button_zcomp_3 & {
+			behaviors: {
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
+			}
+		},
+		ButtonSAT: Button_zcomp_3 & {
+			behaviors: {
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
+			}
+		},
+		ButtonStudent_2: Button_zcomp_3 & {
+			behaviors: {
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
+			}
+		},
+		Buttons: Group_5 & {
 			behaviors: {
 
 			}
 		},
-		DefaultCookieConsent: DefaultCookieConsent_4 & {
+		Cone: Mesh_6 & {
 			behaviors: {
 
 			}
 		},
-		DefaultLoader: DefaultLoader_5 & {
+		ConeGeometry: ConeGeometry_0 & {
 			behaviors: {
 
 			}
 		},
-		Defaults: Group_3 & {
+		Content_Group: Group_5 & {
 			behaviors: {
 
 			}
 		},
-		DirectionalLight: DirectionalLight_6 & {
+		DeathZoneAudio: Audio_7 & {
+			behaviors: {
+				0: MyAudioEndBehavior_8,
+				MyAudioEndBehavior: MyAudioEndBehavior_8,
+			}
+		},
+		DefaultCookieConsent: DefaultCookieConsent_9 & {
 			behaviors: {
 
 			}
 		},
-		Environment: Image360_7 & {
+		DefaultLoader: DefaultLoader_10 & {
 			behaviors: {
 
 			}
 		},
-		Fog: Fog_8 & {
+		Defaults: Group_5 & {
 			behaviors: {
 
 			}
 		},
-		Left_Controller: XRController_9 & {
+		DirectionalLight: DirectionalLight_11 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial: MeshStandardMaterial_10 & {
+		Emitter_Texture: EmitterTexture_12 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial0: MeshStandardMaterial_10 & {
+		Environment: Image360_13 & {
 			behaviors: {
 
 			}
 		},
-		MeshStandardMaterial_2: MeshStandardMaterial_10 & {
+		Fog: Fog_14 & {
 			behaviors: {
 
 			}
 		},
-		Mesh_GroupDeleteMe0: Group_3 & {
+		Group_2: Group_5 & {
 			behaviors: {
 
 			}
 		},
-		Plane: Plane_11 & {
+		Hello_Text: Text_15 & {
 			behaviors: {
 
 			}
 		},
-		Right_Controller: XRController_9 & {
+		LeftHandPosition: Group_5 & {
 			behaviors: {
 
 			}
 		},
-		ShadowPlane: ShadowPlane_12 & {
+		Left_Controller: XRController_16 & {
 			behaviors: {
 
 			}
 		},
-		Sphere: Sphere_13 & {
+		MeshStandardMaterial: MeshStandardMaterial_17 & {
 			behaviors: {
 
 			}
 		},
-		Teleport_Manager: TeleportManager_14 & {
+		MeshStandardMaterial0: MeshStandardMaterial_17 & {
 			behaviors: {
 
 			}
 		},
-		Turn_Manager: TurnManager_15 & {
+		MeshStandardMaterial_2: MeshStandardMaterial_17 & {
 			behaviors: {
 
 			}
 		},
-		WaterEnvironment: Group_3 & {
+		Mesh_GroupDeleteMe0: Group_5 & {
 			behaviors: {
 
 			}
 		},
-		WaterGeom: WaterGeom_16 & {
+		Particle_Emitter: ParticleEmitter_18 & {
 			behaviors: {
 
 			}
 		},
-		XRRigVR: XRRigVR_17 & {
+		Plane: Plane_19 & {
 			behaviors: {
 
 			}
 		},
-		XR_Camera: XRCamera_18 & {
+		RightHandPosition: Group_5 & {
 			behaviors: {
 
 			}
 		},
-		XR_DefaultLoader: XRDefaultLoader_19 & {
+		Right_Controller: XRController_16 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_20 & {
+		Ring_Geometry: RingGeometry_20 & {
 			behaviors: {
 
 			}
 		},
-		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_21 & {
+		Ring_Material: MeshBasicMaterial_1 & {
 			behaviors: {
 
 			}
 		},
-		Particle_Emitter: ParticleEmitter_22 & {
+		ShadowPlane: ShadowPlane_21 & {
 			behaviors: {
 
 			}
 		},
-		Emitter_Texture: EmitterTexture_23 & {
+		Sphere: Sphere_22 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids: Sparkle_24 & {
+		SuspendedSolids: Sparkle_23 & {
 			behaviors: {
 
+			}
+		},
+		Teleport_Arrow: Mesh_6 & {
+			behaviors: {
+
+			}
+		},
+		Teleport_Manager: TeleportManager_24 & {
+			behaviors: {
+				0: TeleportDistanceRestrictor_25,
+				TeleportDistanceRestrictor: TeleportDistanceRestrictor_25,
+			}
+		},
+		Teleport_Ring: Mesh_6 & {
+			behaviors: {
+
+			}
+		},
+		Turn_Manager: TurnManager_26 & {
+			behaviors: {
+
+			}
+		},
+		UI: Group_5 & {
+			behaviors: {
+				0: UIHandler_27,
+				UIHandler: UIHandler_27,
+			}
+		},
+		UIDest: Group_5 & {
+			behaviors: {
+
+			}
+		},
+		Walk_Manager: WalkManager_28 & {
+			behaviors: {
+
+			}
+		},
+		WaterEnvironment: Group_5 & {
+			behaviors: {
+
+			}
+		},
+		WaterGeom: WaterGeom_29 & {
+			behaviors: {
+
+			}
+		},
+		XRRigVR: XRRigVR_30 & {
+			behaviors: {
+				0: HandMovementBehavior_31,
+				Hand_Movement: HandMovementBehavior_31,
+			}
+		},
+		XR_Camera: XRCamera_32 & {
+			behaviors: {
+
+			}
+		},
+		XR_DefaultLoader: XRDefaultLoader_33 & {
+			behaviors: {
+
+			}
+		},
+		XR_Manager: XRManager_34 & {
+			behaviors: {
+
+			}
+		},
+		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_7 & {
+			behaviors: {
+
+			}
+		},
+		Controls: Image_35 & {
+			behaviors: {
+
+			}
+		},
+		ControlUI: Group_5 & {
+			behaviors: {
+				0: UIHandler_27,
+				UIHandler: UIHandler_27,
+				1: DisableOnMove_36,
+				DisableOnMove: DisableOnMove_36,
 			}
 		},
 	};
 
 	animation: Animation & { layers: {
-
+		UI_Animations: Layer & { clips: {
+			UI_FadeIn: LayerClip;
+		}};
 	}};
 
 	/**
