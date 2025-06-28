@@ -20,6 +20,7 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 	private audioBuffer: AudioBuffer | null = null;
 	private audioContext: AudioContext;
 	private constructorProps: ConstructionProps;
+	private audioSources: AudioBufferSourceNode[] = []; // Track active audio sources
 
 	constructor(contextManager: ContextManager, instance: Button_zcomp, constructorProps: ConstructionProps) {
 		super(contextManager, instance);
@@ -84,13 +85,31 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 			const source = this.audioContext.createBufferSource();
 			source.buffer = this.audioBuffer;
 			source.connect(this.audioContext.destination);
+			
+			// Track the source and clean up when it ends
+			this.audioSources.push(source);
+			source.onended = () => {
+				const index = this.audioSources.indexOf(source);
+				if (index > -1) {
+					this.audioSources.splice(index, 1);
+				}
+			};
+			
 			source.start();
 		}
 	}
 
 	dispose() {
-		// Clean up any resources
-		// ...
+		// Stop and clean up any active audio sources
+		this.audioSources.forEach(source => {
+			try {
+				source.stop();
+			} catch (e) {
+				// Source may already be stopped
+			}
+		});
+		this.audioSources = [];
+		
 		return super.dispose();
 	}
 }

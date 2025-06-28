@@ -77,6 +77,13 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
 	private isInitialized = false;
 	private initializationFrames = 0;
 	private readonly INITIALIZATION_FRAMES_REQUIRED = 30; // Wait 30 frames before starting movement
+	
+	// Reusable objects to avoid garbage collection
+	private tempVector1 = new Vector3();
+	private tempVector2 = new Vector3();
+	private tempMatrix = new THREE.Matrix4();
+	private frameCount = 0;
+	private readonly UPDATE_FREQUENCY = 2; // Update every 2 frames to reduce CPU load
 
 	constructor(contextManager: ContextManager, instance: XRRigVR, protected constructorProps: ConstructionProps) {
 		super(contextManager, instance);
@@ -96,6 +103,16 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
 		// Set up frame-by-frame updates
 		this.register(useOnBeforeRender(this.contextManager), (deltaTime) => {
 			if (!this.enabled.value) return;
+			
+			// Reduce update frequency to improve performance
+			this.frameCount++;
+			if (this.frameCount % this.UPDATE_FREQUENCY !== 0) {
+				// Still apply movement even when not updating tracking
+				if (this.isInitialized) {
+					this.applyMovement(deltaTime / 1000);
+				}
+				return;
+			}
 			
 			this.updateHandTracking();
 			
@@ -132,45 +149,33 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
 
 
 	private updateHandTracking() {
-		     
-        const camPosition = new THREE.Vector3();
-        this.camera.getWorldPosition(camPosition);
+        // Reuse temp vectors to avoid garbage collection
+        this.camera.getWorldPosition(this.tempVector1); // camPosition
 
-        // Get world positions of controllers
-        const leftLocalPos = new THREE.Vector3();
-        const rightLocalPos = new THREE.Vector3();
+        // Get world positions of controllers using reusable objects
+        this.tempMatrix.copy(this.camera.matrixWorld);
+        this.tempMatrix.invert(); // invCamWorldMatrix
 
-        const invCamWorldMatrix = new THREE.Matrix4();
-        invCamWorldMatrix.copy(this.camera.matrixWorld);
-        invCamWorldMatrix.invert();
-
-        
         if (this.leftHandObject?.element && this.leftController.isTracking) {
-
-            const leftToCamMatrix = invCamWorldMatrix.clone().multiply(this.leftHandObject.element.matrixWorld);
-            leftLocalPos.applyMatrix4(leftToCamMatrix);
-			this.leftHandPosition = leftLocalPos;
-
-        } else {
-            console.warn("Left controller not found!");
+            // Reuse tempMatrix for calculations
+            this.tempMatrix.multiply(this.leftHandObject.element.matrixWorld);
+            this.tempVector2.set(0, 0, 0).applyMatrix4(this.tempMatrix); // leftLocalPos
+			this.leftHandPosition.copy(this.tempVector2);
+            
+            // Restore invCamWorldMatrix for right hand calculation
+            this.tempMatrix.copy(this.camera.matrixWorld).invert();
         }
 
-        
         if (this.rightHandObject?.element && this.rightController.isTracking) {
-
-            const rightToCamMatrix = invCamWorldMatrix.clone().multiply(this.rightHandObject.element.matrixWorld);
-            rightLocalPos.applyMatrix4(rightToCamMatrix);
-			this.rightHandPosition = rightLocalPos;
-
-        } else {
-            console.warn("Right controller not found!");
+            this.tempMatrix.multiply(this.rightHandObject.element.matrixWorld);
+            this.tempVector2.set(0, 0, 0).applyMatrix4(this.tempMatrix); // rightLocalPos
+			this.rightHandPosition.copy(this.tempVector2);
         }
 
 		// Only consider hands tracked if they have valid positions (not at origin) and are actually tracking
-		const leftHandValid = this.leftHandObject?.element && this.leftController.isTracking && this.leftHandPosition.lengthSq() > 0.01; // Minimum distance from origin
+		const leftHandValid = this.leftHandObject?.element && this.leftController.isTracking && this.leftHandPosition.lengthSq() > 0.01;
 		const rightHandValid = this.rightHandObject?.element && this.rightController.isTracking && this.rightHandPosition.lengthSq() > 0.01;
 		this.bothHands = leftHandValid && rightHandValid;
-        
 	}
 
 	private processMovement(deltaTime: number) {
@@ -232,22 +237,20 @@ export class HandMovementBehavior extends Behavior<XRRigVR> {
 	 * Helper method to get movement direction based on head orientation
 	 */
 	private getMovementDirection(): Vector3 {
-		
 		if (this.camera) {
-		    const cameraPosition = new Vector3();
-			this.camera.getWorldPosition(cameraPosition);
-			const leftHandWorldPosition = new Vector3();
-			this.leftHandObject.element.getWorldPosition(leftHandWorldPosition);
-			const rightHandWorldPosition = new Vector3();
-			this.rightHandObject.element.getWorldPosition(rightHandWorldPosition);
-
-			const handsCenter = new Vector3();
-			handsCenter.addVectors(leftHandWorldPosition, rightHandWorldPosition).multiplyScalar(0.5);
-			const direction = new Vector3();
-			direction.subVectors(handsCenter, cameraPosition);
-			direction.setY(0);
-		    direction.normalize();
-		    return direction;
+		    this.camera.getWorldPosition(this.tempVector1); // cameraPosition
+			this.leftHandObject.element.getWorldPosition(this.tempVector2); // leftHandWorldPosition
+			
+			// Get right hand position and calculate center
+			this.rightHandObject.element.getWorldPosition(this.tempVector1); // Reuse tempVector1
+			this.tempVector2.add(this.tempVector1).multiplyScalar(0.5); // handsCenter
+			
+			// Calculate direction from camera to hands center
+			this.camera.getWorldPosition(this.tempVector1); // Get camera position again
+			this.tempVector2.sub(this.tempVector1); // direction = handsCenter - cameraPosition
+			this.tempVector2.setY(0);
+		    this.tempVector2.normalize();
+		    return this.tempVector2;
 		}
 		
 		return new Vector3(0, 0, -1); // Default forward direction
