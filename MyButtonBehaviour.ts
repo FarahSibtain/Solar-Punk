@@ -1,5 +1,6 @@
 import { Component, Behavior, BehaviorConstructorProps, ContextManager, registerBehaviorRunAtDesignTime, useAudioContext } from "@zcomponent/core";
 import { default as Button_zcomp } from "./Button/Button.zcomp";
+import { Cleaner } from "./Cleaner";
 import Scene from "./Scene.zcomp";
 import { UIHandler } from "./UIHandler";
 
@@ -93,15 +94,10 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 
 			// Use proper URL format for bundler detection
 			const audioUrl = new URL(urlAudio, import.meta.url);
-			console.log('Attempting to load audio from:', urlAudio);
-			console.log('Resolved URL:', audioUrl.href);
-			console.log('Base URL (import.meta.url):', import.meta.url);
 			
 			const response = await fetch(audioUrl);
 			
 			if (!response.ok) {
-				console.error(`HTTP Error: ${response.status} ${response.statusText}`);
-				console.error('Full response:', response);
 				throw new Error(`Failed to fetch audio file: ${response.status} ${response.statusText} - Path: ${urlAudio}`);
 			}
 			
@@ -111,17 +107,9 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 				throw new Error('Audio file is empty');
 			}
 			
-			console.log('Audio file loaded successfully, size:', arrayBuffer.byteLength, 'bytes');
 			this.audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
 			this.playAudio(isNextAudio);
 		} catch (error) {
-			console.error('? Error loading audio file:', error);
-			console.error('? Attempted file path:', urlAudio);
-			console.error('? Possible issues:');
-			console.error('   1. File does not exist at the specified path');
-			console.error('   2. File path is incorrect (check case sensitivity)');
-			console.error('   3. File is not in the project directory');
-			console.error('   4. File extension or name mismatch');
 			
 			// Don't try to play next audio if there was an error loading it
 			if (isNextAudio) {
@@ -147,10 +135,16 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 				// Only play next audio if this is the first audio (not the next one)
 				// This prevents infinite recursion
 				if (!isNextAudio && !this.hasPlayedNext) {
+					// First audio finished
 					console.log('Playing next audio...');
 					this.hasPlayedNext = true;
 					this.playNextAudio();
+					
+					// Trigger garbage cleanup in the scene
+					const cleaner = this.zcomponent.nodeByLabel.get('Cleaner') as Cleaner;
+					cleaner.clean();
 				} else {
+					// Second audio finished
 					console.log('Audio sequence completed');
 					this.resetPlaybackState();
 				}

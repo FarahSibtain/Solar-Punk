@@ -500,6 +500,12 @@
 		"Arrow Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a7": true
 		},
+		"Box": {
+			"c8f41b08fe7c485d86539e43d2c7e5eb": true
+		},
+		"Box 2": {
+			"2816208c70d24b4eb0ed518ca449049a": true
+		},
 		"ButtonBillionaire": {
 			"1ce9f2317f954efbbedda2657417a0ed": true
 		},
@@ -526,6 +532,12 @@
 		},
 		"Buttons": {
 			"bc44974d857f4ed5b31e29b9ab9cd9eb": true
+		},
+		"Clean": {
+			"482ad1123758487491f8d0c16f151cd9": true
+		},
+		"Cleaner": {
+			"85c9876ec51e4476869afa97d9f6e3c1": true
 		},
 		"Collection": {
 			"8851b1908870452aaa0fd1a2152e3cd7": true
@@ -559,6 +571,9 @@
 		},
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"Dirty": {
+			"0487333d42874efdb08c5f880991435b": true
 		},
 		"Ein Flop v10.glb": {
 			"1bb547111b034ac58b1fbced1a72619c": true
@@ -607,6 +622,12 @@
 		},
 		"Ring Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a4": true
+		},
+		"Sphere": {
+			"dcd6b01d92a04cd2acb08715739950f8": true
+		},
+		"Sphere 2": {
+			"3499d3bd92ac4a6590c9d9851ed52b03": true
 		},
 		"Teleport Arrow": {
 			"80ce371f0a844b98ace6c3970f4e3b9a5": true
@@ -658,6 +679,12 @@
 		"Arrow_Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a7": true
 		},
+		"Box0": {
+			"c8f41b08fe7c485d86539e43d2c7e5eb": true
+		},
+		"Box1": {
+			"2816208c70d24b4eb0ed518ca449049a": true
+		},
 		"ButtonBillionaire": {
 			"1ce9f2317f954efbbedda2657417a0ed": true
 		},
@@ -684,6 +711,12 @@
 		},
 		"Buttons": {
 			"bc44974d857f4ed5b31e29b9ab9cd9eb": true
+		},
+		"Clean": {
+			"482ad1123758487491f8d0c16f151cd9": true
+		},
+		"Cleaner": {
+			"85c9876ec51e4476869afa97d9f6e3c1": true
 		},
 		"Collection": {
 			"8851b1908870452aaa0fd1a2152e3cd7": true
@@ -717,6 +750,9 @@
 		},
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
+		},
+		"Dirty": {
+			"0487333d42874efdb08c5f880991435b": true
 		},
 		"Ein_Flopv10_glb": {
 			"1bb547111b034ac58b1fbced1a72619c": true
@@ -763,6 +799,12 @@
 		"Ring_Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a4": true
 		},
+		"Sphere": {
+			"dcd6b01d92a04cd2acb08715739950f8": true
+		},
+		"Sphere0": {
+			"3499d3bd92ac4a6590c9d9851ed52b03": true
+		},
 		"Teleport_Arrow": {
 			"80ce371f0a844b98ace6c3970f4e3b9a5": true
 		},
@@ -807,6 +849,8 @@
 		}
 	},
 	"entityConstructorProps": {
+		"0487333d42874efdb08c5f880991435b": {
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"0e1ec8d109c342099df64a3025b81fcc": {
@@ -826,6 +870,8 @@
 		},
 		"2771fa643a794d1690bad971532b7a91": {
 		},
+		"2816208c70d24b4eb0ed518ca449049a": {
+		},
 		"2ab366bfb3ea4b5d87b151e42eb936fd": {
 		},
 		"2f33489ac94b400eab5237d7a5310e63": {
@@ -839,6 +885,8 @@
 		"31d881a6d9164929957f7f53a50658d5": {
 			"audioFileUrl": "file://./Audio/Transition/Art_Culture.mp3",
 			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
+		},
+		"3499d3bd92ac4a6590c9d9851ed52b03": {
 		},
 		"37db3bf88af9463eb3e3526d2c3f6701": {
 		},
@@ -858,6 +906,8 @@
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
+		},
+		"482ad1123758487491f8d0c16f151cd9": {
 		},
 		"4ac6a9fc416748afae15c130d1a5fe7d": {
 			"source": "file://./Meshes/Ein Flop v10.glb"
@@ -915,6 +965,10 @@
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 		},
+		"85c9876ec51e4476869afa97d9f6e3c1": {
+			"objectsToDisable": "0487333d42874efdb08c5f880991435b",
+			"objectsToEnable": "482ad1123758487491f8d0c16f151cd9"
+		},
 		"8602fb46317c411d85f2649e8162aff6": {
 		},
 		"8851b1908870452aaa0fd1a2152e3cd7": {
@@ -952,9 +1006,13 @@
 			"radius": 500,
 			"source": "file://../Images/underwater_hdri.jpg"
 		},
+		"c8f41b08fe7c485d86539e43d2c7e5eb": {
+		},
 		"d8435c2a57614fb8a9aa6a327915232c": {
 		},
 		"da5157961c6845c1afae6f715af252b5": {
+		},
+		"dcd6b01d92a04cd2acb08715739950f8": {
 		},
 		"ed715e8d0f40444baf11db0f83a59f7d": {
 			"audioFileUrl": "file://./Audio/Transition/Economy.mp3",
@@ -971,7 +1029,7 @@
 		"fb24afb3dfa546b79edb9d2e0553996c": {
 			"audioLayer": "",
 			"autoplay": false,
-			"source": "file://./Audio/death-zone.mp3"
+			"source": "file://./Audio/Placeholder_Audio.mp3"
 		},
 		"fc9e3933f635402aba9e2999dfa56aca": {
 			"audioFileUrl": "file://./Audio/Transition/Science_Tech.mp3",
@@ -1025,6 +1083,8 @@
 		}
 	},
 	"entityProps": {
+		"0487333d42874efdb08c5f880991435b": {
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"0e1ec8d109c342099df64a3025b81fcc": {
@@ -1078,6 +1138,13 @@
 		},
 		"2771fa643a794d1690bad971532b7a91": {
 		},
+		"2816208c70d24b4eb0ed518ca449049a": {
+			"scale": [
+				0.2094179566334955,
+				0.2094179566334955,
+				0.2094179566334955
+			]
+		},
 		"2ab366bfb3ea4b5d87b151e42eb936fd": {
 		},
 		"2f33489ac94b400eab5237d7a5310e63": {
@@ -1087,6 +1154,18 @@
 		"303ea92df16e4c4ab188e304f2a2fbed": {
 		},
 		"31d881a6d9164929957f7f53a50658d5": {
+		},
+		"3499d3bd92ac4a6590c9d9851ed52b03": {
+			"position": [
+				0,
+				0.38763580135751396,
+				0
+			],
+			"scale": [
+				0.17134302583321243,
+				0.17134302583321243,
+				0.17134302583321243
+			]
 		},
 		"37db3bf88af9463eb3e3526d2c3f6701": {
 		},
@@ -1130,6 +1209,8 @@
 				0
 			],
 			"size": 5
+		},
+		"482ad1123758487491f8d0c16f151cd9": {
 		},
 		"4ac6a9fc416748afae15c130d1a5fe7d": {
 			"position": [
@@ -1267,6 +1348,8 @@
 				0
 			]
 		},
+		"85c9876ec51e4476869afa97d9f6e3c1": {
+		},
 		"8602fb46317c411d85f2649e8162aff6": {
 			"color": [
 				0.7215686274509804,
@@ -1358,6 +1441,18 @@
 			"receiveShadow": false,
 			"visible": true
 		},
+		"c8f41b08fe7c485d86539e43d2c7e5eb": {
+			"position": [
+				0,
+				0,
+				-0.2708425584127128
+			],
+			"scale": [
+				0.2094179566334955,
+				0.2094179566334955,
+				0.2094179566334955
+			]
+		},
 		"d8435c2a57614fb8a9aa6a327915232c": {
 			"position": [
 				-0.8,
@@ -1367,6 +1462,18 @@
 			"text": "Governance Person "
 		},
 		"da5157961c6845c1afae6f715af252b5": {
+		},
+		"dcd6b01d92a04cd2acb08715739950f8": {
+			"position": [
+				0,
+				0.38763580135751396,
+				-0.3034367762323039
+			],
+			"scale": [
+				0.17134302583321243,
+				0.17134302583321243,
+				0.17134302583321243
+			]
 		},
 		"ed715e8d0f40444baf11db0f83a59f7d": {
 		},
@@ -1389,6 +1496,16 @@
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
 	"nodes": {
+		"0487333d42874efdb08c5f880991435b": {
+			"id": "0487333d42874efdb08c5f880991435b",
+			"label": "Dirty",
+			"parent": {
+				"id": "root",
+				"order": "a3"
+			},
+			"scriptName": "Dirty",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 			"id": "0ba8e27369df45ca897731dcb1e39bcf",
 			"label": "DefaultCookieConsent",
@@ -1459,6 +1576,16 @@
 			"scriptName": "WaterEnvironment",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
+		"2816208c70d24b4eb0ed518ca449049a": {
+			"id": "2816208c70d24b4eb0ed518ca449049a",
+			"label": "Box 2",
+			"parent": {
+				"id": "0487333d42874efdb08c5f880991435b",
+				"order": "a1"
+			},
+			"scriptName": "Box1",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
 		"2ab366bfb3ea4b5d87b151e42eb936fd": {
 			"id": "2ab366bfb3ea4b5d87b151e42eb936fd",
 			"label": "Garbage",
@@ -1468,6 +1595,16 @@
 			},
 			"scriptName": "Garbage",
 			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"3499d3bd92ac4a6590c9d9851ed52b03": {
+			"id": "3499d3bd92ac4a6590c9d9851ed52b03",
+			"label": "Sphere 2",
+			"parent": {
+				"id": "482ad1123758487491f8d0c16f151cd9",
+				"order": "a1"
+			},
+			"scriptName": "Sphere0",
+			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"id": "384ac3d6f4b04210ab8832a8752a2d73",
@@ -1528,6 +1665,16 @@
 			},
 			"scriptName": "WaterGeom",
 			"type": "./Materials/WaterGeom#WaterGeom"
+		},
+		"482ad1123758487491f8d0c16f151cd9": {
+			"id": "482ad1123758487491f8d0c16f151cd9",
+			"label": "Clean",
+			"parent": {
+				"id": "root",
+				"order": "a4"
+			},
+			"scriptName": "Clean",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"4ac6a9fc416748afae15c130d1a5fe7d": {
 			"id": "4ac6a9fc416748afae15c130d1a5fe7d",
@@ -1749,6 +1896,16 @@
 			"scriptName": "DirectionalLight",
 			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
 		},
+		"85c9876ec51e4476869afa97d9f6e3c1": {
+			"id": "85c9876ec51e4476869afa97d9f6e3c1",
+			"label": "Cleaner",
+			"parent": {
+				"id": "root",
+				"order": "a2"
+			},
+			"scriptName": "Cleaner",
+			"type": "./Cleaner#Cleaner"
+		},
 		"8602fb46317c411d85f2649e8162aff6": {
 			"id": "8602fb46317c411d85f2649e8162aff6",
 			"label": "MeshStandardMaterial  3",
@@ -1849,6 +2006,16 @@
 			"scriptName": "Environment",
 			"type": "@zcomponent/three/lib/components/Image360#Image360"
 		},
+		"c8f41b08fe7c485d86539e43d2c7e5eb": {
+			"id": "c8f41b08fe7c485d86539e43d2c7e5eb",
+			"label": "Box",
+			"parent": {
+				"id": "0487333d42874efdb08c5f880991435b",
+				"order": "a0"
+			},
+			"scriptName": "Box0",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
 		"d8435c2a57614fb8a9aa6a327915232c": {
 			"id": "d8435c2a57614fb8a9aa6a327915232c",
 			"label": "ButtonGP",
@@ -1858,6 +2025,16 @@
 			},
 			"scriptName": "ButtonGP",
 			"type": "./Button/Button.zcomp#default"
+		},
+		"dcd6b01d92a04cd2acb08715739950f8": {
+			"id": "dcd6b01d92a04cd2acb08715739950f8",
+			"label": "Sphere",
+			"parent": {
+				"id": "482ad1123758487491f8d0c16f151cd9",
+				"order": "a0"
+			},
+			"scriptName": "Sphere",
+			"type": "@zcomponent/three/lib/components/meshes/Sphere#Sphere"
 		},
 		"f27c243f88b443ca8ca969147e5997cd": {
 			"id": "f27c243f88b443ca8ca969147e5997cd",
