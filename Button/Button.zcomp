@@ -1,0 +1,476 @@
+{
+	"animation": {
+		"clips": {
+			"375a3461c70d4d9aae4042b23a621774": {
+				"id": "375a3461c70d4d9aae4042b23a621774",
+				"length": 0,
+				"lengthType": "expand",
+				"name": "Tapped",
+				"order": "a4",
+				"scriptName": "Tapped",
+				"tracks": {
+					"857583d05e9245409c6e35743d183f4d": {
+						"blend": "overlay",
+						"entityID": "112f98bce91e4f178754a3fcaff36ee1",
+						"id": "857583d05e9245409c6e35743d183f4d",
+						"keyframes": {
+							"adb81dbaadcc463ebe121ad37d4aa3b1": {
+								"id": "adb81dbaadcc463ebe121ad37d4aa3b1",
+								"t": 0,
+								"v": 0.6
+							}
+						},
+						"order": "a0",
+						"property": [
+							"opacity"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "state"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+			"de5bfb361626481c8cc9dee3efea3d2c": {
+				"clips": {
+					"0d74ce59a83c44c3aad2e99c047a9882": {
+						"clipId": "375a3461c70d4d9aae4042b23a621774",
+						"id": "0d74ce59a83c44c3aad2e99c047a9882",
+						"order": "a3",
+						"scriptName": "Tapped"
+					}
+				},
+				"defaultClip": null,
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "de5bfb361626481c8cc9dee3efea3d2c",
+				"name": "Button",
+				"order": "a2",
+				"scriptName": "Button"
+			}
+		}
+	},
+	"behaviors": {
+		"112f98bce91e4f178754a3fcaff36ee1": {
+			"id": "112f98bce91e4f178754a3fcaff36ee1",
+			"label": "OverrideOpacity",
+			"parent": {
+				"id": "3b02e120b24a408b93f9c9f99e13b3e2",
+				"order": "a0",
+				"scriptName": "OverrideOpacity"
+			},
+			"type": "@zcomponent/three/lib/behaviors/OverrideOpacity#OverrideOpacity"
+		},
+		"3244686206094e1da0245f6aabc5a839": {
+			"id": "3244686206094e1da0245f6aabc5a839",
+			"label": "SetLayerOff",
+			"parent": {
+				"id": "3b02e120b24a408b93f9c9f99e13b3e2",
+				"order": "a3",
+				"scriptName": "SetLayerOff"
+			},
+			"type": "@zcomponent/core/lib/behaviors/SetLayerOff#SetLayerOff"
+		},
+		"6034150b23f14767a518f4dbbd6eddf4": {
+			"id": "6034150b23f14767a518f4dbbd6eddf4",
+			"label": "ActivateState",
+			"parent": {
+				"id": "3b02e120b24a408b93f9c9f99e13b3e2",
+				"order": "a1",
+				"scriptName": "ActivateState"
+			},
+			"type": "@zcomponent/core/lib/behaviors/ActivateState#ActivateState"
+		},
+		"8e52fb757eb848758c1c1d9c6ca9b30d": {
+			"id": "8e52fb757eb848758c1c1d9c6ca9b30d",
+			"label": "EmitComponentPropEvent",
+			"parent": {
+				"id": "3b02e120b24a408b93f9c9f99e13b3e2",
+				"order": "a5",
+				"scriptName": "EmitComponentPropEvent"
+			},
+			"type": "@zcomponent/core/lib/behaviors/EmitComponentPropEvent#EmitComponentPropEvent"
+		},
+		"b381ce61e8f0477697537f190db43b4d": {
+			"id": "b381ce61e8f0477697537f190db43b4d",
+			"label": "SetLayerOff",
+			"parent": {
+				"id": "3b02e120b24a408b93f9c9f99e13b3e2",
+				"order": "a4",
+				"scriptName": "SetLayerOff0"
+			},
+			"type": "@zcomponent/core/lib/behaviors/SetLayerOff#SetLayerOff"
+		}
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"Button Background": {
+			"cd6c6ab329704bbc94fc7e82f14193d3": true
+		},
+		"Button Group": {
+			"3b02e120b24a408b93f9c9f99e13b3e2": true
+		},
+		"Button Text": {
+			"3a51e2162a7b4250b07bc738845886da": true
+		}
+	},
+	"entitiesByScriptName": {
+		"Button_Background": {
+			"cd6c6ab329704bbc94fc7e82f14193d3": true
+		},
+		"Button_Group": {
+			"3b02e120b24a408b93f9c9f99e13b3e2": true
+		},
+		"Button_Text": {
+			"3a51e2162a7b4250b07bc738845886da": true
+		}
+	},
+	"entityConstructorProps": {
+		"112f98bce91e4f178754a3fcaff36ee1": {
+		},
+		"3244686206094e1da0245f6aabc5a839": {
+			"event": "onPointerUp"
+		},
+		"3a51e2162a7b4250b07bc738845886da": {
+			"font": "file://./Lato-Bold.ttf"
+		},
+		"3b02e120b24a408b93f9c9f99e13b3e2": {
+		},
+		"6034150b23f14767a518f4dbbd6eddf4": {
+			"event": "onPointerDown"
+		},
+		"8e52fb757eb848758c1c1d9c6ca9b30d": {
+			"event": "onClick"
+		},
+		"b381ce61e8f0477697537f190db43b4d": {
+			"event": "onPointerLeave"
+		},
+		"cd6c6ab329704bbc94fc7e82f14193d3": {
+			"source": "file://./ButtonTemplate.png"
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:3a51e2162a7b4250b07bc738845886da:text": {
+			"entityID": "3a51e2162a7b4250b07bc738845886da",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"text"
+			],
+			"id": "componentprop:prop:3a51e2162a7b4250b07bc738845886da:text",
+			"isConstructorProp": false,
+			"propName": "text",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"112f98bce91e4f178754a3fcaff36ee1": {
+		},
+		"3244686206094e1da0245f6aabc5a839": {
+			"layer": "de5bfb361626481c8cc9dee3efea3d2c"
+		},
+		"3a51e2162a7b4250b07bc738845886da": {
+			"anchorX": "center",
+			"anchorY": "middle",
+			"color": [
+				0,
+				0,
+				0
+			],
+			"position": [
+				0,
+				0,
+				0.010284284054059442
+			],
+			"text": "Button",
+			"textAlign": "center"
+		},
+		"3b02e120b24a408b93f9c9f99e13b3e2": {
+		},
+		"6034150b23f14767a518f4dbbd6eddf4": {
+			"state": "0d74ce59a83c44c3aad2e99c047a9882"
+		},
+		"8e52fb757eb848758c1c1d9c6ca9b30d": {
+			"eventToEmit": {
+				"_zfn": true,
+				"args": {
+				},
+				"prop": "onClick",
+				"t": "emitcomponentevent"
+			}
+		},
+		"b381ce61e8f0477697537f190db43b4d": {
+			"layer": "de5bfb361626481c8cc9dee3efea3d2c"
+		},
+		"cd6c6ab329704bbc94fc7e82f14193d3": {
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		}
+	},
+	"id": "0711c9356fec4d7c8b50cd1e465117bd",
+	"nodes": {
+		"3a51e2162a7b4250b07bc738845886da": {
+			"id": "3a51e2162a7b4250b07bc738845886da",
+			"label": "Button Text",
+			"parent": {
+				"id": "3b02e120b24a408b93f9c9f99e13b3e2",
+				"order": "a1"
+			},
+			"scriptName": "Button_Text",
+			"type": "@zcomponent/three/lib/components/text/Text#Text"
+		},
+		"3b02e120b24a408b93f9c9f99e13b3e2": {
+			"id": "3b02e120b24a408b93f9c9f99e13b3e2",
+			"label": "Button Group",
+			"parent": {
+				"id": "root",
+				"order": "Zx"
+			},
+			"scriptName": "Button_Group",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"cd6c6ab329704bbc94fc7e82f14193d3": {
+			"id": "cd6c6ab329704bbc94fc7e82f14193d3",
+			"label": "Button Background",
+			"parent": {
+				"id": "3b02e120b24a408b93f9c9f99e13b3e2",
+				"order": "a0"
+			},
+			"scriptName": "Button_Background",
+			"type": "@zcomponent/three/lib/components/Image#Image"
+		},
+		"root": {
+			"id": "root",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"props": {
+		"onClick": {
+			"group": "Button",
+			"groupPriority": 30,
+			"name": "onClick",
+			"order": 0,
+			"type": {
+				"children": [
+				],
+				"isObservable": true,
+				"name": "event"
+			}
+		},
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"text": {
+			"comments": [
+				"The text to show in the button."
+			],
+			"default": "Button",
+			"group": "Button",
+			"groupPriority": 30,
+			"name": "text",
+			"order": 2,
+			"showInUI": false,
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "string",
+				"typeHint": "text-multiline"
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
