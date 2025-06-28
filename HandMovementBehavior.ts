@@ -6,7 +6,7 @@ import { XRController } from '@zcomponent/three-webxr/lib/components/XRControlle
 import { useCamera, Object3D } from "@zcomponent/three";
 import * as THREE from 'three';
 import { XRHandJoint } from "@zcomponent/three-webxr/lib/components/XRHandJointTransform";
-import Scene from './XRRigVR/XRRigVR.zcomp';
+import Scene from './Scene.zcomp';
 
 interface ConstructionProps {
 	/**
