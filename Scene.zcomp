@@ -886,12 +886,16 @@
 		"2ab366bfb3ea4b5d87b151e42eb936fd": {
 		},
 		"2f33489ac94b400eab5237d7a5310e63": {
+			"audioFileUrl": "file://./Audio/Transition/Governance.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"2f47fe0082f84802bf1b661071e51f361": {
 		},
 		"303ea92df16e4c4ab188e304f2a2fbed": {
 		},
 		"31d881a6d9164929957f7f53a50658d5": {
+			"audioFileUrl": "file://./Audio/Transition/Art_Culture.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"37db3bf88af9463eb3e3526d2c3f6701": {
 		},
@@ -984,14 +988,18 @@
 		"8def9d4124354855963d578672c6975b": {
 		},
 		"8e190d6b8b504b6284929f4b033ffb56": {
-			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
+			"audioFileUrl": "file://./Audio/Transition/Billionaire.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"8f428d8389ce4c0896becec72ee720f9": {
-			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
+			"audioFileUrl": "file://./Audio/Transition/Student.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"9b65bf60067c43d2adfe382ace370329": {
 		},
 		"a03f046d4cd34887b8ad1d486a98a4f6": {
+			"audioFileUrl": "file://./Audio/Transition/Education.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"a04eca84ced440e6b4252e6972c56008": {
 			"source": "file://./Images/Controls.png"
@@ -1021,6 +1029,8 @@
 		"e2d77bbed5ca445292509e55934a55e8": {
 		},
 		"ed715e8d0f40444baf11db0f83a59f7d": {
+			"audioFileUrl": "file://./Audio/Transition/Economy.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"f27c243f88b443ca8ca969147e5997cd": {
 		},
@@ -1031,6 +1041,8 @@
 		"f6371bf08200415f82989d46101107a8": {
 		},
 		"f8553508ebce4d6fa5753f0ea614bea1": {
+			"audioFileUrl": "file://./Audio/Transition/Health.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"fa85be6171e941109926af8d3fcf279b": {
 		},
@@ -1040,6 +1052,8 @@
 			"source": "file://./Audio/death-zone.mp3"
 		},
 		"fc9e3933f635402aba9e2999dfa56aca": {
+			"audioFileUrl": "file://./Audio/Transition/Science_Tech.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		}
 	},
 	"entityPropOverrides": {
@@ -1560,7 +1574,7 @@
 		},
 		"f27c243f88b443ca8ca969147e5997cd": {
 			"position": [
-				1,
+				0.8,
 				-0.5826799203639501,
 				0
 			],
