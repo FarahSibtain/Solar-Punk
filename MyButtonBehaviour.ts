@@ -1,6 +1,7 @@
 import { Component, Behavior, BehaviorConstructorProps, ContextManager, registerBehaviorRunAtDesignTime, useAudioContext } from "@zcomponent/core";
 import { default as Button_zcomp } from "./Button/Button.zcomp";
 import Scene from "./Scene.zcomp";
+import { UIHandler } from "./UIHandler";
 
 interface ConstructionProps {
     /** 
@@ -61,6 +62,10 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 			const buttonName = this.instance.text.value;
 			
 			console.log('Button clicked:', buttonName);
+
+			const uiHandler = this.zcomponent.nodes.UI.getBehavior(UIHandler);
+			uiHandler?.disableUI();
+
 			
 			// Check if button name is "student" and play audio
 			if (constructorProps.audioFileUrl.length != 0) {
