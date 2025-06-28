@@ -26,9 +26,10 @@ import { TurnManager as TurnManager_22 } from "@zcomponent/three-webxr/lib/compo
 import { WalkManager as WalkManager_23 } from "@zcomponent/three-webxr/lib/components/WalkManager";
 import { WaterGeom as WaterGeom_24 } from "./Materials/WaterGeom";
 import { XRRigVR as XRRigVR_25 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { XRCamera as XRCamera_26 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_27 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_28 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { HandMovementBehavior as HandMovementBehavior_26 } from "./HandMovementBehavior";
+import { XRCamera as XRCamera_27 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_28 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_29 } from "@zcomponent/three-webxr/lib/components/XRManager";
 
 interface ConstructorProps {
 
@@ -216,25 +217,35 @@ declare class Comp extends ZComponent {
 		},
 		XRRigVR: XRRigVR_25 & {
 			behaviors: {
-
+				0: HandMovementBehavior_26,
 			}
 		},
-		XR_Camera: XRCamera_26 & {
+		XR_Camera: XRCamera_27 & {
 			behaviors: {
 
 			}
 		},
-		XR_DefaultLoader: XRDefaultLoader_27 & {
+		XR_DefaultLoader: XRDefaultLoader_28 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_28 & {
+		XR_Manager: XRManager_29 & {
 			behaviors: {
 
 			}
 		},
 		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_5 & {
+			behaviors: {
+
+			}
+		},
+		LeftHandPosition: Group_4 & {
+			behaviors: {
+
+			}
+		},
+		RightHandPosition: Group_4 & {
 			behaviors: {
 
 			}

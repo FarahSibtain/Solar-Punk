@@ -1,5 +1,14 @@
 {
 	"behaviors": {
+		"2f47fe0082f84802bf1b661071e51f361": {
+			"id": "2f47fe0082f84802bf1b661071e51f361",
+			"label": "Hand Movement",
+			"parent": {
+				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"order": "a0"
+			},
+			"type": "./HandMovementBehavior.ts#HandMovementBehavior"
+		},
 		"da5157961c6845c1afae6f715af252b5": {
 			"id": "da5157961c6845c1afae6f715af252b5",
 			"label": "TeleportDistanceRestrictor",
@@ -62,6 +71,9 @@
 		"Left Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
+		"LeftHandPosition": {
+			"504e2e3fdfce4822a6d4616afdae7b38": true
+		},
 		"Mesh Group (Delete Me)": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
 		},
@@ -82,6 +94,9 @@
 		},
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
+		},
+		"RightHandPosition": {
+			"fa85be6171e941109926af8d3fcf279b": true
 		},
 		"Ring Geometry": {
 			"80ce371f0a844b98ace6c3970f4e3b9a3": true
@@ -178,6 +193,9 @@
 		"Fog": {
 			"7cfa6e6f029b41ddabb4b77606fa4b19": true
 		},
+		"LeftHandPosition": {
+			"504e2e3fdfce4822a6d4616afdae7b38": true
+		},
 		"Left_Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
@@ -198,6 +216,9 @@
 		},
 		"Plane": {
 			"e2d77bbed5ca445292509e55934a55e8": true
+		},
+		"RightHandPosition": {
+			"fa85be6171e941109926af8d3fcf279b": true
 		},
 		"Right_Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
@@ -267,6 +288,8 @@
 		},
 		"2771fa643a794d1690bad971532b7a91": {
 		},
+		"2f47fe0082f84802bf1b661071e51f361": {
+		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"allowRightHandControllers": false,
 			"allowUnspecifiedHandControllers": false
@@ -282,6 +305,8 @@
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
+		},
+		"504e2e3fdfce4822a6d4616afdae7b38": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -353,6 +378,8 @@
 			"radialSegments": 112
 		},
 		"f6371bf08200415f82989d46101107a8": {
+		},
+		"fa85be6171e941109926af8d3fcf279b": {
 		},
 		"fb24afb3dfa546b79edb9d2e0553996c": {
 			"audioLayer": "",
@@ -488,6 +515,8 @@
 		},
 		"2771fa643a794d1690bad971532b7a91": {
 		},
+		"2f47fe0082f84802bf1b661071e51f361": {
+		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"position": [
 				-0.3,
@@ -520,6 +549,8 @@
 				0
 			],
 			"size": 5
+		},
+		"504e2e3fdfce4822a6d4616afdae7b38": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
@@ -704,6 +735,8 @@
 				0.2
 			]
 		},
+		"fa85be6171e941109926af8d3fcf279b": {
+		},
 		"fb24afb3dfa546b79edb9d2e0553996c": {
 		}
 	},
@@ -808,6 +841,16 @@
 			},
 			"scriptName": "WaterGeom",
 			"type": "./Materials/WaterGeom#WaterGeom"
+		},
+		"504e2e3fdfce4822a6d4616afdae7b38": {
+			"id": "504e2e3fdfce4822a6d4616afdae7b38",
+			"label": "LeftHandPosition",
+			"parent": {
+				"id": "384ac3d6f4b04210ab8832a8752a2d73",
+				"order": "a0"
+			},
+			"scriptName": "LeftHandPosition",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",
@@ -1089,6 +1132,16 @@
 			},
 			"scriptName": "Cone",
 			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
+		},
+		"fa85be6171e941109926af8d3fcf279b": {
+			"id": "fa85be6171e941109926af8d3fcf279b",
+			"label": "RightHandPosition",
+			"parent": {
+				"id": "3ba8407ca04746f3afc82e1bced92a8c",
+				"order": "a0"
+			},
+			"scriptName": "RightHandPosition",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"fb24afb3dfa546b79edb9d2e0553996c": {
 			"id": "fb24afb3dfa546b79edb9d2e0553996c",
