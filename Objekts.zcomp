@@ -103,6 +103,9 @@
 		"Old Rusty v7.glb": {
 			"3813ab99c1d94e958d7f73659b3ff79e": true
 		},
+		"Particles": {
+			"68e5fe67e5234137a52a3d94393df1b3": true
+		},
 		"Pflanze 2 v1.glb": {
 			"33ef51033bd648ab80d8b8796b0d79c6": true
 		},
@@ -331,6 +334,33 @@
 		"SunkenWold v4.glb": {
 			"71bc2501659542189c2af9ec26d53dcd": true
 		},
+		"SuspendedSolids": {
+			"4e2eeb99b0304bf5a9d8044c9204f15f": true
+		},
+		"SuspendedSolids 2": {
+			"220e681600ba45bc85775df048ff56da": true
+		},
+		"SuspendedSolids 3": {
+			"aea75990e6174426b18dc62e4893f296": true
+		},
+		"SuspendedSolids 4": {
+			"861af9de4fe54a76b4b8dae40e356bb1": true
+		},
+		"SuspendedSolids 5": {
+			"1d68bc3573a04db380db8d982365c621": true
+		},
+		"SuspendedSolids 6": {
+			"b2e093211b934edbbdfd751246d5bb56": true
+		},
+		"SuspendedSolids 7": {
+			"ded95daeb582408791fb26bb70a0a69b": true
+		},
+		"SuspendedSolids 8": {
+			"936e552e841946baae2e6ecd19f8dec1": true
+		},
+		"SuspendedSolids 9": {
+			"0097b83573c0433f83647984f28a58bc": true
+		},
 		"Wall Side v21.glb": {
 			"84b8c90f6fd142c5acbed9884466c377": true
 		},
@@ -476,6 +506,9 @@
 		},
 		"Old_Rustyv7_glb": {
 			"3813ab99c1d94e958d7f73659b3ff79e": true
+		},
+		"Particles": {
+			"68e5fe67e5234137a52a3d94393df1b3": true
 		},
 		"Pflanze_2v1_glb": {
 			"33ef51033bd648ab80d8b8796b0d79c6": true
@@ -705,6 +738,33 @@
 		"SunkenWold_v4_glb": {
 			"71bc2501659542189c2af9ec26d53dcd": true
 		},
+		"SuspendedSolids": {
+			"4e2eeb99b0304bf5a9d8044c9204f15f": true
+		},
+		"SuspendedSolids0": {
+			"220e681600ba45bc85775df048ff56da": true
+		},
+		"SuspendedSolids_2": {
+			"aea75990e6174426b18dc62e4893f296": true
+		},
+		"SuspendedSolids_3": {
+			"861af9de4fe54a76b4b8dae40e356bb1": true
+		},
+		"SuspendedSolids_4": {
+			"1d68bc3573a04db380db8d982365c621": true
+		},
+		"SuspendedSolids_5": {
+			"b2e093211b934edbbdfd751246d5bb56": true
+		},
+		"SuspendedSolids_50": {
+			"ded95daeb582408791fb26bb70a0a69b": true
+		},
+		"SuspendedSolids_7": {
+			"936e552e841946baae2e6ecd19f8dec1": true
+		},
+		"SuspendedSolids_70": {
+			"0097b83573c0433f83647984f28a58bc": true
+		},
 		"Wall_Sidev21_glb": {
 			"84b8c90f6fd142c5acbed9884466c377": true
 		},
@@ -755,6 +815,8 @@
 		}
 	},
 	"entityConstructorProps": {
+		"0097b83573c0433f83647984f28a58bc": {
+		},
 		"020c905e4c9d47a3a1a4619ad3dcfa55": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
@@ -811,6 +873,8 @@
 		"1cafdb66bf04433aa7804d05774b3dff": {
 			"source": "file://./Objekte/Floor.glb"
 		},
+		"1d68bc3573a04db380db8d982365c621": {
+		},
 		"1d9d38158d144d6d87e8f5cc8a9315dd": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
@@ -822,6 +886,8 @@
 		},
 		"2170880983c9450b89d9cc0bde6c3b35": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"220e681600ba45bc85775df048ff56da": {
 		},
 		"222a772706c04be2bdfa2717211371a4": {
 			"source": "file://./Objekte/Wall Side v21.glb"
@@ -891,6 +957,8 @@
 		"4ddf513e2bc442a4991995bf9f82a71f": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
+		"4e2eeb99b0304bf5a9d8044c9204f15f": {
+		},
 		"5029d2c297f740c69993df93ce06ca3f": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
@@ -931,6 +999,8 @@
 		},
 		"67f6a062c6e140739fc96f17b26a4866": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"68e5fe67e5234137a52a3d94393df1b3": {
 		},
 		"6bc061bced694b65abed7379d50d4d3c": {
 			"source": "file://./Objekte/Floor.glb"
@@ -1001,6 +1071,8 @@
 		"85e8d0a0293e45b1bcdd715b3f7a9a2f": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
+		"861af9de4fe54a76b4b8dae40e356bb1": {
+		},
 		"86ca99919cf545a9b83f5c34f7a22d60": {
 		},
 		"8724f10aa45645d6b4f82bf6feda5677": {
@@ -1008,6 +1080,8 @@
 		},
 		"8fadd0d5c79b4cb0adcba51c66d76e89": {
 			"source": "file://./Objekte/Ein Paar v9.glb"
+		},
+		"936e552e841946baae2e6ecd19f8dec1": {
 		},
 		"947a0b22084e4c348dddcac2ae34c34a": {
 			"source": "file://./Objekte/Wall Side v21.glb"
@@ -1027,10 +1101,14 @@
 		"a914f49d3d5e45ba97b4251acbb4919d": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
+		"aea75990e6174426b18dc62e4893f296": {
+		},
 		"b053f62b95a548afbe971b8bbec4c6a4": {
 		},
 		"b11063f305174f35a9261cabb9abc692": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
+		},
+		"b2e093211b934edbbdfd751246d5bb56": {
 		},
 		"b42a7d8c4aa544f2bd80a187b4d5bfc0": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -1085,6 +1163,8 @@
 		},
 		"dcd62063a7f74d3b81ef36f977debe82": {
 			"source": "file://./Objekte/Steine Klein v2.glb"
+		},
+		"ded95daeb582408791fb26bb70a0a69b": {
 		},
 		"e23c86bb24d44e7f9ee406c0b8b4020a": {
 			"source": "file://./Objekte/Rim v8.glb"
@@ -1168,6 +1248,18 @@
 		}
 	},
 	"entityProps": {
+		"0097b83573c0433f83647984f28a58bc": {
+			"position": [
+				-4.990722958508743,
+				1.76083206370862,
+				7.864521293283566
+			],
+			"rotation": [
+				0,
+				1.4687934077892812,
+				0
+			]
+		},
 		"020c905e4c9d47a3a1a4619ad3dcfa55": {
 			"position": [
 				1.9083616768257887,
@@ -1421,6 +1513,18 @@
 				-17.95271681840012
 			]
 		},
+		"1d68bc3573a04db380db8d982365c621": {
+			"position": [
+				3.5290430089627236,
+				1.76083206370862,
+				9.921278371766181
+			],
+			"rotation": [
+				0,
+				1.4687934077892812,
+				0
+			]
+		},
 		"1d9d38158d144d6d87e8f5cc8a9315dd": {
 			"position": [
 				-8.501937300308033,
@@ -1487,6 +1591,18 @@
 				3,
 				3,
 				3
+			]
+		},
+		"220e681600ba45bc85775df048ff56da": {
+			"position": [
+				8.797540404687593,
+				1.76083206370862,
+				5.615515206714757
+			],
+			"rotation": [
+				0,
+				1.4687934077892812,
+				0
 			]
 		},
 		"222a772706c04be2bdfa2717211371a4": {
@@ -1811,6 +1927,18 @@
 				3
 			]
 		},
+		"4e2eeb99b0304bf5a9d8044c9204f15f": {
+			"position": [
+				7.301891420173878,
+				1.76083206370862,
+				0.7474081989192216
+			],
+			"rotation": [
+				0,
+				1.4687934077892812,
+				0
+			]
+		},
 		"5029d2c297f740c69993df93ce06ca3f": {
 			"position": [
 				1.9083616768257887,
@@ -2023,6 +2151,8 @@
 				3,
 				3
 			]
+		},
+		"68e5fe67e5234137a52a3d94393df1b3": {
 		},
 		"6bc061bced694b65abed7379d50d4d3c": {
 			"position": [
@@ -2370,6 +2500,18 @@
 				3
 			]
 		},
+		"861af9de4fe54a76b4b8dae40e356bb1": {
+			"position": [
+				7.56245513832148,
+				1.76083206370862,
+				8.031370331297811
+			],
+			"rotation": [
+				0,
+				1.4687934077892812,
+				0
+			]
+		},
 		"86ca99919cf545a9b83f5c34f7a22d60": {
 			"position": [
 				4.916149755658017,
@@ -2409,6 +2551,18 @@
 				0.2,
 				0.2,
 				0.2
+			]
+		},
+		"936e552e841946baae2e6ecd19f8dec1": {
+			"position": [
+				-0.7292981369484357,
+				1.76083206370862,
+				9.485402390721632
+			],
+			"rotation": [
+				0,
+				1.4687934077892812,
+				0
 			]
 		},
 		"947a0b22084e4c348dddcac2ae34c34a": {
@@ -2508,6 +2662,18 @@
 				3
 			]
 		},
+		"aea75990e6174426b18dc62e4893f296": {
+			"position": [
+				9.041246283425272,
+				1.76083206370862,
+				3.234602249680261
+			],
+			"rotation": [
+				0,
+				1.4687934077892812,
+				0
+			]
+		},
 		"b053f62b95a548afbe971b8bbec4c6a4": {
 		},
 		"b11063f305174f35a9261cabb9abc692": {
@@ -2525,6 +2691,18 @@
 				3,
 				3,
 				3
+			]
+		},
+		"b2e093211b934edbbdfd751246d5bb56": {
+			"position": [
+				5.90445540961295,
+				1.76083206370862,
+				4.764114881342502
+			],
+			"rotation": [
+				0,
+				1.4687934077892812,
+				0
 			]
 		},
 		"b42a7d8c4aa544f2bd80a187b4d5bfc0": {
@@ -2804,6 +2982,18 @@
 				1
 			]
 		},
+		"ded95daeb582408791fb26bb70a0a69b": {
+			"position": [
+				-8.306757327167137,
+				1.76083206370862,
+				3.4228595406846605
+			],
+			"rotation": [
+				0,
+				1.4687934077892812,
+				0
+			]
+		},
 		"e23c86bb24d44e7f9ee406c0b8b4020a": {
 			"position": [
 				-0.1762113578338299,
@@ -2957,6 +3147,16 @@
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
 	"nodes": {
+		"0097b83573c0433f83647984f28a58bc": {
+			"id": "0097b83573c0433f83647984f28a58bc",
+			"label": "SuspendedSolids 9",
+			"parent": {
+				"id": "68e5fe67e5234137a52a3d94393df1b3",
+				"order": "a3E"
+			},
+			"scriptName": "SuspendedSolids_70",
+			"type": "./Materials/SuspendedSolids.zcomp#default"
+		},
 		"020c905e4c9d47a3a1a4619ad3dcfa55": {
 			"id": "020c905e4c9d47a3a1a4619ad3dcfa55",
 			"label": "Soft Sandy v18.glb 32",
@@ -3147,6 +3347,16 @@
 			"scriptName": "Floor_glb2",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
+		"1d68bc3573a04db380db8d982365c621": {
+			"id": "1d68bc3573a04db380db8d982365c621",
+			"label": "SuspendedSolids 5",
+			"parent": {
+				"id": "68e5fe67e5234137a52a3d94393df1b3",
+				"order": "a3"
+			},
+			"scriptName": "SuspendedSolids_4",
+			"type": "./Materials/SuspendedSolids.zcomp#default"
+		},
 		"1d9d38158d144d6d87e8f5cc8a9315dd": {
 			"id": "1d9d38158d144d6d87e8f5cc8a9315dd",
 			"label": "Soft Sandy v18.glb 52",
@@ -3186,6 +3396,16 @@
 			},
 			"scriptName": "Soft_Sandyv18_glb230",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"220e681600ba45bc85775df048ff56da": {
+			"id": "220e681600ba45bc85775df048ff56da",
+			"label": "SuspendedSolids 2",
+			"parent": {
+				"id": "68e5fe67e5234137a52a3d94393df1b3",
+				"order": "a1"
+			},
+			"scriptName": "SuspendedSolids0",
+			"type": "./Materials/SuspendedSolids.zcomp#default"
 		},
 		"222a772706c04be2bdfa2717211371a4": {
 			"id": "222a772706c04be2bdfa2717211371a4",
@@ -3417,6 +3637,16 @@
 			"scriptName": "Soft_Sandyv18_glb31",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
+		"4e2eeb99b0304bf5a9d8044c9204f15f": {
+			"id": "4e2eeb99b0304bf5a9d8044c9204f15f",
+			"label": "SuspendedSolids",
+			"parent": {
+				"id": "68e5fe67e5234137a52a3d94393df1b3",
+				"order": "a0"
+			},
+			"scriptName": "SuspendedSolids",
+			"type": "./Materials/SuspendedSolids.zcomp#default"
+		},
 		"5029d2c297f740c69993df93ce06ca3f": {
 			"id": "5029d2c297f740c69993df93ce06ca3f",
 			"label": "Soft Sandy v18.glb 47",
@@ -3556,6 +3786,16 @@
 			},
 			"scriptName": "Soft_Sandyv18_glb3",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"68e5fe67e5234137a52a3d94393df1b3": {
+			"id": "68e5fe67e5234137a52a3d94393df1b3",
+			"label": "Particles",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zq"
+			},
+			"scriptName": "Particles",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"6bc061bced694b65abed7379d50d4d3c": {
 			"id": "6bc061bced694b65abed7379d50d4d3c",
@@ -3787,6 +4027,16 @@
 			"scriptName": "Soft_Sandyv18_glb1",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
+		"861af9de4fe54a76b4b8dae40e356bb1": {
+			"id": "861af9de4fe54a76b4b8dae40e356bb1",
+			"label": "SuspendedSolids 4",
+			"parent": {
+				"id": "68e5fe67e5234137a52a3d94393df1b3",
+				"order": "a2"
+			},
+			"scriptName": "SuspendedSolids_3",
+			"type": "./Materials/SuspendedSolids.zcomp#default"
+		},
 		"86ca99919cf545a9b83f5c34f7a22d60": {
 			"id": "86ca99919cf545a9b83f5c34f7a22d60",
 			"label": "Recovred",
@@ -3816,6 +4066,16 @@
 			},
 			"scriptName": "Ein_Paarv9_glb",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"936e552e841946baae2e6ecd19f8dec1": {
+			"id": "936e552e841946baae2e6ecd19f8dec1",
+			"label": "SuspendedSolids 8",
+			"parent": {
+				"id": "68e5fe67e5234137a52a3d94393df1b3",
+				"order": "a3K"
+			},
+			"scriptName": "SuspendedSolids_7",
+			"type": "./Materials/SuspendedSolids.zcomp#default"
 		},
 		"947a0b22084e4c348dddcac2ae34c34a": {
 			"id": "947a0b22084e4c348dddcac2ae34c34a",
@@ -3877,6 +4137,16 @@
 			"scriptName": "Soft_Sandyv18_glb260",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
+		"aea75990e6174426b18dc62e4893f296": {
+			"id": "aea75990e6174426b18dc62e4893f296",
+			"label": "SuspendedSolids 3",
+			"parent": {
+				"id": "68e5fe67e5234137a52a3d94393df1b3",
+				"order": "a1V"
+			},
+			"scriptName": "SuspendedSolids_2",
+			"type": "./Materials/SuspendedSolids.zcomp#default"
+		},
 		"b053f62b95a548afbe971b8bbec4c6a4": {
 			"id": "b053f62b95a548afbe971b8bbec4c6a4",
 			"label": "Floor",
@@ -3896,6 +4166,16 @@
 			},
 			"scriptName": "Soft_Sandyv18_glb",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b2e093211b934edbbdfd751246d5bb56": {
+			"id": "b2e093211b934edbbdfd751246d5bb56",
+			"label": "SuspendedSolids 6",
+			"parent": {
+				"id": "68e5fe67e5234137a52a3d94393df1b3",
+				"order": "a3V"
+			},
+			"scriptName": "SuspendedSolids_5",
+			"type": "./Materials/SuspendedSolids.zcomp#default"
 		},
 		"b42a7d8c4aa544f2bd80a187b4d5bfc0": {
 			"id": "b42a7d8c4aa544f2bd80a187b4d5bfc0",
@@ -4077,6 +4357,16 @@
 			},
 			"scriptName": "Steine_Klein_glb",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"ded95daeb582408791fb26bb70a0a69b": {
+			"id": "ded95daeb582408791fb26bb70a0a69b",
+			"label": "SuspendedSolids 7",
+			"parent": {
+				"id": "68e5fe67e5234137a52a3d94393df1b3",
+				"order": "a38"
+			},
+			"scriptName": "SuspendedSolids_50",
+			"type": "./Materials/SuspendedSolids.zcomp#default"
 		},
 		"e23c86bb24d44e7f9ee406c0b8b4020a": {
 			"id": "e23c86bb24d44e7f9ee406c0b8b4020a",

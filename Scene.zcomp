@@ -266,9 +266,6 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
-		"Emitter Texture": {
-			"3bed991cf9894067809aba2b9af97e23": true
-		},
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
@@ -293,9 +290,6 @@
 		"Objekts": {
 			"73f3d18b43cf42c9a350a412d1e41dda": true
 		},
-		"Particle Emitter": {
-			"08f53b8663c1471fb9c2d982c63b62aa": true
-		},
 		"Right Controller": {
 			"3ba8407ca04746f3afc82e1bced92a8c": true
 		},
@@ -307,9 +301,6 @@
 		},
 		"Ring Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a4": true
-		},
-		"SuspendedSolids": {
-			"56044315920a4746af46d34228759e28": true
 		},
 		"Teleport Arrow": {
 			"80ce371f0a844b98ace6c3970f4e3b9a5": true
@@ -412,9 +403,6 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
-		"Emitter_Texture": {
-			"3bed991cf9894067809aba2b9af97e23": true
-		},
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
@@ -436,9 +424,6 @@
 		"Objekts": {
 			"73f3d18b43cf42c9a350a412d1e41dda": true
 		},
-		"Particle_Emitter": {
-			"08f53b8663c1471fb9c2d982c63b62aa": true
-		},
 		"RightHandPosition": {
 			"fa85be6171e941109926af8d3fcf279b": true
 		},
@@ -450,9 +435,6 @@
 		},
 		"Ring_Material": {
 			"80ce371f0a844b98ace6c3970f4e3b9a4": true
-		},
-		"SuspendedSolids": {
-			"56044315920a4746af46d34228759e28": true
 		},
 		"Teleport_Arrow": {
 			"80ce371f0a844b98ace6c3970f4e3b9a5": true
@@ -498,9 +480,6 @@
 		}
 	},
 	"entityConstructorProps": {
-		"08f53b8663c1471fb9c2d982c63b62aa": {
-			"maxAgeValue": 2
-		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"0e1ec8d109c342099df64a3025b81fcc": {
@@ -536,9 +515,6 @@
 			"allowRightHandControllers": true,
 			"allowUnspecifiedHandControllers": true
 		},
-		"3bed991cf9894067809aba2b9af97e23": {
-			"source": "file://./Images/dust.png"
-		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
@@ -550,8 +526,6 @@
 		"52148d8eafe3426085e700e049662c07": {
 		},
 		"54a3fe42df61491d805d50af10399810": {
-		},
-		"56044315920a4746af46d34228759e28": {
 		},
 		"5b864a35a10b481989a943ed5e8c459c": {
 		},
@@ -694,69 +668,6 @@
 		}
 	},
 	"entityProps": {
-		"08f53b8663c1471fb9c2d982c63b62aa": {
-			"accelerationSpread": [
-				0.05,
-				0,
-				0.05
-			],
-			"accelerationValue": [
-				0,
-				-0.02,
-				0
-			],
-			"colorEnd": [
-				0.12743768042608497,
-				0.12743768042608497,
-				0.12743768042608497
-			],
-			"colorMidEnd": [
-				0.22322795730611386,
-				0.22322795730611386,
-				0.22322795730611386
-			],
-			"colorMidStart": [
-				0.3515325994898463,
-				0.3515325994898463,
-				0.3515325994898463
-			],
-			"colorStart": [
-				0.5775804404214573,
-				0.5775804404214573,
-				0.5775804404214573
-			],
-			"positionSpread": [
-				2,
-				2,
-				2
-			],
-			"positionValue": [
-				0,
-				1,
-				0
-			],
-			"rotationAngle": 0,
-			"sizeSpread": [
-				0.005,
-				0.005,
-				0.005
-			],
-			"sizeValue": [
-				0.006,
-				0.006,
-				0.006
-			],
-			"velocitySpread": [
-				0,
-				0,
-				0
-			],
-			"velocityValue": [
-				0,
-				0,
-				0
-			]
-		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 		},
 		"0e1ec8d109c342099df64a3025b81fcc": {
@@ -813,15 +724,13 @@
 				0
 			]
 		},
-		"3bed991cf9894067809aba2b9af97e23": {
-		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
 			"castShadow": false,
 			"position": [
 				0,
-				10,
+				15,
 				0
 			],
 			"receiveShadow": false,
@@ -841,21 +750,6 @@
 		"54a3fe42df61491d805d50af10399810": {
 			"leftHandControllers": false,
 			"rightHandControllers": true,
-			"visible": true
-		},
-		"56044315920a4746af46d34228759e28": {
-			"castShadow": false,
-			"position": [
-				0,
-				0,
-				0
-			],
-			"receiveShadow": false,
-			"scale": [
-				1,
-				1,
-				1
-			],
 			"visible": true
 		},
 		"5b864a35a10b481989a943ed5e8c459c": {
@@ -882,7 +776,7 @@
 		"73f3d18b43cf42c9a350a412d1e41dda": {
 			"position": [
 				0,
-				0,
+				-2,
 				-9.928483147234461
 			]
 		},
@@ -1072,16 +966,6 @@
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
 	"nodes": {
-		"08f53b8663c1471fb9c2d982c63b62aa": {
-			"id": "08f53b8663c1471fb9c2d982c63b62aa",
-			"label": "Particle Emitter",
-			"parent": {
-				"id": "56044315920a4746af46d34228759e28",
-				"order": "a0"
-			},
-			"scriptName": "Particle_Emitter",
-			"type": "@zcomponent/particles/lib/components/ParticleEmitter#ParticleEmitter"
-		},
 		"0ba8e27369df45ca897731dcb1e39bcf": {
 			"id": "0ba8e27369df45ca897731dcb1e39bcf",
 			"label": "DefaultCookieConsent",
@@ -1172,16 +1056,6 @@
 			"scriptName": "Right_Controller",
 			"type": "@zcomponent/three-webxr/lib/components/XRController#XRController"
 		},
-		"3bed991cf9894067809aba2b9af97e23": {
-			"id": "3bed991cf9894067809aba2b9af97e23",
-			"label": "Emitter Texture",
-			"parent": {
-				"id": "56044315920a4746af46d34228759e28",
-				"order": "a1"
-			},
-			"scriptName": "Emitter_Texture",
-			"type": "@zcomponent/particles/lib/components/EmitterTexture#EmitterTexture"
-		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 			"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
 			"label": "XRRigVR",
@@ -1231,16 +1105,6 @@
 			},
 			"scriptName": "Teleport_Manager",
 			"type": "@zcomponent/three-webxr/lib/components/TeleportManager#TeleportManager"
-		},
-		"56044315920a4746af46d34228759e28": {
-			"id": "56044315920a4746af46d34228759e28",
-			"label": "SuspendedSolids",
-			"parent": {
-				"id": "2771fa643a794d1690bad971532b7a91",
-				"order": "a3"
-			},
-			"scriptName": "SuspendedSolids",
-			"type": "@zcomponent/particles/lib/components/prefabs/Sparkle#Sparkle"
 		},
 		"5b864a35a10b481989a943ed5e8c459c": {
 			"id": "5b864a35a10b481989a943ed5e8c459c",

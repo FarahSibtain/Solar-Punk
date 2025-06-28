@@ -13,26 +13,23 @@ import { MyAudioEndBehavior as MyAudioEndBehavior_9 } from "./MyAudioEndBehavior
 import { DefaultCookieConsent as DefaultCookieConsent_10 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
 import { DefaultLoader as DefaultLoader_11 } from "@zcomponent/core/lib/components/DefaultLoader";
 import { DirectionalLight as DirectionalLight_12 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { EmitterTexture as EmitterTexture_13 } from "@zcomponent/particles/lib/components/EmitterTexture";
-import { Image360 as Image360_14 } from "@zcomponent/three/lib/components/Image360";
-import { Fog as Fog_15 } from "./Materials/Fog";
-import { Text as Text_16 } from "@zcomponent/three/lib/components/text/Text";
-import { XRController as XRController_17 } from "@zcomponent/three-webxr/lib/components/XRController";
-import { ParticleEmitter as ParticleEmitter_18 } from "@zcomponent/particles/lib/components/ParticleEmitter";
-import { RingGeometry as RingGeometry_19 } from "@zcomponent/three/lib/components/geometries/RingGeometry";
-import { Sparkle as Sparkle_20 } from "@zcomponent/particles/lib/components/prefabs/Sparkle";
-import { Mesh as Mesh_21 } from "@zcomponent/three/lib/components/meshes/Mesh";
-import { TeleportManager as TeleportManager_22 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
-import { TeleportDistanceRestrictor as TeleportDistanceRestrictor_23 } from "../TeleportDistanceRestrictor";
-import { TurnManager as TurnManager_24 } from "@zcomponent/three-webxr/lib/components/TurnManager";
-import { WalkManager as WalkManager_25 } from "@zcomponent/three-webxr/lib/components/WalkManager";
-import { WaterGeom as WaterGeom_26 } from "./Materials/WaterGeom";
-import { XRRigVR as XRRigVR_27 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { HandMovementBehavior as HandMovementBehavior_28 } from "../HandMovementBehavior";
-import { XRCamera as XRCamera_29 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_30 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_31 } from "@zcomponent/three-webxr/lib/components/XRManager";
-import { default as Objekts_zcomp_32 } from "./Objekts.zcomp";
+import { Image360 as Image360_13 } from "@zcomponent/three/lib/components/Image360";
+import { Fog as Fog_14 } from "./Materials/Fog";
+import { Text as Text_15 } from "@zcomponent/three/lib/components/text/Text";
+import { XRController as XRController_16 } from "@zcomponent/three-webxr/lib/components/XRController";
+import { RingGeometry as RingGeometry_17 } from "@zcomponent/three/lib/components/geometries/RingGeometry";
+import { Mesh as Mesh_18 } from "@zcomponent/three/lib/components/meshes/Mesh";
+import { TeleportManager as TeleportManager_19 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
+import { TeleportDistanceRestrictor as TeleportDistanceRestrictor_20 } from "../TeleportDistanceRestrictor";
+import { TurnManager as TurnManager_21 } from "@zcomponent/three-webxr/lib/components/TurnManager";
+import { WalkManager as WalkManager_22 } from "@zcomponent/three-webxr/lib/components/WalkManager";
+import { WaterGeom as WaterGeom_23 } from "./Materials/WaterGeom";
+import { XRRigVR as XRRigVR_24 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
+import { HandMovementBehavior as HandMovementBehavior_25 } from "../HandMovementBehavior";
+import { XRCamera as XRCamera_26 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_27 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_28 } from "@zcomponent/three-webxr/lib/components/XRManager";
+import { default as Objekts_zcomp_29 } from "./Objekts.zcomp";
 
 interface ConstructorProps {
 
@@ -154,17 +151,12 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Emitter_Texture: EmitterTexture_13 & {
+		Environment: Image360_13 & {
 			behaviors: {
 
 			}
 		},
-		Environment: Image360_14 & {
-			behaviors: {
-
-			}
-		},
-		Fog: Fog_15 & {
+		Fog: Fog_14 & {
 			behaviors: {
 
 			}
@@ -174,7 +166,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Hello_Text: Text_16 & {
+		Hello_Text: Text_15 & {
 			behaviors: {
 
 			}
@@ -184,12 +176,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Left_Controller: XRController_17 & {
-			behaviors: {
-
-			}
-		},
-		Particle_Emitter: ParticleEmitter_18 & {
+		Left_Controller: XRController_16 & {
 			behaviors: {
 
 			}
@@ -199,12 +186,12 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Right_Controller: XRController_17 & {
+		Right_Controller: XRController_16 & {
 			behaviors: {
 
 			}
 		},
-		Ring_Geometry: RingGeometry_19 & {
+		Ring_Geometry: RingGeometry_17 & {
 			behaviors: {
 
 			}
@@ -214,28 +201,23 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		SuspendedSolids: Sparkle_20 & {
+		Teleport_Arrow: Mesh_18 & {
 			behaviors: {
 
 			}
 		},
-		Teleport_Arrow: Mesh_21 & {
+		Teleport_Manager: TeleportManager_19 & {
+			behaviors: {
+				0: TeleportDistanceRestrictor_20,
+				TeleportDistanceRestrictor: TeleportDistanceRestrictor_20,
+			}
+		},
+		Teleport_Ring: Mesh_18 & {
 			behaviors: {
 
 			}
 		},
-		Teleport_Manager: TeleportManager_22 & {
-			behaviors: {
-				0: TeleportDistanceRestrictor_23,
-				TeleportDistanceRestrictor: TeleportDistanceRestrictor_23,
-			}
-		},
-		Teleport_Ring: Mesh_21 & {
-			behaviors: {
-
-			}
-		},
-		Turn_Manager: TurnManager_24 & {
+		Turn_Manager: TurnManager_21 & {
 			behaviors: {
 
 			}
@@ -251,7 +233,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Walk_Manager: WalkManager_25 & {
+		Walk_Manager: WalkManager_22 & {
 			behaviors: {
 
 			}
@@ -261,28 +243,28 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		WaterGeom: WaterGeom_26 & {
+		WaterGeom: WaterGeom_23 & {
 			behaviors: {
 
 			}
 		},
-		XRRigVR: XRRigVR_27 & {
+		XRRigVR: XRRigVR_24 & {
 			behaviors: {
-				0: HandMovementBehavior_28,
-				Hand_Movement: HandMovementBehavior_28,
+				0: HandMovementBehavior_25,
+				Hand_Movement: HandMovementBehavior_25,
 			}
 		},
-		XR_Camera: XRCamera_29 & {
-			behaviors: {
-
-			}
-		},
-		XR_DefaultLoader: XRDefaultLoader_30 & {
+		XR_Camera: XRCamera_26 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_31 & {
+		XR_DefaultLoader: XRDefaultLoader_27 & {
+			behaviors: {
+
+			}
+		},
+		XR_Manager: XRManager_28 & {
 			behaviors: {
 
 			}
@@ -292,7 +274,7 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Objekts: Objekts_zcomp_32 & {
+		Objekts: Objekts_zcomp_29 & {
 			behaviors: {
 
 			}

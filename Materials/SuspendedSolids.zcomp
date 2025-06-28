@@ -1,0 +1,347 @@
+{
+	"behaviors": {
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"Emitter Texture": {
+			"3bed991cf9894067809aba2b9af97e23": true
+		},
+		"Particle Emitter": {
+			"08f53b8663c1471fb9c2d982c63b62aa": true
+		},
+		"SuspendedSolids": {
+			"56044315920a4746af46d34228759e28": true
+		}
+	},
+	"entitiesByScriptName": {
+		"Emitter_Texture": {
+			"3bed991cf9894067809aba2b9af97e23": true
+		},
+		"Particle_Emitter": {
+			"08f53b8663c1471fb9c2d982c63b62aa": true
+		},
+		"SuspendedSolids": {
+			"56044315920a4746af46d34228759e28": true
+		}
+	},
+	"entityConstructorProps": {
+		"08f53b8663c1471fb9c2d982c63b62aa": {
+			"maxAgeValue": 2
+		},
+		"3bed991cf9894067809aba2b9af97e23": {
+			"source": "file://./../Images/dust.png"
+		},
+		"56044315920a4746af46d34228759e28": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"08f53b8663c1471fb9c2d982c63b62aa": {
+			"accelerationSpread": [
+				0.05,
+				0,
+				0.05
+			],
+			"accelerationValue": [
+				0,
+				-0.02,
+				0
+			],
+			"colorEnd": [
+				0.12743768042608497,
+				0.12743768042608497,
+				0.12743768042608497
+			],
+			"colorMidEnd": [
+				0.22322795730611386,
+				0.22322795730611386,
+				0.22322795730611386
+			],
+			"colorMidStart": [
+				0.3515325994898463,
+				0.3515325994898463,
+				0.3515325994898463
+			],
+			"colorStart": [
+				0.5775804404214573,
+				0.5775804404214573,
+				0.5775804404214573
+			],
+			"positionSpread": [
+				4,
+				2,
+				4
+			],
+			"positionValue": [
+				0,
+				1,
+				0
+			],
+			"rotationAngle": 0,
+			"sizeSpread": [
+				0.005,
+				0.005,
+				0.005
+			],
+			"sizeValue": [
+				0.006,
+				0.006,
+				0.006
+			],
+			"velocitySpread": [
+				0,
+				0,
+				0
+			],
+			"velocityValue": [
+				0,
+				0,
+				0
+			]
+		},
+		"3bed991cf9894067809aba2b9af97e23": {
+		},
+		"56044315920a4746af46d34228759e28": {
+			"castShadow": false,
+			"position": [
+				0,
+				0,
+				0
+			],
+			"receiveShadow": false,
+			"scale": [
+				1,
+				1,
+				1
+			],
+			"visible": true
+		}
+	},
+	"id": "380cc6ce418643c7a8d5656f596a7e66",
+	"nodes": {
+		"08f53b8663c1471fb9c2d982c63b62aa": {
+			"id": "08f53b8663c1471fb9c2d982c63b62aa",
+			"label": "Particle Emitter",
+			"parent": {
+				"id": "56044315920a4746af46d34228759e28",
+				"order": "a0"
+			},
+			"scriptName": "Particle_Emitter",
+			"type": "@zcomponent/particles/lib/components/ParticleEmitter#ParticleEmitter"
+		},
+		"3bed991cf9894067809aba2b9af97e23": {
+			"id": "3bed991cf9894067809aba2b9af97e23",
+			"label": "Emitter Texture",
+			"parent": {
+				"id": "56044315920a4746af46d34228759e28",
+				"order": "a1"
+			},
+			"scriptName": "Emitter_Texture",
+			"type": "@zcomponent/particles/lib/components/EmitterTexture#EmitterTexture"
+		},
+		"56044315920a4746af46d34228759e28": {
+			"id": "56044315920a4746af46d34228759e28",
+			"label": "SuspendedSolids",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "SuspendedSolids",
+			"type": "@zcomponent/particles/lib/components/prefabs/Sparkle#Sparkle"
+		},
+		"root": {
+			"id": "root",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
