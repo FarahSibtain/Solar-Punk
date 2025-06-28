@@ -1,34 +1,9 @@
 {
 	"behaviors": {
-		"2f47fe0082f84802bf1b661071e51f361": {
-			"id": "2f47fe0082f84802bf1b661071e51f361",
-			"label": "Hand Movement",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a0"
-			},
-			"type": "./HandMovementBehavior.ts#HandMovementBehavior"
-		},
-		"da5157961c6845c1afae6f715af252b5": {
-			"id": "da5157961c6845c1afae6f715af252b5",
-			"label": "TeleportDistanceRestrictor",
-			"parent": {
-				"id": "54a3fe42df61491d805d50af10399810",
-				"order": "a0",
-				"scriptName": "TeleportDistanceRestrictor"
-			},
-			"type": "./TeleportDistanceRestrictor.ts#TeleportDistanceRestrictor"
-		}
 	},
 	"constructorProps": {
 	},
 	"entitiesByLabel": {
-		"Arrow Geometry": {
-			"80ce371f0a844b98ace6c3970f4e3b9a6": true
-		},
-		"Arrow Material": {
-			"80ce371f0a844b98ace6c3970f4e3b9a7": true
-		},
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
 		},
@@ -40,9 +15,6 @@
 		},
 		"Content Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
-		},
-		"DeathZoneAudio": {
-			"fb24afb3dfa546b79edb9d2e0553996c": true
 		},
 		"DefaultCookieConsent": {
 			"0ba8e27369df45ca897731dcb1e39bcf": true
@@ -59,20 +31,11 @@
 		"Emitter Texture": {
 			"3bed991cf9894067809aba2b9af97e23": true
 		},
-		"Environment": {
-			"c01f2d6b83f840328924940130995ae9": true
-		},
 		"Fog": {
 			"7cfa6e6f029b41ddabb4b77606fa4b19": true
 		},
 		"Group": {
 			"root": true
-		},
-		"Left Controller": {
-			"384ac3d6f4b04210ab8832a8752a2d73": true
-		},
-		"LeftHandPosition": {
-			"504e2e3fdfce4822a6d4616afdae7b38": true
 		},
 		"Mesh Group (Delete Me)": {
 			"6ef7d30d3e044b6f806dac36e63a857d": true
@@ -95,18 +58,6 @@
 		"Plane": {
 			"e2d77bbed5ca445292509e55934a55e8": true
 		},
-		"Right Controller": {
-			"3ba8407ca04746f3afc82e1bced92a8c": true
-		},
-		"RightHandPosition": {
-			"fa85be6171e941109926af8d3fcf279b": true
-		},
-		"Ring Geometry": {
-			"80ce371f0a844b98ace6c3970f4e3b9a3": true
-		},
-		"Ring Material": {
-			"80ce371f0a844b98ace6c3970f4e3b9a4": true
-		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
 		},
@@ -116,50 +67,20 @@
 		"SuspendedSolids": {
 			"56044315920a4746af46d34228759e28": true
 		},
-		"Teleport Arrow": {
-			"80ce371f0a844b98ace6c3970f4e3b9a5": true
-		},
-		"Teleport Manager": {
-			"54a3fe42df61491d805d50af10399810": true
-		},
-		"Teleport Ring": {
-			"80ce371f0a844b98ace6c3970f4e3b9a2": true
-		},
-		"Turn Manager": {
-			"6f74cedb96234cb38132c5f1744e1c04": true
-		},
-		"Walk Manager": {
-			"80ce371f0a844b98ace6c3970f4e3b9a1": true
-		},
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
 		},
 		"WaterGeom": {
 			"43ba17776d004a6b8cefe9e8a65b68d7": true
 		},
-		"XR Camera": {
-			"775632eabbc64239a43055022b7eec57": true
-		},
-		"XR Default Loader": {
-			"7146d520c87b4d88850143aea2e8e22d": true
-		},
-		"XR Manager": {
-			"258fc0c2787d4893a7ac1159175551c7": true
-		},
 		"XRRigVR": {
-			"3dcbe0a17bd54d4280800b3c0bd6d592": true
+			"2c1ab6db4bba4373b680a4da0dd6ae5c": true
 		},
 		"zapsplat_nature_underwater_ambience_deep_007_30532.mp3": {
 			"76e0f42ffa3d43ba9905f735ce827e26": true
 		}
 	},
 	"entitiesByScriptName": {
-		"Arrow_Geometry": {
-			"80ce371f0a844b98ace6c3970f4e3b9a6": true
-		},
-		"Arrow_Material": {
-			"80ce371f0a844b98ace6c3970f4e3b9a7": true
-		},
 		"Box": {
 			"194aae695cba4b60a35c287f3e37fbcf": true
 		},
@@ -171,9 +92,6 @@
 		},
 		"Content_Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
-		},
-		"DeathZoneAudio": {
-			"fb24afb3dfa546b79edb9d2e0553996c": true
 		},
 		"DefaultCookieConsent": {
 			"0ba8e27369df45ca897731dcb1e39bcf": true
@@ -190,17 +108,8 @@
 		"Emitter_Texture": {
 			"3bed991cf9894067809aba2b9af97e23": true
 		},
-		"Environment": {
-			"c01f2d6b83f840328924940130995ae9": true
-		},
 		"Fog": {
 			"7cfa6e6f029b41ddabb4b77606fa4b19": true
-		},
-		"LeftHandPosition": {
-			"504e2e3fdfce4822a6d4616afdae7b38": true
-		},
-		"Left_Controller": {
-			"384ac3d6f4b04210ab8832a8752a2d73": true
 		},
 		"MeshStandardMaterial": {
 			"547097f646a54d39aa1706d0ba7c7ef8": true
@@ -223,18 +132,6 @@
 		"Plane": {
 			"e2d77bbed5ca445292509e55934a55e8": true
 		},
-		"RightHandPosition": {
-			"fa85be6171e941109926af8d3fcf279b": true
-		},
-		"Right_Controller": {
-			"3ba8407ca04746f3afc82e1bced92a8c": true
-		},
-		"Ring_Geometry": {
-			"80ce371f0a844b98ace6c3970f4e3b9a3": true
-		},
-		"Ring_Material": {
-			"80ce371f0a844b98ace6c3970f4e3b9a4": true
-		},
 		"ShadowPlane": {
 			"bf1d127bf7234511b3cdc3d5a98af7b0": true
 		},
@@ -244,21 +141,6 @@
 		"SuspendedSolids": {
 			"56044315920a4746af46d34228759e28": true
 		},
-		"Teleport_Arrow": {
-			"80ce371f0a844b98ace6c3970f4e3b9a5": true
-		},
-		"Teleport_Manager": {
-			"54a3fe42df61491d805d50af10399810": true
-		},
-		"Teleport_Ring": {
-			"80ce371f0a844b98ace6c3970f4e3b9a2": true
-		},
-		"Turn_Manager": {
-			"6f74cedb96234cb38132c5f1744e1c04": true
-		},
-		"Walk_Manager": {
-			"80ce371f0a844b98ace6c3970f4e3b9a1": true
-		},
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
 		},
@@ -266,16 +148,7 @@
 			"43ba17776d004a6b8cefe9e8a65b68d7": true
 		},
 		"XRRigVR": {
-			"3dcbe0a17bd54d4280800b3c0bd6d592": true
-		},
-		"XR_Camera": {
-			"775632eabbc64239a43055022b7eec57": true
-		},
-		"XR_DefaultLoader": {
-			"7146d520c87b4d88850143aea2e8e22d": true
-		},
-		"XR_Manager": {
-			"258fc0c2787d4893a7ac1159175551c7": true
+			"2c1ab6db4bba4373b680a4da0dd6ae5c": true
 		},
 		"zapsplat_nature_underwater_ambience_deep_007_30532_mp3": {
 			"76e0f42ffa3d43ba9905f735ce827e26": true
@@ -289,50 +162,26 @@
 		},
 		"194aae695cba4b60a35c287f3e37fbcf": {
 		},
-		"258fc0c2787d4893a7ac1159175551c7": {
-			"startOnLaunch": "immersive-vr"
-		},
 		"2771fa643a794d1690bad971532b7a91": {
 		},
-		"2f47fe0082f84802bf1b661071e51f361": {
-		},
-		"384ac3d6f4b04210ab8832a8752a2d73": {
-			"allowRightHandControllers": false,
-			"allowUnspecifiedHandControllers": false
-		},
-		"3ba8407ca04746f3afc82e1bced92a8c": {
-			"allowLeftHandControllers": false,
-			"allowRightHandControllers": true,
-			"allowUnspecifiedHandControllers": true
+		"2c1ab6db4bba4373b680a4da0dd6ae5c": {
 		},
 		"3bed991cf9894067809aba2b9af97e23": {
 			"source": "file://./Images/dust.png"
 		},
-		"3dcbe0a17bd54d4280800b3c0bd6d592": {
-		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
-		},
-		"504e2e3fdfce4822a6d4616afdae7b38": {
 		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
 		"547097f646a54d39aa1706d0ba7c7ef8": {
 		},
-		"54a3fe42df61491d805d50af10399810": {
-		},
 		"56044315920a4746af46d34228759e28": {
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
-		"6f74cedb96234cb38132c5f1744e1c04": {
-		},
-		"7146d520c87b4d88850143aea2e8e22d": {
-		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
 			"autoplay": true,
 			"source": "file://./zapsplat_nature_underwater_ambience_deep_007_30532.mp3"
-		},
-		"775632eabbc64239a43055022b7eec57": {
 		},
 		"77a68218309245289c411d5da417fab9": {
 		},
@@ -340,26 +189,6 @@
 		},
 		"7cfa6e6f029b41ddabb4b77606fa4b19": {
 			"excludeImage360": true
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a1": {
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a2": {
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a3": {
-			"innerRadius": 0.8,
-			"outerRadius": 1,
-			"thetaSegments": 32
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a4": {
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a5": {
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a6": {
-			"height": 0.4,
-			"radialSegments": 8,
-			"radius": 0.15
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a7": {
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 		},
@@ -375,12 +204,6 @@
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 		},
-		"c01f2d6b83f840328924940130995ae9": {
-			"radius": 500,
-			"source": "file://./Images/underwater_hdri.jpg"
-		},
-		"da5157961c6845c1afae6f715af252b5": {
-		},
 		"e2d77bbed5ca445292509e55934a55e8": {
 		},
 		"f3937ace1ef5478c9221e2cfc2453503": {
@@ -388,13 +211,6 @@
 			"radialSegments": 112
 		},
 		"f6371bf08200415f82989d46101107a8": {
-		},
-		"fa85be6171e941109926af8d3fcf279b": {
-		},
-		"fb24afb3dfa546b79edb9d2e0553996c": {
-			"audioLayer": "",
-			"autoplay": true,
-			"source": "file://./Audio/death-zone.mp3"
 		}
 	},
 	"entityPropOverrides": {
@@ -521,29 +337,11 @@
 				0.3
 			]
 		},
-		"258fc0c2787d4893a7ac1159175551c7": {
-		},
 		"2771fa643a794d1690bad971532b7a91": {
 		},
-		"2f47fe0082f84802bf1b661071e51f361": {
-		},
-		"384ac3d6f4b04210ab8832a8752a2d73": {
-			"position": [
-				-0.3,
-				1.3,
-				0
-			]
-		},
-		"3ba8407ca04746f3afc82e1bced92a8c": {
-			"position": [
-				0.3,
-				1.3,
-				0
-			]
+		"2c1ab6db4bba4373b680a4da0dd6ae5c": {
 		},
 		"3bed991cf9894067809aba2b9af97e23": {
-		},
-		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
 			"castShadow": false,
@@ -560,8 +358,6 @@
 			],
 			"size": 5
 		},
-		"504e2e3fdfce4822a6d4616afdae7b38": {
-		},
 		"52148d8eafe3426085e700e049662c07": {
 		},
 		"547097f646a54d39aa1706d0ba7c7ef8": {
@@ -572,11 +368,6 @@
 			],
 			"metalness": 0.364955357142857,
 			"roughness": 0.492606026785714
-		},
-		"54a3fe42df61491d805d50af10399810": {
-			"leftHandControllers": false,
-			"rightHandControllers": true,
-			"visible": true
 		},
 		"56044315920a4746af46d34228759e28": {
 			"castShadow": false,
@@ -595,16 +386,8 @@
 		},
 		"6ef7d30d3e044b6f806dac36e63a857d": {
 		},
-		"6f74cedb96234cb38132c5f1744e1c04": {
-			"leftHandControllers": false,
-			"rightHandControllers": true
-		},
-		"7146d520c87b4d88850143aea2e8e22d": {
-		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
 			"loop": true
-		},
-		"775632eabbc64239a43055022b7eec57": {
 		},
 		"77a68218309245289c411d5da417fab9": {
 			"position": [
@@ -622,60 +405,6 @@
 		},
 		"7cfa6e6f029b41ddabb4b77606fa4b19": {
 			"visible": true
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a1": {
-			"leftHandControllers": true,
-			"rightHandControllers": false,
-			"sideMovement": "strafe",
-			"speed": 1
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a2": {
-			"position": [
-				0,
-				0.01,
-				0
-			],
-			"rotation": [
-				-1.5707963267948966,
-				0,
-				0
-			]
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a3": {
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a4": {
-			"color": [
-				0.2,
-				0.8,
-				1
-			],
-			"fog": false,
-			"opacity": 0.7,
-			"transparent": true
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a5": {
-			"position": [
-				0,
-				0.3,
-				0
-			],
-			"rotation": [
-				0,
-				0,
-				0
-			]
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a6": {
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a7": {
-			"color": [
-				1,
-				1,
-				0.2
-			],
-			"fog": false,
-			"opacity": 0.8,
-			"transparent": true
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"castShadow": true,
@@ -721,13 +450,6 @@
 		},
 		"bf59aa4eac3f4628bcd8579ee35fae3c": {
 		},
-		"c01f2d6b83f840328924940130995ae9": {
-			"castShadow": false,
-			"receiveShadow": false,
-			"visible": true
-		},
-		"da5157961c6845c1afae6f715af252b5": {
-		},
 		"e2d77bbed5ca445292509e55934a55e8": {
 			"position": [
 				0,
@@ -758,10 +480,6 @@
 				0.2,
 				0.2
 			]
-		},
-		"fa85be6171e941109926af8d3fcf279b": {
-		},
-		"fb24afb3dfa546b79edb9d2e0553996c": {
 		}
 	},
 	"id": "5d4513e843574c04847bf1474912090f",
@@ -796,16 +514,6 @@
 			"scriptName": "Box",
 			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
 		},
-		"258fc0c2787d4893a7ac1159175551c7": {
-			"id": "258fc0c2787d4893a7ac1159175551c7",
-			"label": "XR Manager",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a6"
-			},
-			"scriptName": "XR_Manager",
-			"type": "@zcomponent/three-webxr/lib/components/XRManager#XRManager"
-		},
 		"2771fa643a794d1690bad971532b7a91": {
 			"id": "2771fa643a794d1690bad971532b7a91",
 			"label": "WaterEnvironment",
@@ -816,25 +524,15 @@
 			"scriptName": "WaterEnvironment",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
-		"384ac3d6f4b04210ab8832a8752a2d73": {
-			"id": "384ac3d6f4b04210ab8832a8752a2d73",
-			"label": "Left Controller",
+		"2c1ab6db4bba4373b680a4da0dd6ae5c": {
+			"id": "2c1ab6db4bba4373b680a4da0dd6ae5c",
+			"label": "XRRigVR",
 			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a0"
-			},
-			"scriptName": "Left_Controller",
-			"type": "@zcomponent/three-webxr/lib/components/XRController#XRController"
-		},
-		"3ba8407ca04746f3afc82e1bced92a8c": {
-			"id": "3ba8407ca04746f3afc82e1bced92a8c",
-			"label": "Right Controller",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
+				"id": "root",
 				"order": "a1"
 			},
-			"scriptName": "Right_Controller",
-			"type": "@zcomponent/three-webxr/lib/components/XRController#XRController"
+			"scriptName": "XRRigVR",
+			"type": "./XRRigVR/XRRigVR.zcomp#default"
 		},
 		"3bed991cf9894067809aba2b9af97e23": {
 			"id": "3bed991cf9894067809aba2b9af97e23",
@@ -846,16 +544,6 @@
 			"scriptName": "Emitter_Texture",
 			"type": "@zcomponent/particles/lib/components/EmitterTexture#EmitterTexture"
 		},
-		"3dcbe0a17bd54d4280800b3c0bd6d592": {
-			"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-			"label": "XRRigVR",
-			"parent": {
-				"id": "root",
-				"order": "Zy"
-			},
-			"scriptName": "XRRigVR",
-			"type": "@zcomponent/three-webxr/lib/components/XRRigVR#XRRigVR"
-		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
 			"id": "43ba17776d004a6b8cefe9e8a65b68d7",
 			"label": "WaterGeom",
@@ -865,16 +553,6 @@
 			},
 			"scriptName": "WaterGeom",
 			"type": "./Materials/WaterGeom#WaterGeom"
-		},
-		"504e2e3fdfce4822a6d4616afdae7b38": {
-			"id": "504e2e3fdfce4822a6d4616afdae7b38",
-			"label": "LeftHandPosition",
-			"parent": {
-				"id": "384ac3d6f4b04210ab8832a8752a2d73",
-				"order": "a0"
-			},
-			"scriptName": "LeftHandPosition",
-			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"52148d8eafe3426085e700e049662c07": {
 			"id": "52148d8eafe3426085e700e049662c07",
@@ -896,16 +574,6 @@
 			"scriptName": "MeshStandardMaterial",
 			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
 		},
-		"54a3fe42df61491d805d50af10399810": {
-			"id": "54a3fe42df61491d805d50af10399810",
-			"label": "Teleport Manager",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a4"
-			},
-			"scriptName": "Teleport_Manager",
-			"type": "@zcomponent/three-webxr/lib/components/TeleportManager#TeleportManager"
-		},
 		"56044315920a4746af46d34228759e28": {
 			"id": "56044315920a4746af46d34228759e28",
 			"label": "SuspendedSolids",
@@ -926,26 +594,6 @@
 			"scriptName": "Mesh_GroupDeleteMe0",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
-		"6f74cedb96234cb38132c5f1744e1c04": {
-			"id": "6f74cedb96234cb38132c5f1744e1c04",
-			"label": "Turn Manager",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a5"
-			},
-			"scriptName": "Turn_Manager",
-			"type": "@zcomponent/three-webxr/lib/components/TurnManager#TurnManager"
-		},
-		"7146d520c87b4d88850143aea2e8e22d": {
-			"id": "7146d520c87b4d88850143aea2e8e22d",
-			"label": "XR Default Loader",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a7"
-			},
-			"scriptName": "XR_DefaultLoader",
-			"type": "@zcomponent/three-webxr/lib/components/XRDefaultLoader#XRDefaultLoader"
-		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
 			"id": "76e0f42ffa3d43ba9905f735ce827e26",
 			"label": "zapsplat_nature_underwater_ambience_deep_007_30532.mp3",
@@ -955,16 +603,6 @@
 			},
 			"scriptName": "zapsplat_nature_underwater_ambience_deep_007_30532_mp3",
 			"type": "@zcomponent/core/lib/components/Audio#Audio"
-		},
-		"775632eabbc64239a43055022b7eec57": {
-			"id": "775632eabbc64239a43055022b7eec57",
-			"label": "XR Camera",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a2"
-			},
-			"scriptName": "XR_Camera",
-			"type": "@zcomponent/three-webxr/lib/components/XRCamera#XRCamera"
 		},
 		"77a68218309245289c411d5da417fab9": {
 			"id": "77a68218309245289c411d5da417fab9",
@@ -995,76 +633,6 @@
 			},
 			"scriptName": "Fog",
 			"type": "./Materials/Fog#Fog"
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a1": {
-			"id": "80ce371f0a844b98ace6c3970f4e3b9a1",
-			"label": "Walk Manager",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a3"
-			},
-			"scriptName": "Walk_Manager",
-			"type": "@zcomponent/three-webxr/lib/components/WalkManager#WalkManager"
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a2": {
-			"id": "80ce371f0a844b98ace6c3970f4e3b9a2",
-			"label": "Teleport Ring",
-			"parent": {
-				"id": "54a3fe42df61491d805d50af10399810",
-				"order": "a0"
-			},
-			"scriptName": "Teleport_Ring",
-			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a3": {
-			"id": "80ce371f0a844b98ace6c3970f4e3b9a3",
-			"label": "Ring Geometry",
-			"parent": {
-				"id": "80ce371f0a844b98ace6c3970f4e3b9a2",
-				"order": "a0"
-			},
-			"scriptName": "Ring_Geometry",
-			"type": "@zcomponent/three/lib/components/geometries/RingGeometry#RingGeometry"
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a4": {
-			"id": "80ce371f0a844b98ace6c3970f4e3b9a4",
-			"label": "Ring Material",
-			"parent": {
-				"id": "80ce371f0a844b98ace6c3970f4e3b9a2",
-				"order": "a1"
-			},
-			"scriptName": "Ring_Material",
-			"type": "@zcomponent/three/lib/components/materials/MeshBasicMaterial#MeshBasicMaterial"
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a5": {
-			"id": "80ce371f0a844b98ace6c3970f4e3b9a5",
-			"label": "Teleport Arrow",
-			"parent": {
-				"id": "54a3fe42df61491d805d50af10399810",
-				"order": "a1"
-			},
-			"scriptName": "Teleport_Arrow",
-			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a6": {
-			"id": "80ce371f0a844b98ace6c3970f4e3b9a6",
-			"label": "Arrow Geometry",
-			"parent": {
-				"id": "80ce371f0a844b98ace6c3970f4e3b9a5",
-				"order": "a0"
-			},
-			"scriptName": "Arrow_Geometry",
-			"type": "@zcomponent/three/lib/components/geometries/ConeGeometry#ConeGeometry"
-		},
-		"80ce371f0a844b98ace6c3970f4e3b9a7": {
-			"id": "80ce371f0a844b98ace6c3970f4e3b9a7",
-			"label": "Arrow Material",
-			"parent": {
-				"id": "80ce371f0a844b98ace6c3970f4e3b9a5",
-				"order": "a1"
-			},
-			"scriptName": "Arrow_Material",
-			"type": "@zcomponent/three/lib/components/materials/MeshBasicMaterial#MeshBasicMaterial"
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 			"id": "857f9901b65b42c89a3ff04470d70738",
@@ -1127,16 +695,6 @@
 			"scriptName": "Content_Group",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
-		"c01f2d6b83f840328924940130995ae9": {
-			"id": "c01f2d6b83f840328924940130995ae9",
-			"label": "Environment",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a8"
-			},
-			"scriptName": "Environment",
-			"type": "@zcomponent/three/lib/components/Image360#Image360"
-		},
 		"e2d77bbed5ca445292509e55934a55e8": {
 			"id": "e2d77bbed5ca445292509e55934a55e8",
 			"label": "Plane",
@@ -1166,26 +724,6 @@
 			},
 			"scriptName": "Cone",
 			"type": "@zcomponent/three/lib/components/meshes/Mesh#Mesh"
-		},
-		"fa85be6171e941109926af8d3fcf279b": {
-			"id": "fa85be6171e941109926af8d3fcf279b",
-			"label": "RightHandPosition",
-			"parent": {
-				"id": "3ba8407ca04746f3afc82e1bced92a8c",
-				"order": "a0"
-			},
-			"scriptName": "RightHandPosition",
-			"type": "@zcomponent/three/lib/components/Group#Group"
-		},
-		"fb24afb3dfa546b79edb9d2e0553996c": {
-			"id": "fb24afb3dfa546b79edb9d2e0553996c",
-			"label": "DeathZoneAudio",
-			"parent": {
-				"id": "3dcbe0a17bd54d4280800b3c0bd6d592",
-				"order": "a9"
-			},
-			"scriptName": "DeathZoneAudio",
-			"type": "@zcomponent/core/lib/components/Audio#Audio"
 		},
 		"root": {
 			"id": "root",
