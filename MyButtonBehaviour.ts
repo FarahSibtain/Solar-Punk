@@ -1,6 +1,6 @@
 import { Component, Behavior, BehaviorConstructorProps, ContextManager, registerBehaviorRunAtDesignTime, useAudioContext } from "@zcomponent/core";
 import { default as Button_zcomp } from "./Button/Button.zcomp";
-//import { default as Scene} from "./UIElements.zcomp";
+import Scene from "./Scene.zcomp";
 
 interface ConstructionProps {
     /** 
@@ -9,6 +9,12 @@ interface ConstructionProps {
      * @zvalues files *.+(mp3|wav|ogg)
      */
     audioFileUrl: string;
+	  /** 
+     * @zui
+     * @zdefault "./AudioFiles/Placeholder_Audio.mp3"
+     * @zvalues files *.+(mp3|wav|ogg)
+     */
+	audioFileUrl2: string;
 }
 
 /**
@@ -16,11 +22,12 @@ interface ConstructionProps {
  **/
 export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 
-	//protected zcomponent = this.getZComponentInstance(Scene);
+	protected zcomponent = this.getZComponentInstance(Scene);
 	private audioBuffer: AudioBuffer | null = null;
 	private audioContext: AudioContext;
 	private constructorProps: ConstructionProps;
-	private audioSources: AudioBufferSourceNode[] = []; // Track active audio sources
+	private isPlaying: boolean = false;
+	private hasPlayedNext: boolean = false;
 
 	constructor(contextManager: ContextManager, instance: Button_zcomp, constructorProps: ConstructionProps) {
 		super(contextManager, instance);
@@ -56,7 +63,10 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 			console.log('Button clicked:', buttonName);
 			
 			// Check if button name is "student" and play audio
-			if (constructorProps.audioFileUrl.length != 0) {				
+			if (constructorProps.audioFileUrl.length != 0) {
+				//this.zcomponent.nodes.UI.visible.value = false;
+				// Reset state for new button click
+				this.resetPlaybackState();
 				this.loadAudioFile(constructorProps.audioFileUrl);
 			}
 			
@@ -68,30 +78,76 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 		});
 	}
 
-	private async loadAudioFile(urlAudio : string) {
+	private async loadAudioFile(urlAudio: string, isNextAudio: boolean = false) {
 		try {
-			const audioUrl = urlAudio;
+			// Prevent multiple simultaneous audio loading
+			if (this.isPlaying && !isNextAudio) {
+				console.log('Audio already playing, skipping...');
+				return;
+			}
+
+			// Use proper URL format for bundler detection
+			const audioUrl = new URL(urlAudio, import.meta.url);
+			console.log('Attempting to load audio from:', urlAudio);
+			console.log('Resolved URL:', audioUrl.href);
+			console.log('Base URL (import.meta.url):', import.meta.url);
+			
 			const response = await fetch(audioUrl);
+			
+			if (!response.ok) {
+				console.error(`HTTP Error: ${response.status} ${response.statusText}`);
+				console.error('Full response:', response);
+				throw new Error(`Failed to fetch audio file: ${response.status} ${response.statusText} - Path: ${urlAudio}`);
+			}
+			
 			const arrayBuffer = await response.arrayBuffer();
+			
+			if (arrayBuffer.byteLength === 0) {
+				throw new Error('Audio file is empty');
+			}
+			
+			console.log('Audio file loaded successfully, size:', arrayBuffer.byteLength, 'bytes');
 			this.audioBuffer = await this.audioContext.decodeAudioData(arrayBuffer);
-			this.playAudio();
+			this.playAudio(isNextAudio);
 		} catch (error) {
-			console.error('Error loading audio file:', error);
+			console.error('? Error loading audio file:', error);
+			console.error('? Attempted file path:', urlAudio);
+			console.error('? Possible issues:');
+			console.error('   1. File does not exist at the specified path');
+			console.error('   2. File path is incorrect (check case sensitivity)');
+			console.error('   3. File is not in the project directory');
+			console.error('   4. File extension or name mismatch');
+			
+			// Don't try to play next audio if there was an error loading it
+			if (isNextAudio) {
+				console.log('Failed to load next audio, stopping sequence');
+				this.resetPlaybackState();
+			}
 		}
 	}
 
-	private playAudio() {
+	private playAudio(isNextAudio: boolean = false) {
 		if (this.audioBuffer && this.audioContext) {
 			const source = this.audioContext.createBufferSource();
 			source.buffer = this.audioBuffer;
 			source.connect(this.audioContext.destination);
 			
-			// Track the source and clean up when it ends
-			this.audioSources.push(source);
+			this.isPlaying = true;
+			
+			// Register onended event to play another audio when current audio finishes
 			source.onended = () => {
-				const index = this.audioSources.indexOf(source);
-				if (index > -1) {
-					this.audioSources.splice(index, 1);
+				console.log('Audio ended');
+				this.isPlaying = false;
+				
+				// Only play next audio if this is the first audio (not the next one)
+				// This prevents infinite recursion
+				if (!isNextAudio && !this.hasPlayedNext) {
+					console.log('Playing next audio...');
+					this.hasPlayedNext = true;
+					this.playNextAudio();
+				} else {
+					console.log('Audio sequence completed');
+					this.resetPlaybackState();
 				}
 			};
 			
@@ -99,16 +155,23 @@ export class MyButtonBehaviour extends Behavior<Button_zcomp> {
 		}
 	}
 
-	dispose() {
-		// Stop and clean up any active audio sources
-		this.audioSources.forEach(source => {
-			try {
-				source.stop();
-			} catch (e) {
-				// Source may already be stopped
+	private async playNextAudio() {
+		try {
+				this.resetPlaybackState();
+				this.loadAudioFile(this.constructorProps.audioFileUrl2, true);
 			}
-		});
-		this.audioSources = [];
+			 catch (error) {				
+				console.log('? Path not found 2nd audioclip');
+			}	
+	}
+
+	private resetPlaybackState() {
+		this.isPlaying = false;
+		this.hasPlayedNext = false;
+		console.log('Playback state reset');
+	}
+
+	dispose() {
 		
 		return super.dispose();
 	}

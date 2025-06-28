@@ -1,6 +1,174 @@
 {
 	"animation": {
 		"clips": {
+			"1cde72fb6b0f4b66acf0990b0b0675ea": {
+				"id": "1cde72fb6b0f4b66acf0990b0b0675ea",
+				"length": 90025,
+				"lengthType": "manual",
+				"name": "GP 2",
+				"order": "Zz",
+				"scriptName": "GP 2",
+				"tracks": {
+					"3279931fe20541f98832d6e6231d9c01": {
+						"blend": "overlay",
+						"entityID": "8851b1908870452aaa0fd1a2152e3cd7",
+						"id": "3279931fe20541f98832d6e6231d9c01",
+						"keyframes": {
+							"045509e3437b48178e59d7df0bac3c0f": {
+								"easing": "linear",
+								"id": "045509e3437b48178e59d7df0bac3c0f",
+								"t": 90025,
+								"v": [
+									1.7916713308339682,
+									0,
+									0.4447405277262886
+								]
+							},
+							"0726ebf43c0d4c938da50f7c8be2571e": {
+								"easing": "linear",
+								"id": "0726ebf43c0d4c938da50f7c8be2571e",
+								"t": 0,
+								"v": [
+									0,
+									0,
+									0
+								]
+							},
+							"0940edde104b462b881a4093544e5205": {
+								"easing": "linear",
+								"id": "0940edde104b462b881a4093544e5205",
+								"t": 66906,
+								"v": [
+									8.862581864425552,
+									0,
+									-1.1817799940518738
+								]
+							},
+							"483eb43ae19248d68fa779b2648f06b5": {
+								"easing": "linear",
+								"id": "483eb43ae19248d68fa779b2648f06b5",
+								"t": 51037,
+								"v": [
+									-0.6456115582618348,
+									0,
+									-2.7309613975736684
+								]
+							},
+							"53be57cd4aea4de18525caddf4834c71": {
+								"id": "53be57cd4aea4de18525caddf4834c71",
+								"t": 114187,
+								"v": [
+									0,
+									0,
+									0
+								]
+							},
+							"6949777fc6684ab6a4d3f246a96c7754": {
+								"easing": "linear",
+								"id": "6949777fc6684ab6a4d3f246a96c7754",
+								"t": 24052,
+								"v": [
+									-7.202630683708915,
+									1,
+									0
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"position"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "timeline"
+			},
+			"207a9a76e44f44609c4113e8aaa4d289": {
+				"id": "207a9a76e44f44609c4113e8aaa4d289",
+				"length": 90025,
+				"lengthType": "manual",
+				"name": "GP",
+				"order": "a0",
+				"scriptName": "GP",
+				"tracks": {
+					"d7ddbc5a7e1e4fd697cbdcd07592a3a6": {
+						"blend": "overlay",
+						"entityID": "8851b1908870452aaa0fd1a2152e3cd7",
+						"id": "d7ddbc5a7e1e4fd697cbdcd07592a3a6",
+						"keyframes": {
+							"3f72db92dd5c41a89b4fbd68d3c14d6c": {
+								"easing": "linear",
+								"id": "3f72db92dd5c41a89b4fbd68d3c14d6c",
+								"t": 24052,
+								"v": [
+									-7.202630683708915,
+									1,
+									0
+								]
+							},
+							"73294f69b5e94507bf69d4737d26b27f": {
+								"easing": "linear",
+								"id": "73294f69b5e94507bf69d4737d26b27f",
+								"t": 90025,
+								"v": [
+									1.7916713308339682,
+									0,
+									0.4447405277262886
+								]
+							},
+							"91d320d9c54b4886a90adeeb76b90a3a": {
+								"easing": "linear",
+								"id": "91d320d9c54b4886a90adeeb76b90a3a",
+								"t": 51037,
+								"v": [
+									-0.6456115582618348,
+									0,
+									-2.7309613975736684
+								]
+							},
+							"a0ffefbbecda46cba779208925242b2c": {
+								"easing": "linear",
+								"id": "a0ffefbbecda46cba779208925242b2c",
+								"t": 0,
+								"v": [
+									0,
+									0,
+									0
+								]
+							},
+							"a8cc5eac4ecb4585a75e4d66d157bec2": {
+								"easing": "linear",
+								"id": "a8cc5eac4ecb4585a75e4d66d157bec2",
+								"t": 66906,
+								"v": [
+									8.862581864425552,
+									0,
+									-1.1817799940518738
+								]
+							},
+							"d9dfb04caa38481b9367c33894cc6f9c": {
+								"id": "d9dfb04caa38481b9367c33894cc6f9c",
+								"t": 114187,
+								"v": [
+									0,
+									0,
+									0
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"position"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "timeline"
+			},
 			"252d402947b9495e8f1daf4eedc0742902": {
 				"id": "252d402947b9495e8f1daf4eedc0742902",
 				"length": 3000,
@@ -36,11 +204,97 @@
 					}
 				},
 				"type": "timeline"
+			},
+			"2f9ad4a7407645b8a25fa143135085a0": {
+				"id": "2f9ad4a7407645b8a25fa143135085a0",
+				"length": 7761,
+				"lengthType": "manual",
+				"name": "Wobble",
+				"order": "a1",
+				"scriptName": "Wobble 2",
+				"tracks": {
+					"b3bf572119f244749bd637d48e83efc5": {
+						"blend": "overlay",
+						"entityID": "2ab366bfb3ea4b5d87b151e42eb936fd",
+						"id": "b3bf572119f244749bd637d48e83efc5",
+						"keyframes": {
+							"1447c34a2c9a4010bec6ef4e5db32466": {
+								"id": "1447c34a2c9a4010bec6ef4e5db32466",
+								"t": 7761,
+								"v": [
+									0,
+									0.8114046132513713,
+									0
+								]
+							},
+							"18fb7e03d64141fdaaab381c7361c55f": {
+								"easing": "easeInOut",
+								"id": "18fb7e03d64141fdaaab381c7361c55f",
+								"t": 2832,
+								"v": [
+									0,
+									1.0377371622288516,
+									0
+								]
+							},
+							"59c239b964464547a85ff51109b6fa79": {
+								"easing": "easeInOut",
+								"id": "59c239b964464547a85ff51109b6fa79",
+								"t": 5819,
+								"v": [
+									0,
+									0.7120533353899825,
+									0
+								]
+							},
+							"96a5389f7595485c8f9abaab6f2573ed": {
+								"easing": "easeInOut",
+								"id": "96a5389f7595485c8f9abaab6f2573ed",
+								"t": 0,
+								"v": [
+									0,
+									0.8114046132513713,
+									0
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"position"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "timeline"
 			}
 		},
 		"curves": {
 		},
 		"layers": {
+			"22f23078cae84d318d4ba338aa6090cb": {
+				"clips": {
+					"144c03eb668649a389c11181c4fba634": {
+						"clipId": "2f9ad4a7407645b8a25fa143135085a0",
+						"id": "144c03eb668649a389c11181c4fba634",
+						"loop": true,
+						"order": "a2",
+						"scriptName": "Wobble0"
+					}
+				},
+				"defaultClip": null,
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "22f23078cae84d318d4ba338aa6090cb",
+				"name": "Wobble",
+				"order": "a1",
+				"scriptName": "Wobble"
+			},
 			"252d402947b9495e8f1daf4eedc0742901": {
 				"clips": {
 					"b91439ae93424db3bf17a00ee3eebea4": {
@@ -61,6 +315,27 @@
 				"name": "UI Animations",
 				"order": "a2",
 				"scriptName": "UI_Animations"
+			},
+			"ba9ef6ef9026410dacfa20b299bfc51f": {
+				"clips": {
+					"c61e6f0082694986883dec8e158a68f7": {
+						"clipId": "207a9a76e44f44609c4113e8aaa4d289",
+						"id": "c61e6f0082694986883dec8e158a68f7",
+						"order": "a0",
+						"scriptName": "GP"
+					}
+				},
+				"defaultClip": null,
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "ba9ef6ef9026410dacfa20b299bfc51f",
+				"name": "GarbagePath",
+				"order": "a0",
+				"scriptName": "GarbagePath"
 			}
 		}
 	},
@@ -114,6 +389,16 @@
 				"scriptName": "MyButtonBehaviour"
 			},
 			"type": "./MyButtonBehaviour.ts#MyButtonBehaviour"
+		},
+		"37db3bf88af9463eb3e3526d2c3f6701": {
+			"id": "37db3bf88af9463eb3e3526d2c3f6701",
+			"label": "GarbageAnimController",
+			"parent": {
+				"id": "2ab366bfb3ea4b5d87b151e42eb936fd",
+				"order": "a0",
+				"scriptName": "GarbageAnimController"
+			},
+			"type": "./GarbageAnimController.ts#GarbageAnimController"
 		},
 		"4cf508b2885d4348945c245d51a6913b": {
 			"id": "4cf508b2885d4348945c245d51a6913b",
@@ -242,6 +527,15 @@
 		"Buttons": {
 			"bc44974d857f4ed5b31e29b9ab9cd9eb": true
 		},
+		"Collection": {
+			"8851b1908870452aaa0fd1a2152e3cd7": true
+		},
+		"Cone": {
+			"f6371bf08200415f82989d46101107a8": true
+		},
+		"ConeGeometry": {
+			"f3937ace1ef5478c9221e2cfc2453503": true
+		},
 		"Content Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
 		},
@@ -266,11 +560,23 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Ein Flop v10.glb": {
+			"1bb547111b034ac58b1fbced1a72619c": true
+		},
+		"Ein Flop v10.glb 2": {
+			"4ac6a9fc416748afae15c130d1a5fe7d": true
+		},
+		"Emitter Texture": {
+			"3bed991cf9894067809aba2b9af97e23": true
+		},
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
 		"Fog": {
 			"7cfa6e6f029b41ddabb4b77606fa4b19": true
+		},
+		"Garbage": {
+			"2ab366bfb3ea4b5d87b151e42eb936fd": true
 		},
 		"Group": {
 			"root": true
@@ -379,6 +685,15 @@
 		"Buttons": {
 			"bc44974d857f4ed5b31e29b9ab9cd9eb": true
 		},
+		"Collection": {
+			"8851b1908870452aaa0fd1a2152e3cd7": true
+		},
+		"Cone": {
+			"f6371bf08200415f82989d46101107a8": true
+		},
+		"ConeGeometry": {
+			"f3937ace1ef5478c9221e2cfc2453503": true
+		},
 		"Content_Group": {
 			"bf59aa4eac3f4628bcd8579ee35fae3c": true
 		},
@@ -403,11 +718,23 @@
 		"DirectionalLight": {
 			"857f9901b65b42c89a3ff04470d70738": true
 		},
+		"Ein_Flopv10_glb": {
+			"1bb547111b034ac58b1fbced1a72619c": true
+		},
+		"Ein_Flopv10_glb2": {
+			"4ac6a9fc416748afae15c130d1a5fe7d": true
+		},
+		"Emitter_Texture": {
+			"3bed991cf9894067809aba2b9af97e23": true
+		},
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
 		"Fog": {
 			"7cfa6e6f029b41ddabb4b77606fa4b19": true
+		},
+		"Garbage": {
+			"2ab366bfb3ea4b5d87b151e42eb936fd": true
 		},
 		"Group_2": {
 			"80d86489b7044abc8810d3e166705d87": true
@@ -485,6 +812,11 @@
 		"0e1ec8d109c342099df64a3025b81fcc": {
 			"audioname": "DeathZoneAudio"
 		},
+		"194aae695cba4b60a35c287f3e37fbcf": {
+		},
+		"1bb547111b034ac58b1fbced1a72619c": {
+			"source": "file://./Meshes/Ein Flop v10.glb"
+		},
 		"1ce9f2317f954efbbedda2657417a0ed": {
 		},
 		"1dbcac7d6d72460bb2693e084410b153": {
@@ -494,13 +826,21 @@
 		},
 		"2771fa643a794d1690bad971532b7a91": {
 		},
+		"2ab366bfb3ea4b5d87b151e42eb936fd": {
+		},
 		"2f33489ac94b400eab5237d7a5310e63": {
+			"audioFileUrl": "file://./Audio/Transition/Governance.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"2f47fe0082f84802bf1b661071e51f361": {
 		},
 		"303ea92df16e4c4ab188e304f2a2fbed": {
 		},
 		"31d881a6d9164929957f7f53a50658d5": {
+			"audioFileUrl": "file://./Audio/Transition/Art_Culture.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
+		},
+		"37db3bf88af9463eb3e3526d2c3f6701": {
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"allowRightHandControllers": false,
@@ -518,6 +858,9 @@
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
 		},
 		"43ba17776d004a6b8cefe9e8a65b68d7": {
+		},
+		"4ac6a9fc416748afae15c130d1a5fe7d": {
+			"source": "file://./Meshes/Ein Flop v10.glb"
 		},
 		"4cf508b2885d4348945c245d51a6913b": {
 		},
@@ -572,17 +915,25 @@
 		},
 		"857f9901b65b42c89a3ff04470d70738": {
 		},
+		"8602fb46317c411d85f2649e8162aff6": {
+		},
+		"8851b1908870452aaa0fd1a2152e3cd7": {
+		},
 		"8def9d4124354855963d578672c6975b": {
 		},
 		"8e190d6b8b504b6284929f4b033ffb56": {
-			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
+			"audioFileUrl": "file://./Audio/Transition/Billionaire.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"8f428d8389ce4c0896becec72ee720f9": {
-			"audioFileUrl": "file://./Audio/Placeholder_Audio.mp3"
+			"audioFileUrl": "file://./Audio/Transition/Student.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"9b65bf60067c43d2adfe382ace370329": {
 		},
 		"a03f046d4cd34887b8ad1d486a98a4f6": {
+			"audioFileUrl": "file://./Audio/Transition/Education.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"a04eca84ced440e6b4252e6972c56008": {
 			"source": "file://./Images/Controls.png"
@@ -606,10 +957,14 @@
 		"da5157961c6845c1afae6f715af252b5": {
 		},
 		"ed715e8d0f40444baf11db0f83a59f7d": {
+			"audioFileUrl": "file://./Audio/Transition/Economy.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"f27c243f88b443ca8ca969147e5997cd": {
 		},
 		"f8553508ebce4d6fa5753f0ea614bea1": {
+			"audioFileUrl": "file://./Audio/Transition/Health.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		},
 		"fa85be6171e941109926af8d3fcf279b": {
 		},
@@ -619,6 +974,8 @@
 			"source": "file://./Audio/death-zone.mp3"
 		},
 		"fc9e3933f635402aba9e2999dfa56aca": {
+			"audioFileUrl": "file://./Audio/Transition/Science_Tech.mp3",
+			"audioFileUrl2": "file://./Audio/Transition/Outro.mp3"
 		}
 	},
 	"entityPropOverrides": {
@@ -672,9 +1029,38 @@
 		},
 		"0e1ec8d109c342099df64a3025b81fcc": {
 		},
+		"194aae695cba4b60a35c287f3e37fbcf": {
+			"position": [
+				0.2907922476287057,
+				0.15168311653813327,
+				-0.2990347563592395
+			],
+			"scale": [
+				0.3,
+				0.3,
+				0.3
+			]
+		},
+		"1bb547111b034ac58b1fbced1a72619c": {
+			"position": [
+				0,
+				0.41185163077394327,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"scale": [
+				0.1,
+				0.1,
+				0.1
+			]
+		},
 		"1ce9f2317f954efbbedda2657417a0ed": {
 			"position": [
-				-1.4521106479895773,
+				-0.8,
 				-0.5826799203639501,
 				0
 			],
@@ -682,7 +1068,7 @@
 		},
 		"1dbcac7d6d72460bb2693e084410b153": {
 			"position": [
-				0.9923124561217627,
+				0.8,
 				1.2973064644823953,
 				0
 			],
@@ -692,6 +1078,8 @@
 		},
 		"2771fa643a794d1690bad971532b7a91": {
 		},
+		"2ab366bfb3ea4b5d87b151e42eb936fd": {
+		},
 		"2f33489ac94b400eab5237d7a5310e63": {
 		},
 		"2f47fe0082f84802bf1b661071e51f361": {
@@ -699,6 +1087,8 @@
 		"303ea92df16e4c4ab188e304f2a2fbed": {
 		},
 		"31d881a6d9164929957f7f53a50658d5": {
+		},
+		"37db3bf88af9463eb3e3526d2c3f6701": {
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
 			"position": [
@@ -709,7 +1099,7 @@
 		},
 		"3a896444bec242c89169a70dc72c36f0": {
 			"position": [
-				1.0214247437565964,
+				0.8,
 				0.039148832308049,
 				0
 			],
@@ -741,6 +1131,23 @@
 			],
 			"size": 5
 		},
+		"4ac6a9fc416748afae15c130d1a5fe7d": {
+			"position": [
+				0.06841041815656895,
+				0.421819584317479,
+				0.05653107371024807
+			],
+			"rotation": [
+				-0.17453292519943295,
+				0.8726646259971649,
+				0.523598775598299
+			],
+			"scale": [
+				0.11414986179925045,
+				0.11414986179925045,
+				0.11414986179925045
+			]
+		},
 		"4cf508b2885d4348945c245d51a6913b": {
 		},
 		"504e2e3fdfce4822a6d4616afdae7b38": {
@@ -754,7 +1161,7 @@
 		},
 		"5b864a35a10b481989a943ed5e8c459c": {
 			"position": [
-				0.9923124561217627,
+				0.8,
 				0.6564290359360233,
 				0
 			],
@@ -860,11 +1267,27 @@
 				0
 			]
 		},
+		"8602fb46317c411d85f2649e8162aff6": {
+			"color": [
+				0.7215686274509804,
+				0.054901960784313725,
+				0.8823529411764706
+			],
+			"metalness": 0.364955357142857,
+			"roughness": 0.492606026785714
+		},
+		"8851b1908870452aaa0fd1a2152e3cd7": {
+		},
 		"8def9d4124354855963d578672c6975b": {
 			"position": [
-				-1.456445025202862,
+				-0.8,
 				0.04280548450371757,
 				0
+			],
+			"scale": [
+				1,
+				1,
+				1
 			],
 			"text": " Culture & Arts Person"
 		},
@@ -885,7 +1308,7 @@
 		},
 		"b2d76f3ec9764b17b458a85efdb48c06": {
 			"position": [
-				-1.456445025202862,
+				-0.8,
 				0.6564290359360233,
 				0
 			],
@@ -937,7 +1360,7 @@
 		},
 		"d8435c2a57614fb8a9aa6a327915232c": {
 			"position": [
-				-1.4054474874093201,
+				-0.8,
 				1.2973064644823953,
 				0
 			],
@@ -949,7 +1372,7 @@
 		},
 		"f27c243f88b443ca8ca969147e5997cd": {
 			"position": [
-				1.0214247437565964,
+				0.8,
 				-0.5826799203639501,
 				0
 			],
@@ -975,6 +1398,26 @@
 			},
 			"scriptName": "DefaultCookieConsent",
 			"type": "@zcomponent/core/lib/components/DefaultCookieConsent#DefaultCookieConsent"
+		},
+		"194aae695cba4b60a35c287f3e37fbcf": {
+			"id": "194aae695cba4b60a35c287f3e37fbcf",
+			"label": "Box",
+			"parent": {
+				"id": "6ef7d30d3e044b6f806dac36e63a857d",
+				"order": "a0"
+			},
+			"scriptName": "Box",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
+		"1bb547111b034ac58b1fbced1a72619c": {
+			"id": "1bb547111b034ac58b1fbced1a72619c",
+			"label": "Ein Flop v10.glb",
+			"parent": {
+				"id": "8851b1908870452aaa0fd1a2152e3cd7",
+				"order": "a0"
+			},
+			"scriptName": "Ein_Flopv10_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"1ce9f2317f954efbbedda2657417a0ed": {
 			"id": "1ce9f2317f954efbbedda2657417a0ed",
@@ -1014,6 +1457,16 @@
 				"order": "a0"
 			},
 			"scriptName": "WaterEnvironment",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"2ab366bfb3ea4b5d87b151e42eb936fd": {
+			"id": "2ab366bfb3ea4b5d87b151e42eb936fd",
+			"label": "Garbage",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "Garbage",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"384ac3d6f4b04210ab8832a8752a2d73": {
@@ -1075,6 +1528,16 @@
 			},
 			"scriptName": "WaterGeom",
 			"type": "./Materials/WaterGeom#WaterGeom"
+		},
+		"4ac6a9fc416748afae15c130d1a5fe7d": {
+			"id": "4ac6a9fc416748afae15c130d1a5fe7d",
+			"label": "Ein Flop v10.glb 2",
+			"parent": {
+				"id": "8851b1908870452aaa0fd1a2152e3cd7",
+				"order": "a1"
+			},
+			"scriptName": "Ein_Flopv10_glb2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"504e2e3fdfce4822a6d4616afdae7b38": {
 			"id": "504e2e3fdfce4822a6d4616afdae7b38",
@@ -1285,6 +1748,26 @@
 			},
 			"scriptName": "DirectionalLight",
 			"type": "@zcomponent/three/lib/components/lights/DirectionalLight#DirectionalLight"
+		},
+		"8602fb46317c411d85f2649e8162aff6": {
+			"id": "8602fb46317c411d85f2649e8162aff6",
+			"label": "MeshStandardMaterial  3",
+			"parent": {
+				"id": "f6371bf08200415f82989d46101107a8",
+				"order": "a1"
+			},
+			"scriptName": "MeshStandardMaterial_2",
+			"type": "@zcomponent/three/lib/components/materials/MeshStandardMaterial#MeshStandardMaterial"
+		},
+		"8851b1908870452aaa0fd1a2152e3cd7": {
+			"id": "8851b1908870452aaa0fd1a2152e3cd7",
+			"label": "Collection",
+			"parent": {
+				"id": "2ab366bfb3ea4b5d87b151e42eb936fd",
+				"order": "a1"
+			},
+			"scriptName": "Collection",
+			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"8def9d4124354855963d578672c6975b": {
 			"id": "8def9d4124354855963d578672c6975b",

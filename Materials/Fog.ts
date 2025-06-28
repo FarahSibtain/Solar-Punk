@@ -52,8 +52,6 @@ export class Fog extends Group {
 		//scene.fog = new THREE.FogExp2(0x009B68, 1, 0.001);
         scene.fog = new THREE.Fog(0x005136, 0, 3);
 
-        setTimeout(() => {this.clear();}, 4000);
-
         // Exclude Image360 components from fog if requested
         /*
         if (this.constructorProps.excludeImage360 ?? true) {

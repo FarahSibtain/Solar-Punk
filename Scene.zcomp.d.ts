@@ -2,34 +2,43 @@ import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Ev
 
 import { ConeGeometry as ConeGeometry_0 } from "@zcomponent/three/lib/components/geometries/ConeGeometry";
 import { MeshBasicMaterial as MeshBasicMaterial_1 } from "@zcomponent/three/lib/components/materials/MeshBasicMaterial";
-import { default as Button_zcomp_2 } from "./Button/Button.zcomp";
-import { MyButtonBehaviour as MyButtonBehaviour_3 } from "./MyButtonBehaviour";
-import { Group as Group_4 } from "@zcomponent/three/lib/components/Group";
-import { UIHandler as UIHandler_5 } from "./UIHandler";
-import { DisableOnMove as DisableOnMove_6 } from "./DisableOnMove";
-import { Image as Image_7 } from "@zcomponent/three/lib/components/Image";
-import { Audio as Audio_8 } from "@zcomponent/core/lib/components/Audio";
-import { MyAudioEndBehavior as MyAudioEndBehavior_9 } from "./MyAudioEndBehavior";
-import { DefaultCookieConsent as DefaultCookieConsent_10 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
-import { DefaultLoader as DefaultLoader_11 } from "@zcomponent/core/lib/components/DefaultLoader";
-import { DirectionalLight as DirectionalLight_12 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
-import { Image360 as Image360_13 } from "@zcomponent/three/lib/components/Image360";
-import { Fog as Fog_14 } from "./Materials/Fog";
-import { Text as Text_15 } from "@zcomponent/three/lib/components/text/Text";
-import { XRController as XRController_16 } from "@zcomponent/three-webxr/lib/components/XRController";
-import { RingGeometry as RingGeometry_17 } from "@zcomponent/three/lib/components/geometries/RingGeometry";
-import { Mesh as Mesh_18 } from "@zcomponent/three/lib/components/meshes/Mesh";
-import { TeleportManager as TeleportManager_19 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
-import { TeleportDistanceRestrictor as TeleportDistanceRestrictor_20 } from "../TeleportDistanceRestrictor";
-import { TurnManager as TurnManager_21 } from "@zcomponent/three-webxr/lib/components/TurnManager";
-import { WalkManager as WalkManager_22 } from "@zcomponent/three-webxr/lib/components/WalkManager";
-import { WaterGeom as WaterGeom_23 } from "./Materials/WaterGeom";
-import { XRRigVR as XRRigVR_24 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
-import { HandMovementBehavior as HandMovementBehavior_25 } from "../HandMovementBehavior";
-import { XRCamera as XRCamera_26 } from "@zcomponent/three-webxr/lib/components/XRCamera";
-import { XRDefaultLoader as XRDefaultLoader_27 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
-import { XRManager as XRManager_28 } from "@zcomponent/three-webxr/lib/components/XRManager";
-import { default as Objekts_zcomp_29 } from "./Objekts.zcomp";
+import { Box as Box_2 } from "@zcomponent/three/lib/components/meshes/Box";
+import { default as Button_zcomp_3 } from "./Button/Button.zcomp";
+import { MyButtonBehaviour as MyButtonBehaviour_4 } from "./MyButtonBehaviour";
+import { Group as Group_5 } from "@zcomponent/three/lib/components/Group";
+import { Mesh as Mesh_6 } from "@zcomponent/three/lib/components/meshes/Mesh";
+import { UIHandler as UIHandler_7 } from "./UIHandler";
+import { DisableOnMove as DisableOnMove_8 } from "./DisableOnMove";
+import { Image as Image_9 } from "@zcomponent/three/lib/components/Image";
+import { Audio as Audio_10 } from "@zcomponent/core/lib/components/Audio";
+import { MyAudioEndBehavior as MyAudioEndBehavior_11 } from "./MyAudioEndBehavior";
+import { DefaultCookieConsent as DefaultCookieConsent_12 } from "@zcomponent/core/lib/components/DefaultCookieConsent";
+import { DefaultLoader as DefaultLoader_13 } from "@zcomponent/core/lib/components/DefaultLoader";
+import { DirectionalLight as DirectionalLight_14 } from "@zcomponent/three/lib/components/lights/DirectionalLight";
+import { GLTF as GLTF_15 } from "@zcomponent/three/lib/components/models/GLTF";
+import { EmitterTexture as EmitterTexture_16 } from "@zcomponent/particles/lib/components/EmitterTexture";
+import { Image360 as Image360_17 } from "@zcomponent/three/lib/components/Image360";
+import { Fog as Fog_18 } from "./Materials/Fog";
+import { GarbageAnimController as GarbageAnimController_19 } from "./GarbageAnimController";
+import { Text as Text_20 } from "@zcomponent/three/lib/components/text/Text";
+import { XRController as XRController_21 } from "@zcomponent/three-webxr/lib/components/XRController";
+import { MeshStandardMaterial as MeshStandardMaterial_22 } from "@zcomponent/three/lib/components/materials/MeshStandardMaterial";
+import { ParticleEmitter as ParticleEmitter_23 } from "@zcomponent/particles/lib/components/ParticleEmitter";
+import { Plane as Plane_24 } from "@zcomponent/three/lib/components/meshes/Plane";
+import { RingGeometry as RingGeometry_25 } from "@zcomponent/three/lib/components/geometries/RingGeometry";
+import { ShadowPlane as ShadowPlane_26 } from "@zcomponent/three/lib/components/meshes/ShadowPlane";
+import { Sphere as Sphere_27 } from "@zcomponent/three/lib/components/meshes/Sphere";
+import { Sparkle as Sparkle_28 } from "@zcomponent/particles/lib/components/prefabs/Sparkle";
+import { TeleportManager as TeleportManager_29 } from "@zcomponent/three-webxr/lib/components/TeleportManager";
+import { TeleportDistanceRestrictor as TeleportDistanceRestrictor_30 } from "../TeleportDistanceRestrictor";
+import { TurnManager as TurnManager_31 } from "@zcomponent/three-webxr/lib/components/TurnManager";
+import { WalkManager as WalkManager_32 } from "@zcomponent/three-webxr/lib/components/WalkManager";
+import { WaterGeom as WaterGeom_33 } from "./Materials/WaterGeom";
+import { XRRigVR as XRRigVR_34 } from "@zcomponent/three-webxr/lib/components/XRRigVR";
+import { HandMovementBehavior as HandMovementBehavior_35 } from "../HandMovementBehavior";
+import { XRCamera as XRCamera_36 } from "@zcomponent/three-webxr/lib/components/XRCamera";
+import { XRDefaultLoader as XRDefaultLoader_37 } from "@zcomponent/three-webxr/lib/components/XRDefaultLoader";
+import { XRManager as XRManager_38 } from "@zcomponent/three-webxr/lib/components/XRManager";
 
 interface ConstructorProps {
 
@@ -98,11 +107,22 @@ declare class Comp extends ZComponent {
 		},
 		ButtonStudent_2: Button_zcomp_2 & {
 			behaviors: {
-				0: MyButtonBehaviour_3,
-				MyButtonBehaviour: MyButtonBehaviour_3,
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
 			}
 		},
-		Buttons: Group_4 & {
+		ButtonStudent_2: Button_zcomp_3 & {
+			behaviors: {
+				0: MyButtonBehaviour_4,
+				MyButtonBehaviour: MyButtonBehaviour_4,
+			}
+		},
+		Buttons: Group_5 & {
+			behaviors: {
+
+			}
+		},
+		Collection: Group_5 & {
 			behaviors: {
 
 			}
@@ -125,18 +145,31 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		DeathZoneAudio: Audio_8 & {
+		ControlUI: Group_5 & {
 			behaviors: {
-				0: MyAudioEndBehavior_9,
-				MyAudioEndBehavior: MyAudioEndBehavior_9,
+				0: UIHandler_7,
+				UIHandler: UIHandler_7,
+				1: DisableOnMove_8,
+				DisableOnMove: DisableOnMove_8,
 			}
 		},
-		DefaultCookieConsent: DefaultCookieConsent_10 & {
+		Controls: Image_9 & {
 			behaviors: {
 
 			}
 		},
-		DefaultLoader: DefaultLoader_11 & {
+		DeathZoneAudio: Audio_10 & {
+			behaviors: {
+				0: MyAudioEndBehavior_11,
+				MyAudioEndBehavior: MyAudioEndBehavior_11,
+			}
+		},
+		DefaultCookieConsent: DefaultCookieConsent_12 & {
+			behaviors: {
+
+			}
+		},
+		DefaultLoader: DefaultLoader_13 & {
 			behaviors: {
 
 			}
@@ -146,27 +179,48 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		DirectionalLight: DirectionalLight_12 & {
+		DirectionalLight: DirectionalLight_14 & {
 			behaviors: {
 
 			}
 		},
-		Environment: Image360_13 & {
+		Ein_Flopv10_glb: GLTF_15 & {
 			behaviors: {
 
 			}
 		},
-		Fog: Fog_14 & {
+		Ein_Flopv10_glb2: GLTF_15 & {
 			behaviors: {
 
 			}
 		},
-		Group_2: Group_4 & {
+		Emitter_Texture: EmitterTexture_16 & {
 			behaviors: {
 
 			}
 		},
-		Hello_Text: Text_15 & {
+		Environment: Image360_17 & {
+			behaviors: {
+
+			}
+		},
+		Fog: Fog_18 & {
+			behaviors: {
+
+			}
+		},
+		Garbage: Group_5 & {
+			behaviors: {
+				0: GarbageAnimController_19,
+				GarbageAnimController: GarbageAnimController_19,
+			}
+		},
+		Group_2: Group_5 & {
+			behaviors: {
+
+			}
+		},
+		Hello_Text: Text_20 & {
 			behaviors: {
 
 			}
@@ -176,22 +230,52 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Left_Controller: XRController_16 & {
+		Left_Controller: XRController_21 & {
 			behaviors: {
 
 			}
 		},
-		RightHandPosition: Group_4 & {
+		MeshStandardMaterial: MeshStandardMaterial_22 & {
 			behaviors: {
 
 			}
 		},
-		Right_Controller: XRController_16 & {
+		MeshStandardMaterial0: MeshStandardMaterial_22 & {
 			behaviors: {
 
 			}
 		},
-		Ring_Geometry: RingGeometry_17 & {
+		MeshStandardMaterial_2: MeshStandardMaterial_22 & {
+			behaviors: {
+
+			}
+		},
+		Mesh_GroupDeleteMe0: Group_5 & {
+			behaviors: {
+
+			}
+		},
+		Particle_Emitter: ParticleEmitter_23 & {
+			behaviors: {
+
+			}
+		},
+		Plane: Plane_24 & {
+			behaviors: {
+
+			}
+		},
+		RightHandPosition: Group_5 & {
+			behaviors: {
+
+			}
+		},
+		Right_Controller: XRController_21 & {
+			behaviors: {
+
+			}
+		},
+		Ring_Geometry: RingGeometry_25 & {
 			behaviors: {
 
 			}
@@ -201,18 +285,18 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Teleport_Arrow: Mesh_18 & {
+		ShadowPlane: ShadowPlane_26 & {
 			behaviors: {
 
 			}
 		},
-		Teleport_Manager: TeleportManager_19 & {
+		Sphere: Sphere_27 & {
 			behaviors: {
 				0: TeleportDistanceRestrictor_20,
 				TeleportDistanceRestrictor: TeleportDistanceRestrictor_20,
 			}
 		},
-		Teleport_Ring: Mesh_18 & {
+		SuspendedSolids: Sparkle_28 & {
 			behaviors: {
 
 			}
@@ -222,10 +306,10 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		UI: Group_4 & {
+		Teleport_Manager: TeleportManager_29 & {
 			behaviors: {
-				0: UIHandler_5,
-				UIHandler: UIHandler_5,
+				0: TeleportDistanceRestrictor_30,
+				TeleportDistanceRestrictor: TeleportDistanceRestrictor_30,
 			}
 		},
 		UIDest: Group_4 & {
@@ -233,17 +317,23 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		Walk_Manager: WalkManager_22 & {
+		Turn_Manager: TurnManager_31 & {
 			behaviors: {
 
 			}
 		},
-		WaterEnvironment: Group_4 & {
+		UI: Group_5 & {
+			behaviors: {
+				0: UIHandler_7,
+				UIHandler: UIHandler_7,
+			}
+		},
+		UIDest: Group_5 & {
 			behaviors: {
 
 			}
 		},
-		WaterGeom: WaterGeom_23 & {
+		Walk_Manager: WalkManager_32 & {
 			behaviors: {
 
 			}
@@ -254,27 +344,33 @@ declare class Comp extends ZComponent {
 				Hand_Movement: HandMovementBehavior_25,
 			}
 		},
-		XR_Camera: XRCamera_26 & {
+		WaterGeom: WaterGeom_33 & {
 			behaviors: {
 
 			}
 		},
-		XR_DefaultLoader: XRDefaultLoader_27 & {
+		XRRigVR: XRRigVR_34 & {
+			behaviors: {
+				0: HandMovementBehavior_35,
+				Hand_Movement: HandMovementBehavior_35,
+			}
+		},
+		XR_Camera: XRCamera_36 & {
 			behaviors: {
 
 			}
 		},
-		XR_Manager: XRManager_28 & {
+		XR_DefaultLoader: XRDefaultLoader_37 & {
 			behaviors: {
 
 			}
 		},
-		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_8 & {
+		XR_Manager: XRManager_38 & {
 			behaviors: {
 
 			}
 		},
-		Objekts: Objekts_zcomp_29 & {
+		zapsplat_nature_underwater_ambience_deep_007_30532_mp3: Audio_10 & {
 			behaviors: {
 
 			}
@@ -282,8 +378,14 @@ declare class Comp extends ZComponent {
 	};
 
 	animation: Animation & { layers: {
+		Wobble: Layer & { clips: {
+			Wobble0: LayerClip;
+		}};
 		UI_Animations: Layer & { clips: {
 			UI_FadeIn: LayerClip;
+		}};
+		GarbagePath: Layer & { clips: {
+			GP: LayerClip;
 		}};
 	}};
 
