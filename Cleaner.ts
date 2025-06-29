@@ -2,22 +2,9 @@ import { ContextManager, Observable, registerLoadable } from "@zcomponent/core";
 import { Group } from "@zcomponent/three/lib/components/Group";
 import * as THREE from "three";
 import Scene from "./Scene.zcomp";
+import Objects from "./Objekts.zcomp";
 
 interface ConstructorProps {
-    /**
-     * Parent group containing objects to disable/hide when cleaning
-     * @zui
-     * @zvalues nodeids
-     */
-    objectsToDisable?: string;
-    
-    /**
-     * Parent group containing objects to enable/show when cleaning
-     * @zui
-     * @zvalues nodeids
-     */
-    objectsToEnable?: string;
-    
     /**
      * Delay between each object animation in milliseconds
      * @zui
@@ -43,10 +30,9 @@ export class Cleaner extends Group {
     }
 
     /**
-     * Perform the cleaning operation - disable specified objects and enable others
+     * Perform the cleaning operation - disable Dead_World objects and enable Recovered objects
      */
     public async clean() {
-        const zcomponent = this.getZComponentInstance();
         const delay = this.constructorProps.animationDelay ?? 100;
         const scene = this.getZComponentInstance(Scene);
         const fog = scene.nodes.Fog;
@@ -57,26 +43,23 @@ export class Cleaner extends Group {
 
         await this._delay(2000);
         
-        // First, disable objects
-        if (this.constructorProps.objectsToDisable) {
-            const objectsToDisable = zcomponent.entityByID.get(this.constructorProps.objectsToDisable) as Group;
-            if (objectsToDisable) {
-                this._setGroupVisibility(objectsToDisable, false);
-            } else {
-                console.warn("objectsToDisable entity not found!");
-            }
+        // Access Objects through the Scene's node hierarchy
+        const objektsNode = scene.nodes.Objekts;
+        
+        // First, disable Dead_World objects
+        if (objektsNode && objektsNode.nodes.Dead_World) {
+            this._setGroupVisibility(objektsNode.nodes.Dead_World, false);
+        } else {
+            console.warn("Dead_World group not found!");
         }
 
         await this._delay(2000);
         
-        // Then, enable objects
-        if (this.constructorProps.objectsToEnable) {
-            const objectsToEnable = zcomponent.entityByID.get(this.constructorProps.objectsToEnable) as Group;
-            if (objectsToEnable) {
-                this._setGroupVisibility(objectsToEnable, true);
-            } else {
-                console.warn("objectsToEnable entity not found!");
-            }
+        // Then, enable Recovered objects
+        if (objektsNode && objektsNode.nodes.Recovred) {
+            this._setGroupVisibility(objektsNode.nodes.Recovred, true);
+        } else {
+            console.warn("Recovred group not found!");
         }
     }
 
@@ -84,22 +67,17 @@ export class Cleaner extends Group {
      * Reverse the cleaning operation - restore original visibility states
      */
     public unclean() {
-        const zcomponent = this.getZComponentInstance();
+        const scene = this.getZComponentInstance(Scene);
+        const objektsNode = scene.nodes.Objekts;
         
-        // Enable/show the objects that were disabled
-        if (this.constructorProps.objectsToDisable) {
-            const objectsToDisable = zcomponent.entityByID.get(this.constructorProps.objectsToDisable) as Group;
-            if (objectsToDisable) {
-                this._setGroupVisibility(objectsToDisable, true);
-            }
+        // Enable/show the Dead_World objects that were disabled
+        if (objektsNode && objektsNode.nodes.Dead_World) {
+            this._setGroupVisibility(objektsNode.nodes.Dead_World, true);
         }
         
-        // Optionally hide the objects that were enabled
-        if (this.constructorProps.objectsToEnable) {
-            const objectsToEnable = zcomponent.entityByID.get(this.constructorProps.objectsToEnable) as Group;
-            if (objectsToEnable) {
-                this._setGroupVisibility(objectsToEnable, false);
-            }
+        // Hide the Recovered objects that were enabled
+        if (objektsNode && objektsNode.nodes.Recovred) {
+            this._setGroupVisibility(objektsNode.nodes.Recovred, false);
         }
     }
 

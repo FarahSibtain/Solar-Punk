@@ -3864,8 +3864,8 @@
 			"id": "61c6ba31df2f4ed994f86e148df210c9",
 			"label": "Soft_molded_sand",
 			"parent": {
-				"id": "160c5182b2474f91ad1e9341db620162",
-				"order": "Zt"
+				"id": "f4b688ed3123424d87913a610c431818",
+				"order": "Zy"
 			},
 			"scriptName": "Soft_molded_sand",
 			"type": "@zcomponent/three/lib/components/Group#Group"
