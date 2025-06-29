@@ -3,6 +3,7 @@ import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Ev
 import { GLTF as GLTF_0 } from "@zcomponent/three/lib/components/models/GLTF";
 import { Group as Group_1 } from "@zcomponent/three/lib/components/Group";
 import { default as SuspendedSolids_zcomp_2 } from "./Materials/SuspendedSolids.zcomp";
+import { default as RecoveredParts_zcomp_3 } from "./RecoveredParts.zcomp";
 
 interface ConstructorProps {
 
@@ -17,21 +18,6 @@ declare class Comp extends ZComponent {
 	constructor(contextManager: ContextManager, constructorProps: ConstructorProps);
 
 	nodes: {
-		Busch_v1_glb: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb0: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb1: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
 		Busch_v1_glb10: GLTF_0 & {
 			behaviors: {
 
@@ -78,16 +64,6 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Busch_v1_glb19: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb2: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb20: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -218,11 +194,6 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Particles: Group_1 & {
-			behaviors: {
-
-			}
-		},
-		Pflanze_2v1_glb: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -723,6 +694,11 @@ declare class Comp extends ZComponent {
 			}
 		},
 		World_WarPlanev2_glb: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		RecoveredParts: RecoveredParts_zcomp_3 & {
 			behaviors: {
 
 			}
