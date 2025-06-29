@@ -16,6 +16,13 @@ interface ConstructorProps {
      * @zvalues nodeids
      */
     objectsToEnable?: string;
+    
+    /**
+     * Delay between each object animation in milliseconds
+     * @zui
+     * @zdefault 100
+     */
+    animationDelay?: number;
 }
 
 /**
@@ -37,22 +44,31 @@ export class Cleaner extends Group {
     /**
      * Perform the cleaning operation - disable specified objects and enable others
      */
-    public clean() {
+    public async clean() {
         const zcomponent = this.getZComponentInstance();
+        const delay = this.constructorProps.animationDelay ?? 100;
+
+        await this._delay(5000);
         
-        // Disable/hide the objects to disable
+        // First, disable objects
         if (this.constructorProps.objectsToDisable) {
-            const objectsToDisable = zcomponent.entityByID.get(this.constructorProps.objectsToDisable);
+            const objectsToDisable = zcomponent.entityByID.get(this.constructorProps.objectsToDisable) as Group;
             if (objectsToDisable) {
                 this._setGroupVisibility(objectsToDisable, false);
+            } else {
+                console.warn("objectsToDisable entity not found!");
             }
         }
+
+        await this._delay(1000);
         
-        // Enable/show the objects to enable
+        // Then, enable objects
         if (this.constructorProps.objectsToEnable) {
-            const objectsToEnable = zcomponent.entityByID.get(this.constructorProps.objectsToEnable);
+            const objectsToEnable = zcomponent.entityByID.get(this.constructorProps.objectsToEnable) as Group;
             if (objectsToEnable) {
                 this._setGroupVisibility(objectsToEnable, true);
+            } else {
+                console.warn("objectsToEnable entity not found!");
             }
         }
     }
@@ -65,7 +81,7 @@ export class Cleaner extends Group {
         
         // Enable/show the objects that were disabled
         if (this.constructorProps.objectsToDisable) {
-            const objectsToDisable = zcomponent.entityByID.get(this.constructorProps.objectsToDisable);
+            const objectsToDisable = zcomponent.entityByID.get(this.constructorProps.objectsToDisable) as Group;
             if (objectsToDisable) {
                 this._setGroupVisibility(objectsToDisable, true);
             }
@@ -73,7 +89,7 @@ export class Cleaner extends Group {
         
         // Optionally hide the objects that were enabled
         if (this.constructorProps.objectsToEnable) {
-            const objectsToEnable = zcomponent.entityByID.get(this.constructorProps.objectsToEnable);
+            const objectsToEnable = zcomponent.entityByID.get(this.constructorProps.objectsToEnable) as Group;
             if (objectsToEnable) {
                 this._setGroupVisibility(objectsToEnable, false);
             }
@@ -83,20 +99,31 @@ export class Cleaner extends Group {
     /**
      * Helper method to set visibility of a group and all its children
      */
-    private _setGroupVisibility(entity: any, visible: boolean) {
+    private _setGroupVisibility(entity: Group, visible: boolean) {
         // If the entity has a visible property (Observable), set it
         if (entity.visible && typeof entity.visible.value !== 'undefined') {
             entity.visible.value = visible;
         }
-        
-        // If it's a THREE.js Object3D, set visibility directly
-        if (entity.object3D) {
-            entity.object3D.visible = visible;
-            // Recursively set visibility for all children
-            entity.object3D.traverse((child: THREE.Object3D) => {
-                child.visible = visible;
-            });
+    }
+
+
+    /**
+     * Helper method to find entity by its THREE.Object3D reference
+     */
+    private _findEntityByObject3D(zcomponent: any, object3D: THREE.Object3D): any {
+        for (const [id, entity] of zcomponent.entityByID) {
+            if (entity.object3D === object3D) {
+                return entity;
+            }
         }
+        return null;
+    }
+
+    /**
+     * Helper method to create a delay promise
+     */
+    private _delay(ms: number): Promise<void> {
+        return new Promise(resolve => setTimeout(resolve, ms));
     }
 
     public dispose() {
