@@ -1,6 +1,7 @@
 import { ContextManager, Observable, registerLoadable } from "@zcomponent/core";
 import { Group } from "@zcomponent/three/lib/components/Group";
 import * as THREE from "three";
+import Scene from "./Scene.zcomp";
 
 interface ConstructorProps {
     /**
@@ -47,8 +48,14 @@ export class Cleaner extends Group {
     public async clean() {
         const zcomponent = this.getZComponentInstance();
         const delay = this.constructorProps.animationDelay ?? 100;
+        const scene = this.getZComponentInstance(Scene);
+        const fog = scene.nodes.Fog;
 
         await this._delay(5000);
+
+        fog.clear();
+
+        await this._delay(2000);
         
         // First, disable objects
         if (this.constructorProps.objectsToDisable) {
@@ -60,7 +67,7 @@ export class Cleaner extends Group {
             }
         }
 
-        await this._delay(1000);
+        await this._delay(2000);
         
         // Then, enable objects
         if (this.constructorProps.objectsToEnable) {
