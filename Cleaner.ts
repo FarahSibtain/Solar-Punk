@@ -46,6 +46,15 @@ export class Cleaner extends Group {
         // Access Objects through the Scene's node hierarchy
         const objektsNode = scene.nodes.Objekts;
         
+        // Replace textures for all Soft Sandy v18 objects in Soft_molded_sand group
+        if (objektsNode && objektsNode.nodes.Soft_molded_sand) {
+            await this._replaceSoftSandyTextures(objektsNode.nodes.Soft_molded_sand);
+        } else {
+            console.warn("Soft_molded_sand group not found!");
+        }
+
+        await this._delay(1000);
+        
         // First, disable Dead_World objects
         if (objektsNode && objektsNode.nodes.Dead_World) {
             this._setGroupVisibility(objektsNode.nodes.Dead_World, false);
@@ -88,6 +97,49 @@ export class Cleaner extends Group {
         // If the entity has a visible property (Observable), set it
         if (entity.visible && typeof entity.visible.value !== 'undefined') {
             entity.visible.value = visible;
+        }
+    }
+
+    /**
+     * Replace textures for all Soft Sandy v18 objects with clean texture
+     */
+    private async _replaceSoftSandyTextures(softMoldedSandGroup: Group) {
+        const cleanTextureUrl = new URL('./Images/soft-sandy-clean.webp', import.meta.url);
+        const textureLoader = new THREE.TextureLoader();
+        
+        try {
+            const cleanTexture = await new Promise<THREE.Texture>((resolve, reject) => {
+                textureLoader.load(
+                    cleanTextureUrl.href,
+                    resolve,
+                    undefined,
+                    reject
+                );
+            });
+            
+            // Traverse through all children of the Soft_molded_sand group
+            if (softMoldedSandGroup.element) {
+                softMoldedSandGroup.element.traverse((child) => {
+                    if (child instanceof THREE.Mesh && child.material) {
+                        // Handle both single materials and material arrays
+                        const materials = Array.isArray(child.material) ? child.material : [child.material];
+                        
+                        materials.forEach((material) => {
+                            if (material instanceof THREE.MeshStandardMaterial || 
+                                material instanceof THREE.MeshBasicMaterial ||
+                                material instanceof THREE.MeshPhongMaterial) {
+                                // Replace the diffuse/albedo texture
+                                material.map = cleanTexture;
+                                material.needsUpdate = true;
+                            }
+                        });
+                    }
+                });
+            }
+            
+            console.log("Successfully replaced textures for Soft Sandy objects");
+        } catch (error) {
+            console.error("Failed to load clean texture:", error);
         }
     }
 
