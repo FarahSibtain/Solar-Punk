@@ -671,7 +671,7 @@
 		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
 			"autoplay": true,
-			"source": "file://./zapsplat_nature_underwater_ambience_deep_007_30532.mp3"
+			"source": "file://./SFX_Diving_Sound.mp3"
 		},
 		"775632eabbc64239a43055022b7eec57": {
 		},
@@ -924,7 +924,8 @@
 			]
 		},
 		"76e0f42ffa3d43ba9905f735ce827e26": {
-			"loop": true
+			"loop": true,
+			"volume": 0.37259375445601
 		},
 		"775632eabbc64239a43055022b7eec57": {
 		},
