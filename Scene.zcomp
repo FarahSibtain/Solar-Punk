@@ -414,9 +414,6 @@
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
 		},
-		"WaterGeom": {
-			"43ba17776d004a6b8cefe9e8a65b68d7": true
-		},
 		"XR Camera": {
 			"775632eabbc64239a43055022b7eec57": true
 		},
@@ -560,9 +557,6 @@
 		"WaterEnvironment": {
 			"2771fa643a794d1690bad971532b7a91": true
 		},
-		"WaterGeom": {
-			"43ba17776d004a6b8cefe9e8a65b68d7": true
-		},
 		"XRRigVR": {
 			"3dcbe0a17bd54d4280800b3c0bd6d592": true
 		},
@@ -622,8 +616,6 @@
 			"allowUnspecifiedHandControllers": true
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
-		},
-		"43ba17776d004a6b8cefe9e8a65b68d7": {
 		},
 		"4cf508b2885d4348945c245d51a6913b": {
 		},
@@ -857,21 +849,6 @@
 			]
 		},
 		"3dcbe0a17bd54d4280800b3c0bd6d592": {
-		},
-		"43ba17776d004a6b8cefe9e8a65b68d7": {
-			"castShadow": false,
-			"position": [
-				0,
-				15,
-				0
-			],
-			"receiveShadow": false,
-			"rotation": [
-				3.141592653589793,
-				0,
-				0
-			],
-			"size": 5
 		},
 		"4cf508b2885d4348945c245d51a6913b": {
 		},
@@ -1223,16 +1200,6 @@
 			},
 			"scriptName": "XRRigVR",
 			"type": "@zcomponent/three-webxr/lib/components/XRRigVR#XRRigVR"
-		},
-		"43ba17776d004a6b8cefe9e8a65b68d7": {
-			"id": "43ba17776d004a6b8cefe9e8a65b68d7",
-			"label": "WaterGeom",
-			"parent": {
-				"id": "2771fa643a794d1690bad971532b7a91",
-				"order": "a1"
-			},
-			"scriptName": "WaterGeom",
-			"type": "./Materials/WaterGeom#WaterGeom"
 		},
 		"504e2e3fdfce4822a6d4616afdae7b38": {
 			"id": "504e2e3fdfce4822a6d4616afdae7b38",
