@@ -81,7 +81,7 @@ export class Fog extends Group {
         scene.fog = new THREE.Fog(0x005136, 0, lerp(3, 30, progress));
 
         if (progress < 1)
-            setTimeout(this.progressCleaning.bind(this, scene, progress + 0.05), 250);
+            setTimeout(this.progressCleaning.bind(this, scene, progress + 0.008), 250);
     }
 
     public dispose() {
