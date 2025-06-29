@@ -24,20 +24,7 @@
 			"a12da56a6f8d4bb58026319bde24aa49-6": true,
 			"a12da56a6f8d4bb58026319bde24aa49-7": true,
 			"a12da56a6f8d4bb58026319bde24aa49-8": true,
-			"a12da56a6f8d4bb58026319bde24aa49-9": true,
-			"bc9a7edb196b4234870572e1ef8da608": true
-		},
-		"Busch v1.glb 2": {
-			"a5c47c4bcfc046939588d158985c7495": true
-		},
-		"Busch v1.glb 3": {
-			"167647dea478413f925221ef02bee18c": true
-		},
-		"Busch v1.glb 4": {
-			"10b217625fba43c0a43b9d8f012f37c3": true
-		},
-		"Busch v1.glb 5": {
-			"227c338405b840acad64b10bb72437b6": true
+			"a12da56a6f8d4bb58026319bde24aa49-9": true
 		},
 		"Chaotic Pile v22.glb": {
 			"e96d2b3afa6e4e7191e7889c0228c681": true
@@ -90,8 +77,8 @@
 		"Particles": {
 			"68e5fe67e5234137a52a3d94393df1b3": true
 		},
-		"Pflanze 2 v1.glb": {
-			"33ef51033bd648ab80d8b8796b0d79c6": true
+		"RecoveredParts": {
+			"2c57947718c44104876204564b788078": true
 		},
 		"Recovred": {
 			"86ca99919cf545a9b83f5c34f7a22d60": true
@@ -395,15 +382,6 @@
 		}
 	},
 	"entitiesByScriptName": {
-		"Busch_v1_glb": {
-			"bc9a7edb196b4234870572e1ef8da608": true
-		},
-		"Busch_v1_glb0": {
-			"a5c47c4bcfc046939588d158985c7495": true
-		},
-		"Busch_v1_glb1": {
-			"167647dea478413f925221ef02bee18c": true
-		},
 		"Busch_v1_glb10": {
 			"a12da56a6f8d4bb58026319bde24aa49-8": true
 		},
@@ -433,12 +411,6 @@
 		},
 		"Busch_v1_glb19": {
 			"036aa0cf2def44b780764bea734cc928-17": true
-		},
-		"Busch_v1_glb2": {
-			"10b217625fba43c0a43b9d8f012f37c3": true
-		},
-		"Busch_v1_glb20": {
-			"227c338405b840acad64b10bb72437b6": true
 		},
 		"Busch_v1_glb21": {
 			"036aa0cf2def44b780764bea734cc928-18": true
@@ -518,8 +490,8 @@
 		"Particles": {
 			"68e5fe67e5234137a52a3d94393df1b3": true
 		},
-		"Pflanze_2v1_glb": {
-			"33ef51033bd648ab80d8b8796b0d79c6": true
+		"RecoveredParts": {
+			"2c57947718c44104876204564b788078": true
 		},
 		"Recovred": {
 			"86ca99919cf545a9b83f5c34f7a22d60": true
@@ -869,9 +841,6 @@
 		"0f3146924aeb4d7293d67c0f1efa04d2": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
-		"10b217625fba43c0a43b9d8f012f37c3": {
-			"source": "file://./Objekte/Busch v1.glb"
-		},
 		"1370ef09d717479f809628ebfeb15b51": {
 			"source": "file://./Objekte/Wall Side v21.glb"
 		},
@@ -882,9 +851,6 @@
 			"source": "file://./Objekte/Old Rusty v16.glb"
 		},
 		"160c5182b2474f91ad1e9341db620162": {
-		},
-		"167647dea478413f925221ef02bee18c": {
-			"source": "file://./Objekte/Busch v1.glb"
 		},
 		"1746182ce1e94b3c8c63da4bd72fe701": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -914,11 +880,10 @@
 		"222a772706c04be2bdfa2717211371a4": {
 			"source": "file://./Objekte/Wall Side v21.glb"
 		},
-		"227c338405b840acad64b10bb72437b6": {
-			"source": "file://./Objekte/Busch v1.glb"
-		},
 		"2919ebf18c1c4853ab6bfd7820f50da0": {
 			"source": "file://./Objekte/Wall Side v21.glb"
+		},
+		"2c57947718c44104876204564b788078": {
 		},
 		"2f8824d954d2417ba4641f852a4f4d74": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -928,9 +893,6 @@
 		},
 		"32c0a433fd5342f09f1fc44c4efbdf2c": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
-		},
-		"33ef51033bd648ab80d8b8796b0d79c6": {
-			"source": "file://./Objekte/Pflanze 2 v1.glb"
 		},
 		"3476598137a94f6dbc45cccafe4f46a0": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -1125,9 +1087,6 @@
 		},
 		"a12da56a6f8d4bb58026319bde24aa49-9": {
 		},
-		"a5c47c4bcfc046939588d158985c7495": {
-			"source": "file://./Objekte/Busch v1.glb"
-		},
 		"aea75990e6174426b18dc62e4893f296": {
 		},
 		"b11063f305174f35a9261cabb9abc692": {
@@ -1155,9 +1114,6 @@
 		},
 		"b9676b9c5624457784e71401faa5586b": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
-		},
-		"bc9a7edb196b4234870572e1ef8da608": {
-			"source": "file://./Objekte/Busch v1.glb"
 		},
 		"bf08fd2e81a34633957cc2b4955d7157": {
 			"source": "file://./Objekte/Rim v8.glb"
@@ -1419,18 +1375,6 @@
 				3
 			]
 		},
-		"10b217625fba43c0a43b9d8f012f37c3": {
-			"position": [
-				-1.028908110143541,
-				-1.605992320998785,
-				3.8331498718365236
-			],
-			"scale": [
-				0.5,
-				0.5,
-				0.5
-			]
-		},
 		"1370ef09d717479f809628ebfeb15b51": {
 			"position": [
 				-18.09812175265554,
@@ -1478,18 +1422,6 @@
 			]
 		},
 		"160c5182b2474f91ad1e9341db620162": {
-		},
-		"167647dea478413f925221ef02bee18c": {
-			"position": [
-				-1.6742976664430298,
-				-1.5901642101377789,
-				4.575949956074869
-			],
-			"scale": [
-				0.5,
-				0.5,
-				0.5
-			]
 		},
 		"1746182ce1e94b3c8c63da4bd72fe701": {
 			"position": [
@@ -1651,18 +1583,6 @@
 				5
 			]
 		},
-		"227c338405b840acad64b10bb72437b6": {
-			"position": [
-				-7.266750054560754,
-				-1.5238796790217786,
-				4.906200799092693
-			],
-			"scale": [
-				0.2,
-				0.2,
-				0.2
-			]
-		},
 		"2919ebf18c1c4853ab6bfd7820f50da0": {
 			"position": [
 				-5.712071809505254,
@@ -1679,6 +1599,8 @@
 				5.045176556566229,
 				6.646088093283335
 			]
+		},
+		"2c57947718c44104876204564b788078": {
 		},
 		"2f8824d954d2417ba4641f852a4f4d74": {
 			"position": [
@@ -1729,18 +1651,6 @@
 				3,
 				3,
 				3
-			]
-		},
-		"33ef51033bd648ab80d8b8796b0d79c6": {
-			"position": [
-				3.438475482180185,
-				-0.8068586420340966,
-				5.067351896298165
-			],
-			"scale": [
-				0.5,
-				0.5,
-				0.5
 			]
 		},
 		"3476598137a94f6dbc45cccafe4f46a0": {
@@ -2553,7 +2463,8 @@
 				4.916149755658017,
 				1.7823110601070606,
 				4.93228682268321
-			]
+			],
+			"visible": false
 		},
 		"8724f10aa45645d6b4f82bf6feda5677": {
 			"position": [
@@ -2688,23 +2599,6 @@
 		"a12da56a6f8d4bb58026319bde24aa49-8": {
 		},
 		"a12da56a6f8d4bb58026319bde24aa49-9": {
-		},
-		"a5c47c4bcfc046939588d158985c7495": {
-			"position": [
-				-7.673305810279513,
-				-1.2569969425919574,
-				6.5277901803572975
-			],
-			"rotation": [
-				-0.2581049832811621,
-				1.734723475976807e-18,
-				0.03534132983663292
-			],
-			"scale": [
-				0.2,
-				0.2,
-				0.2
-			]
 		},
 		"aea75990e6174426b18dc62e4893f296": {
 			"position": [
@@ -2864,23 +2758,6 @@
 				3,
 				3,
 				3
-			]
-		},
-		"bc9a7edb196b4234870572e1ef8da608": {
-			"position": [
-				0.4257041551421501,
-				-1.5757693221094313,
-				2.7689413129079856
-			],
-			"rotation": [
-				0,
-				0.6350681526095607,
-				0
-			],
-			"scale": [
-				0.5,
-				0.5,
-				0.5
 			]
 		},
 		"bf08fd2e81a34633957cc2b4955d7157": {
@@ -3360,16 +3237,6 @@
 			"scriptName": "Soft_Sandyv18_glb250",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"10b217625fba43c0a43b9d8f012f37c3": {
-			"id": "10b217625fba43c0a43b9d8f012f37c3",
-			"label": "Busch v1.glb 4",
-			"parent": {
-				"id": "86ca99919cf545a9b83f5c34f7a22d60",
-				"order": "a0G"
-			},
-			"scriptName": "Busch_v1_glb2",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"1370ef09d717479f809628ebfeb15b51": {
 			"id": "1370ef09d717479f809628ebfeb15b51",
 			"label": "Wall Side v21.glb 9",
@@ -3409,16 +3276,6 @@
 			},
 			"scriptName": "Dead_World",
 			"type": "@zcomponent/three/lib/components/Group#Group"
-		},
-		"167647dea478413f925221ef02bee18c": {
-			"id": "167647dea478413f925221ef02bee18c",
-			"label": "Busch v1.glb 3",
-			"parent": {
-				"id": "86ca99919cf545a9b83f5c34f7a22d60",
-				"order": "a0V"
-			},
-			"scriptName": "Busch_v1_glb1",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"1746182ce1e94b3c8c63da4bd72fe701": {
 			"id": "1746182ce1e94b3c8c63da4bd72fe701",
@@ -3520,16 +3377,6 @@
 			"scriptName": "Wall_Sidev21_glb3",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"227c338405b840acad64b10bb72437b6": {
-			"id": "227c338405b840acad64b10bb72437b6",
-			"label": "Busch v1.glb 5",
-			"parent": {
-				"id": "86ca99919cf545a9b83f5c34f7a22d60",
-				"order": "a2"
-			},
-			"scriptName": "Busch_v1_glb20",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"2919ebf18c1c4853ab6bfd7820f50da0": {
 			"id": "2919ebf18c1c4853ab6bfd7820f50da0",
 			"label": "Wall Side v21.glb 2",
@@ -3539,6 +3386,16 @@
 			},
 			"scriptName": "Wall_Sidev21_glb0",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"2c57947718c44104876204564b788078": {
+			"id": "2c57947718c44104876204564b788078",
+			"label": "RecoveredParts",
+			"parent": {
+				"id": "86ca99919cf545a9b83f5c34f7a22d60",
+				"order": "a0"
+			},
+			"scriptName": "RecoveredParts",
+			"type": "./RecoveredParts.zcomp#default"
 		},
 		"2f8824d954d2417ba4641f852a4f4d74": {
 			"id": "2f8824d954d2417ba4641f852a4f4d74",
@@ -3568,16 +3425,6 @@
 				"order": "a04d"
 			},
 			"scriptName": "Soft_Sandyv18_glb500",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"33ef51033bd648ab80d8b8796b0d79c6": {
-			"id": "33ef51033bd648ab80d8b8796b0d79c6",
-			"label": "Pflanze 2 v1.glb",
-			"parent": {
-				"id": "86ca99919cf545a9b83f5c34f7a22d60",
-				"order": "Zz"
-			},
-			"scriptName": "Pflanze_2v1_glb",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"3476598137a94f6dbc45cccafe4f46a0": {
@@ -4280,16 +4127,6 @@
 			"scriptName": "Busch_v1_glb11",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
-		"a5c47c4bcfc046939588d158985c7495": {
-			"id": "a5c47c4bcfc046939588d158985c7495",
-			"label": "Busch v1.glb 2",
-			"parent": {
-				"id": "86ca99919cf545a9b83f5c34f7a22d60",
-				"order": "a1"
-			},
-			"scriptName": "Busch_v1_glb0",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
 		"aea75990e6174426b18dc62e4893f296": {
 			"id": "aea75990e6174426b18dc62e4893f296",
 			"label": "SuspendedSolids 3",
@@ -4388,16 +4225,6 @@
 				"order": "a1M"
 			},
 			"scriptName": "Soft_Sandyv18_glb200",
-			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
-		},
-		"bc9a7edb196b4234870572e1ef8da608": {
-			"id": "bc9a7edb196b4234870572e1ef8da608",
-			"label": "Busch v1.glb",
-			"parent": {
-				"id": "86ca99919cf545a9b83f5c34f7a22d60",
-				"order": "a0"
-			},
-			"scriptName": "Busch_v1_glb",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
 		"bf08fd2e81a34633957cc2b4955d7157": {

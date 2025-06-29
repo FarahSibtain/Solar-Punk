@@ -1,0 +1,1714 @@
+{
+	"behaviors": {
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"Busch v1.glb": {
+			"bc9a7edb196b4234870572e1ef8da608": true
+		},
+		"Busch v1.glb 10": {
+			"5f858d73c7994caf985eb3ade7084935": true
+		},
+		"Busch v1.glb 11": {
+			"0df69dacca5c494f87652a6ec6426bd1": true
+		},
+		"Busch v1.glb 12": {
+			"9848877f5d1c4907bc0e841a63adc1c1": true
+		},
+		"Busch v1.glb 13": {
+			"e44c529558ad43cbb791ef13c41f3788": true
+		},
+		"Busch v1.glb 14": {
+			"82941733ce004592840a9705041d99c3": true
+		},
+		"Busch v1.glb 15": {
+			"888294242fba4f50a6a47239cbc81101": true
+		},
+		"Busch v1.glb 16": {
+			"9b86683217204ca999562fcf32fe8f1b": true
+		},
+		"Busch v1.glb 17": {
+			"cd23705a5ec64163aa56858992de3e78": true
+		},
+		"Busch v1.glb 18": {
+			"b4acc945f6de41c2ac1f429a270b2304": true
+		},
+		"Busch v1.glb 3": {
+			"167647dea478413f925221ef02bee18c": true
+		},
+		"Busch v1.glb 4": {
+			"10b217625fba43c0a43b9d8f012f37c3": true
+		},
+		"Busch v1.glb 6": {
+			"f6b2cc91018d4383b9bed3389572a77d": true
+		},
+		"Busch v1.glb 7": {
+			"a51ffbe0830f41389daaac0147c706ba": true
+		},
+		"Busch v1.glb 8": {
+			"7f8f404764a842ce81130820fe5defc2": true
+		},
+		"Busch v1.glb 9": {
+			"fb2064d0f20f445b96465182beef75ca": true
+		},
+		"Fisch": {
+			"986db36bfaa647bfa8ee5f73a08568f3": true
+		},
+		"Fisch 10": {
+			"542fb787acd34458b9d9c5aa2937ad09": true
+		},
+		"Fisch 11": {
+			"ef66af619dac46bf94a41595ebdb23ca": true
+		},
+		"Fisch 12": {
+			"466ab29b6f3a4ce3a84313db358e4fe7": true
+		},
+		"Fisch 13": {
+			"9515c9940ed84c8cbcb793cdfceed8c7": true
+		},
+		"Fisch 14": {
+			"eddf39ca10a34fcabf033ed4a217ae23": true
+		},
+		"Fisch 15": {
+			"b7409e73a29f4487a96cd95f4c59254f": true
+		},
+		"Fisch 16": {
+			"0463324c663a4fe58fb56544366aed88": true
+		},
+		"Fisch 17": {
+			"7fb11254f2564713af4aa8310c679ea0": true
+		},
+		"Fisch 18": {
+			"2b6ab94cf5c64806b6859753cad97f4c": true
+		},
+		"Fisch 2": {
+			"64d0f81ba4ec4a4ca16b13440271d240": true
+		},
+		"Fisch 3": {
+			"cd56d13e38164ab4baf71b11f3930aa5": true
+		},
+		"Fisch 4": {
+			"0342c150e68c42ba8e2422ee85e52591": true
+		},
+		"Fisch 5": {
+			"752b034279a545dcba185b06b6bea461": true
+		},
+		"Fisch 6": {
+			"3941444f3dcb419297e6f4b4082d26d3": true
+		},
+		"Fisch 7": {
+			"dfad3f99e0ce437f94eaecb7bae4ebb9": true
+		},
+		"Fisch 8": {
+			"043f852a1dfb4649a3e7a04d3d592f1b": true
+		},
+		"Fisch 9": {
+			"27e92271a6e7421c9bfa0f497dc3935a": true
+		},
+		"Fishes": {
+			"f2d4643ea7784ea4b9cbe2a69473be23": true
+		},
+		"Fishes 2": {
+			"94a4b7e776174bd790805517dd2e0e9e": true
+		},
+		"Fishes 3": {
+			"176f8180463c42f9884d5d175210d02d": true
+		},
+		"Pflanze 2 v1.glb": {
+			"33ef51033bd648ab80d8b8796b0d79c6": true
+		},
+		"Pflanze 2 v1.glb 2": {
+			"f11922628da64bb0bdb7d41e56a74b7e": true
+		},
+		"Pflanze 2 v1.glb 3": {
+			"89c354cdf5a9489a9f98a899d40b2d43": true
+		},
+		"Pflanze 2 v1.glb 4": {
+			"f54cac2faccc4c839b524bb2b9082ac3": true
+		},
+		"Plants": {
+			"d0db8797b4fa4073a0e32df76c40f69c": true
+		},
+		"Plants 2": {
+			"7019122076a24293b6a639d5f6261e7b": true
+		},
+		"Plants 3": {
+			"ec688d676714425fbc5446faf96330e3": true
+		},
+		"Plants 4": {
+			"f10f9dc203744b0dba5b6719ed0b1463": true
+		}
+	},
+	"entitiesByScriptName": {
+		"Busch_v1_glb": {
+			"bc9a7edb196b4234870572e1ef8da608": true
+		},
+		"Busch_v1_glb10": {
+			"5f858d73c7994caf985eb3ade7084935": true
+		},
+		"Busch_v1_glb11": {
+			"0df69dacca5c494f87652a6ec6426bd1": true
+		},
+		"Busch_v1_glb12": {
+			"9848877f5d1c4907bc0e841a63adc1c1": true
+		},
+		"Busch_v1_glb13": {
+			"e44c529558ad43cbb791ef13c41f3788": true
+		},
+		"Busch_v1_glb14": {
+			"82941733ce004592840a9705041d99c3": true
+		},
+		"Busch_v1_glb15": {
+			"888294242fba4f50a6a47239cbc81101": true
+		},
+		"Busch_v1_glb16": {
+			"9b86683217204ca999562fcf32fe8f1b": true
+		},
+		"Busch_v1_glb17": {
+			"cd23705a5ec64163aa56858992de3e78": true
+		},
+		"Busch_v1_glb18": {
+			"b4acc945f6de41c2ac1f429a270b2304": true
+		},
+		"Busch_v1_glb3": {
+			"167647dea478413f925221ef02bee18c": true
+		},
+		"Busch_v1_glb4": {
+			"10b217625fba43c0a43b9d8f012f37c3": true
+		},
+		"Busch_v1_glb6": {
+			"f6b2cc91018d4383b9bed3389572a77d": true
+		},
+		"Busch_v1_glb7": {
+			"a51ffbe0830f41389daaac0147c706ba": true
+		},
+		"Busch_v1_glb8": {
+			"7f8f404764a842ce81130820fe5defc2": true
+		},
+		"Busch_v1_glb9": {
+			"fb2064d0f20f445b96465182beef75ca": true
+		},
+		"Fisch": {
+			"986db36bfaa647bfa8ee5f73a08568f3": true
+		},
+		"Fisch_10": {
+			"542fb787acd34458b9d9c5aa2937ad09": true
+		},
+		"Fisch_11": {
+			"ef66af619dac46bf94a41595ebdb23ca": true
+		},
+		"Fisch_12": {
+			"466ab29b6f3a4ce3a84313db358e4fe7": true
+		},
+		"Fisch_13": {
+			"9515c9940ed84c8cbcb793cdfceed8c7": true
+		},
+		"Fisch_14": {
+			"eddf39ca10a34fcabf033ed4a217ae23": true
+		},
+		"Fisch_15": {
+			"b7409e73a29f4487a96cd95f4c59254f": true
+		},
+		"Fisch_16": {
+			"0463324c663a4fe58fb56544366aed88": true
+		},
+		"Fisch_17": {
+			"7fb11254f2564713af4aa8310c679ea0": true
+		},
+		"Fisch_18": {
+			"2b6ab94cf5c64806b6859753cad97f4c": true
+		},
+		"Fisch_2": {
+			"64d0f81ba4ec4a4ca16b13440271d240": true
+		},
+		"Fisch_3": {
+			"cd56d13e38164ab4baf71b11f3930aa5": true
+		},
+		"Fisch_4": {
+			"0342c150e68c42ba8e2422ee85e52591": true
+		},
+		"Fisch_5": {
+			"752b034279a545dcba185b06b6bea461": true
+		},
+		"Fisch_6": {
+			"3941444f3dcb419297e6f4b4082d26d3": true
+		},
+		"Fisch_7": {
+			"dfad3f99e0ce437f94eaecb7bae4ebb9": true
+		},
+		"Fisch_8": {
+			"043f852a1dfb4649a3e7a04d3d592f1b": true
+		},
+		"Fisch_9": {
+			"27e92271a6e7421c9bfa0f497dc3935a": true
+		},
+		"Fishes": {
+			"f2d4643ea7784ea4b9cbe2a69473be23": true
+		},
+		"Fishes_2": {
+			"94a4b7e776174bd790805517dd2e0e9e": true
+		},
+		"Fishes_3": {
+			"176f8180463c42f9884d5d175210d02d": true
+		},
+		"Pflanze_2v1_glb": {
+			"33ef51033bd648ab80d8b8796b0d79c6": true
+		},
+		"Pflanze_2v1_glb2": {
+			"f11922628da64bb0bdb7d41e56a74b7e": true
+		},
+		"Pflanze_2v1_glb3": {
+			"89c354cdf5a9489a9f98a899d40b2d43": true
+		},
+		"Pflanze_2v1_glb4": {
+			"f54cac2faccc4c839b524bb2b9082ac3": true
+		},
+		"Plants": {
+			"d0db8797b4fa4073a0e32df76c40f69c": true
+		},
+		"Plants_2": {
+			"7019122076a24293b6a639d5f6261e7b": true
+		},
+		"Plants_3": {
+			"ec688d676714425fbc5446faf96330e3": true
+		},
+		"Plants_4": {
+			"f10f9dc203744b0dba5b6719ed0b1463": true
+		}
+	},
+	"entityConstructorProps": {
+		"0342c150e68c42ba8e2422ee85e52591": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"043f852a1dfb4649a3e7a04d3d592f1b": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"0463324c663a4fe58fb56544366aed88": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"0df69dacca5c494f87652a6ec6426bd1": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"10b217625fba43c0a43b9d8f012f37c3": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"167647dea478413f925221ef02bee18c": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"176f8180463c42f9884d5d175210d02d": {
+		},
+		"27e92271a6e7421c9bfa0f497dc3935a": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"2b6ab94cf5c64806b6859753cad97f4c": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"33ef51033bd648ab80d8b8796b0d79c6": {
+			"source": "file://./Objekte/Pflanze 2 v1.glb"
+		},
+		"3941444f3dcb419297e6f4b4082d26d3": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"466ab29b6f3a4ce3a84313db358e4fe7": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"542fb787acd34458b9d9c5aa2937ad09": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"5f858d73c7994caf985eb3ade7084935": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"64d0f81ba4ec4a4ca16b13440271d240": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"7019122076a24293b6a639d5f6261e7b": {
+		},
+		"752b034279a545dcba185b06b6bea461": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"7f8f404764a842ce81130820fe5defc2": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"7fb11254f2564713af4aa8310c679ea0": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"82941733ce004592840a9705041d99c3": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"888294242fba4f50a6a47239cbc81101": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"89c354cdf5a9489a9f98a899d40b2d43": {
+			"source": "file://./Objekte/Pflanze 2 v1.glb"
+		},
+		"94a4b7e776174bd790805517dd2e0e9e": {
+		},
+		"9515c9940ed84c8cbcb793cdfceed8c7": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"9848877f5d1c4907bc0e841a63adc1c1": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"986db36bfaa647bfa8ee5f73a08568f3": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"9b86683217204ca999562fcf32fe8f1b": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"a51ffbe0830f41389daaac0147c706ba": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"b4acc945f6de41c2ac1f429a270b2304": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"b7409e73a29f4487a96cd95f4c59254f": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"bc9a7edb196b4234870572e1ef8da608": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"cd23705a5ec64163aa56858992de3e78": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"cd56d13e38164ab4baf71b11f3930aa5": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"d0db8797b4fa4073a0e32df76c40f69c": {
+		},
+		"dfad3f99e0ce437f94eaecb7bae4ebb9": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"e44c529558ad43cbb791ef13c41f3788": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"ec688d676714425fbc5446faf96330e3": {
+		},
+		"eddf39ca10a34fcabf033ed4a217ae23": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"ef66af619dac46bf94a41595ebdb23ca": {
+			"source": "file://./Objekte/Ein Fisssch v1.glb"
+		},
+		"f10f9dc203744b0dba5b6719ed0b1463": {
+		},
+		"f11922628da64bb0bdb7d41e56a74b7e": {
+			"source": "file://./Objekte/Pflanze 2 v1.glb"
+		},
+		"f2d4643ea7784ea4b9cbe2a69473be23": {
+		},
+		"f54cac2faccc4c839b524bb2b9082ac3": {
+			"source": "file://./Objekte/Pflanze 2 v1.glb"
+		},
+		"f6b2cc91018d4383b9bed3389572a77d": {
+			"source": "file://./Objekte/Busch v1.glb"
+		},
+		"fb2064d0f20f445b96465182beef75ca": {
+			"source": "file://./Objekte/Busch v1.glb"
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"0342c150e68c42ba8e2422ee85e52591": {
+			"position": [
+				1.5201015407030767,
+				1.7212074138041502,
+				1.222298451471385
+			],
+			"rotation": [
+				-0.28586062881949464,
+				-0.15711268404960965,
+				0.09502420315990893
+			],
+			"scale": [
+				0.4066096910552424,
+				0.4066096910552424,
+				0.4066096910552424
+			]
+		},
+		"043f852a1dfb4649a3e7a04d3d592f1b": {
+			"position": [
+				2.160256066801602,
+				2.265248149498666,
+				0.7447571598998048
+			],
+			"rotation": [
+				0,
+				0.524519244049668,
+				0
+			],
+			"scale": [
+				0.35651465326011506,
+				0.35651465326011506,
+				0.35651465326011506
+			]
+		},
+		"0463324c663a4fe58fb56544366aed88": {
+			"position": [
+				1.5201015407030767,
+				1.7212074138041502,
+				1.222298451471385
+			],
+			"rotation": [
+				-0.28586062881949464,
+				-0.15711268404960965,
+				0.09502420315990893
+			],
+			"scale": [
+				0.4066096910552424,
+				0.4066096910552424,
+				0.4066096910552424
+			]
+		},
+		"0df69dacca5c494f87652a6ec6426bd1": {
+			"position": [
+				0.4257041551421501,
+				-2.6505228704720554,
+				2.7689413129079856
+			],
+			"rotation": [
+				0,
+				0.6350681526095607,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"10b217625fba43c0a43b9d8f012f37c3": {
+			"position": [
+				-1.0155941817099803,
+				-1.4535911818920335,
+				3.8331498718365236
+			],
+			"rotation": [
+				0,
+				0,
+				-0.29699154789416277
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"167647dea478413f925221ef02bee18c": {
+			"position": [
+				0.6536024643282126,
+				-1.322251112514139,
+				4.575949956074869
+			],
+			"rotation": [
+				-0.35584182533909625,
+				0,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"176f8180463c42f9884d5d175210d02d": {
+			"position": [
+				-14.996284637887316,
+				2.246691154183868,
+				0
+			],
+			"rotation": [
+				0,
+				1.2472335513981667,
+				0
+			]
+		},
+		"27e92271a6e7421c9bfa0f497dc3935a": {
+			"position": [
+				-0.24977922319780665,
+				1.5382872155426262,
+				2.2939207974033815
+			],
+			"rotation": [
+				-0.13575049216434715,
+				0.2581282955027243,
+				0.10110542171386508
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"2b6ab94cf5c64806b6859753cad97f4c": {
+			"position": [
+				0.21947850523218937,
+				2.115502668827635,
+				1.1257318305758206
+			],
+			"rotation": [
+				-0.3423604788761911,
+				0.4159307991483127,
+				0.10262726658745668
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"33ef51033bd648ab80d8b8796b0d79c6": {
+			"position": [
+				2.4106608382960717,
+				-0.9567680395127067,
+				3.8779778715964213
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"3941444f3dcb419297e6f4b4082d26d3": {
+			"position": [
+				0.4165008754560793,
+				2.265248149498666,
+				1.5458990684044795
+			],
+			"rotation": [
+				-0.3423604788761911,
+				0.4159307991483127,
+				0.10262726658745668
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"466ab29b6f3a4ce3a84313db358e4fe7": {
+			"position": [
+				0.5918147950729792,
+				2.398494273436383,
+				1.919771158536388
+			],
+			"rotation": [
+				0.08180284498600332,
+				0.42193488442316385,
+				-0.07210554170840795
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"542fb787acd34458b9d9c5aa2937ad09": {
+			"position": [
+				1.5854209534385908,
+				1.058409441737996,
+				1.4278871019393524
+			],
+			"rotation": [
+				-0.28586062881949464,
+				-0.15711268404960965,
+				0.09502420315990893
+			],
+			"scale": [
+				0.4066096910552424,
+				0.4066096910552424,
+				0.4066096910552424
+			]
+		},
+		"5f858d73c7994caf985eb3ade7084935": {
+			"position": [
+				-1.6742976664430298,
+				-1.9444023027587796,
+				4.575949956074869
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"64d0f81ba4ec4a4ca16b13440271d240": {
+			"position": [
+				1.519106318134864,
+				2.265248149498666,
+				0.5612247103995918
+			],
+			"rotation": [
+				0,
+				-0.27879967803574157,
+				0
+			],
+			"scale": [
+				0.35651465326011506,
+				0.35651465326011506,
+				0.35651465326011506
+			]
+		},
+		"7019122076a24293b6a639d5f6261e7b": {
+			"position": [
+				-3.0191858023879377,
+				0.7537727659463316,
+				5.935572625345438
+			],
+			"rotation": [
+				0.02504105244276822,
+				0,
+				0
+			]
+		},
+		"752b034279a545dcba185b06b6bea461": {
+			"position": [
+				1.542244623308169,
+				3.188299450336933,
+				2.228179335398737
+			],
+			"rotation": [
+				-0.18543924438275855,
+				0.42606640392944406,
+				0.03838729838254486
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"7f8f404764a842ce81130820fe5defc2": {
+			"position": [
+				-1.2292347153417067,
+				-2.151664817933705,
+				3.8331498718365236
+			],
+			"rotation": [
+				0,
+				0,
+				-0.29699154789416277
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"7fb11254f2564713af4aa8310c679ea0": {
+			"position": [
+				1.5684004097219748,
+				2.451039269863484,
+				2.354406924679143
+			],
+			"rotation": [
+				-0.18543924438275855,
+				0.42606640392944406,
+				0.03838729838254486
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"82941733ce004592840a9705041d99c3": {
+			"position": [
+				-1.6742976664430298,
+				-1.7997860646825043,
+				4.575949956074869
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"888294242fba4f50a6a47239cbc81101": {
+			"position": [
+				0.4257041551421501,
+				-1.5757693221094313,
+				2.7689413129079856
+			],
+			"rotation": [
+				0,
+				0.6350681526095607,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"89c354cdf5a9489a9f98a899d40b2d43": {
+			"position": [
+				2.4106608382960717,
+				-2.4119764024239507,
+				3.8779778715964213
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"94a4b7e776174bd790805517dd2e0e9e": {
+			"position": [
+				-10.575991206274429,
+				1.8026156444086685,
+				13.668541139023601
+			],
+			"rotation": [
+				0,
+				1.2472335513981667,
+				0
+			]
+		},
+		"9515c9940ed84c8cbcb793cdfceed8c7": {
+			"position": [
+				0.5355185443949599,
+				1.796507735100462,
+				-1.2692261655564243
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"9848877f5d1c4907bc0e841a63adc1c1": {
+			"position": [
+				-1.1672612969566813,
+				-1.9491657473006883,
+				3.8331498718365236
+			],
+			"rotation": [
+				0,
+				0,
+				-0.29699154789416277
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"986db36bfaa647bfa8ee5f73a08568f3": {
+			"position": [
+				0.5355185443949599,
+				1.796507735100462,
+				0.5612247103995918
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"9b86683217204ca999562fcf32fe8f1b": {
+			"position": [
+				-1.0155941817099803,
+				-1.4535911818920335,
+				3.8331498718365236
+			],
+			"rotation": [
+				0,
+				0,
+				-0.29699154789416277
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"a51ffbe0830f41389daaac0147c706ba": {
+			"position": [
+				0.4257041551421501,
+				-1.8330237974199464,
+				2.7689413129079856
+			],
+			"rotation": [
+				0,
+				0.6350681526095607,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"b4acc945f6de41c2ac1f429a270b2304": {
+			"position": [
+				-1.6742976664430298,
+				-1.6469134780715047,
+				4.575949956074869
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"b7409e73a29f4487a96cd95f4c59254f": {
+			"position": [
+				1.0092934835236989,
+				1.6241958612697869,
+				1.946681523909967
+			],
+			"rotation": [
+				-0.13575049216434715,
+				0.2581282955027243,
+				0.10110542171386508
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"bc9a7edb196b4234870572e1ef8da608": {
+			"position": [
+				0.4257041551421501,
+				-1.5757693221094313,
+				2.7689413129079856
+			],
+			"rotation": [
+				0,
+				0.6350681526095607,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"cd23705a5ec64163aa56858992de3e78": {
+			"position": [
+				0.6536024643282126,
+				-1.668387438242165,
+				4.704596001177934
+			],
+			"rotation": [
+				-0.35584182533909625,
+				0,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"cd56d13e38164ab4baf71b11f3930aa5": {
+			"position": [
+				1.152259380076943,
+				1.6974791601530994,
+				2.483199543399422
+			],
+			"rotation": [
+				-0.13575049216434715,
+				0.2581282955027243,
+				0.10110542171386508
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"d0db8797b4fa4073a0e32df76c40f69c": {
+		},
+		"dfad3f99e0ce437f94eaecb7bae4ebb9": {
+			"position": [
+				0.5355185443949599,
+				1.796507735100462,
+				-1.2692261655564243
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"e44c529558ad43cbb791ef13c41f3788": {
+			"position": [
+				0.6536024643282126,
+				-2.52848883939188,
+				5.024263818223109
+			],
+			"rotation": [
+				-0.35584182533909625,
+				0,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"ec688d676714425fbc5446faf96330e3": {
+			"position": [
+				-14.393441788856759,
+				1.2858798065842274,
+				-1.1177349993769836
+			],
+			"rotation": [
+				0.02504105244276822,
+				0,
+				0
+			]
+		},
+		"eddf39ca10a34fcabf033ed4a217ae23": {
+			"position": [
+				1.519106318134864,
+				2.265248149498666,
+				0.5612247103995918
+			],
+			"rotation": [
+				0,
+				-0.27879967803574157,
+				0
+			],
+			"scale": [
+				0.35651465326011506,
+				0.35651465326011506,
+				0.35651465326011506
+			]
+		},
+		"ef66af619dac46bf94a41595ebdb23ca": {
+			"position": [
+				2.0774345790604802,
+				2.6578278311781594,
+				3.456723651294743
+			],
+			"rotation": [
+				0.07218440511425771,
+				0.964580634711262,
+				-0.07952433533885675
+			],
+			"scale": [
+				0.4572596676236688,
+				0.4572596676236688,
+				0.4572596676236688
+			]
+		},
+		"f10f9dc203744b0dba5b6719ed0b1463": {
+			"position": [
+				-11.317587141429765,
+				0.3564985041036266,
+				4.159068000120346
+			],
+			"rotation": [
+				0.02504105244276822,
+				0,
+				0
+			]
+		},
+		"f11922628da64bb0bdb7d41e56a74b7e": {
+			"position": [
+				2.4106608382960717,
+				-1.9047503500428538,
+				3.8779778715964213
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"f2d4643ea7784ea4b9cbe2a69473be23": {
+		},
+		"f54cac2faccc4c839b524bb2b9082ac3": {
+			"position": [
+				2.4106608382960717,
+				-1.5567950923800113,
+				3.8779778715964213
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"f6b2cc91018d4383b9bed3389572a77d": {
+			"position": [
+				-1.6742976664430298,
+				-1.322251112514139,
+				4.575949956074869
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		},
+		"fb2064d0f20f445b96465182beef75ca": {
+			"position": [
+				0.6536024643282126,
+				-1.8156438069136351,
+				4.7593257363653025
+			],
+			"rotation": [
+				-0.35584182533909625,
+				0,
+				0
+			],
+			"scale": [
+				0.5,
+				0.5,
+				0.5
+			]
+		}
+	},
+	"id": "d2d6df00204247a2b67cebee8aa08d83",
+	"nodes": {
+		"0342c150e68c42ba8e2422ee85e52591": {
+			"id": "0342c150e68c42ba8e2422ee85e52591",
+			"label": "Fisch 4",
+			"parent": {
+				"id": "f2d4643ea7784ea4b9cbe2a69473be23",
+				"order": "a2"
+			},
+			"scriptName": "Fisch_4",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"043f852a1dfb4649a3e7a04d3d592f1b": {
+			"id": "043f852a1dfb4649a3e7a04d3d592f1b",
+			"label": "Fisch 8",
+			"parent": {
+				"id": "94a4b7e776174bd790805517dd2e0e9e",
+				"order": "a1"
+			},
+			"scriptName": "Fisch_8",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"0463324c663a4fe58fb56544366aed88": {
+			"id": "0463324c663a4fe58fb56544366aed88",
+			"label": "Fisch 16",
+			"parent": {
+				"id": "176f8180463c42f9884d5d175210d02d",
+				"order": "a2"
+			},
+			"scriptName": "Fisch_16",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"0df69dacca5c494f87652a6ec6426bd1": {
+			"id": "0df69dacca5c494f87652a6ec6426bd1",
+			"label": "Busch v1.glb 11",
+			"parent": {
+				"id": "ec688d676714425fbc5446faf96330e3",
+				"order": "Zy"
+			},
+			"scriptName": "Busch_v1_glb11",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"10b217625fba43c0a43b9d8f012f37c3": {
+			"id": "10b217625fba43c0a43b9d8f012f37c3",
+			"label": "Busch v1.glb 4",
+			"parent": {
+				"id": "d0db8797b4fa4073a0e32df76c40f69c",
+				"order": "Zz"
+			},
+			"scriptName": "Busch_v1_glb4",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"167647dea478413f925221ef02bee18c": {
+			"id": "167647dea478413f925221ef02bee18c",
+			"label": "Busch v1.glb 3",
+			"parent": {
+				"id": "d0db8797b4fa4073a0e32df76c40f69c",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb3",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"176f8180463c42f9884d5d175210d02d": {
+			"id": "176f8180463c42f9884d5d175210d02d",
+			"label": "Fishes 3",
+			"parent": {
+				"id": "root",
+				"order": "Zu"
+			},
+			"scriptName": "Fishes_3",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"27e92271a6e7421c9bfa0f497dc3935a": {
+			"id": "27e92271a6e7421c9bfa0f497dc3935a",
+			"label": "Fisch 9",
+			"parent": {
+				"id": "94a4b7e776174bd790805517dd2e0e9e",
+				"order": "a1V"
+			},
+			"scriptName": "Fisch_9",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"2b6ab94cf5c64806b6859753cad97f4c": {
+			"id": "2b6ab94cf5c64806b6859753cad97f4c",
+			"label": "Fisch 18",
+			"parent": {
+				"id": "176f8180463c42f9884d5d175210d02d",
+				"order": "a3"
+			},
+			"scriptName": "Fisch_18",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"33ef51033bd648ab80d8b8796b0d79c6": {
+			"id": "33ef51033bd648ab80d8b8796b0d79c6",
+			"label": "Pflanze 2 v1.glb",
+			"parent": {
+				"id": "d0db8797b4fa4073a0e32df76c40f69c",
+				"order": "a1"
+			},
+			"scriptName": "Pflanze_2v1_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"3941444f3dcb419297e6f4b4082d26d3": {
+			"id": "3941444f3dcb419297e6f4b4082d26d3",
+			"label": "Fisch 6",
+			"parent": {
+				"id": "f2d4643ea7784ea4b9cbe2a69473be23",
+				"order": "a3"
+			},
+			"scriptName": "Fisch_6",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"466ab29b6f3a4ce3a84313db358e4fe7": {
+			"id": "466ab29b6f3a4ce3a84313db358e4fe7",
+			"label": "Fisch 12",
+			"parent": {
+				"id": "94a4b7e776174bd790805517dd2e0e9e",
+				"order": "a3"
+			},
+			"scriptName": "Fisch_12",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"542fb787acd34458b9d9c5aa2937ad09": {
+			"id": "542fb787acd34458b9d9c5aa2937ad09",
+			"label": "Fisch 10",
+			"parent": {
+				"id": "94a4b7e776174bd790805517dd2e0e9e",
+				"order": "a2"
+			},
+			"scriptName": "Fisch_10",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"5f858d73c7994caf985eb3ade7084935": {
+			"id": "5f858d73c7994caf985eb3ade7084935",
+			"label": "Busch v1.glb 10",
+			"parent": {
+				"id": "7019122076a24293b6a639d5f6261e7b",
+				"order": "a0V"
+			},
+			"scriptName": "Busch_v1_glb10",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"64d0f81ba4ec4a4ca16b13440271d240": {
+			"id": "64d0f81ba4ec4a4ca16b13440271d240",
+			"label": "Fisch 2",
+			"parent": {
+				"id": "f2d4643ea7784ea4b9cbe2a69473be23",
+				"order": "a1"
+			},
+			"scriptName": "Fisch_2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"7019122076a24293b6a639d5f6261e7b": {
+			"id": "7019122076a24293b6a639d5f6261e7b",
+			"label": "Plants 2",
+			"parent": {
+				"id": "root",
+				"order": "Zz"
+			},
+			"scriptName": "Plants_2",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"752b034279a545dcba185b06b6bea461": {
+			"id": "752b034279a545dcba185b06b6bea461",
+			"label": "Fisch 5",
+			"parent": {
+				"id": "f2d4643ea7784ea4b9cbe2a69473be23",
+				"order": "a2V"
+			},
+			"scriptName": "Fisch_5",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"7f8f404764a842ce81130820fe5defc2": {
+			"id": "7f8f404764a842ce81130820fe5defc2",
+			"label": "Busch v1.glb 8",
+			"parent": {
+				"id": "7019122076a24293b6a639d5f6261e7b",
+				"order": "Zz"
+			},
+			"scriptName": "Busch_v1_glb8",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"7fb11254f2564713af4aa8310c679ea0": {
+			"id": "7fb11254f2564713af4aa8310c679ea0",
+			"label": "Fisch 17",
+			"parent": {
+				"id": "176f8180463c42f9884d5d175210d02d",
+				"order": "a2V"
+			},
+			"scriptName": "Fisch_17",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"82941733ce004592840a9705041d99c3": {
+			"id": "82941733ce004592840a9705041d99c3",
+			"label": "Busch v1.glb 14",
+			"parent": {
+				"id": "ec688d676714425fbc5446faf96330e3",
+				"order": "a0V"
+			},
+			"scriptName": "Busch_v1_glb14",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"888294242fba4f50a6a47239cbc81101": {
+			"id": "888294242fba4f50a6a47239cbc81101",
+			"label": "Busch v1.glb 15",
+			"parent": {
+				"id": "f10f9dc203744b0dba5b6719ed0b1463",
+				"order": "Zy"
+			},
+			"scriptName": "Busch_v1_glb15",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"89c354cdf5a9489a9f98a899d40b2d43": {
+			"id": "89c354cdf5a9489a9f98a899d40b2d43",
+			"label": "Pflanze 2 v1.glb 3",
+			"parent": {
+				"id": "ec688d676714425fbc5446faf96330e3",
+				"order": "a1"
+			},
+			"scriptName": "Pflanze_2v1_glb3",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"94a4b7e776174bd790805517dd2e0e9e": {
+			"id": "94a4b7e776174bd790805517dd2e0e9e",
+			"label": "Fishes 2",
+			"parent": {
+				"id": "root",
+				"order": "Zv"
+			},
+			"scriptName": "Fishes_2",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"9515c9940ed84c8cbcb793cdfceed8c7": {
+			"id": "9515c9940ed84c8cbcb793cdfceed8c7",
+			"label": "Fisch 13",
+			"parent": {
+				"id": "176f8180463c42f9884d5d175210d02d",
+				"order": "a0"
+			},
+			"scriptName": "Fisch_13",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"9848877f5d1c4907bc0e841a63adc1c1": {
+			"id": "9848877f5d1c4907bc0e841a63adc1c1",
+			"label": "Busch v1.glb 12",
+			"parent": {
+				"id": "ec688d676714425fbc5446faf96330e3",
+				"order": "Zz"
+			},
+			"scriptName": "Busch_v1_glb12",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"986db36bfaa647bfa8ee5f73a08568f3": {
+			"id": "986db36bfaa647bfa8ee5f73a08568f3",
+			"label": "Fisch",
+			"parent": {
+				"id": "f2d4643ea7784ea4b9cbe2a69473be23",
+				"order": "a0"
+			},
+			"scriptName": "Fisch",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"9b86683217204ca999562fcf32fe8f1b": {
+			"id": "9b86683217204ca999562fcf32fe8f1b",
+			"label": "Busch v1.glb 16",
+			"parent": {
+				"id": "f10f9dc203744b0dba5b6719ed0b1463",
+				"order": "Zz"
+			},
+			"scriptName": "Busch_v1_glb16",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"a51ffbe0830f41389daaac0147c706ba": {
+			"id": "a51ffbe0830f41389daaac0147c706ba",
+			"label": "Busch v1.glb 7",
+			"parent": {
+				"id": "7019122076a24293b6a639d5f6261e7b",
+				"order": "Zy"
+			},
+			"scriptName": "Busch_v1_glb7",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b4acc945f6de41c2ac1f429a270b2304": {
+			"id": "b4acc945f6de41c2ac1f429a270b2304",
+			"label": "Busch v1.glb 18",
+			"parent": {
+				"id": "f10f9dc203744b0dba5b6719ed0b1463",
+				"order": "a0V"
+			},
+			"scriptName": "Busch_v1_glb18",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"b7409e73a29f4487a96cd95f4c59254f": {
+			"id": "b7409e73a29f4487a96cd95f4c59254f",
+			"label": "Fisch 15",
+			"parent": {
+				"id": "176f8180463c42f9884d5d175210d02d",
+				"order": "a1V"
+			},
+			"scriptName": "Fisch_15",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"bc9a7edb196b4234870572e1ef8da608": {
+			"id": "bc9a7edb196b4234870572e1ef8da608",
+			"label": "Busch v1.glb",
+			"parent": {
+				"id": "d0db8797b4fa4073a0e32df76c40f69c",
+				"order": "Zy"
+			},
+			"scriptName": "Busch_v1_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"cd23705a5ec64163aa56858992de3e78": {
+			"id": "cd23705a5ec64163aa56858992de3e78",
+			"label": "Busch v1.glb 17",
+			"parent": {
+				"id": "f10f9dc203744b0dba5b6719ed0b1463",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb17",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"cd56d13e38164ab4baf71b11f3930aa5": {
+			"id": "cd56d13e38164ab4baf71b11f3930aa5",
+			"label": "Fisch 3",
+			"parent": {
+				"id": "f2d4643ea7784ea4b9cbe2a69473be23",
+				"order": "a1V"
+			},
+			"scriptName": "Fisch_3",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"d0db8797b4fa4073a0e32df76c40f69c": {
+			"id": "d0db8797b4fa4073a0e32df76c40f69c",
+			"label": "Plants",
+			"parent": {
+				"id": "root",
+				"order": "a0"
+			},
+			"scriptName": "Plants",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"dfad3f99e0ce437f94eaecb7bae4ebb9": {
+			"id": "dfad3f99e0ce437f94eaecb7bae4ebb9",
+			"label": "Fisch 7",
+			"parent": {
+				"id": "94a4b7e776174bd790805517dd2e0e9e",
+				"order": "a0"
+			},
+			"scriptName": "Fisch_7",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"e44c529558ad43cbb791ef13c41f3788": {
+			"id": "e44c529558ad43cbb791ef13c41f3788",
+			"label": "Busch v1.glb 13",
+			"parent": {
+				"id": "ec688d676714425fbc5446faf96330e3",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb13",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"ec688d676714425fbc5446faf96330e3": {
+			"id": "ec688d676714425fbc5446faf96330e3",
+			"label": "Plants 3",
+			"parent": {
+				"id": "root",
+				"order": "Zx"
+			},
+			"scriptName": "Plants_3",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"eddf39ca10a34fcabf033ed4a217ae23": {
+			"id": "eddf39ca10a34fcabf033ed4a217ae23",
+			"label": "Fisch 14",
+			"parent": {
+				"id": "176f8180463c42f9884d5d175210d02d",
+				"order": "a1"
+			},
+			"scriptName": "Fisch_14",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"ef66af619dac46bf94a41595ebdb23ca": {
+			"id": "ef66af619dac46bf94a41595ebdb23ca",
+			"label": "Fisch 11",
+			"parent": {
+				"id": "94a4b7e776174bd790805517dd2e0e9e",
+				"order": "a2V"
+			},
+			"scriptName": "Fisch_11",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"f10f9dc203744b0dba5b6719ed0b1463": {
+			"id": "f10f9dc203744b0dba5b6719ed0b1463",
+			"label": "Plants 4",
+			"parent": {
+				"id": "root",
+				"order": "Zy"
+			},
+			"scriptName": "Plants_4",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"f11922628da64bb0bdb7d41e56a74b7e": {
+			"id": "f11922628da64bb0bdb7d41e56a74b7e",
+			"label": "Pflanze 2 v1.glb 2",
+			"parent": {
+				"id": "7019122076a24293b6a639d5f6261e7b",
+				"order": "a1"
+			},
+			"scriptName": "Pflanze_2v1_glb2",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"f2d4643ea7784ea4b9cbe2a69473be23": {
+			"id": "f2d4643ea7784ea4b9cbe2a69473be23",
+			"label": "Fishes",
+			"parent": {
+				"id": "root",
+				"order": "Zw"
+			},
+			"scriptName": "Fishes",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"f54cac2faccc4c839b524bb2b9082ac3": {
+			"id": "f54cac2faccc4c839b524bb2b9082ac3",
+			"label": "Pflanze 2 v1.glb 4",
+			"parent": {
+				"id": "f10f9dc203744b0dba5b6719ed0b1463",
+				"order": "a1"
+			},
+			"scriptName": "Pflanze_2v1_glb4",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"f6b2cc91018d4383b9bed3389572a77d": {
+			"id": "f6b2cc91018d4383b9bed3389572a77d",
+			"label": "Busch v1.glb 6",
+			"parent": {
+				"id": "d0db8797b4fa4073a0e32df76c40f69c",
+				"order": "a0V"
+			},
+			"scriptName": "Busch_v1_glb6",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"fb2064d0f20f445b96465182beef75ca": {
+			"id": "fb2064d0f20f445b96465182beef75ca",
+			"label": "Busch v1.glb 9",
+			"parent": {
+				"id": "7019122076a24293b6a639d5f6261e7b",
+				"order": "a0"
+			},
+			"scriptName": "Busch_v1_glb9",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"root": {
+			"id": "root",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}
