@@ -41,7 +41,7 @@ export class Cleaner extends Group {
 
         fog.clear();
 
-        await this._delay(2000);
+        await this._delay(3000);
         
         // Access Objects through the Scene's node hierarchy
         const objektsNode = scene.nodes.Objekts;
@@ -53,7 +53,7 @@ export class Cleaner extends Group {
             console.warn("Soft_molded_sand group not found!");
         }
 
-        await this._delay(1000);
+        await this._delay(2000);
         
         // First, disable Dead_World objects
         if (objektsNode && objektsNode.nodes.Dead_World) {
