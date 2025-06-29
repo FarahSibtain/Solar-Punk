@@ -1,4 +1,69 @@
 {
+	"animation": {
+		"clips": {
+			"3f173f1fd7ec40c2960ff57cd981d6e4": {
+				"id": "3f173f1fd7ec40c2960ff57cd981d6e4",
+				"length": 9291.666666666666,
+				"lengthType": "expand",
+				"name": "anim",
+				"order": "a0",
+				"scriptName": "anim",
+				"tracks": {
+					"58d7e6b653bf4836a69da5d004c680cd": {
+						"blend": "overlay",
+						"entityID": "592f8b1984dc4a63b885352e23c3bcdd",
+						"id": "58d7e6b653bf4836a69da5d004c680cd",
+						"keyframes": {
+							"4f4cd26b996f4c869d11a594e1e9f64c": {
+								"id": "4f4cd26b996f4c869d11a594e1e9f64c",
+								"t": 0,
+								"v": [
+									0,
+									2.558497884132303,
+									7.773895217933408
+								]
+							}
+						},
+						"order": "a0",
+						"property": [
+							"position"
+						],
+						"type": "property",
+						"weight": {
+						}
+					}
+				},
+				"type": "timeline"
+			}
+		},
+		"curves": {
+		},
+		"layers": {
+			"165327709f8246c0b546ef4ffbd72eea": {
+				"clips": {
+					"937cf0edba94461aa6b9fafc3d0615e4": {
+						"clipId": "3f173f1fd7ec40c2960ff57cd981d6e4",
+						"id": "937cf0edba94461aa6b9fafc3d0615e4",
+						"loop": true,
+						"order": "a0",
+						"playAtStart": true,
+						"scriptName": "anim"
+					}
+				},
+				"defaultClip": null,
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "165327709f8246c0b546ef4ffbd72eea",
+				"name": "duckanim",
+				"order": "a0",
+				"scriptName": "duckanim"
+			}
+		}
+	},
 	"behaviors": {
 	},
 	"constructorProps": {
@@ -50,11 +115,17 @@
 		"Ein Paar v9.glb": {
 			"8fadd0d5c79b4cb0adcba51c66d76e89": true
 		},
+		"FloatingGarbage": {
+			"69eb18d10ab2400896f91cadd4f335f6": true
+		},
 		"Group": {
 			"root": true
 		},
 		"Hard_world": {
 			"f4b688ed3123424d87913a610c431818": true
+		},
+		"Landschaft gestalltung1.glb": {
+			"592f8b1984dc4a63b885352e23c3bcdd": true
 		},
 		"Mountain v14.glb 2": {
 			"40f30fc6a84a46f7ab3ade28a0fdc2ad": true
@@ -466,8 +537,14 @@
 		"Ein_Paarv9_glb": {
 			"8fadd0d5c79b4cb0adcba51c66d76e89": true
 		},
+		"FloatingGarbage": {
+			"69eb18d10ab2400896f91cadd4f335f6": true
+		},
 		"Hard_world": {
 			"f4b688ed3123424d87913a610c431818": true
+		},
+		"Landschaft_gestalltung1_glb": {
+			"592f8b1984dc4a63b885352e23c3bcdd": true
 		},
 		"Mountain_v14_glb0": {
 			"40f30fc6a84a46f7ab3ade28a0fdc2ad": true
@@ -967,6 +1044,9 @@
 		"57fa2351832147f3a4d7ee72f80fc760": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
+		"592f8b1984dc4a63b885352e23c3bcdd": {
+			"source": "file://./Meshes/Landschaft gestalltung1.glb"
+		},
 		"5c2f48d023ba4bfabe88466762eb947f": {
 			"source": "file://./Objekte/Dirty Old v6.glb"
 		},
@@ -985,6 +1065,8 @@
 			"source": "file://./Objekte/Soft Sandy v18.glb"
 		},
 		"68e5fe67e5234137a52a3d94393df1b3": {
+		},
+		"69eb18d10ab2400896f91cadd4f335f6": {
 		},
 		"6f6d179b3b044cb5b93f64f631aeda68": {
 			"source": "file://./Objekte/Soft Sandy v18.glb"
@@ -2034,6 +2116,18 @@
 				3
 			]
 		},
+		"592f8b1984dc4a63b885352e23c3bcdd": {
+			"position": [
+				0,
+				2.558497884132303,
+				0
+			],
+			"scale": [
+				0.25,
+				0.25,
+				0.25
+			]
+		},
 		"5c2f48d023ba4bfabe88466762eb947f": {
 			"position": [
 				-2.1661355434002414,
@@ -2122,6 +2216,8 @@
 			]
 		},
 		"68e5fe67e5234137a52a3d94393df1b3": {
+		},
+		"69eb18d10ab2400896f91cadd4f335f6": {
 		},
 		"6f6d179b3b044cb5b93f64f631aeda68": {
 			"position": [
@@ -3677,6 +3773,16 @@
 			"scriptName": "Soft_Sandyv18_glb42",
 			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
 		},
+		"592f8b1984dc4a63b885352e23c3bcdd": {
+			"id": "592f8b1984dc4a63b885352e23c3bcdd",
+			"label": "Landschaft gestalltung1.glb",
+			"parent": {
+				"id": "69eb18d10ab2400896f91cadd4f335f6",
+				"order": "a0"
+			},
+			"scriptName": "Landschaft_gestalltung1_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
 		"5c2f48d023ba4bfabe88466762eb947f": {
 			"id": "5c2f48d023ba4bfabe88466762eb947f",
 			"label": "Dirty Old v6.glb",
@@ -3745,6 +3851,16 @@
 				"order": "Zm"
 			},
 			"scriptName": "Particles",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"69eb18d10ab2400896f91cadd4f335f6": {
+			"id": "69eb18d10ab2400896f91cadd4f335f6",
+			"label": "FloatingGarbage",
+			"parent": {
+				"id": "160c5182b2474f91ad1e9341db620162",
+				"order": "Zl"
+			},
+			"scriptName": "FloatingGarbage",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"6f6d179b3b044cb5b93f64f631aeda68": {

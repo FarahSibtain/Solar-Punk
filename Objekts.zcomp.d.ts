@@ -2,8 +2,8 @@ import { ZComponent, ContextManager, Observable, Animation, Layer, LayerClip, Ev
 
 import { GLTF as GLTF_0 } from "@zcomponent/three/lib/components/models/GLTF";
 import { Group as Group_1 } from "@zcomponent/three/lib/components/Group";
-import { default as SuspendedSolids_zcomp_2 } from "./Materials/SuspendedSolids.zcomp";
-import { default as RecoveredParts_zcomp_3 } from "./RecoveredParts.zcomp";
+import { default as RecoveredParts_zcomp_2 } from "./RecoveredParts.zcomp";
+import { default as SuspendedSolids_zcomp_3 } from "./Materials/SuspendedSolids.zcomp";
 
 interface ConstructorProps {
 
@@ -194,6 +194,11 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Particles: Group_1 & {
+			behaviors: {
+
+			}
+		},
+		RecoveredParts: RecoveredParts_zcomp_2 & {
 			behaviors: {
 
 			}
@@ -578,47 +583,47 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		SuspendedSolids: SuspendedSolids_zcomp_2 & {
+		SuspendedSolids: SuspendedSolids_zcomp_3 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids0: SuspendedSolids_zcomp_2 & {
+		SuspendedSolids0: SuspendedSolids_zcomp_3 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_2: SuspendedSolids_zcomp_2 & {
+		SuspendedSolids_2: SuspendedSolids_zcomp_3 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_3: SuspendedSolids_zcomp_2 & {
+		SuspendedSolids_3: SuspendedSolids_zcomp_3 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_4: SuspendedSolids_zcomp_2 & {
+		SuspendedSolids_4: SuspendedSolids_zcomp_3 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_5: SuspendedSolids_zcomp_2 & {
+		SuspendedSolids_5: SuspendedSolids_zcomp_3 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_50: SuspendedSolids_zcomp_2 & {
+		SuspendedSolids_50: SuspendedSolids_zcomp_3 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_7: SuspendedSolids_zcomp_2 & {
+		SuspendedSolids_7: SuspendedSolids_zcomp_3 & {
 			behaviors: {
 
 			}
 		},
-		SuspendedSolids_70: SuspendedSolids_zcomp_2 & {
+		SuspendedSolids_70: SuspendedSolids_zcomp_3 & {
 			behaviors: {
 
 			}
@@ -698,7 +703,12 @@ declare class Comp extends ZComponent {
 
 			}
 		},
-		RecoveredParts: RecoveredParts_zcomp_3 & {
+		FloatingGarbage: Group_1 & {
+			behaviors: {
+
+			}
+		},
+		Landschaft_gestalltung1_glb: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -706,7 +716,9 @@ declare class Comp extends ZComponent {
 	};
 
 	animation: Animation & { layers: {
-
+		duckanim: Layer & { clips: {
+			anim: LayerClip;
+		}};
 	}};
 
 	/**
