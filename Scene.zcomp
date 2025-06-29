@@ -69,11 +69,90 @@
 				"tracks": {
 				},
 				"type": "timeline"
+			},
+			"3f173f1fd7ec40c2960ff57cd981d6e4": {
+				"id": "3f173f1fd7ec40c2960ff57cd981d6e4",
+				"length": 9291.666666666666,
+				"lengthType": "expand",
+				"name": "anim",
+				"order": "a3",
+				"scriptName": "anim",
+				"tracks": {
+					"58d7e6b653bf4836a69da5d004c680cd": {
+						"blend": "overlay",
+						"entityID": "592f8b1984dc4a63b885352e23c3bcdd",
+						"id": "58d7e6b653bf4836a69da5d004c680cd",
+						"keyframes": {
+							"8db8c3ff925f4129a2fd3e4385d8fb5a": {
+								"id": "8db8c3ff925f4129a2fd3e4385d8fb5a",
+								"t": 0,
+								"v": [
+									0,
+									0,
+									0
+								]
+							}
+						},
+						"order": "a1",
+						"property": [
+							"position"
+						],
+						"type": "property",
+						"weight": {
+						}
+					},
+					"d21b558c04464e4a823efb2ffaa3caf1": {
+						"data": {
+							"1c28a3ca29c64389bae53d9851d8e1a7": {
+								"id": "1c28a3ca29c64389bae53d9851d8e1a7",
+								"rate": 1,
+								"s0": 0,
+								"t0": 0,
+								"t1": 9291.666666666666
+							}
+						},
+						"entityID": "592f8b1984dc4a63b885352e23c3bcdd",
+						"id": "d21b558c04464e4a823efb2ffaa3caf1",
+						"name": "Landschaft gestalltung1.glb > Mesh0.083Action.001",
+						"order": "a0",
+						"property": [
+							"streams",
+							"Mesh0.083Action.001"
+						],
+						"type": "stream",
+						"weight": {
+						}
+					}
+				},
+				"type": "timeline"
 			}
 		},
 		"curves": {
 		},
 		"layers": {
+			"165327709f8246c0b546ef4ffbd72eea": {
+				"clips": {
+					"937cf0edba94461aa6b9fafc3d0615e4": {
+						"clipId": "3f173f1fd7ec40c2960ff57cd981d6e4",
+						"id": "937cf0edba94461aa6b9fafc3d0615e4",
+						"loop": true,
+						"order": "a2",
+						"playAtStart": true,
+						"scriptName": "anim0"
+					}
+				},
+				"defaultClip": null,
+				"defaultFadeParameters": {
+					"easing": "ease",
+					"pin": 0,
+					"time": 300
+				},
+				"enabled": true,
+				"id": "165327709f8246c0b546ef4ffbd72eea",
+				"name": "duckanim",
+				"order": "a3",
+				"scriptName": "duckanim"
+			},
 			"22f23078cae84d318d4ba338aa6090cb": {
 				"clips": {
 					"144c03eb668649a389c11181c4fba634": {
@@ -357,6 +436,9 @@
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
+		"FloatingGarbage": {
+			"69eb18d10ab2400896f91cadd4f335f6": true
+		},
 		"Fog": {
 			"7cfa6e6f029b41ddabb4b77606fa4b19": true
 		},
@@ -368,6 +450,9 @@
 		},
 		"Hello Text": {
 			"b3b8b1eaba504578a54e472a84c5fdbe1": true
+		},
+		"Landschaft gestalltung1.glb": {
+			"592f8b1984dc4a63b885352e23c3bcdd": true
 		},
 		"Left Controller": {
 			"384ac3d6f4b04210ab8832a8752a2d73": true
@@ -506,6 +591,9 @@
 		"Environment": {
 			"c01f2d6b83f840328924940130995ae9": true
 		},
+		"FloatingGarbage": {
+			"69eb18d10ab2400896f91cadd4f335f6": true
+		},
 		"Fog": {
 			"7cfa6e6f029b41ddabb4b77606fa4b19": true
 		},
@@ -514,6 +602,9 @@
 		},
 		"Hello_Text": {
 			"b3b8b1eaba504578a54e472a84c5fdbe1": true
+		},
+		"Landschaft_gestalltung1_glb": {
+			"592f8b1984dc4a63b885352e23c3bcdd": true
 		},
 		"LeftHandPosition": {
 			"504e2e3fdfce4822a6d4616afdae7b38": true
@@ -633,9 +724,14 @@
 		},
 		"54a3fe42df61491d805d50af10399810": {
 		},
+		"592f8b1984dc4a63b885352e23c3bcdd": {
+			"source": "file://./Meshes/Landschaft gestalltung1.glb"
+		},
 		"5b864a35a10b481989a943ed5e8c459c": {
 		},
 		"5c5c7d2d48be4bd8b23db61b1d0b0d4b": {
+		},
+		"69eb18d10ab2400896f91cadd4f335f6": {
 		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
 		},
@@ -884,6 +980,18 @@
 			"rightHandControllers": true,
 			"visible": true
 		},
+		"592f8b1984dc4a63b885352e23c3bcdd": {
+			"position": [
+				0,
+				2.558497884132303,
+				0
+			],
+			"scale": [
+				0.25,
+				0.25,
+				0.25
+			]
+		},
 		"5b864a35a10b481989a943ed5e8c459c": {
 			"position": [
 				0.8,
@@ -898,6 +1006,8 @@
 				0,
 				-0.6
 			]
+		},
+		"69eb18d10ab2400896f91cadd4f335f6": {
 		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
 			"leftHandControllers": false,
@@ -1264,6 +1374,16 @@
 			"scriptName": "Teleport_Manager",
 			"type": "@zcomponent/three-webxr/lib/components/TeleportManager#TeleportManager"
 		},
+		"592f8b1984dc4a63b885352e23c3bcdd": {
+			"id": "592f8b1984dc4a63b885352e23c3bcdd",
+			"label": "Landschaft gestalltung1.glb",
+			"parent": {
+				"id": "69eb18d10ab2400896f91cadd4f335f6",
+				"order": "a0"
+			},
+			"scriptName": "Landschaft_gestalltung1_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
 		"5b864a35a10b481989a943ed5e8c459c": {
 			"id": "5b864a35a10b481989a943ed5e8c459c",
 			"label": "ButtonEduP",
@@ -1282,6 +1402,16 @@
 				"order": "a0"
 			},
 			"scriptName": "UIDest",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		},
+		"69eb18d10ab2400896f91cadd4f335f6": {
+			"id": "69eb18d10ab2400896f91cadd4f335f6",
+			"label": "FloatingGarbage",
+			"parent": {
+				"id": "root",
+				"order": "a3"
+			},
+			"scriptName": "FloatingGarbage",
 			"type": "@zcomponent/three/lib/components/Group#Group"
 		},
 		"6f74cedb96234cb38132c5f1744e1c04": {
