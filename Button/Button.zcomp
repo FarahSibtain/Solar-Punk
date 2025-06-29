@@ -157,7 +157,7 @@
 			"event": "onPointerLeave"
 		},
 		"cd6c6ab329704bbc94fc7e82f14193d3": {
-			"source": "file://./ButtonTemplate.png"
+			"source": "file://./Button.png"
 		}
 	},
 	"entityPropOverrides": {
@@ -227,11 +227,16 @@
 			"anchorX": "center",
 			"anchorY": "middle",
 			"color": [
-				0,
-				0,
-				0
+				0.8962693533719567,
+				0.8631572134510892,
+				0.8631572134510892
 			],
 			"fontSize": 0.09,
+			"outlineColor": [
+				0.9386857284565036,
+				0.9215818562755338,
+				0.9215818562755338
+			],
 			"position": [
 				0,
 				0,
@@ -259,7 +264,7 @@
 		},
 		"cd6c6ab329704bbc94fc7e82f14193d3": {
 			"scale": [
-				0.3,
+				0.6,
 				0.3,
 				0.3
 			]
