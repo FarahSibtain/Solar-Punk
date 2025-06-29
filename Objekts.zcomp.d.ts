@@ -32,12 +32,112 @@ declare class Comp extends ZComponent {
 
 			}
 		},
+		Busch_v1_glb10: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb11: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb12: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb13: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb14: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb15: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb16: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb17: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb18: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb19: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
 		Busch_v1_glb2: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
 		Busch_v1_glb20: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb21: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb22: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb23: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb3: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb4: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb5: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb6: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb7: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb8: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Busch_v1_glb9: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -93,6 +193,21 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Old_Rustyv16_glb: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Old_Rustyv16_glb2: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Old_Rustyv16_glb20: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Old_Rustyv16_glb21: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -292,12 +407,42 @@ declare class Comp extends ZComponent {
 
 			}
 		},
+		Soft_Sandyv18_glb251: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Soft_Sandyv18_glb252: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
 		Soft_Sandyv18_glb26: GLTF_0 & {
 			behaviors: {
 
 			}
 		},
 		Soft_Sandyv18_glb27: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Soft_Sandyv18_glb270: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Soft_Sandyv18_glb271: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Soft_Sandyv18_glb272: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Soft_Sandyv18_glb273: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -383,6 +528,11 @@ declare class Comp extends ZComponent {
 			}
 		},
 		Soft_Sandyv18_glb50: GLTF_0 & {
+			behaviors: {
+
+			}
+		},
+		Soft_Sandyv18_glb500: GLTF_0 & {
 			behaviors: {
 
 			}
@@ -573,156 +723,6 @@ declare class Comp extends ZComponent {
 			}
 		},
 		World_WarPlanev2_glb: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Soft_Sandyv18_glb270: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Soft_Sandyv18_glb271: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Soft_Sandyv18_glb272: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Soft_Sandyv18_glb273: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Soft_Sandyv18_glb251: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Soft_Sandyv18_glb252: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Old_Rustyv16_glb2: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Old_Rustyv16_glb20: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Old_Rustyv16_glb21: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Soft_Sandyv18_glb500: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb3: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb4: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb5: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb6: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb7: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb8: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb9: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb10: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb11: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb12: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb13: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb14: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb15: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb16: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb17: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb18: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb19: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb21: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb22: GLTF_0 & {
-			behaviors: {
-
-			}
-		},
-		Busch_v1_glb23: GLTF_0 & {
 			behaviors: {
 
 			}
