@@ -1,0 +1,290 @@
+{
+	"behaviors": {
+	},
+	"behaviorsByNode": {
+	},
+	"constructorProps": {
+	},
+	"entitiesByLabel": {
+		"BoxTest": {
+			"46426bafc74444c9ba137541984f592c": true
+		},
+		"CubeTrigger": {
+			"f616903feee744cfac26096a24afec94": true
+		},
+		"Ein Flop v10.glb": {
+			"a2e32359bda0458c86f45d76cc2b360c": true
+		}
+	},
+	"entitiesByScriptName": {
+		"BoxTest": {
+			"46426bafc74444c9ba137541984f592c": true
+		},
+		"CubeTrigger": {
+			"f616903feee744cfac26096a24afec94": true
+		},
+		"Ein_Flopv10_glb": {
+			"a2e32359bda0458c86f45d76cc2b360c": true
+		}
+	},
+	"entityConstructorProps": {
+		"46426bafc74444c9ba137541984f592c": {
+		},
+		"a2e32359bda0458c86f45d76cc2b360c": {
+			"source": "file://./Meshes/Ein Flop v10.glb"
+		},
+		"f616903feee744cfac26096a24afec94": {
+		}
+	},
+	"entityPropOverrides": {
+		"componentprop:prop:root:position": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"position"
+			],
+			"id": "componentprop:prop:root:position",
+			"isConstructorProp": false,
+			"propName": "position",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:rotation": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"rotation"
+			],
+			"id": "componentprop:prop:root:rotation",
+			"isConstructorProp": false,
+			"propName": "rotation",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:scale": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"scale"
+			],
+			"id": "componentprop:prop:root:scale",
+			"isConstructorProp": false,
+			"propName": "scale",
+			"type": "componentprop"
+		},
+		"componentprop:prop:root:visible": {
+			"entityID": "root",
+			"entityPropIsConstructor": false,
+			"entityPropPath": [
+				"visible"
+			],
+			"id": "componentprop:prop:root:visible",
+			"isConstructorProp": false,
+			"propName": "visible",
+			"type": "componentprop"
+		}
+	},
+	"entityProps": {
+		"46426bafc74444c9ba137541984f592c": {
+			"material": [
+				"70de5ca6441f48e79d154c1f9aa62329"
+			],
+			"position": [
+				0.042488017079745366,
+				0,
+				-0.5938396855236019
+			],
+			"scale": [
+				1.5225521982457408,
+				1.5225521982457408,
+				1.5225521982457408
+			]
+		},
+		"a2e32359bda0458c86f45d76cc2b360c": {
+		},
+		"f616903feee744cfac26096a24afec94": {
+			"scale": [
+				2,
+				0.5,
+				0.9
+			]
+		}
+	},
+	"id": "c34bb875713041a8bace2176646da710",
+	"nodes": {
+		"46426bafc74444c9ba137541984f592c": {
+			"id": "46426bafc74444c9ba137541984f592c",
+			"label": "BoxTest",
+			"parent": {
+				"id": "root",
+				"order": "a1"
+			},
+			"scriptName": "BoxTest",
+			"type": "@zcomponent/three/lib/components/meshes/Box#Box"
+		},
+		"a2e32359bda0458c86f45d76cc2b360c": {
+			"id": "a2e32359bda0458c86f45d76cc2b360c",
+			"label": "Ein Flop v10.glb",
+			"parent": {
+				"id": "46426bafc74444c9ba137541984f592c",
+				"order": "a0"
+			},
+			"scriptName": "Ein_Flopv10_glb",
+			"type": "@zcomponent/three/lib/components/models/GLTF#GLTF"
+		},
+		"f616903feee744cfac26096a24afec94": {
+			"id": "f616903feee744cfac26096a24afec94",
+			"label": "CubeTrigger",
+			"parent": {
+				"id": "46426bafc74444c9ba137541984f592c",
+				"order": "Zz"
+			},
+			"scriptName": "CubeTrigger",
+			"type": "@zcomponent/three/lib/components/physics/triggers/CubeTrigger#CubeTrigger"
+		},
+		"root": {
+			"id": "root",
+			"type": "@zcomponent/three/lib/components/Group#Group"
+		}
+	},
+	"preview": "@zcomponent/three/lib/preview#default",
+	"props": {
+		"position": {
+			"comments": [
+				"The position, in 3D space, of this node relative to its parent. The three elements of the array correspond to the `x`, `y`, and `z` components of position."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "position",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"rotation": {
+			"comments": [
+				"The rotation, in three dimensions, of this node relative to its parent. The three elements of the array correspond to Euler angles - yaw, pitch and roll."
+			],
+			"default": [
+				0,
+				0,
+				0
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "rotation",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"scale": {
+			"comments": [
+				"The scale, in three dimensions, of this node relative to its parent. The three elements of the array correspond to scales in the the `x`, `y`, and `z` axis."
+			],
+			"default": [
+				1,
+				1,
+				1
+			],
+			"group": "Transform",
+			"groupPriority": 10,
+			"name": "scale",
+			"type": {
+				"children": [
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					},
+					{
+						"comments": [
+						],
+						"name": "number"
+					}
+				],
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "tuple",
+				"names": [
+					"x",
+					"y",
+					"z"
+				]
+			}
+		},
+		"visible": {
+			"comments": [
+				"Determines if this object and its children are rendered to the screen."
+			],
+			"default": true,
+			"group": "Appearance",
+			"groupPriority": 11,
+			"name": "visible",
+			"type": {
+				"comments": [
+				],
+				"isObservable": true,
+				"name": "boolean"
+			}
+		}
+	},
+	"root": "root"
+}

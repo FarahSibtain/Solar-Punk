@@ -13,7 +13,8 @@
     "@zcomponent/html": "1.x",
     "@zcomponent/three": "1.x",
     "@zcomponent/three-webxr": "*",
-    "@zcomponent/particles": "*"
+    "@zcomponent/particles": "*",
+    "@zcomponent/physics": "*"
   },
   "devDependencies": {
     "@types/three": "0.150.1",

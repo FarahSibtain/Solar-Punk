@@ -21,10 +21,10 @@ export class GarbageAnimController extends Behavior<Group> {
 		// Start animations when the experience begins
 		started(this.contextManager).then(() => {
 			// Start the Wobble animation (attached to Garbage node)
-			this.zcomponent.animation.layers.Wobble.clips.Wobble.play({ loop: true });
+			this.zcomponent.animation.layers.Wobble.clips.Wobble0.play({ loop: true });
 			
 			// Start the GarbagePath animation (Collection movement)
-			this.zcomponent.animation.layers.GarbagePath.clips.GP.play({ loop: true });
+			this.zcomponent.animation.layers.GarbagePath.clips.GP.play({ loop: true });			
 		});
 
 		/*
